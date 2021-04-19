@@ -1,0 +1,18 @@
+/** @page core Plasma Core
+
+<h2>import org.kde.plasma.plasma5support 1.0</h2>
+
+- \link Plasma::DataSource DataSource \endlink
+- \link Plasma::DataModel DataModel \endlink
+
+- \link Plasma::Service Service \endlink
+- \link Plasma::ServiceJob ServiceJob \endlink
+
+- \link Plasma::ServiceOperationStatus ServiceOperationStatus \endlink
+
+
+
+*/
+
+// DOXYGEN_SET_PROJECT_NAME = Plasma5Support
+// vim:ts=4:sw=4:expandtab:filetype=doxygen

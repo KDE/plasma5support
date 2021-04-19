@@ -1,0 +1,19 @@
+maintainer: mart
+description: Migration aids for plasma5 deprecated classes
+tier: 3
+type: solution
+platforms:
+    - name: Linux
+    - name: FreeBSD
+    - name: Windows
+    - name: MacOSX
+portingAid: false
+deprecated: false
+release: true
+libraries:
+ - cmake: KF5::Plasma5Support
+cmakename: KF5Plasma5Support
+
+public_lib: true
+group: Frameworks
+subgroup: Tier 3
