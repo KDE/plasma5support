@@ -20,7 +20,9 @@
 #include <QDebug>
 
 // Plasma
-#include "applet.h"
+#include <Plasma/Applet>
+
+// Plasma5Support
 #include "dataengine.h"
 #include "storagethread_p.h"
 

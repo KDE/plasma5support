@@ -1,37 +1,26 @@
-add_subdirectory(packagestructure)
 
 # This option should be removed, or moved down as far as possible.
 # That means porting the existing frameworks to the CMake automoc
 # feature. Porting is mostly removing explicit moc includes, and
 # leaving the ones which are truly needed (ie, if you remove
 # them, the build fails).
-set(CMAKE_AUTOMOC_RELAXED_MODE ON)
+#set(CMAKE_AUTOMOC_RELAXED_MODE ON)
 
 if(KDE_PLATFORM_FEATURE_BINARY_COMPATIBLE_FEATURE_REDUCTION)
     set(PLASMA_NO_PACKAGE_EXTRADATA TRUE)
 endif()
 
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config-plasma.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma.h)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config-plasma5support.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma5support.h)
 
 add_definitions(-DKDE_DEFAULT_DEBUG_AREA=1209)
 
 ########### next target ###############
 
-set(Plasma_LIB_SRCS
+set(Plasma5Support_LIB_SRCS
 #global
     plasma.cpp
     pluginloader.cpp
     version.cpp
-
-#applets,containments,corona
-    applet.cpp
-    containment.cpp
-    containmentactions.cpp
-    corona.cpp
-    private/applet_p.cpp
-    private/associatedapplicationmanager.cpp
-    private/containment_p.cpp
-    private/timetracker.cpp
 
 #Dataengines, services
     datacontainer.cpp
@@ -43,30 +32,15 @@ set(Plasma_LIB_SRCS
     private/dataenginemanager.cpp
     private/storage.cpp
     private/storagethread.cpp
-
-#packages
-    package.cpp
-    packagestructure.cpp
-
-#graphics
-    framesvg.cpp
-    svg.cpp
-    theme.cpp
-    private/theme_p.cpp
-
-#scripting
-    scripting/appletscript.cpp
-    scripting/dataenginescript.cpp
-    scripting/scriptengine.cpp
 )
 
 if(HAVE_X11)
-    set(Plasma_LIB_SRCS ${Plasma_LIB_SRCS} private/effectwatcher.cpp)
+    set(Plasma5Support_LIB_SRCS ${Plasma5Support_LIB_SRCS} private/effectwatcher.cpp)
 endif()
 
-kconfig_add_kcfg_files(Plasma_LIB_SRCS data/kconfigxt/libplasma-theme-global.kcfgc)
+kconfig_add_kcfg_files(Plasma5Support_LIB_SRCS data/kconfigxt/libplasma-theme-global.kcfgc)
 
-ecm_qt_declare_logging_category(Plasma_LIB_SRCS
+ecm_qt_declare_logging_category(Plasma5Support_LIB_SRCS
     HEADER debug_p.h
     IDENTIFIER LOG_PLASMA
     CATEGORY_NAME kf.plasma.core
@@ -75,9 +49,9 @@ ecm_qt_declare_logging_category(Plasma_LIB_SRCS
     EXPORT PLASMA
 )
 
-add_library(KF5Plasma ${Plasma_LIB_SRCS})
-add_library(KF5::Plasma ALIAS KF5Plasma)
-ecm_generate_export_header(KF5Plasma
+add_library(KF5Plasma5Support ${Plasma5Support_LIB_SRCS})
+add_library(KF5::Plasma ALIAS KF5Plasma5Support)
+ecm_generate_export_header(KF5Plasma5Support
     EXPORT_FILE_NAME plasma/plasma_export.h
     BASE_NAME Plasma
     GROUP_BASE_NAME KF
@@ -92,14 +66,13 @@ if(HAVE_X11)
     set(PLASMA_EXTRA_LIBS ${PLASMA_EXTRA_LIBS} Qt5::X11Extras ${X11_LIBRARIES} XCB::XCB)
 endif()
 
-target_link_libraries(KF5Plasma
+target_link_libraries(KF5Plasma5Support
 PUBLIC
     KF5::Service # For kplugininfo.h and kservice.h
     Qt5::Gui
     KF5::Package
 PRIVATE
     Qt5::Sql
-    Qt5::Svg
     Qt5::DBus
     KF5::Archive
     KF5::GuiAddons #kimagecache
@@ -112,6 +85,7 @@ PRIVATE
     KF5::GlobalAccel #Applet::setGlobalShortcut
     KF5::Notifications
     KF5::IconThemes
+    KF5::Plasma
     ${PLASMA_EXTRA_LIBS}
 )
 
@@ -120,14 +94,14 @@ set(Plasma_BUILD_INCLUDE_DIRS
     ${CMAKE_CURRENT_BINARY_DIR}
     ${CMAKE_CURRENT_BINARY_DIR}/Plasma
 )
-target_include_directories(KF5Plasma PUBLIC
+target_include_directories(KF5Plasma5Support PUBLIC
   "$<BUILD_INTERFACE:${Plasma_BUILD_INCLUDE_DIRS}>"
 )
-target_include_directories(KF5Plasma INTERFACE
+target_include_directories(KF5Plasma5Support INTERFACE
   "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5};${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma>"
 )
 
-set_target_properties(KF5Plasma PROPERTIES
+set_target_properties(KF5Plasma5Support PROPERTIES
                                 VERSION ${PLASMA_VERSION_STRING}
                                 SOVERSION ${PLASMA_SOVERSION}
                                 EXPORT_NAME Plasma
@@ -136,21 +110,12 @@ set_target_properties(KF5Plasma PROPERTIES
 ########### install files ###############
 ecm_generate_headers(Plasma_CamelCase_HEADERS
     HEADER_NAMES
-        Applet
-        Containment
-        ContainmentActions
-        Corona
         DataContainer
         DataEngine
         DataEngineConsumer
         PluginLoader
-        FrameSvg
-        Package
-        PackageStructure
         Service
         ServiceJob
-        Svg
-        Theme
         Plasma
     REQUIRED_HEADERS Plasma_HEADERS
     PREFIX Plasma
@@ -197,13 +162,13 @@ install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA_
 install(FILES data/operations/plasmoidservice.operations DESTINATION ${PLASMA_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/storage.operations DESTINATION ${PLASMA_DATA_INSTALL_DIR}/services)
 
-install(TARGETS KF5Plasma EXPORT KF5PlasmaTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS KF5Plasma5Support EXPORT KF5Plasma5SupportTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
 
 if(BUILD_QCH)
     ecm_add_qch(
-        KF5Plasma_QCH
+        KF5Plasma5Support_QCH
         NAME Plasma
-        BASE_NAME KF5Plasma
+        BASE_NAME KF5Plasma5Support
         VERSION ${KF_VERSION}
         ORG_DOMAIN org.kde
         SOURCES # using only public headers, to cover only public API

@@ -9,8 +9,6 @@
 #include <QAction>
 #include <QMenu>
 
-#include "containment.h"
-
 namespace Plasma
 {
 Types::Types(QObject *parent)

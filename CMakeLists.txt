@@ -62,6 +62,7 @@ find_package(KF5 ${KF_DEP_VERSION} REQUIRED
         Notifications
         Package
         Kirigami2
+        Plasma
     OPTIONAL_COMPONENTS
         Wayland
         DocTools
@@ -109,7 +110,7 @@ add_subdirectory(src)
 
 
 if (BUILD_TESTING)
-    add_subdirectory(autotests)
+#    add_subdirectory(autotests)
 endif()
 
 ################ create PlasmaConfig.cmake and install it ###########################

@@ -7,7 +7,7 @@
 #include "service.h"
 #include "private/service_p.h"
 
-#include "config-plasma.h"
+#include "config-plasma5support.h"
 
 #include <QFile>
 #include <QTimer>

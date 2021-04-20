@@ -8,7 +8,6 @@
 #define PLUGIN_LOADER_H
 
 #include <KPluginInfo>
-#include <plasma/package.h>
 #include <plasma/plasma.h>
 
 namespace Plasma
@@ -131,20 +130,6 @@ public:
      * @return a ContainmentActions object
      **/
     ContainmentActions *loadContainmentActions(Containment *parent, const QString &containmentActionsName, const QVariantList &args = QVariantList());
-
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 30)
-    /**
-     * Load a Package plugin.
-     *
-     * @param name the plugin name of the package to load
-     * @param specialization used to find script extensions for the given format, e.g. "QML" for "Plasma/Applet"
-     *
-     * @return a Package object matching name, or an invalid package on failure
-     * @deprecated Since 5.30, use KPackage::PackageLoader::loadPackage(const QString& packageFormat, const QString& packagePath) instead.
-     **/
-    PLASMA_DEPRECATED_VERSION(5, 30, "Use KPackage::PackageLoader::loadPackage(const QString&, const QString&")
-    Package loadPackage(const QString &packageFormat, const QString &specialization = QString());
-#endif
 
 #if PLASMA_ENABLE_DEPRECATED_SINCE(5, 28)
     /**
@@ -441,60 +426,6 @@ protected:
     virtual Service *internalLoadService(const QString &name, const QVariantList &args, QObject *parent = nullptr);
 
     /**
-     * A re-implementable method that allows subclasses to override
-     * the default behaviour of loadContainmentActions. If the ContainmentActions requested is not recognized,
-     * then the implementation should return a NULL pointer. This method is called
-     * by loadService prior to attempting to load a Service using the standard Plasma
-     * plugin mechanisms.
-     *
-     * Returns a pointer to the containmentactions if successful.
-     * The caller takes responsibility for the containmentactions, including
-     * deleting it when no longer needed.
-     *
-     * @param parent the parent containment. @since 4.6 null is allowed.
-     * @param name the plugin name, as returned by KPluginInfo::pluginName()
-     * @param args to send the containmentactions extra arguments
-     * @return a ContainmentActions object
-     **/
-    virtual ContainmentActions *internalLoadContainmentActions(Containment *parent, const QString &containmentActionsName, const QVariantList &args);
-
-    /**
-     * A re-implementable method that allows subclasses to override
-     * the default behaviour of loadPackage. If the service requested is not recognized,
-     * then the implementation should return a NULL pointer. This method is called
-     * by loadService prior to attempting to load a Service using the standard Plasma
-     * plugin mechanisms.
-     *
-     * @param name the plugin name of the service to load
-     * @param args a list of arguments to supply to the service plugin when loading it
-     * @param parent the parent object, if any, for the service
-     *
-     * @return a Service object, unlike Plasma::Service::loadService, this can return null.
-     * @deprecated since 5.30, use KPackage API
-     **/
-    PLASMA_DEPRECATED_VERSION(5, 30, "Use KPackage API")
-    virtual Package internalLoadPackage(const QString &name, const QString &specialization);
-
-    /**
-     * A re-implementable method that allows subclasses to provide additional applets
-     * for listAppletInfo. If the application has no applets to give to the application,
-     * then the implementation should return an empty list.
-     *
-     * This method is called by listAppletInfo prior to generating the list of applets installed
-     * on the system using the standard Plasma plugin mechanisms, and will try to find .desktop
-     * files for your applets.
-     *
-     * @param category Only applets matching this category will be returned.
-     *                 Useful in conjunction with knownCategories.
-     *                 If "Misc" is passed in, then applets without a
-     *                 Categories= entry are also returned.
-     *                 If an empty string is passed in, all applets are
-     *                 returned.
-     * @return list of applets
-     **/
-    virtual KPluginInfo::List internalAppletInfo(const QString &category) const;
-
-    /**
      * A re-implementable method that allows subclasses to provide additional dataengines
      * for DataEngine::listDataEngines.
      *
@@ -508,30 +439,6 @@ protected:
      * @return list of Service info, or an empty list if none
      */
     virtual KPluginInfo::List internalServiceInfo() const;
-
-    /**
-     * Returns a list of all known ContainmentActions implementations
-     *
-     * @return list of ContainmentActions info, or an empty list if none
-     */
-    virtual KPluginInfo::List internalContainmentActionsInfo() const;
-
-    /**
-     * Standardized mechanism for providing internal applets by install .desktop files
-     * in $APPPDATA/plasma/internal/applets/
-     *
-     * For applications that do this, internalAppletInfo can be implemented as a one-liner
-     * call to this method.
-     *
-     * @param category Only applets matching this category will be returned.
-     *                 Useful in conjunction with knownCategories.
-     *                 If "Misc" is passed in, then applets without a
-     *                 Categories= entry are also returned.
-     *                 If an empty string is passed in, all applets are
-     *                 returned.
-     * @return list of applets, or an empty list if none
-     */
-    KPluginInfo::List standardInternalAppletInfo(const QString &category) const;
 
     /**
      * Standardized mechanism for providing internal dataengines by install .desktop files
