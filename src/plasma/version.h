@@ -9,7 +9,7 @@
 
 /** @file plasma/version.h <Plasma/Version> */
 
-#include <plasma/plasma_export.h>
+#include <plasma/plasma5support_export.h>
 #include <plasma_version.h>
 
 #define PLASMA_MAKE_VERSION(a, b, c) (((a) << 16) | ((b) << 8) | (c))
@@ -28,32 +28,32 @@ namespace Plasma5Support
 /**
  * The runtime version of libplasma
  */
-PLASMA_EXPORT unsigned int version();
+PLASMA5SUPPORT_EXPORT unsigned int version();
 
 /**
  * The runtime major version of libplasma
  */
-PLASMA_EXPORT unsigned int versionMajor();
+PLASMA5SUPPORT_EXPORT unsigned int versionMajor();
 
 /**
  * The runtime major version of libplasma
  */
-PLASMA_EXPORT unsigned int versionMinor();
+PLASMA5SUPPORT_EXPORT unsigned int versionMinor();
 
 /**
  * The runtime major version of libplasma
  */
-PLASMA_EXPORT unsigned int versionRelease();
+PLASMA5SUPPORT_EXPORT unsigned int versionRelease();
 
 /**
  * The runtime version string of libplasma
  */
-PLASMA_EXPORT const char *versionString();
+PLASMA5SUPPORT_EXPORT const char *versionString();
 
 /**
  * Verifies that a plugin is compatible with plasma
  */
-PLASMA_EXPORT bool isPluginVersionCompatible(unsigned int version);
+PLASMA5SUPPORT_EXPORT bool isPluginVersionCompatible(unsigned int version);
 
 } // Plasma namespace
 

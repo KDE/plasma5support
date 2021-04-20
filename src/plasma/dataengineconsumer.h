@@ -9,7 +9,7 @@
 
 #include <QUrl>
 
-#include <plasma/plasma_export.h>
+#include <plasma/plasma5support_export.h>
 
 namespace Plasma5Support
 {
@@ -32,7 +32,7 @@ class DataEngineConsumerPrivate;
  * DataEngineConsumer can be subclassed by other C++ classes to allow this simple
  * API to be used directly from these classes in a convenient manner.
  **/
-class PLASMA_EXPORT DataEngineConsumer
+class PLASMA5SUPPORT_EXPORT DataEngineConsumer
 {
 public:
     /**

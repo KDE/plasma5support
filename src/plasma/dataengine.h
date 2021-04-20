@@ -43,7 +43,7 @@ class DataEnginePrivate;
  * data sources which are identified by name. For instance, a network
  * DataEngine might provide a data source for each network interface.
  **/
-class PLASMA_EXPORT DataEngine : public QObject
+class PLASMA5SUPPORT_EXPORT DataEngine : public QObject
 {
     Q_OBJECT
 
@@ -53,7 +53,7 @@ public:
     typedef QMapIterator<QString, QVariant> DataIterator;
     typedef QHash<QString, DataContainer *> SourceDict;
 
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 67)
+#if PLASMA5SUPPORT_ENABLE_DEPRECATED_SINCE(5, 67)
     /**
      * Constructor.
      *
@@ -62,7 +62,7 @@ public:
      *
      * @deprecated since 5.67
      **/
-    PLASMA_DEPRECATED_VERSION(5, 67, "Use KPluginMetaData")
+    PLASMA5SUPPORT_DEPRECATED_VERSION(5, 67, "Use KPluginMetaData")
     explicit DataEngine(const KPluginInfo &plugin, QObject *parent = nullptr);
 #endif
 
@@ -96,13 +96,13 @@ public:
      */
     Q_INVOKABLE virtual Service *serviceForSource(const QString &source);
 
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 67)
+#if PLASMA5SUPPORT_ENABLE_DEPRECATED_SINCE(5, 67)
     /**
      * @return description of the plugin that implements this DataEngine
      *
      * @deprecated since 5.67, use metadata
      */
-    PLASMA_DEPRECATED_VERSION(5, 67, "Use metadata()")
+    PLASMA5SUPPORT_DEPRECATED_VERSION(5, 67, "Use metadata()")
     KPluginInfo pluginInfo() const;
 #endif
 

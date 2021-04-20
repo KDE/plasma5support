@@ -14,7 +14,7 @@
 #include <KConfigGroup>
 
 #include <plasma/plasma5support.h>
-#include <plasma/plasma_export.h>
+#include <plasma/plasma5support_export.h>
 
 class QIODevice;
 class QWidget;
@@ -74,7 +74,7 @@ class ServicePrivate;
  * @endcode
  *
  */
-class PLASMA_EXPORT Service : public QObject
+class PLASMA5SUPPORT_EXPORT Service : public QObject
 {
     Q_OBJECT
     Q_DECLARE_PRIVATE(Service)

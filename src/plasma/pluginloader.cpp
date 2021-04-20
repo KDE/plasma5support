@@ -189,14 +189,14 @@ QStringList PluginLoader::listAllEngines(const QString &parentApp)
     return engines;
 }
 
-#if PLASMA_BUILD_DEPRECATED_SINCE(5, 77)
+#if PLASMA5SUPPORT_BUILD_DEPRECATED_SINCE(5, 77)
 KPluginInfo::List PluginLoader::listEngineInfo(const QString &parentApp)
 {
     return PluginLoader::self()->listDataEngineInfo(parentApp);
 }
 #endif
 
-#if PLASMA_BUILD_DEPRECATED_SINCE(5, 81)
+#if PLASMA5SUPPORT_BUILD_DEPRECATED_SINCE(5, 81)
 KPluginInfo::List PluginLoader::listEngineInfoByCategory(const QString &category, const QString &parentApp)
 {
     KPluginInfo::List list;
@@ -267,7 +267,7 @@ Service *PluginLoader::loadService(const QString &name, const QVariantList &args
     }
 }
 
-#if PLASMA_BUILD_DEPRECATED_SINCE(5, 77)
+#if PLASMA5SUPPORT_BUILD_DEPRECATED_SINCE(5, 77)
 KPluginInfo::List PluginLoader::listDataEngineInfo(const QString &parentApp)
 {
     return KPluginInfo::fromMetaData(listDataEngineMetaData(parentApp));

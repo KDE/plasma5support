@@ -43,17 +43,17 @@ kconfig_add_kcfg_files(Plasma5Support_LIB_SRCS data/kconfigxt/libplasma-theme-gl
 ecm_qt_declare_logging_category(Plasma5Support_LIB_SRCS
     HEADER debug_p.h
     IDENTIFIER LOG_PLASMA
-    CATEGORY_NAME kf.plasma.core
-    OLD_CATEGORY_NAMES org.kde.plasma
+    CATEGORY_NAME kf.plasma5support.core
+    OLD_CATEGORY_NAMES org.kde.plasma5support
     DESCRIPTION "Plasma Core lib"
-    EXPORT PLASMA
+    EXPORT PLASMA5SUPPORT
 )
 
 add_library(KF5Plasma5Support ${Plasma5Support_LIB_SRCS})
-add_library(KF5::Plasma ALIAS KF5Plasma5Support)
+add_library(KF5::Plasma5Support ALIAS KF5Plasma5Support)
 ecm_generate_export_header(KF5Plasma5Support
-    EXPORT_FILE_NAME plasma/plasma_export.h
-    BASE_NAME Plasma
+    EXPORT_FILE_NAME plasma/plasma5support_export.h
+    BASE_NAME Plasma5Support
     GROUP_BASE_NAME KF
     VERSION ${KF_VERSION}
     DEPRECATED_BASE_VERSION 0
@@ -165,10 +165,10 @@ if(BUILD_QCH)
         INCLUDE_DIRS
             ${Plasma_BUILD_INCLUDE_DIRS}
         BLANK_MACROS
-            PLASMA_EXPORT
-            PLASMA_DEPRECATED
-            PLASMA_DEPRECATED_EXPORT
-            "PLASMA_DEPRECATED_VERSION(x, y, t)"
+            PLASMA5SUPPORT_EXPORT
+            PLASMA5SUPPORT_DEPRECATED
+            PLASMA5SUPPORT_DEPRECATED_EXPORT
+            "PLASMA5SUPPORT_DEPRECATED_VERSION(x, y, t)"
         TAGFILE_INSTALL_DESTINATION ${KDE_INSTALL_QTQCHDIR}
         QCH_INSTALL_DESTINATION ${KDE_INSTALL_QTQCHDIR}
         COMPONENT Devel

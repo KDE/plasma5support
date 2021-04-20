@@ -11,7 +11,7 @@
 
 #include <KJob>
 
-#include <plasma/plasma_export.h>
+#include <plasma/plasma5support_export.h>
 
 namespace Plasma5Support
 {
@@ -35,7 +35,7 @@ class ServiceJobPrivate;
  * report the progress at regular intervals.  See the KJob documentation for
  * information on how to do this.
  */
-class PLASMA_EXPORT ServiceJob : public KJob
+class PLASMA5SUPPORT_EXPORT ServiceJob : public KJob
 {
     Q_OBJECT
     Q_PROPERTY(QString destination READ destination)

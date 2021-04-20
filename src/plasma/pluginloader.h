@@ -38,7 +38,7 @@ class PluginLoaderPrivate;
  * @author Ryan Rix <ry@n.rix.si>
  * @since 4.6
  **/
-class PLASMA_EXPORT PluginLoader
+class PLASMA5SUPPORT_EXPORT PluginLoader
 {
 public:
     /**
@@ -59,7 +59,7 @@ public:
      */
     static QStringList listAllEngines(const QString &parentApp = QString());
 
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 77)
+#if PLASMA5SUPPORT_ENABLE_DEPRECATED_SINCE(5, 77)
     /**
      * Returns a list of all known dataengines.
      *
@@ -70,11 +70,11 @@ public:
      * @return list of dataengines
      * @deprecated since 5.77, use listDataEngineMetaData instead.
      **/
-    PLASMA_DEPRECATED_VERSION(5, 77, "Use listDataEngineMetaData instead")
+    PLASMA5SUPPORT_DEPRECATED_VERSION(5, 77, "Use listDataEngineMetaData instead")
     static KPluginInfo::List listEngineInfo(const QString &parentApp = QString());
 #endif
 
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 81)
+#if PLASMA5SUPPORT_ENABLE_DEPRECATED_SINCE(5, 81)
     /**
      * Returns a list of all known dataengines filtering by category.
      *
@@ -91,7 +91,7 @@ public:
      * @deprecated since 5.81, use listDataEngineMetaData() instead.
      * @since 4.3
      **/
-    PLASMA_DEPRECATED_VERSION(5, 81, "Use listDataEngineMetaData instead")
+    PLASMA5SUPPORT_DEPRECATED_VERSION(5, 81, "Use listDataEngineMetaData instead")
     static KPluginInfo::List listEngineInfoByCategory(const QString &category, const QString &parentApp = QString());
 #endif
 
@@ -106,7 +106,7 @@ public:
      **/
     Service *loadService(const QString &name, const QVariantList &args, QObject *parent = nullptr);
 
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 77)
+#if PLASMA5SUPPORT_ENABLE_DEPRECATED_SINCE(5, 77)
     /**
      * Returns a list of all known dataengines.
      *
@@ -117,7 +117,7 @@ public:
      * @return list of dataengines
      * @deprecated since 5.77, use listDataEngineMetaData()
      **/
-    PLASMA_DEPRECATED_VERSION(5, 77, "Use listDataEngineMetaData()")
+    PLASMA5SUPPORT_DEPRECATED_VERSION(5, 77, "Use listDataEngineMetaData()")
     KPluginInfo::List listDataEngineInfo(const QString &parentApp = QString());
 #endif
 

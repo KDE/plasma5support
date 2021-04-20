@@ -13,7 +13,7 @@
 
 #include <KJob>
 #include <plasma/dataengine.h>
-#include <plasma/plasma_export.h>
+#include <plasma/plasma5support_export.h>
 
 class QAbstractItemModel;
 
@@ -48,7 +48,7 @@ class DataContainerPrivate;
  * a way of encapsulating the data retrieval for a source, since all notifications
  * are done via signals rather than virtual methods.
  **/
-class PLASMA_EXPORT DataContainer : public QObject
+class PLASMA5SUPPORT_EXPORT DataContainer : public QObject
 {
     friend class DataEngine;
     friend class DataEnginePrivate;

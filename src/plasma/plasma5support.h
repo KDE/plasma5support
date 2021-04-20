@@ -11,7 +11,7 @@
 
 #include <QObject>
 
-#include <plasma/plasma_export.h>
+#include <plasma/plasma5support_export.h>
 
 class QAction;
 
@@ -25,7 +25,7 @@ namespace Plasma5Support
  * @short Enums and constants used in Plasma
  *
  */
-class PLASMA_EXPORT Types : public QObject
+class PLASMA5SUPPORT_EXPORT Types : public QObject
 {
     Q_OBJECT
 
@@ -318,7 +318,7 @@ private:
  * @param location the location of the container the element will appear in
  * @return the visual direction the element should be oriented in
  **/
-PLASMA_EXPORT Types::Direction locationToDirection(Types::Location location);
+PLASMA5SUPPORT_EXPORT Types::Direction locationToDirection(Types::Location location);
 
 /**
  * Converts a location to the direction facing it. Handy for figuring out which way to collapse
@@ -327,7 +327,7 @@ PLASMA_EXPORT Types::Direction locationToDirection(Types::Location location);
  * @param location the location of the container the element will appear in
  * @return the visual direction the element should be oriented in
  **/
-PLASMA_EXPORT Types::Direction locationToInverseDirection(Types::Location location);
+PLASMA5SUPPORT_EXPORT Types::Direction locationToInverseDirection(Types::Location location);
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(Types::ContainmentDisplayHints)
 Q_DECLARE_OPERATORS_FOR_FLAGS(Types::Constraints)
