@@ -17,21 +17,11 @@ currently known as Plasma 5, it is general enough to be useful in other applicat
 view, allowing for pluggable widgets to display and interact with the music
 collection, such as "current track" and "tag cloud" widgets.
 
-Plasma framework itself only provides a framework, and the widgets, containments,
-data engines are all implemented as plugins (using C++, for widgets QML is prefferd).
-However, the framework is designed to make implementing these plugins as easy
-as possible, including providing scripting support.
 
 Other important classes are:
 
- - Plasma::Corona: the canvas that containments are placed on
- - Plasma::View: a QWidget for displaying a containment
- - Plasma::Theme: provides theming support
- - Plasma::Package: provides descriptions of packages containing plugins
-   for libplasma
- - Plasma::Svg and Plasma::FrameSvg: provides themable, cached SVGs
- - Plasma::AppletScript, Plasma::DataEngineScript and
-   Plasma::ScriptEngine: provide scripting interfaces for plugins
+ - Plasma::DataEngine
+ - Plasma::Service
 
 
 The

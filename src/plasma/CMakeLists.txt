@@ -126,36 +126,18 @@ set(Plasma_HEADERS
     version.h
 )
 
-set(PlasmaScripting_HEADERS
-    scripting/appletscript.h
-    scripting/dataenginescript.h
-    scripting/scriptengine.h
-)
-
-
 install(FILES
         ${Plasma_HEADERS}
         ${CMAKE_CURRENT_BINARY_DIR}/plasma/plasma_export.h
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/plasma COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/plasma5support COMPONENT Devel)
 
 install(FILES ${Plasma_CamelCase_HEADERS}
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma5Support COMPONENT Devel)
 
-
-install(FILES ${PlasmaScripting_HEADERS}
-    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/plasma/scripting COMPONENT Devel)
 
 install(FILES
-   data/servicetypes/plasma-applet.desktop
-   data/servicetypes/plasma-containment.desktop
-   data/servicetypes/plasma-containmentactions.desktop
    data/servicetypes/plasma-dataengine.desktop
-   data/servicetypes/plasma-generic.desktop
-   data/servicetypes/plasma-packagestructure.desktop
-   data/servicetypes/plasma-scriptengine.desktop
    data/servicetypes/plasma-service.desktop
-   data/servicetypes/plasma-shell.desktop
-   data/servicetypes/plasma-lookandfeel.desktop
    DESTINATION ${KDE_INSTALL_KSERVICETYPES5DIR})
 
 install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA_DATA_INSTALL_DIR}/services)
