@@ -25,7 +25,7 @@
 #include "private/storage_p.h"
 #include <plasma/version.h>
 
-namespace Plasma
+namespace Plasma5Support
 {
 static PluginLoader *s_pluginLoader = nullptr;
 
@@ -149,7 +149,7 @@ DataEngine *PluginLoader::loadDataEngine(const QString &name)
         KPluginLoader loader(plugins.constFirst().fileName());
         const QVariantList argsWithMetaData = QVariantList() << loader.metaData().toVariantMap();
         KPluginFactory *factory = loader.factory();
-        return factory ? factory->create<Plasma::DataEngine>(nullptr, argsWithMetaData) : nullptr;
+        return factory ? factory->create<Plasma5Support::DataEngine>(nullptr, argsWithMetaData) : nullptr;
     }
     if (engine) {
         return engine;
@@ -253,7 +253,7 @@ Service *PluginLoader::loadService(const QString &name, const QVariantList &args
         }
         KPluginFactory *factory = loader.factory();
         if (factory) {
-            service = factory->create<Plasma::Service>(nullptr, args);
+            service = factory->create<Plasma5Support::Service>(nullptr, args);
         }
     }
 
@@ -293,6 +293,14 @@ QVector<KPluginMetaData> PluginLoader::listDataEngineMetaData(const QString &par
 DataEngine *PluginLoader::internalLoadDataEngine(const QString &name)
 {
     Q_UNUSED(name)
+    return nullptr;
+}
+
+Service *PluginLoader::internalLoadService(const QString &name, const QVariantList &args, QObject *parent)
+{
+    Q_UNUSED(name)
+    Q_UNUSED(args)
+    Q_UNUSED(parent)
     return nullptr;
 }
 

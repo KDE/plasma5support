@@ -11,7 +11,7 @@
 
 #include "plasma/service.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 class Service;
 }

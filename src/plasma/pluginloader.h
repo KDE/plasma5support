@@ -8,9 +8,9 @@
 #define PLUGIN_LOADER_H
 
 #include <KPluginInfo>
-#include <plasma/plasma.h>
+#include <plasma/plasma5support.h>
 
-namespace Plasma
+namespace Plasma5Support
 {
 class Applet;
 class Containment;
@@ -41,17 +41,6 @@ class PluginLoaderPrivate;
 class PLASMA_EXPORT PluginLoader
 {
 public:
-    /**
-     * Load an Applet plugin.
-     *
-     * @param name the plugin name, as returned by KPluginInfo::pluginName()
-     * @param appletId unique ID to assign the applet, or zero to have one
-     *        assigned automatically.
-     * @param args to send the applet extra arguments
-     * @return a pointer to the loaded applet, or 0 on load failure
-     **/
-    Applet *loadApplet(const QString &name, uint appletId = 0, const QVariantList &args = QVariantList());
-
     /**
      * Load a dataengine plugin.
      *
@@ -117,204 +106,6 @@ public:
      **/
     Service *loadService(const QString &name, const QVariantList &args, QObject *parent = nullptr);
 
-    /**
-     * Load a ContainmentActions plugin.
-     *
-     * Returns a pointer to the containmentactions if successful.
-     * The caller takes responsibility for the containmentactions, including
-     * deleting it when no longer needed.
-     *
-     * @param parent the parent containment. @since 4.6 null is allowed.
-     * @param name the plugin name, as returned by KPluginInfo::pluginName()
-     * @param args to send the containmentactions extra arguments
-     * @return a ContainmentActions object
-     **/
-    ContainmentActions *loadContainmentActions(Containment *parent, const QString &containmentActionsName, const QVariantList &args = QVariantList());
-
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 28)
-    /**
-     * Returns a list of all known applets.
-     * This may skip applets based on security settings and ExcludeCategories in the application's config.
-     *
-     * @param category Only applets matching this category will be returned.
-     *                 Useful in conjunction with knownCategories.
-     *                 If "Misc" is passed in, then applets without a
-     *                 Categories= entry are also returned.
-     *                 If an empty string is passed in, all applets are
-     *                 returned.
-     * @param parentApp the application to filter applets on. Uses the
-     *                  X-KDE-ParentApp entry (if any) in the plugin info.
-     *                  The default value of QString() will result in a
-     *                  list of all applets in specified category.
-     * @return list of applets
-     *
-     * @deprecated Since 5.28. Doesn't support metadata.json packages.
-     * Use listAppletMetaData(const QString &category, const QString &parentApp) instead.
-     **/
-    PLASMA_DEPRECATED_VERSION(5, 28, "Use PluginLoader::listAppletMetaData(const QString &, const QString &)")
-    KPluginInfo::List listAppletInfo(const QString &category, const QString &parentApp = QString());
-#endif
-
-    /**
-     * Returns a list of all known applets.
-     * This may skip applets based on security settings and ExcludeCategories in the application's config.
-     *
-     * @param category Only applets matchin this category will be returned.
-     *                 Useful in conjunction with knownCategories.
-     *                 If "Misc" is passed in, then applets without a
-     *                 Categories= entry are also returned.
-     *                 If an empty string is passed in, all applets are
-     *                 returned.
-     * @param parentApp the application to filter applets on. Uses the
-     *                  X-KDE-ParentApp entry (if any) in the plugin info.
-     *                  The default value of QString() will result in a
-     *                  list of all applets in specified categories.
-     * @return list of applets
-     *
-     * @since 5.28
-     **/
-    QList<KPluginMetaData> listAppletMetaData(const QString &category, const QString &parentApp = QString());
-
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 36)
-    /**
-     * Returns a list of all known applets associated with a certain mimetype.
-     *
-     * @return list of applets
-     *
-     * @deprecated Since 5.36, use listAppletMetaDataForMimeType(const QString &mimetype) instead.
-     **/
-    PLASMA_DEPRECATED_VERSION(5, 36, "Use PluginLoader::listAppletMetaDataForMimeType(const QString &)")
-    KPluginInfo::List listAppletInfoForMimeType(const QString &mimetype);
-#endif
-
-    /**
-     * Returns a list of all known applets associated with a certain mimetype.
-     *
-     * @return list of applets
-     * @since 5.36
-     **/
-    QList<KPluginMetaData> listAppletMetaDataForMimeType(const QString &mimetype);
-
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 36)
-    /**
-     * Returns a list of all known applets associated with a certain URL.
-     *
-     * @return list of applets
-     *
-     * @deprecated Since 5.36, use listAppletMetaDataForUrl(const QUrl &url) instead.
-     **/
-    PLASMA_DEPRECATED_VERSION(5, 36, "Use PluginLoader::listAppletMetaDataForUrl(const QUrl &)")
-    KPluginInfo::List listAppletInfoForUrl(const QUrl &url);
-#endif
-
-    /**
-     * Returns a list of all known applets associated with a certain URL.
-     *
-     * @return list of applets
-     * @since 5.36
-     **/
-    QList<KPluginMetaData> listAppletMetaDataForUrl(const QUrl &url);
-
-    /**
-     * Returns a list of all the categories used by installed applets.
-     *
-     * @param parentApp the application to filter applets on. Uses the
-     *                  X-KDE-ParentApp entry (if any) in the plugin info.
-     *                  The default value of QString() will result in a
-     *                  list of all Applets.
-     * @return list of categories
-     * @param visibleOnly true if it should only return applets that are marked as visible
-     */
-    QStringList listAppletCategories(const QString &parentApp = QString(), bool visibleOnly = true);
-
-    /**
-     * Sets the list of custom categories that are used in addition to the default
-     * set of categories known to libplasma for applets.
-     * @param categories a list of categories
-     * @since 4.3
-     */
-    void setCustomAppletCategories(const QStringList &categories);
-
-    /**
-     * @return the list of custom categories known to libplasma
-     * @since 4.3
-     */
-    QStringList customAppletCategories() const;
-
-    /**
-     * Get the category of the given applet
-     *
-     * @param appletName the name of the applet
-     */
-    QString appletCategory(const QString &appletName);
-
-    /**
-     * Returns a list of all known containments.
-     *
-     * @param category Only containments matching this category will be returned.
-     *                 Useful in conjunction with knownCategories.
-     *                 If "Miscellaneous" is passed in, then containments without a
-     *                 Categories= entry are also returned.
-     *                 If an empty string is passed in, all containments are
-     *                 returned.
-     * @param parentApp the application to filter containments on. Uses the
-     *                  X-KDE-ParentApp entry (if any) in the plugin info.
-     *                  The default value of QString() will result in a
-     *                  list of all containments.
-     * @return list of containments
-     **/
-    static KPluginInfo::List listContainments(const QString &category = QString(), const QString &parentApp = QString());
-
-    /**
-     * Returns a list of all known containments.
-     *
-     * @param filter An optional predicate that can be used for filtering.
-     *
-     * @return list of containments
-     */
-    static QList<KPluginMetaData> listContainmentsMetaData(std::function<bool(const KPluginMetaData &)> filter = {});
-
-    /**
-     * Returns a list of containments of the specified type.
-     *
-     * @param type The target containment type
-     *
-     * @return list of containments
-     */
-    static QList<KPluginMetaData> listContainmentsMetaDataOfType(const QString &type);
-
-    /**
-     * Returns a list of all known containments that match the parameters.
-     *
-     * @param type Only containments with this string in X-Plasma-ContainmentType
-     *             in their .desktop files will be returned. Common values are panel and
-     *             desktop
-     * @param category Only containments matching this category will be returned.
-     *                 Useful in conjunction with knownCategories.
-     *                 If "Miscellaneous" is passed in, then containments without a
-     *                 Categories= entry are also returned.
-     *                 If an empty string is passed in, all containments are
-     *                 returned.
-     * @param parentApp the application to filter containments on. Uses the
-     *                  X-KDE-ParentApp entry (if any) in the plugin info.
-     *                  The default value of QString() will result in a
-     *                  list of all containments, matching categories/type.
-     * @return list of containments
-     **/
-    static KPluginInfo::List listContainmentsOfType(const QString &type, const QString &category = QString(), const QString &parentApp = QString());
-
-    /**
-     * @return a list of all known types of containments on this system
-     */
-    static QStringList listContainmentTypes();
-
-    /**
-     * Returns a list of all known containments associated with a certain MimeType
-     *
-     * @return list of containments
-     **/
-    static KPluginInfo::List listContainmentsForMimeType(const QString &mimeType);
-
 #if PLASMA_ENABLE_DEPRECATED_SINCE(5, 77)
     /**
      * Returns a list of all known dataengines.
@@ -342,33 +133,6 @@ public:
      **/
     QVector<KPluginMetaData> listDataEngineMetaData(const QString &parentApp = QString());
 
-#if PLASMA_ENABLE_DEPRECATED_SINCE(5, 77)
-    /**
-     * Returns a list of all known ContainmentActions.
-     *
-     * @param parentApp the application to filter ContainmentActions on. Uses the
-     *                  X-KDE-ParentApp entry (if any) in the plugin info.
-     *                  The default value of QString() will result in a
-     *                  list of all ContainmentActions.
-     * @return list of ContainmentActions
-     * @deprecated since 5.77, use listContainmentActionsMetaData()
-     **/
-    PLASMA_DEPRECATED_VERSION(5, 77, "Use listContainmentActionsMetaData()")
-    KPluginInfo::List listContainmentActionsInfo(const QString &parentApp);
-#endif
-
-    /**
-     * Returns a list of all known ContainmentActions.
-     *
-     * @param parentApp the application to filter ContainmentActions on. Uses the
-     *                  X-KDE-ParentApp entry (if any) in the plugin metadata.
-     *                  The default value of QString() will result in a
-     *                  list of all ContainmentActions.
-     * @return list of ContainmentActions
-     * @since 5.77
-     **/
-    QVector<KPluginMetaData> listContainmentActionsMetaData(const QString &parentApp);
-
     /**
      * Set the plugin loader which will be queried for all loads.
      *
@@ -383,20 +147,6 @@ public:
     static PluginLoader *self();
 
 protected:
-    /**
-     * A re-implementable method that allows subclasses to override
-     * the default behaviour of loadApplet. If the applet requested is not recognized,
-     * then the implementation should return a NULL pointer. This method is called
-     * by loadApplet prior to attempting to load an applet using the standard Plasma
-     * plugin mechanisms.
-     *
-     * @param name the plugin name, as returned by KPluginInfo::pluginName()
-     * @param appletId unique ID to assign the applet, or zero to have one
-     *        assigned automatically.
-     * @param args to send the applet extra arguments
-     * @return a pointer to the loaded applet, or 0 on load failure
-     **/
-    virtual Applet *internalLoadApplet(const QString &name, uint appletId = 0, const QVariantList &args = QVariantList());
 
     /**
      * A re-implementable method that allows subclasses to override
@@ -473,6 +223,6 @@ private:
 
 }
 
-Q_DECLARE_METATYPE(Plasma::PluginLoader *)
+Q_DECLARE_METATYPE(Plasma5Support::PluginLoader *)
 
 #endif

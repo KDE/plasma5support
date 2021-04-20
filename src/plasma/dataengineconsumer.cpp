@@ -17,9 +17,9 @@
 #include "private/dataenginemanager_p.h"
 #include "servicejob.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
-void DataEngineConsumerPrivate::slotJobFinished(Plasma::ServiceJob *job)
+void DataEngineConsumerPrivate::slotJobFinished(Plasma5Support::ServiceJob *job)
 {
 #ifndef NDEBUG
     // qCDebug(LOG_PLASMA) << "engine ready!";
@@ -30,7 +30,7 @@ void DataEngineConsumerPrivate::slotJobFinished(Plasma::ServiceJob *job)
 #endif
 }
 
-void DataEngineConsumerPrivate::slotServiceReady(Plasma::Service *plasmoidService)
+void DataEngineConsumerPrivate::slotServiceReady(Plasma5Support::Service *plasmoidService)
 {
 #ifndef NDEBUG
     // qCDebug(LOG_PLASMA) << "service ready!";
@@ -54,7 +54,7 @@ void DataEngineConsumerPrivate::slotServiceReady(Plasma::Service *plasmoidServic
     QVariantMap op = plasmoidService->operationDescription(QStringLiteral("DataEngine"));
     op[QStringLiteral("EngineName")] = engineNameForService.value(plasmoidService);
     plasmoidService->startOperationCall(op);
-    connect(plasmoidService, SIGNAL(finished(Plasma::ServiceJob *)), this, SLOT(slotJobFinished(Plasma::ServiceJob *)));
+    connect(plasmoidService, SIGNAL(finished(Plasma5Support::ServiceJob *)), this, SLOT(slotJobFinished(Plasma5Support::ServiceJob *)));
 }
 
 DataEngineConsumer::DataEngineConsumer()

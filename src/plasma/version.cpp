@@ -8,7 +8,7 @@
 #include <QDebug>
 #include <plasma/version.h>
 
-namespace Plasma
+namespace Plasma5Support
 {
 unsigned int version()
 {

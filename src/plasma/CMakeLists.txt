@@ -18,7 +18,7 @@ add_definitions(-DKDE_DEFAULT_DEBUG_AREA=1209)
 
 set(Plasma5Support_LIB_SRCS
 #global
-    plasma.cpp
+    plasma5support.cpp
     pluginloader.cpp
     version.cpp
 
@@ -116,7 +116,7 @@ ecm_generate_headers(Plasma_CamelCase_HEADERS
         PluginLoader
         Service
         ServiceJob
-        Plasma
+        Plasma5Support
     REQUIRED_HEADERS Plasma_HEADERS
     PREFIX Plasma
 )

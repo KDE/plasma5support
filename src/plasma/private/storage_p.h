@@ -6,8 +6,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA_STORAGE_P_H
-#define PLASMA_STORAGE_P_H
+#ifndef PLASMA5SUPPORT_STORAGE_P_H
+#define PLASMA5SUPPORT_STORAGE_P_H
 
 #include <QSqlDatabase>
 
@@ -15,7 +15,7 @@
 #include <plasma/servicejob.h>
 
 // Begin StorageJob
-class StorageJob : public Plasma::ServiceJob
+class StorageJob : public Plasma5Support::ServiceJob
 {
     Q_OBJECT
     Q_PROPERTY(QVariantMap data READ data WRITE setData)
@@ -37,7 +37,7 @@ private:
 };
 // End StorageJob
 
-class Storage : public Plasma::Service
+class Storage : public Plasma5Support::Service
 {
     Q_OBJECT
 
@@ -46,7 +46,7 @@ public:
     ~Storage() override;
 
 protected:
-    Plasma::ServiceJob *createJob(const QString &operation, QVariantMap &parameters) override;
+    Plasma5Support::ServiceJob *createJob(const QString &operation, QVariantMap &parameters) override;
 
 private:
     QString m_clientName;

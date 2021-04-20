@@ -28,7 +28,7 @@
 #include "private/service_p.h"
 #include "private/storage_p.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 DataEngine::DataEngine(const KPluginInfo &plugin, QObject *parent)
     : DataEngine(plugin.toMetaData(), parent)
@@ -73,7 +73,7 @@ KPluginMetaData DataEngine::metadata() const
     return d->dataEngineDescription;
 }
 
-void DataEngine::connectSource(const QString &source, QObject *visualization, uint pollingInterval, Plasma::Types::IntervalAlignment intervalAlignment) const
+void DataEngine::connectSource(const QString &source, QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment intervalAlignment) const
 {
     // qCDebug(LOG_PLASMA) << "connectSource" << source;
     bool newSource;
@@ -92,7 +92,7 @@ void DataEngine::connectSource(const QString &source, QObject *visualization, ui
     }
 }
 
-void DataEngine::connectAllSources(QObject *visualization, uint pollingInterval, Plasma::Types::IntervalAlignment intervalAlignment) const
+void DataEngine::connectAllSources(QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment intervalAlignment) const
 {
     for (DataContainer *s : qAsConst(d->sources)) {
         d->connectSource(s, visualization, pollingInterval, intervalAlignment);
@@ -194,7 +194,7 @@ void DataEngine::setModel(const QString &source, QAbstractItemModel *model)
         removeData(source, QStringLiteral("HasModel"));
     }
 
-    Plasma::DataContainer *s = containerForSource(source);
+    Plasma5Support::DataContainer *s = containerForSource(source);
 
     if (s) {
         s->setModel(model);
@@ -203,7 +203,7 @@ void DataEngine::setModel(const QString &source, QAbstractItemModel *model)
 
 QAbstractItemModel *DataEngine::modelForSource(const QString &source)
 {
-    Plasma::DataContainer *s = containerForSource(source);
+    Plasma5Support::DataContainer *s = containerForSource(source);
 
     if (s) {
         return s->model();
@@ -263,10 +263,10 @@ void DataEngine::removeSource(const QString &source)
 
 void DataEngine::removeAllSources()
 {
-    QMutableHashIterator<QString, Plasma::DataContainer *> it(d->sources);
+    QMutableHashIterator<QString, Plasma5Support::DataContainer *> it(d->sources);
     while (it.hasNext()) {
         it.next();
-        Plasma::DataContainer *s = it.value();
+        Plasma5Support::DataContainer *s = it.value();
         const QString source = it.key();
         it.remove();
         s->disconnect(this);
@@ -317,7 +317,7 @@ void DataEngine::timerEvent(QTimerEvent *event)
         killTimer(d->checkSourcesTimerId);
         d->checkSourcesTimerId = 0;
 
-        QHashIterator<QString, Plasma::DataContainer *> it(d->sources);
+        QHashIterator<QString, Plasma5Support::DataContainer *> it(d->sources);
         while (it.hasNext()) {
             it.next();
             it.value()->checkForUpdate();
@@ -329,7 +329,7 @@ void DataEngine::timerEvent(QTimerEvent *event)
 
 void DataEngine::updateAllSources()
 {
-    QHashIterator<QString, Plasma::DataContainer *> it(d->sources);
+    QHashIterator<QString, Plasma5Support::DataContainer *> it(d->sources);
     while (it.hasNext()) {
         it.next();
         // qCDebug(LOG_PLASMA) << "updating" << it.key();
@@ -442,7 +442,7 @@ DataContainer *DataEnginePrivate::source(const QString &sourceName, bool createW
 void DataEnginePrivate::connectSource(DataContainer *s,
                                       QObject *visualization,
                                       uint pollingInterval,
-                                      Plasma::Types::IntervalAlignment align,
+                                      Plasma5Support::Types::IntervalAlignment align,
                                       bool immediateCall)
 {
     // qCDebug(LOG_PLASMA) << "connect source called" << s->objectName() << "with interval" << pollingInterval;
@@ -466,7 +466,7 @@ void DataEnginePrivate::connectSource(DataContainer *s,
     s->connectVisualization(visualization, pollingInterval, align);
 
     if (immediateCall) {
-        QMetaObject::invokeMethod(visualization, "dataUpdated", Q_ARG(QString, s->objectName()), Q_ARG(Plasma::DataEngine::Data, s->data()));
+        QMetaObject::invokeMethod(visualization, "dataUpdated", Q_ARG(QString, s->objectName()), Q_ARG(Plasma5Support::DataEngine::Data, s->data()));
         if (s->d->model) {
             QMetaObject::invokeMethod(visualization, "modelChanged", Q_ARG(QString, s->objectName()), Q_ARG(QAbstractItemModel *, s->d->model.data()));
         }

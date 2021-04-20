@@ -19,7 +19,7 @@
 #include <QDebug>
 #include <QStandardPaths>
 
-namespace Plasma
+namespace Plasma5Support
 {
 class StorageThreadSingleton
 {
@@ -49,7 +49,7 @@ StorageThread::~StorageThread()
 {
 }
 
-Plasma::StorageThread *StorageThread::self()
+Plasma5Support::StorageThread *StorageThread::self()
 {
     return &privateStorageThreadSelf()->self;
 }

@@ -13,7 +13,7 @@
 
 #include "storage_p.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 class StorageThread : public QThread
 {
@@ -24,7 +24,7 @@ public:
 
     void run() override;
 
-    static Plasma::StorageThread *self();
+    static Plasma5Support::StorageThread *self();
 
     void closeDb();
 

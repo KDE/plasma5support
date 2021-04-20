@@ -13,7 +13,7 @@
 #include <QString>
 #include <QVariant>
 
-namespace Plasma
+namespace Plasma5Support
 {
 class ServiceJobPrivate
 {

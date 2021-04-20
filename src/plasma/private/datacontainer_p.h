@@ -19,7 +19,7 @@
 
 class QTimer;
 
-namespace Plasma
+namespace Plasma5Support
 {
 class ServiceJob;
 class SignalRelay;
@@ -49,7 +49,7 @@ public:
     void checkUsage();
 
     SignalRelay *
-    signalRelay(const DataContainer *dc, QObject *visualization, uint pollingInterval, Plasma::Types::IntervalAlignment align, bool immediateUpdate);
+    signalRelay(const DataContainer *dc, QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment align, bool immediateUpdate);
 
     bool hasUpdates();
 
@@ -89,7 +89,7 @@ class SignalRelay : public QObject
     Q_OBJECT
 
 public:
-    SignalRelay(DataContainer *parent, DataContainerPrivate *data, uint ival, Plasma::Types::IntervalAlignment align, bool immediateUpdate);
+    SignalRelay(DataContainer *parent, DataContainerPrivate *data, uint ival, Plasma5Support::Types::IntervalAlignment align, bool immediateUpdate);
 
     int receiverCount() const;
     bool isUnused() const;
@@ -101,13 +101,13 @@ public:
     DataContainer *dc;
     DataContainerPrivate *d;
     uint m_interval;
-    Plasma::Types::IntervalAlignment m_align;
+    Plasma5Support::Types::IntervalAlignment m_align;
     int m_timerId;
     bool m_resetTimer;
     bool m_queued;
 
 Q_SIGNALS:
-    void dataUpdated(const QString &, const Plasma::DataEngine::Data &);
+    void dataUpdated(const QString &, const Plasma5Support::DataEngine::Data &);
 
 protected:
     void timerEvent(QTimerEvent *event) override;

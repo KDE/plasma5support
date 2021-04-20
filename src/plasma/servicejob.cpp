@@ -10,7 +10,7 @@
 
 #include "private/servicejob_p.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 ServiceJobPrivate::ServiceJobPrivate(ServiceJob *owner, const QString &dest, const QString &op, const QVariantMap &params)
     : q(owner)

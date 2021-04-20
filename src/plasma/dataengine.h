@@ -14,13 +14,13 @@
 #include <KPluginInfo>
 #include <KService>
 
-#include <plasma/plasma.h>
+#include <plasma/plasma5support.h>
 #include <plasma/service.h>
 #include <plasma/version.h>
 
 class QAbstractItemModel;
 
-namespace Plasma
+namespace Plasma5Support
 {
 class DataContainer;
 class DataEngineScript;
@@ -117,7 +117,7 @@ public:
      * Connects a source to an object for data updates. The object must
      * have a slot with the following signature:
      * @code
-     * void dataUpdated(const QString &sourceName, const Plasma::DataEngine::Data &data);
+     * void dataUpdated(const QString &sourceName, const Plasma5Support::DataEngine::Data &data);
      * @endcode
      *
      * The data is a QHash of QVariants keyed by QString names, allowing
@@ -138,13 +138,13 @@ public:
     Q_INVOKABLE void connectSource(const QString &source,
                                    QObject *visualization,
                                    uint pollingInterval = 0,
-                                   Plasma::Types::IntervalAlignment intervalAlignment = Types::NoAlignment) const;
+                                   Plasma5Support::Types::IntervalAlignment intervalAlignment = Types::NoAlignment) const;
 
     /**
      * Connects all currently existing sources to an object for data updates.
      * The object must have a slot with the following signature:
      * @code
-     * void dataUpdated(const QString &sourceName, const Plasma::DataEngine::Data &data);
+     * void dataUpdated(const QString &sourceName, const Plasma5Support::DataEngine::Data &data);
      * @endcode
      *
      * The data is a QHash of QVariants keyed by QString names, allowing
@@ -169,7 +169,7 @@ public:
      * @param intervalAlignment the number of ms to align the interval to
      **/
     Q_INVOKABLE void
-    connectAllSources(QObject *visualization, uint pollingInterval = 0, Plasma::Types::IntervalAlignment intervalAlignment = Types::NoAlignment) const;
+    connectAllSources(QObject *visualization, uint pollingInterval = 0, Plasma5Support::Types::IntervalAlignment intervalAlignment = Types::NoAlignment) const;
 
     /**
      * Disconnects a source from an object that was receiving data updates.

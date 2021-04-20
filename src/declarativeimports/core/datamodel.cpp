@@ -11,7 +11,7 @@
 #include <QQmlEngine>
 #include <QTimer>
 
-namespace Plasma
+namespace Plasma5Support
 {
 SortFilterModel::SortFilterModel(QObject *parent)
     : QSortFilterProxyModel(parent)

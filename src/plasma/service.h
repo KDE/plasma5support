@@ -13,7 +13,7 @@
 
 #include <KConfigGroup>
 
-#include <plasma/plasma.h>
+#include <plasma/plasma5support.h>
 #include <plasma/plasma_export.h>
 
 class QIODevice;
@@ -21,7 +21,7 @@ class QWidget;
 class QUrl;
 class QQuickItem;
 
-namespace Plasma
+namespace Plasma5Support
 {
 class ServiceJob;
 class ServicePrivate;
@@ -31,7 +31,7 @@ class ServicePrivate;
  *
  * @short This class provides a generic API for write access to settings or services.
  *
- * Plasma::Service allows interaction with a "destination", the definition of which
+ * Plasma5Support::Service allows interaction with a "destination", the definition of which
  * depends on the Service itself. For a network settings Service this might be a
  * profile name ("Home", "Office", "Road Warrior") while a web based Service this
  * might be a username ("aseigo", "stranger65").
@@ -52,11 +52,11 @@ class ServicePrivate;
  * Sample use might look like:
  *
  * @code
- * Plasma::DataEngine *twitter = dataEngine("twitter");
- * Plasma::Service *service = twitter.serviceForSource("aseigo");
+ * Plasma5Support::DataEngine *twitter = dataEngine("twitter");
+ * Plasma5Support::Service *service = twitter.serviceForSource("aseigo");
  * QVariantMap op = service->operationDescription("update");
  * op.insert("tweet", "Hacking on plasma!");
- * Plasma::ServiceJob *job = service->startOperationCall(op);
+ * Plasma5Support::ServiceJob *job = service->startOperationCall(op);
  * connect(job, SIGNAL(finished(KJob*)), this, SLOT(jobCompeted()));
  * @endcode
  *
@@ -140,7 +140,7 @@ Q_SIGNALS:
     /**
      * Emitted when this service is ready for use
      */
-    void serviceReady(Plasma::Service *service);
+    void serviceReady(Plasma5Support::Service *service);
 
     /**
      * Emitted when an operation got enabled or disabled

@@ -14,7 +14,7 @@
 #include <QSet>
 #include <QUrl>
 
-namespace Plasma
+namespace Plasma5Support
 {
 class DataEngineConsumer;
 class Service;
@@ -30,10 +30,10 @@ public:
     QMap<Service *, QString> engineNameForService;
 
 public Q_SLOTS:
-    void slotJobFinished(Plasma::ServiceJob *job);
-    void slotServiceReady(Plasma::Service *service);
+    void slotJobFinished(Plasma5Support::ServiceJob *job);
+    void slotServiceReady(Plasma5Support::Service *service);
 };
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #endif

@@ -17,7 +17,7 @@
 
 #include <KLocalizedString>
 
-namespace Plasma
+namespace Plasma5Support
 {
 class NullServiceJob : public ServiceJob
 {

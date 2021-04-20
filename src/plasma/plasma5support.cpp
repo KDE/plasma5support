@@ -4,12 +4,12 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#include <plasma/plasma.h>
+#include <plasma/plasma5support.h>
 
 #include <QAction>
 #include <QMenu>
 
-namespace Plasma
+namespace Plasma5Support
 {
 Types::Types(QObject *parent)
     : QObject(parent)

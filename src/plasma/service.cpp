@@ -24,7 +24,7 @@
 #include "pluginloader.h"
 #include "version.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 Service::Service(QObject *parent)
     : QObject(parent)

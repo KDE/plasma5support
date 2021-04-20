@@ -9,7 +9,7 @@
 
 #include <plasma/dataengine.h>
 
-namespace Plasma
+namespace Plasma5Support
 {
 class DataEngineManagerPrivate;
 
@@ -18,7 +18,7 @@ class DataEngineManagerPrivate;
  *
  * @short DataEngine loader and life time manager
  *
- * Plasma::DataEngineManager provides facilities for listing, loading and
+ * Plasma5Support::DataEngineManager provides facilities for listing, loading and
  * according to reference count unloading of DataEngines.
  **/
 class DataEngineManager : public QObject
@@ -37,7 +37,7 @@ public:
      *
      * @param name the name of the engine
      */
-    Plasma::DataEngine *engine(const QString &name) const;
+    Plasma5Support::DataEngine *engine(const QString &name) const;
 
     /**
      * Loads a data engine and increases the reference count on it.
@@ -48,7 +48,7 @@ public:
      * @param name the name of the engine
      * @return the data engine that was loaded, or the NullEngine on failure.
      */
-    Plasma::DataEngine *loadEngine(const QString &name);
+    Plasma5Support::DataEngine *loadEngine(const QString &name);
 
     /**
      * Decreases the reference count on the engine. If the count reaches

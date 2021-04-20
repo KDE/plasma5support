@@ -12,9 +12,9 @@
 #include <QRandomGenerator>
 
 #include "debug_p.h"
-#include "plasma.h"
+#include "plasma5support.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 DataContainer::DataContainer(QObject *parent)
     : QObject(parent)
@@ -91,7 +91,7 @@ bool DataContainer::visualizationIsConnected(QObject *visualization) const
     return d->relayObjects.contains(visualization);
 }
 
-void DataContainer::connectVisualization(QObject *visualization, uint pollingInterval, Plasma::Types::IntervalAlignment alignment)
+void DataContainer::connectVisualization(QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment alignment)
 {
     // qCDebug(LOG_PLASMA) << "connecting visualization" <<this<< visualization << "at interval of"
     //         << pollingInterval << "to" << objectName();

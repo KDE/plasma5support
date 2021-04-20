@@ -17,7 +17,7 @@
 
 class QAbstractItemModel;
 
-namespace Plasma
+namespace Plasma5Support
 {
 class DataContainerPrivate;
 
@@ -129,7 +129,7 @@ public:
      * @param pollingInterval the time in milliseconds between updates
      * @param alignment the clock position to align updates to
      **/
-    void connectVisualization(QObject *visualization, uint pollingInterval, Plasma::Types::IntervalAlignment alignment);
+    void connectVisualization(QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment alignment);
 
     /**
      * sets this data container to be automatically stored.
@@ -193,7 +193,7 @@ Q_SIGNALS:
      *               of the source) that updated its data
      * @param data   the updated data
      **/
-    void dataUpdated(const QString &source, const Plasma::DataEngine::Data &data);
+    void dataUpdated(const QString &source, const Plasma5Support::DataEngine::Data &data);
 
     /**
      * A new model has been associated to this source,

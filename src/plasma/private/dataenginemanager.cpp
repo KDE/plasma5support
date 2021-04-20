@@ -19,7 +19,7 @@
 #include "private/datacontainer_p.h"
 #include "private/dataengine_p.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 class NullEngine : public DataEngine
 {
@@ -44,7 +44,7 @@ public:
 
     ~DataEngineManagerPrivate()
     {
-        for (Plasma::DataEngine *engine : qAsConst(engines)) {
+        for (Plasma5Support::DataEngine *engine : qAsConst(engines)) {
             delete engine;
         }
         engines.clear();
@@ -88,13 +88,13 @@ DataEngineManager::~DataEngineManager()
     delete d;
 }
 
-Plasma::DataEngine *DataEngineManager::engine(const QString &name) const
+Plasma5Support::DataEngine *DataEngineManager::engine(const QString &name) const
 {
     if (name.isEmpty()) {
         return d->nullEngine();
     }
 
-    Plasma::DataEngine::Dict::const_iterator it = d->engines.constFind(name);
+    Plasma5Support::DataEngine::Dict::const_iterator it = d->engines.constFind(name);
     if (it != d->engines.constEnd()) {
         return *it;
     }
@@ -102,13 +102,13 @@ Plasma::DataEngine *DataEngineManager::engine(const QString &name) const
     return d->nullEngine();
 }
 
-Plasma::DataEngine *DataEngineManager::loadEngine(const QString &name)
+Plasma5Support::DataEngine *DataEngineManager::loadEngine(const QString &name)
 {
     if (name.isEmpty()) {
         qCDebug(LOG_PLASMA) << "Asked an engine with empty name";
         return d->nullEngine();
     }
-    Plasma::DataEngine::Dict::const_iterator it = d->engines.constFind(name);
+    Plasma5Support::DataEngine::Dict::const_iterator it = d->engines.constFind(name);
 
     if (it != d->engines.constEnd()) {
         DataEngine *engine = *it;
@@ -128,10 +128,10 @@ Plasma::DataEngine *DataEngineManager::loadEngine(const QString &name)
 
 void DataEngineManager::unloadEngine(const QString &name)
 {
-    Plasma::DataEngine::Dict::iterator it = d->engines.find(name);
+    Plasma5Support::DataEngine::Dict::iterator it = d->engines.find(name);
 
     if (it != d->engines.end()) {
-        Plasma::DataEngine *engine = *it;
+        Plasma5Support::DataEngine *engine = *it;
         engine->d->deref();
 
         if (!engine->d->isUsed()) {
@@ -168,7 +168,7 @@ void DataEngineManager::timerEvent(QTimerEvent *)
             out << "                * " << dc->objectName() << '\n';
             out << "                       Data count: " << dc->d->data.count() << '\n';
             out << "                       Stored: " << dc->isStorageEnabled() << " \n";
-            const int directs = dc->receivers(SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)));
+            const int directs = dc->receivers(SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
             if (directs > 0) {
                 out << "                       Direction Connections: " << directs << " \n";
             }

@@ -23,7 +23,7 @@ class QQmlPropertyMap;
 
 // This class will hopefully be removed in KF6 (along with DataEngines in general)
 
-namespace Plasma
+namespace Plasma5Support
 {
 class DataEngine;
 

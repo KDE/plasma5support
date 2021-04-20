@@ -23,7 +23,7 @@
 /**
  * Namespace for everything in libplasma
  */
-namespace Plasma
+namespace Plasma5Support
 {
 /**
  * The runtime version of libplasma

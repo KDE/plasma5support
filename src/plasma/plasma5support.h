@@ -4,10 +4,10 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA_DEFS_H
-#define PLASMA_DEFS_H
+#ifndef PLASMA5SUPPORT_DEFS_H
+#define PLASMA5SUPPORT_DEFS_H
 
-/** @header plasma/plasma.h <Plasma/Plasma> */
+/** @header plasma/plasma5support.h <Plasma/Plasma> */
 
 #include <QObject>
 
@@ -18,10 +18,10 @@ class QAction;
 /**
  * Namespace for everything in libplasma
  */
-namespace Plasma
+namespace Plasma5Support
 {
 /**
- * @class Types plasma/plasma.h <Plasma/Plasma>
+ * @class Types plasma/plasma5support.h <Plasma/Plasma>
  * @short Enums and constants used in Plasma
  *
  */

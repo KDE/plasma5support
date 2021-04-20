@@ -6,12 +6,12 @@
 
 #include "datacontainer_p.h" //krazy:exclude=includes
 
-namespace Plasma
+namespace Plasma5Support
 {
 SignalRelay *DataContainerPrivate::signalRelay(const DataContainer *dc,
                                                QObject *visualization,
                                                uint pollingInterval,
-                                               Plasma::Types::IntervalAlignment align,
+                                               Plasma5Support::Types::IntervalAlignment align,
                                                bool immediateUpdate)
 {
     QMap<uint, SignalRelay *>::const_iterator relayIt = relays.constFind(pollingInterval);
@@ -40,7 +40,7 @@ bool DataContainerPrivate::hasUpdates()
     return dirty;
 }
 
-SignalRelay::SignalRelay(DataContainer *parent, DataContainerPrivate *data, uint ival, Plasma::Types::IntervalAlignment align, bool immediateUpdate)
+SignalRelay::SignalRelay(DataContainer *parent, DataContainerPrivate *data, uint ival, Plasma5Support::Types::IntervalAlignment align, bool immediateUpdate)
     : QObject(parent)
     , dc(parent)
     , d(data)
@@ -51,19 +51,19 @@ SignalRelay::SignalRelay(DataContainer *parent, DataContainerPrivate *data, uint
 {
     // qCDebug(LOG_PLASMA) << "signal relay with time of" << m_timerId << "being set up";
     m_timerId = startTimer(immediateUpdate ? 0 : m_interval);
-    if (m_align != Plasma::Types::NoAlignment) {
+    if (m_align != Plasma5Support::Types::NoAlignment) {
         checkAlignment();
     }
 }
 
 int SignalRelay::receiverCount() const
 {
-    return receivers(SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)));
+    return receivers(SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
 }
 
 bool SignalRelay::isUnused() const
 {
-    return receivers(SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data))) < 1;
+    return receivers(SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data))) < 1;
 }
 
 void SignalRelay::checkAlignment()
@@ -71,10 +71,10 @@ void SignalRelay::checkAlignment()
     int newTime = 0;
 
     QTime t = QTime::currentTime();
-    if (m_align == Plasma::Types::AlignToMinute) {
+    if (m_align == Plasma5Support::Types::AlignToMinute) {
         int seconds = t.second();
         newTime = ((60 - seconds) * 1000) + 500;
-    } else if (m_align == Plasma::Types::AlignToHour) {
+    } else if (m_align == Plasma5Support::Types::AlignToHour) {
         int minutes = t.minute();
         int seconds = t.second();
         if (minutes > 1 || seconds > 10) {
@@ -128,7 +128,7 @@ void SignalRelay::timerEvent(QTimerEvent *event)
         m_resetTimer = false;
     }
 
-    if (m_align != Plasma::Types::NoAlignment) {
+    if (m_align != Plasma5Support::Types::NoAlignment) {
         checkAlignment();
     }
 

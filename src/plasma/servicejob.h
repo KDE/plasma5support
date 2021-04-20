@@ -13,7 +13,7 @@
 
 #include <plasma/plasma_export.h>
 
-namespace Plasma
+namespace Plasma5Support
 {
 class ServiceJobPrivate;
 

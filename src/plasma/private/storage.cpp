@@ -30,8 +30,8 @@ StorageJob::StorageJob(const QString &destination, const QString &operation, con
     : ServiceJob(destination, operation, parameters, parent)
     , m_clientName(destination)
 {
-    Plasma::StorageThread::self()->start();
-    connect(Plasma::StorageThread::self(), &Plasma::StorageThread::newResult, this, &StorageJob::resultSlot);
+    Plasma5Support::StorageThread::self()->start();
+    connect(Plasma5Support::StorageThread::self(), &Plasma5Support::StorageThread::newResult, this, &StorageJob::resultSlot);
     qRegisterMetaType<StorageJob *>();
     qRegisterMetaType<QPointer<StorageJob>>();
 }
@@ -67,17 +67,17 @@ void StorageJob::start()
 
     QPointer<StorageJob> me(this);
     if (operationName() == QLatin1String("save")) {
-        QMetaObject::invokeMethod(Plasma::StorageThread::self(), "save", Qt::QueuedConnection, Q_ARG(QPointer<StorageJob>, me), Q_ARG(QVariantMap, params));
+        QMetaObject::invokeMethod(Plasma5Support::StorageThread::self(), "save", Qt::QueuedConnection, Q_ARG(QPointer<StorageJob>, me), Q_ARG(QVariantMap, params));
     } else if (operationName() == QLatin1String("retrieve")) {
-        QMetaObject::invokeMethod(Plasma::StorageThread::self(), "retrieve", Qt::QueuedConnection, Q_ARG(QPointer<StorageJob>, me), Q_ARG(QVariantMap, params));
+        QMetaObject::invokeMethod(Plasma5Support::StorageThread::self(), "retrieve", Qt::QueuedConnection, Q_ARG(QPointer<StorageJob>, me), Q_ARG(QVariantMap, params));
     } else if (operationName() == QLatin1String("delete")) {
-        QMetaObject::invokeMethod(Plasma::StorageThread::self(),
+        QMetaObject::invokeMethod(Plasma5Support::StorageThread::self(),
                                   "deleteEntry",
                                   Qt::QueuedConnection,
                                   Q_ARG(QPointer<StorageJob>, me),
                                   Q_ARG(QVariantMap, params));
     } else if (operationName() == QLatin1String("expire")) {
-        QMetaObject::invokeMethod(Plasma::StorageThread::self(), "expire", Qt::QueuedConnection, Q_ARG(QPointer<StorageJob>, me), Q_ARG(QVariantMap, params));
+        QMetaObject::invokeMethod(Plasma5Support::StorageThread::self(), "expire", Qt::QueuedConnection, Q_ARG(QPointer<StorageJob>, me), Q_ARG(QVariantMap, params));
     } else {
         setError(true);
         setResult(false);
@@ -94,7 +94,7 @@ void StorageJob::resultSlot(StorageJob *job, const QVariant &result)
     }
 }
 
-Plasma::ServiceJob *Storage::createJob(const QString &operation, QVariantMap &parameters)
+Plasma5Support::ServiceJob *Storage::createJob(const QString &operation, QVariantMap &parameters)
 {
     if (m_clientName.isEmpty()) {
         return nullptr;
@@ -105,7 +105,7 @@ Plasma::ServiceJob *Storage::createJob(const QString &operation, QVariantMap &pa
 
 // Storage implementation
 Storage::Storage(QObject *parent)
-    : Plasma::Service(parent)
+    : Plasma5Support::Service(parent)
     , m_clientName(QStringLiteral("data"))
 {
     // search among parents for an applet or dataengine: if found call the table as its plugin name
@@ -118,7 +118,7 @@ Storage::Storage(QObject *parent)
             break;
         }
 
-        Plasma::DataEngine *engine = qobject_cast<Plasma::DataEngine *>(parentObject);
+        Plasma5Support::DataEngine *engine = qobject_cast<Plasma5Support::DataEngine *>(parentObject);
         if (engine) {
             m_clientName = engine->metadata().pluginId();
             break;

@@ -9,7 +9,7 @@
 
 #include "datasource.h"
 
-namespace Plasma
+namespace Plasma5Support
 {
 DataSource::DataSource(QObject *parent)
     : QObject(parent)
