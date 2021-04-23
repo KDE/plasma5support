@@ -79,6 +79,7 @@ add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
 
 #########################################################################
 
+include(KF5Plasma5SupportMacros.cmake)
 
 option(BUILD_COVERAGE "Build Plasma5Support Frameworks with gcov support" OFF)
 
