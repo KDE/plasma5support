@@ -7,21 +7,20 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef COREBINDINGSPLUGIN_H
-#define COREBINDINGSPLUGIN_H
+#ifndef PLASMA5SUPPORTPLUGIN_H
+#define PLASMA5SUPPORTPLUGIN_H
 
 #include <QQmlEngine>
 #include <QQmlExtensionPlugin>
 
-#include <plasma/service.h>
+#include <plasma5support/service.h>
 
-class CoreBindingsPlugin : public QQmlExtensionPlugin
+class Plasma5SupportPlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QQmlExtensionInterface")
 
 public:
-    void initializeEngine(QQmlEngine *engine, const char *uri) override;
     void registerTypes(const char *uri) override;
 };
 

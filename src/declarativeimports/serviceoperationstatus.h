@@ -9,7 +9,7 @@
 #include <QObject>
 #include <QPointer>
 
-#include "plasma/service.h"
+#include "plasma5support/service.h"
 
 namespace Plasma5Support
 {
@@ -27,7 +27,7 @@ class ServiceOperationStatus : public QObject
     /**
      * The service instance we want to monitor
      */
-    Q_PROPERTY(Plasma::Service *service READ service WRITE setService NOTIFY serviceChanged)
+    Q_PROPERTY(Plasma5Support::Service *service READ service WRITE setService NOTIFY serviceChanged)
 
     /**
      * the service operation we want to monitor for enabled or disabled status
@@ -43,8 +43,8 @@ public:
     explicit ServiceOperationStatus(QObject *parent = nullptr);
     ~ServiceOperationStatus();
 
-    void setService(Plasma::Service *service);
-    Plasma::Service *service() const;
+    void setService(Plasma5Support::Service *service);
+    Plasma5Support::Service *service() const;
 
     void setOperation(const QString &operation);
     QString operation() const;
@@ -61,7 +61,7 @@ private Q_SLOTS:
     void updateStatus();
 
 private:
-    QPointer<Plasma::Service> m_service;
+    QPointer<Plasma5Support::Service> m_service;
     QString m_operation;
     bool m_enabled;
 };

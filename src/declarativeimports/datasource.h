@@ -16,8 +16,8 @@
 #include <QScopedPointer>
 #include <QtQml>
 
-#include <Plasma/DataEngine>
-#include <Plasma/DataEngineConsumer>
+#include <Plasma5Support/DataEngine>
+#include <Plasma5Support/DataEngineConsumer>
 
 class QQmlPropertyMap;
 
@@ -73,12 +73,12 @@ public:
     /**
      * The interval to align polling to
      */
-    Q_PROPERTY(Plasma::Types::IntervalAlignment intervalAlignment READ intervalAlignment WRITE setIntervalAlignment NOTIFY intervalAlignmentChanged)
-    Plasma::Types::IntervalAlignment intervalAlignment() const
+    Q_PROPERTY(Plasma5Support::Types::IntervalAlignment intervalAlignment READ intervalAlignment WRITE setIntervalAlignment NOTIFY intervalAlignmentChanged)
+    Plasma5Support::Types::IntervalAlignment intervalAlignment() const
     {
         return m_intervalAlignment;
     }
-    void setIntervalAlignment(Plasma::Types::IntervalAlignment intervalAlignment);
+    void setIntervalAlignment(Plasma5Support::Types::IntervalAlignment intervalAlignment);
 
     /**
      * Plugin name of the Plasma DataEngine
@@ -132,7 +132,7 @@ public:
     }
 
     /**
-     * @returns a Plasma::Service given a source name
+     * @returns a Plasma5Support::Service given a source name
      * @param source source name we want a service of
      */
     Q_INVOKABLE QObject *serviceForSource(const QString &source);
@@ -148,7 +148,7 @@ public:
     Q_INVOKABLE void disconnectSource(const QString &source);
 
 public Q_SLOTS:
-    void dataUpdated(const QString &sourceName, const Plasma::DataEngine::Data &data);
+    void dataUpdated(const QString &sourceName, const Plasma5Support::DataEngine::Data &data);
     void modelChanged(const QString &sourceName, QAbstractItemModel *model);
 
 protected Q_SLOTS:
@@ -173,18 +173,18 @@ private:
     bool m_ready;
     QString m_id;
     int m_interval;
-    Plasma::Types::IntervalAlignment m_intervalAlignment;
+    Plasma5Support::Types::IntervalAlignment m_intervalAlignment;
     QString m_engine;
     QQmlPropertyMap *m_data = nullptr;
     QQmlPropertyMap *m_models = nullptr;
-    Plasma::DataEngine *m_dataEngine = nullptr;
-    QScopedPointer<Plasma::DataEngineConsumer> m_dataEngineConsumer;
+    Plasma5Support::DataEngine *m_dataEngine = nullptr;
+    QScopedPointer<Plasma5Support::DataEngineConsumer> m_dataEngineConsumer;
     QStringList m_sources;
     QStringList m_connectedSources;
     QStringList m_oldSources;
     QStringList m_newSources;
     Changes m_changes;
-    QHash<QString, Plasma::Service *> m_services;
+    QHash<QString, Plasma5Support::Service *> m_services;
 };
 Q_DECLARE_OPERATORS_FOR_FLAGS(DataSource::Changes)
 }

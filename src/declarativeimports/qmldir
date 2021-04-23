@@ -1,0 +1,2 @@
+module org.kde.plasma.plasma5support
+plugin corebindingsplugin

@@ -15,7 +15,7 @@ DataSource::DataSource(QObject *parent)
     : QObject(parent)
     , m_ready(false)
     , m_interval(0)
-    , m_intervalAlignment(Plasma::Types::NoAlignment)
+    , m_intervalAlignment(Plasma5Support::Types::NoAlignment)
 {
     m_models = new QQmlPropertyMap(this);
     m_data = new QQmlPropertyMap(this);
@@ -76,8 +76,8 @@ void DataSource::setEngine(const QString &e)
         return;
     }
 
-    m_dataEngineConsumer.reset(new Plasma::DataEngineConsumer());
-    Plasma::DataEngine *engine = dataEngine(m_engine);
+    m_dataEngineConsumer.reset(new Plasma5Support::DataEngineConsumer());
+    Plasma5Support::DataEngine *engine = dataEngine(m_engine);
     if (!engine) {
         qWarning() << "DataEngine" << m_engine << "not found";
         Q_EMIT engineChanged();
@@ -125,7 +125,7 @@ void DataSource::setInterval(const int interval)
     Q_EMIT intervalChanged();
 }
 
-void DataSource::setIntervalAlignment(Plasma::Types::IntervalAlignment intervalAlignment)
+void DataSource::setIntervalAlignment(Plasma5Support::Types::IntervalAlignment intervalAlignment)
 {
     if (intervalAlignment == m_intervalAlignment) {
         return;
@@ -153,7 +153,7 @@ void DataSource::setupData()
     }
 }
 
-void DataSource::dataUpdated(const QString &sourceName, const Plasma::DataEngine::Data &data)
+void DataSource::dataUpdated(const QString &sourceName, const Plasma5Support::DataEngine::Data &data)
 {
     // it can arrive also data we don't explicitly connected a source
     if (m_connectedSources.contains(sourceName)) {
@@ -192,7 +192,7 @@ void DataSource::removeSource(const QString &source)
     }
 
     if (m_dataEngine) {
-        QHash<QString, Plasma::Service *>::iterator it = m_services.find(source);
+        QHash<QString, Plasma5Support::Service *>::iterator it = m_services.find(source);
         if (it != m_services.end()) {
             delete it.value();
             m_services.erase(it);
@@ -203,7 +203,7 @@ void DataSource::removeSource(const QString &source)
 QObject *DataSource::serviceForSource(const QString &source)
 {
     if (!m_services.contains(source)) {
-        Plasma::Service *service = m_dataEngine->serviceForSource(source);
+        Plasma5Support::Service *service = m_dataEngine->serviceForSource(source);
         if (!service) {
             return nullptr;
         }

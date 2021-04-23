@@ -254,8 +254,8 @@ void DataModel::dataUpdated(const QString &sourceName, const QVariantMap &data)
                     continue;
                 }
                 QVariant value = m_dataSource->data()->value(key);
-                if (value.isValid() && value.canConvert<Plasma::DataEngine::Data>()) {
-                    Plasma::DataEngine::Data data = value.value<Plasma::DataEngine::Data>();
+                if (value.isValid() && value.canConvert<Plasma5Support::DataEngine::Data>()) {
+                    Plasma5Support::DataEngine::Data data = value.value<Plasma5Support::DataEngine::Data>();
                     data[QStringLiteral("DataEngineSource")] = key;
                     list.append(data);
                 }
@@ -299,7 +299,7 @@ void DataModel::setDataSource(QObject *object)
 
     const auto keys = m_dataSource->data()->keys();
     for (const QString &key : keys) {
-        dataUpdated(key, m_dataSource->data()->value(key).value<Plasma::DataEngine::Data>());
+        dataUpdated(key, m_dataSource->data()->value(key).value<Plasma5Support::DataEngine::Data>());
     }
 
     connect(m_dataSource, &DataSource::newData, this, &DataModel::dataUpdated);

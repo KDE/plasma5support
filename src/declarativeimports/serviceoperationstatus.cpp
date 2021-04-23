@@ -16,7 +16,7 @@ ServiceOperationStatus::~ServiceOperationStatus()
 {
 }
 
-void ServiceOperationStatus::setService(Plasma::Service *service)
+void ServiceOperationStatus::setService(Plasma5Support::Service *service)
 {
     if (m_service.data() == service) {
         return;
@@ -26,7 +26,7 @@ void ServiceOperationStatus::setService(Plasma::Service *service)
         disconnect(m_service.data(), nullptr, this, nullptr);
     }
     if (service) {
-        connect(service, &Plasma::Service::operationEnabledChanged, this, &ServiceOperationStatus::updateStatus);
+        connect(service, &Plasma5Support::Service::operationEnabledChanged, this, &ServiceOperationStatus::updateStatus);
     }
 
     m_service = service;
@@ -34,7 +34,7 @@ void ServiceOperationStatus::setService(Plasma::Service *service)
     Q_EMIT serviceChanged();
 }
 
-Plasma::Service *ServiceOperationStatus::service() const
+Plasma5Support::Service *ServiceOperationStatus::service() const
 {
     return m_service.data();
 }

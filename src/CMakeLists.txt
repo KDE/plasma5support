@@ -1,5 +1,5 @@
 add_subdirectory(plasma5support)
-#add_subdirectory(declarativeimports)
+add_subdirectory(declarativeimports)
 
 
 ecm_qt_install_logging_categories(
