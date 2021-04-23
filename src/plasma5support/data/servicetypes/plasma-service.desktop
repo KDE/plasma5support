@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=ServiceType
-X-KDE-ServiceType=Plasma/Service
+X-KDE-ServiceType=Plasma5Support/Service
 
 Comment=Plasma service
 Comment[ar]=خدمة «بلازما»

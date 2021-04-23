@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=ServiceType
-X-KDE-ServiceType=Plasma/DataEngine
+X-KDE-ServiceType=Plasma5Support/DataEngine
 
 Comment=Plasma Data Engine
 Comment[ar]=محرّك بيانات «بلازما»
