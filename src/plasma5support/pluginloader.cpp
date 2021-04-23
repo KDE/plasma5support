@@ -14,7 +14,6 @@
 #include <KService>
 #include <KServiceTypeTrader>
 #include <QDebug>
-#include <kdeclarative/kdeclarative.h>
 #include <kpackage/packageloader.h>
 
 #include "config-plasma5support.h"

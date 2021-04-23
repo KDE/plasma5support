@@ -41,27 +41,17 @@ add_definitions(-DQT_NO_FOREACH)
 
 set (REQUIRED_QT_VERSION 5.15.0)
 
-find_package(Qt5 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Quick Gui Sql Qml)
+find_package(Qt5 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Quick Sql Qml)
 
 find_package(KF5 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
-        Archive
         Config
         ConfigWidgets
         CoreAddons
-        DBusAddons
-        Declarative
-        GlobalAccel
-        GuiAddons
         I18n
-        IconThemes
         KIO
         Service
-        WindowSystem
         XmlGui
-        Notifications
-        Package
-        Kirigami2
         Plasma
     OPTIONAL_COMPONENTS
         Wayland

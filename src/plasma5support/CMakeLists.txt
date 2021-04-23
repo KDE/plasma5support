@@ -60,37 +60,22 @@ ecm_generate_export_header(KF5Plasma5Support
 # TODO: add support for EXCLUDE_DEPRECATED_BEFORE_AND_AT to all Plasma libs
 # needs fixing of undeprecated API being still implemented using own deprecated API
 
-if(HAVE_X11)
-    set(PLASMA5SUPPORT_EXTRA_LIBS ${PLASMA5SUPPORT_EXTRA_LIBS} Qt5::X11Extras ${X11_LIBRARIES} XCB::XCB)
-endif()
-
 target_link_libraries(KF5Plasma5Support
 PUBLIC
     KF5::Service # For kplugininfo.h and kservice.h
-    Qt5::Gui
-    KF5::Package
 PRIVATE
     Qt5::Sql
-    Qt5::DBus
-    KF5::Archive
-    KF5::GuiAddons #kimagecache
     KF5::I18n
     KF5::KIOCore    #ServiceJob
     KF5::KIOWidgets  #KIO::JobUiDelegate
-    KF5::WindowSystem #compositingActive
-    KF5::Declarative #runtimePlatform
-    KF5::XmlGui   #KActionCollection
-    KF5::GlobalAccel #Applet::setGlobalShortcut
-    KF5::Notifications
-    KF5::IconThemes
+    KF5::XmlGui   #KConfigLoader
     KF5::Plasma
-    ${PLASMA5SUPPORT_EXTRA_LIBS}
 )
 
 set(Plasma5Support_BUILD_INCLUDE_DIRS
     ${CMAKE_CURRENT_SOURCE_DIR}/..
     ${CMAKE_CURRENT_BINARY_DIR}
-    ${CMAKE_CURRENT_BINARY_DIR}/Plasma
+    ${CMAKE_CURRENT_BINARY_DIR}/Plasma5Support
 )
 target_include_directories(KF5Plasma5Support PUBLIC
   "$<BUILD_INTERFACE:${Plasma5Support_BUILD_INCLUDE_DIRS}>"
