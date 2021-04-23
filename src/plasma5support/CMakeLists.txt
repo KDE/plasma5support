@@ -40,10 +40,10 @@ endif()
 
 ecm_qt_declare_logging_category(Plasma5Support_LIB_SRCS
     HEADER debug_p.h
-    IDENTIFIER LOG_PLASMA
+    IDENTIFIER LOG_PLASMA5SUPPORT
     CATEGORY_NAME kf.plasma5support.core
     OLD_CATEGORY_NAMES org.kde.plasma5support
-    DESCRIPTION "Plasma Core lib"
+    DESCRIPTION "Plasma5Support Core lib"
     EXPORT PLASMA5SUPPORT
 )
 
@@ -57,8 +57,6 @@ ecm_generate_export_header(KF5Plasma5Support
     DEPRECATED_BASE_VERSION 0
     DEPRECATION_VERSIONS 5.6 5.19 5.28 5.30 5.36 5.46 5.67 5.77 5.78 5.81
 )
-# TODO: add support for EXCLUDE_DEPRECATED_BEFORE_AND_AT to all Plasma libs
-# needs fixing of undeprecated API being still implemented using own deprecated API
 
 target_link_libraries(KF5Plasma5Support
 PUBLIC
@@ -81,13 +79,13 @@ target_include_directories(KF5Plasma5Support PUBLIC
   "$<BUILD_INTERFACE:${Plasma5Support_BUILD_INCLUDE_DIRS}>"
 )
 target_include_directories(KF5Plasma5Support INTERFACE
-  "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5};${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma>"
+  "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5};${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma5Support>"
 )
 
 set_target_properties(KF5Plasma5Support PROPERTIES
                                 VERSION ${PLASMA5SUPPORT_VERSION_STRING}
                                 SOVERSION ${PLASMA5SUPPORT_SOVERSION}
-                                EXPORT_NAME Plasma
+                                EXPORT_NAME Plasma5Support
                       )
 
 ########### install files ###############
@@ -101,7 +99,7 @@ ecm_generate_headers(Plasma5Support_CamelCase_HEADERS
         ServiceJob
         Plasma5Support
     REQUIRED_HEADERS Plasma5Support_HEADERS
-    PREFIX Plasma
+    PREFIX Plasma5Support
 )
 
 set(Plasma5Support_HEADERS
@@ -111,7 +109,7 @@ set(Plasma5Support_HEADERS
 
 install(FILES
         ${Plasma5Support_HEADERS}
-        ${CMAKE_CURRENT_BINARY_DIR}/plasma/plasma5support_export.h
+        ${CMAKE_CURRENT_BINARY_DIR}/plasma5support/plasma5support_export.h
         DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/plasma5support COMPONENT Devel)
 
 install(FILES ${Plasma5Support_CamelCase_HEADERS}
@@ -119,8 +117,8 @@ install(FILES ${Plasma5Support_CamelCase_HEADERS}
 
 
 install(FILES
-   data/servicetypes/plasma-dataengine.desktop
-   data/servicetypes/plasma-service.desktop
+   data/servicetypes/plasma5support-dataengine.desktop
+   data/servicetypes/plasma5support-service.desktop
    DESTINATION ${KDE_INSTALL_KSERVICETYPES5DIR})
 
 install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
@@ -132,7 +130,7 @@ install(TARGETS KF5Plasma5Support EXPORT KF5Plasma5SupportTargets ${KF5_INSTALL_
 if(BUILD_QCH)
     ecm_add_qch(
         KF5Plasma5Support_QCH
-        NAME Plasma
+        NAME Plasma5Support
         BASE_NAME KF5Plasma5Support
         VERSION ${KF_VERSION}
         ORG_DOMAIN org.kde

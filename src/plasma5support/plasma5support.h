@@ -7,11 +7,11 @@
 #ifndef PLASMA5SUPPORT_DEFS_H
 #define PLASMA5SUPPORT_DEFS_H
 
-/** @header plasma/plasma5support.h <Plasma/Plasma> */
+/** @header plasma5support/plasma5support.h <Plasma5Support/Plasma5Support> */
 
 #include <QObject>
 
-#include <plasma/plasma5support_export.h>
+#include <plasma5support/plasma5support_export.h>
 
 class QAction;
 
@@ -21,7 +21,7 @@ class QAction;
 namespace Plasma5Support
 {
 /**
- * @class Types plasma/plasma5support.h <Plasma/Plasma>
+ * @class Types plasma5support/plasma5support.h <Plasma5Support/Plasma5Support>
  * @short Enums and constants used in Plasma
  *
  */

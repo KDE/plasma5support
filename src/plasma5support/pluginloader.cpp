@@ -66,8 +66,8 @@ public:
 
 QSet<QString> PluginLoaderPrivate::s_customCategories;
 
-QString PluginLoaderPrivate::s_dataEnginePluginDir = QStringLiteral("plasma/dataengine");
-QString PluginLoaderPrivate::s_servicesPluginDir = QStringLiteral("plasma/services");
+QString PluginLoaderPrivate::s_dataEnginePluginDir = QStringLiteral("plasma5support/dataengine");
+QString PluginLoaderPrivate::s_servicesPluginDir = QStringLiteral("plasma5support/services");
 
 QSet<QString> PluginLoaderPrivate::knownCategories()
 {
@@ -117,7 +117,7 @@ void PluginLoader::setPluginLoader(PluginLoader *loader)
         s_pluginLoader = loader;
     } else {
 #ifndef NDEBUG
-        // qCDebug(LOG_PLASMA) << "Cannot set pluginLoader, already set!" << s_pluginLoader;
+        // qCDebug(LOG_PLASMA5SUPPORT) << "Cannot set pluginLoader, already set!" << s_pluginLoader;
 #endif
     }
 }
@@ -154,7 +154,7 @@ DataEngine *PluginLoader::loadDataEngine(const QString &name)
         return engine;
     }
 
-    const KPackage::Package p = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("Plasma/DataEngine"), name);
+    const KPackage::Package p = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("Plasma5Support/DataEngine"), name);
     if (!p.isValid()) {
         return nullptr;
     }
@@ -180,7 +180,7 @@ QStringList PluginLoader::listAllEngines(const QString &parentApp)
         engines << plugin.pluginId();
     }
 
-    const QList<KPluginMetaData> packagePlugins = KPackage::PackageLoader::self()->listPackages(QStringLiteral("Plasma/DataEngine"));
+    const QList<KPluginMetaData> packagePlugins = KPackage::PackageLoader::self()->listPackages(QStringLiteral("Plasma5Support/DataEngine"));
     for (const auto &plugin : packagePlugins) {
         engines << plugin.pluginId();
     }
@@ -218,7 +218,7 @@ KPluginInfo::List PluginLoader::listEngineInfoByCategory(const QString &category
     list = KPluginInfo::fromMetaData(plugins);
 
     // TODO FIXME: PackageLoader needs to have a function to inject packageStructures
-    const QList<KPluginMetaData> packagePlugins = KPackage::PackageLoader::self()->listPackages(QStringLiteral("Plasma/DataEngine"));
+    const QList<KPluginMetaData> packagePlugins = KPackage::PackageLoader::self()->listPackages(QStringLiteral("Plasma5Support/DataEngine"));
     list << KPluginInfo::fromMetaData(packagePlugins.toVector());
 
     return list;
@@ -350,7 +350,7 @@ bool PluginLoader::isPluginVersionCompatible(KPluginLoader &loader)
     const quint32 version = loader.pluginVersion();
     if (version == quint32(-1)) {
         // unversioned, just let it through
-        qCWarning(LOG_PLASMA) << loader.fileName() << "unversioned plugin detected, may result in instability";
+        qCWarning(LOG_PLASMA5SUPPORT) << loader.fileName() << "unversioned plugin detected, may result in instability";
         return true;
     }
 
@@ -359,7 +359,7 @@ bool PluginLoader::isPluginVersionCompatible(KPluginLoader &loader)
     const quint32 maxVersion = PLASMA5SUPPORT_MAKE_VERSION(PLASMA5SUPPORT_VERSION_MAJOR, PLASMA5SUPPORT_VERSION_MINOR, 60);
 
     if (version < minVersion || version > maxVersion) {
-        qCWarning(LOG_PLASMA) << loader.fileName() << ": this plugin is compiled against incompatible Plasma version" << version
+        qCWarning(LOG_PLASMA5SUPPORT) << loader.fileName() << ": this plugin is compiled against incompatible Plasma version" << version
                               << "This build is compatible with" << PLASMA5SUPPORT_VERSION_MAJOR << ".0.0 (" << minVersion << ") to" << PLASMA5SUPPORT_VERSION_STRING << "("
                               << maxVersion << ")";
         return false;
@@ -380,7 +380,7 @@ QVector<KPluginMetaData> PluginLoaderPrivate::Cache::findPluginsById(const QStri
         auto insertIntoCache = [this](const QString &pluginPath) {
             KPluginMetaData metadata(pluginPath);
             if (!metadata.isValid()) {
-                qCDebug(LOG_PLASMA) << "invalid metadata" << pluginPath;
+                qCDebug(LOG_PLASMA5SUPPORT) << "invalid metadata" << pluginPath;
                 return;
             }
 
@@ -405,7 +405,7 @@ QVector<KPluginMetaData> PluginLoaderPrivate::Cache::findPluginsById(const QStri
         if (it != plugins.constEnd()) {
             ret = *it;
         }
-        qCDebug(LOG_PLASMA) << "loading applet by name" << name << useRuntimeCache << ret.size();
+        qCDebug(LOG_PLASMA5SUPPORT) << "loading applet by name" << name << useRuntimeCache << ret.size();
     } else {
         for (const auto &dir : dirs) {
             ret = KPluginLoader::findPluginsById(dir, pluginName);

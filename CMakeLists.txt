@@ -80,7 +80,7 @@ add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
 #########################################################################
 
 
-option(BUILD_COVERAGE "Build Plasma Frameworks with gcov support" OFF)
+option(BUILD_COVERAGE "Build Plasma5Support Frameworks with gcov support" OFF)
 
 if(BUILD_COVERAGE)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
@@ -103,7 +103,7 @@ if (BUILD_TESTING)
 #    add_subdirectory(autotests)
 endif()
 
-################ create PlasmaConfig.cmake and install it ###########################
+################ create Plasma5SupportConfig.cmake and install it ###########################
 
 # create a Config.cmake and a ConfigVersion.cmake file and install them
 
@@ -112,11 +112,11 @@ set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5Plasma5Support")
 if (BUILD_QCH)
     ecm_install_qch_export(
         TARGETS KF5Plasma5Support_QCH
-        FILE KF5PlasmaQchTargets.cmake
+        FILE KF5Plasma5SupportQchTargets.cmake
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         COMPONENT Devel
     )
-    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF5PlasmaQchTargets.cmake\")")
+    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF5Plasma5SupportQchTargets.cmake\")")
 endif()
 
 configure_package_config_file(

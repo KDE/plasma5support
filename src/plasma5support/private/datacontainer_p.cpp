@@ -49,7 +49,7 @@ SignalRelay::SignalRelay(DataContainer *parent, DataContainerPrivate *data, uint
     , m_resetTimer(true)
     , m_queued(true)
 {
-    // qCDebug(LOG_PLASMA) << "signal relay with time of" << m_timerId << "being set up";
+    // qCDebug(LOG_PLASMA5SUPPORT) << "signal relay with time of" << m_timerId << "being set up";
     m_timerId = startTimer(immediateUpdate ? 0 : m_interval);
     if (m_align != Plasma5Support::Types::NoAlignment) {
         checkAlignment();
@@ -91,7 +91,7 @@ void SignalRelay::checkAlignment()
 
 void SignalRelay::checkQueueing()
 {
-    // qCDebug(LOG_PLASMA) << m_queued;
+    // qCDebug(LOG_PLASMA5SUPPORT) << m_queued;
     if (m_queued) {
         Q_EMIT dataUpdated(dc->objectName(), d->data);
         m_queued = false;
@@ -134,13 +134,13 @@ void SignalRelay::timerEvent(QTimerEvent *event)
 
     Q_EMIT dc->updateRequested(dc);
     if (d->hasUpdates()) {
-        // qCDebug(LOG_PLASMA) << "emitting data updated directly" << d->data;
+        // qCDebug(LOG_PLASMA5SUPPORT) << "emitting data updated directly" << d->data;
         Q_EMIT dataUpdated(dc->objectName(), d->data);
         m_queued = false;
     } else {
         // the source wasn't actually updated; so let's put ourselves in the queue
         // so we get a dataUpdated() call when the data does arrive
-        // qCDebug(LOG_PLASMA) << "queued";
+        // qCDebug(LOG_PLASMA5SUPPORT) << "queued";
         m_queued = true;
     }
 }

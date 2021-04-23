@@ -105,7 +105,7 @@ Plasma5Support::DataEngine *DataEngineManager::engine(const QString &name) const
 Plasma5Support::DataEngine *DataEngineManager::loadEngine(const QString &name)
 {
     if (name.isEmpty()) {
-        qCDebug(LOG_PLASMA) << "Asked an engine with empty name";
+        qCDebug(LOG_PLASMA5SUPPORT) << "Asked an engine with empty name";
         return d->nullEngine();
     }
     Plasma5Support::DataEngine::Dict::const_iterator it = d->engines.constFind(name);
@@ -118,7 +118,7 @@ Plasma5Support::DataEngine *DataEngineManager::loadEngine(const QString &name)
 
     DataEngine *engine = PluginLoader::self()->loadDataEngine(name);
     if (!engine) {
-        qCDebug(LOG_PLASMA) << "Can't find a dataengine named" << name;
+        qCDebug(LOG_PLASMA5SUPPORT) << "Can't find a dataengine named" << name;
         return d->nullEngine();
     }
 
@@ -147,7 +147,7 @@ void DataEngineManager::timerEvent(QTimerEvent *)
     QString path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/plasma_dataenginemanager_log");
     QFile f(path);
     if (!f.open(QIODevice::WriteOnly | QIODevice::Append | QIODevice::Text)) {
-        // qCDebug(LOG_PLASMA) << "failed to open" << path;
+        // qCDebug(LOG_PLASMA5SUPPORT) << "failed to open" << path;
         return;
     }
 

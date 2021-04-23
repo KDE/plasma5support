@@ -11,8 +11,8 @@
 
 #include <QSqlDatabase>
 
-#include <plasma/service.h>
-#include <plasma/servicejob.h>
+#include <plasma5support/service.h>
+#include <plasma5support/servicejob.h>
 
 // Begin StorageJob
 class StorageJob : public Plasma5Support::ServiceJob

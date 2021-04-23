@@ -9,7 +9,7 @@
 
 #include <QUrl>
 
-#include <plasma/plasma5support_export.h>
+#include <plasma5support/plasma5support_export.h>
 
 namespace Plasma5Support
 {
@@ -17,7 +17,7 @@ class DataEngine;
 class DataEngineConsumerPrivate;
 
 /**
- * @class DataEngineConsumer plasma/dataengineconsumer.h <Plasma/DataEngineConsumer>
+ * @class DataEngineConsumer plasma5support/dataengineconsumer.h <Plasma5Support/DataEngineConsumer>
  *
  * @brief A class that makes it safe and easy to use DataEngines
  *

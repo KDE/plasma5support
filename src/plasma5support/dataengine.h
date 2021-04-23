@@ -17,6 +17,7 @@
 #include <plasma5support/plasma5support.h>
 #include <plasma5support/service.h>
 #include <plasma5support/version.h>
+#include <plasma5support/plasma5support_export.h>
 
 class QAbstractItemModel;
 
@@ -29,7 +30,7 @@ class Service;
 class DataEnginePrivate;
 
 /**
- * @class DataEngine plasma/dataengine.h <Plasma/DataEngine>
+ * @class DataEngine plasma5support/dataengine.h <Plasma5Support/DataEngine>
  *
  * @short Data provider for plasmoids (Plasma plugins)
  *

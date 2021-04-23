@@ -7,14 +7,14 @@
 #ifndef PLASMA5SUPPORT_DATAENGINEMANAGER_P_H
 #define PLASMA5SUPPORT_DATAENGINEMANAGER_P_H
 
-#include <plasma/dataengine.h>
+#include "dataengine.h"
 
 namespace Plasma5Support
 {
 class DataEngineManagerPrivate;
 
 /**
- * @class DataEngineManager plasma/dataenginemanager.h <Plasma/DataEngineManager>
+ * @class DataEngineManager plasma5support/dataenginemanager.h <Plasma5Support/DataEngineManager>
  *
  * @short DataEngine loader and life time manager
  *

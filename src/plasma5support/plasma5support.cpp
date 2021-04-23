@@ -4,7 +4,7 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#include <plasma/plasma5support.h>
+#include <plasma5support/plasma5support.h>
 
 #include <QAction>
 #include <QMenu>

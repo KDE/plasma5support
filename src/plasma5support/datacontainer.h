@@ -12,8 +12,8 @@
 #include <QTimer>
 
 #include <KJob>
-#include <plasma/dataengine.h>
-#include <plasma/plasma5support_export.h>
+#include <plasma5support/dataengine.h>
+#include <plasma5support/plasma5support_export.h>
 
 class QAbstractItemModel;
 
@@ -22,7 +22,7 @@ namespace Plasma5Support
 class DataContainerPrivate;
 
 /**
- * @class DataContainer plasma/datacontainer.h <Plasma/DataContainer>
+ * @class DataContainer plasma5support/datacontainer.h <Plasma5Support/DataContainer>
  *
  * @brief A set of data exported via a DataEngine
  *

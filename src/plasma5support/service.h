@@ -13,8 +13,8 @@
 
 #include <KConfigGroup>
 
-#include <plasma/plasma5support.h>
-#include <plasma/plasma5support_export.h>
+#include <plasma5support/plasma5support.h>
+#include <plasma5support/plasma5support_export.h>
 
 class QIODevice;
 class QWidget;
@@ -27,7 +27,7 @@ class ServiceJob;
 class ServicePrivate;
 
 /**
- * @class Service plasma/service.h <Plasma/Service>
+ * @class Service plasma5support/service.h <Plasma5Support/Service>
  *
  * @short This class provides a generic API for write access to settings or services.
  *
@@ -170,7 +170,7 @@ protected:
     virtual ServiceJob *createJob(const QString &operation, QVariantMap &parameters) = 0;
 
     /**
-     * By default this is based on the file in plasma/services/name.operations, but can be
+     * By default this is based on the file in plasma5support/services/name.operations, but can be
      * reimplemented to use a different mechanism.
      *
      * It should result in a call to setOperationsScheme(QIODevice *);

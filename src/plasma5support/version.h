@@ -7,7 +7,7 @@
 #ifndef PLASMA5SUPPORTVERSION_H
 #define PLASMA5SUPPORTVERSION_H
 
-/** @file plasma/version.h <Plasma/Version> */
+/** @file plasma5support/version.h <Plasma5Support/Version> */
 
 #include <plasma5support/plasma5support_export.h>
 #include <plasma5support_version.h>

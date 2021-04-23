@@ -39,7 +39,7 @@ bool isPluginVersionCompatible(unsigned int version)
 {
     if (version == quint32(-1)) {
         // unversioned, just let it through
-        qCWarning(LOG_PLASMA) << "unversioned plugin detected, may result in instability";
+        qCWarning(LOG_PLASMA5SUPPORT) << "unversioned plugin detected, may result in instability";
         return true;
     }
 
@@ -49,7 +49,7 @@ bool isPluginVersionCompatible(unsigned int version)
 
     if (version < minVersion || version > maxVersion) {
 #ifndef NDEBUG
-        // qCDebug(LOG_PLASMA) << "plugin is compiled against incompatible Plasma version  " << version
+        // qCDebug(LOG_PLASMA5SUPPORT) << "plugin is compiled against incompatible Plasma version  " << version
         //         << "This build is compatible with" << PLASMA5SUPPORT_VERSION_MAJOR << ".0.0 (" << minVersion
         //         << ") to" << PLASMA5SUPPORT_VERSION_STRING << "(" << maxVersion << ")";
 #endif

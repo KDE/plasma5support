@@ -11,14 +11,14 @@
 
 #include <KJob>
 
-#include <plasma/plasma5support_export.h>
+#include <plasma5support/plasma5support_export.h>
 
 namespace Plasma5Support
 {
 class ServiceJobPrivate;
 
 /**
- * @class ServiceJob plasma/servicejob.h <Plasma/ServiceJob>
+ * @class ServiceJob plasma5support/servicejob.h <Plasma5Support/ServiceJob>
  *
  * @short This class provides jobs for use with Plasma::Service
  *

@@ -8,7 +8,7 @@
 #define PLUGIN_LOADER_H
 
 #include <KPluginInfo>
-#include <plasma/plasma5support.h>
+#include <plasma5support/plasma5support.h>
 
 namespace Plasma5Support
 {
@@ -25,7 +25,7 @@ class PluginLoaderPrivate;
 // * add KPluginInfo listing support for Containments (already loaded via the applet loading code)
 
 /**
- * @class PluginLoader plasma/pluginloader.h <Plasma/PluginLoader>
+ * @class PluginLoader plasma5support/pluginloader.h <Plasma5Support/PluginLoader>
  *
  * This is an abstract base class which defines an interface to which Plasma's
  * Applet Loading logic can communicate with a parent application. The plugin loader
@@ -192,7 +192,7 @@ protected:
 
     /**
      * Standardized mechanism for providing internal dataengines by install .desktop files
-     * in $APPPDATA/plasma/internal/dataengines/
+     * in $APPPDATA/plasma5support/internal/dataengines/
      *
      * For applications that do this, internalDataEngineInfo can be implemented as a one-liner
      * call to this method.
@@ -203,7 +203,7 @@ protected:
 
     /**
      * Standardized mechanism for providing internal services by install .desktop files
-     * in $APPPDATA/plasma/internal/services/
+     * in $APPPDATA/plasma5support/internal/services/
      *
      * For applications that do this, internalServiceInfo can be implemented as a one-liner
      * call to this method.
