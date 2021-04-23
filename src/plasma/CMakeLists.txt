@@ -38,8 +38,6 @@ if(HAVE_X11)
     set(Plasma5Support_LIB_SRCS ${Plasma5Support_LIB_SRCS} private/effectwatcher.cpp)
 endif()
 
-kconfig_add_kcfg_files(Plasma5Support_LIB_SRCS data/kconfigxt/libplasma-theme-global.kcfgc)
-
 ecm_qt_declare_logging_category(Plasma5Support_LIB_SRCS
     HEADER debug_p.h
     IDENTIFIER LOG_PLASMA
