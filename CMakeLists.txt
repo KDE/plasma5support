@@ -97,7 +97,7 @@ if(BUILD_COVERAGE)
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lgcov")
 endif()
 
-# make plasma_version.h available
+# make plasma5support_version.h available
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 ################# list the subdirectories #################
@@ -121,7 +121,7 @@ set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5PlasmaSupport")
 
 if (BUILD_QCH)
     ecm_install_qch_export(
-        TARGETS KF5Plasma_QCH
+        TARGETS KF5Plasma5Support_QCH
         FILE KF5PlasmaQchTargets.cmake
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         COMPONENT Devel

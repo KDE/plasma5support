@@ -1,4 +1,4 @@
-add_subdirectory(plasma)
+add_subdirectory(plasma5support)
 #add_subdirectory(declarativeimports)
 
 

@@ -4,21 +4,21 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMAVERSION_H
-#define PLASMAVERSION_H
+#ifndef PLASMA5SUPPORTVERSION_H
+#define PLASMA5SUPPORTVERSION_H
 
 /** @file plasma/version.h <Plasma/Version> */
 
-#include <plasma/plasma5support_export.h>
-#include <plasma_version.h>
+#include <plasma5support/plasma5support_export.h>
+#include <plasma5support_version.h>
 
-#define PLASMA_MAKE_VERSION(a, b, c) (((a) << 16) | ((b) << 8) | (c))
+#define PLASMA5SUPPORT_MAKE_VERSION(a, b, c) (((a) << 16) | ((b) << 8) | (c))
 
 /**
  * Compile-time macro for checking the plasma version. Not useful for
  * detecting the version of libplasma at runtime.
  */
-#define PLASMA_IS_VERSION(a, b, c) (PLASMA_VERSION >= PLASMA_MAKE_VERSION(a, b, c))
+#define PLASMA5SUPPORT_IS_VERSION(a, b, c) (PLASMA5SUPPORT_VERSION >= PLASMA5SUPPORT_MAKE_VERSION(a, b, c))
 
 /**
  * Namespace for everything in libplasma
@@ -55,6 +55,6 @@ PLASMA5SUPPORT_EXPORT const char *versionString();
  */
 PLASMA5SUPPORT_EXPORT bool isPluginVersionCompatible(unsigned int version);
 
-} // Plasma namespace
+} // Plasma5Support namespace
 
 #endif // multiple inclusion guard

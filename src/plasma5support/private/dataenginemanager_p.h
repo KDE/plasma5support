@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA_DATAENGINEMANAGER_P_H
-#define PLASMA_DATAENGINEMANAGER_P_H
+#ifndef PLASMA5SUPPORT_DATAENGINEMANAGER_P_H
+#define PLASMA5SUPPORT_DATAENGINEMANAGER_P_H
 
 #include <plasma/dataengine.h>
 

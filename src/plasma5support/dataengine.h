@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA_DATAENGINE_H
-#define PLASMA_DATAENGINE_H
+#ifndef PLASMA5SUPPORT_DATAENGINE_H
+#define PLASMA5SUPPORT_DATAENGINE_H
 
 #include <QHash>
 #include <QObject>
@@ -14,9 +14,9 @@
 #include <KPluginInfo>
 #include <KService>
 
-#include <plasma/plasma5support.h>
-#include <plasma/service.h>
-#include <plasma/version.h>
+#include <plasma5support/plasma5support.h>
+#include <plasma5support/service.h>
+#include <plasma5support/version.h>
 
 class QAbstractItemModel;
 
@@ -448,19 +448,19 @@ private:
     DataEnginePrivate *const d;
 };
 
-} // Plasma namespace
+} // Plasma5Support namespace
 
 /**
  * Register a data engine when it is contained in a loadable module
  */
 /* clang-format off */
-#define K_EXPORT_PLASMA_DATAENGINE(libname, classname) \
+#define K_EXPORT_PLASMA5SUPPORT_DATAENGINE(libname, classname) \
     K_PLUGIN_FACTORY(factory, registerPlugin<classname>();) \
-    K_EXPORT_PLUGIN_VERSION(PLASMA_VERSION)
+    K_EXPORT_PLUGIN_VERSION(PLASMA5SUPPORT_VERSION)
 
-#define K_EXPORT_PLASMA_DATAENGINE_WITH_JSON(libname, classname, jsonFile) \
+#define K_EXPORT_PLASMA5SUPPORT_DATAENGINE_WITH_JSON(libname, classname, jsonFile) \
     K_PLUGIN_FACTORY_WITH_JSON(factory, jsonFile, registerPlugin<classname>();) \
-    K_EXPORT_PLUGIN_VERSION(PLASMA_VERSION)
+    K_EXPORT_PLUGIN_VERSION(PLASMA5SUPPORT_VERSION)
 /* clang-format on */
 
 #endif // multiple inclusion guard

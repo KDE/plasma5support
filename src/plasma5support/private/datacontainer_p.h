@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA_DATACONTAINER_P_H
-#define PLASMA_DATACONTAINER_P_H
+#ifndef PLASMA5SUPPORT_DATACONTAINER_P_H
+#define PLASMA5SUPPORT_DATACONTAINER_P_H
 
 #include "datacontainer.h"
 #include "servicejob.h"
@@ -113,6 +113,6 @@ protected:
     void timerEvent(QTimerEvent *event) override;
 };
 
-} // Plasma namespace
+} // Plasma5Support namespace
 
 #endif // multiple inclusion guard

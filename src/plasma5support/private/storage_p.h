@@ -52,4 +52,4 @@ private:
     QString m_clientName;
 };
 
-#endif // PLASMA_STORAGE_P_H
+#endif // PLASMA5SUPPORT_STORAGE_P_H

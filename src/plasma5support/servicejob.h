@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA_SERVICEJOB_H
-#define PLASMA_SERVICEJOB_H
+#ifndef PLASMA5SUPPORT_SERVICEJOB_H
+#define PLASMA5SUPPORT_SERVICEJOB_H
 
 #include <QVariant>
 

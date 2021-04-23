@@ -7,7 +7,7 @@
 #set(CMAKE_AUTOMOC_RELAXED_MODE ON)
 
 if(KDE_PLATFORM_FEATURE_BINARY_COMPATIBLE_FEATURE_REDUCTION)
-    set(PLASMA_NO_PACKAGE_EXTRADATA TRUE)
+    set(PLASMA5SUPPORT_NO_PACKAGE_EXTRADATA TRUE)
 endif()
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config-plasma5support.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma5support.h)
@@ -50,7 +50,7 @@ ecm_qt_declare_logging_category(Plasma5Support_LIB_SRCS
 add_library(KF5Plasma5Support ${Plasma5Support_LIB_SRCS})
 add_library(KF5::Plasma5Support ALIAS KF5Plasma5Support)
 ecm_generate_export_header(KF5Plasma5Support
-    EXPORT_FILE_NAME plasma/plasma5support_export.h
+    EXPORT_FILE_NAME plasma5support/plasma5support_export.h
     BASE_NAME Plasma5Support
     GROUP_BASE_NAME KF
     VERSION ${KF_VERSION}
@@ -61,7 +61,7 @@ ecm_generate_export_header(KF5Plasma5Support
 # needs fixing of undeprecated API being still implemented using own deprecated API
 
 if(HAVE_X11)
-    set(PLASMA_EXTRA_LIBS ${PLASMA_EXTRA_LIBS} Qt5::X11Extras ${X11_LIBRARIES} XCB::XCB)
+    set(PLASMA5SUPPORT_EXTRA_LIBS ${PLASMA5SUPPORT_EXTRA_LIBS} Qt5::X11Extras ${X11_LIBRARIES} XCB::XCB)
 endif()
 
 target_link_libraries(KF5Plasma5Support
@@ -84,29 +84,29 @@ PRIVATE
     KF5::Notifications
     KF5::IconThemes
     KF5::Plasma
-    ${PLASMA_EXTRA_LIBS}
+    ${PLASMA5SUPPORT_EXTRA_LIBS}
 )
 
-set(Plasma_BUILD_INCLUDE_DIRS
+set(Plasma5Support_BUILD_INCLUDE_DIRS
     ${CMAKE_CURRENT_SOURCE_DIR}/..
     ${CMAKE_CURRENT_BINARY_DIR}
     ${CMAKE_CURRENT_BINARY_DIR}/Plasma
 )
 target_include_directories(KF5Plasma5Support PUBLIC
-  "$<BUILD_INTERFACE:${Plasma_BUILD_INCLUDE_DIRS}>"
+  "$<BUILD_INTERFACE:${Plasma5Support_BUILD_INCLUDE_DIRS}>"
 )
 target_include_directories(KF5Plasma5Support INTERFACE
   "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5};${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma>"
 )
 
 set_target_properties(KF5Plasma5Support PROPERTIES
-                                VERSION ${PLASMA_VERSION_STRING}
-                                SOVERSION ${PLASMA_SOVERSION}
+                                VERSION ${PLASMA5SUPPORT_VERSION_STRING}
+                                SOVERSION ${PLASMA5SUPPORT_SOVERSION}
                                 EXPORT_NAME Plasma
                       )
 
 ########### install files ###############
-ecm_generate_headers(Plasma_CamelCase_HEADERS
+ecm_generate_headers(Plasma5Support_CamelCase_HEADERS
     HEADER_NAMES
         DataContainer
         DataEngine
@@ -115,21 +115,21 @@ ecm_generate_headers(Plasma_CamelCase_HEADERS
         Service
         ServiceJob
         Plasma5Support
-    REQUIRED_HEADERS Plasma_HEADERS
+    REQUIRED_HEADERS Plasma5Support_HEADERS
     PREFIX Plasma
 )
 
-set(Plasma_HEADERS
-    ${Plasma_HEADERS}
+set(Plasma5Support_HEADERS
+    ${Plasma5Support_HEADERS}
     version.h
 )
 
 install(FILES
-        ${Plasma_HEADERS}
-        ${CMAKE_CURRENT_BINARY_DIR}/plasma/plasma_export.h
+        ${Plasma5Support_HEADERS}
+        ${CMAKE_CURRENT_BINARY_DIR}/plasma/plasma5support_export.h
         DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/plasma5support COMPONENT Devel)
 
-install(FILES ${Plasma_CamelCase_HEADERS}
+install(FILES ${Plasma5Support_CamelCase_HEADERS}
         DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma5Support COMPONENT Devel)
 
 
@@ -138,9 +138,9 @@ install(FILES
    data/servicetypes/plasma-service.desktop
    DESTINATION ${KDE_INSTALL_KSERVICETYPES5DIR})
 
-install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA_DATA_INSTALL_DIR}/services)
-install(FILES data/operations/plasmoidservice.operations DESTINATION ${PLASMA_DATA_INSTALL_DIR}/services)
-install(FILES data/operations/storage.operations DESTINATION ${PLASMA_DATA_INSTALL_DIR}/services)
+install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
+install(FILES data/operations/plasmoidservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
+install(FILES data/operations/storage.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 
 install(TARGETS KF5Plasma5Support EXPORT KF5Plasma5SupportTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
 
@@ -152,7 +152,7 @@ if(BUILD_QCH)
         VERSION ${KF_VERSION}
         ORG_DOMAIN org.kde
         SOURCES # using only public headers, to cover only public API
-            ${Plasma_HEADERS}
+            ${Plasma5Support_HEADERS}
             ${PlasmaScripting_HEADERS}
             Mainpage.dox
         MD_MAINPAGE "${CMAKE_SOURCE_DIR}/README.md"
@@ -161,7 +161,7 @@ if(BUILD_QCH)
             KF5Service_QCH
             KF5Package_QCH
         INCLUDE_DIRS
-            ${Plasma_BUILD_INCLUDE_DIRS}
+            ${Plasma5Support_BUILD_INCLUDE_DIRS}
         BLANK_MACROS
             PLASMA5SUPPORT_EXPORT
             PLASMA5SUPPORT_DEPRECATED

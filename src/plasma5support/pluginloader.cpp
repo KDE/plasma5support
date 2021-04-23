@@ -23,7 +23,7 @@
 #include "debug_p.h"
 #include "private/service_p.h" // for NullService
 #include "private/storage_p.h"
-#include <plasma/version.h>
+#include <plasma5support/version.h>
 
 namespace Plasma5Support
 {
@@ -317,7 +317,7 @@ KPluginInfo::List PluginLoader::internalServiceInfo() const
 static KPluginInfo::List standardInternalInfo(const QString &type, const QString &category = QString())
 {
     QStringList files = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation,
-                                                  QLatin1String(PLASMA_RELATIVE_DATA_INSTALL_DIR "/internal/") + type + QLatin1String("/*.desktop"),
+                                                  QLatin1String(PLASMA5SUPPORT_RELATIVE_DATA_INSTALL_DIR "/internal/") + type + QLatin1String("/*.desktop"),
                                                   QStandardPaths::LocateFile);
 
     const KPluginInfo::List allInfo = KPluginInfo::fromFiles(files);
@@ -355,13 +355,13 @@ bool PluginLoader::isPluginVersionCompatible(KPluginLoader &loader)
         return true;
     }
 
-    // we require PLASMA_VERSION_MAJOR and PLASMA_VERSION_MINOR
-    const quint32 minVersion = PLASMA_MAKE_VERSION(PLASMA_VERSION_MAJOR, 0, 0);
-    const quint32 maxVersion = PLASMA_MAKE_VERSION(PLASMA_VERSION_MAJOR, PLASMA_VERSION_MINOR, 60);
+    // we require PLASMA5SUPPORT_VERSION_MAJOR and PLASMA5SUPPORT_VERSION_MINOR
+    const quint32 minVersion = PLASMA5SUPPORT_MAKE_VERSION(PLASMA5SUPPORT_VERSION_MAJOR, 0, 0);
+    const quint32 maxVersion = PLASMA5SUPPORT_MAKE_VERSION(PLASMA5SUPPORT_VERSION_MAJOR, PLASMA5SUPPORT_VERSION_MINOR, 60);
 
     if (version < minVersion || version > maxVersion) {
         qCWarning(LOG_PLASMA) << loader.fileName() << ": this plugin is compiled against incompatible Plasma version" << version
-                              << "This build is compatible with" << PLASMA_VERSION_MAJOR << ".0.0 (" << minVersion << ") to" << PLASMA_VERSION_STRING << "("
+                              << "This build is compatible with" << PLASMA5SUPPORT_VERSION_MAJOR << ".0.0 (" << minVersion << ") to" << PLASMA5SUPPORT_VERSION_STRING << "("
                               << maxVersion << ")";
         return false;
     }

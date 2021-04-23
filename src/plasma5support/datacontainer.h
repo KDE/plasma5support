@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA_DATACONTAINER_H
-#define PLASMA_DATACONTAINER_H
+#ifndef PLASMA5SUPPORT_DATACONTAINER_H
+#define PLASMA5SUPPORT_DATACONTAINER_H
 
 #include <QHash>
 #include <QObject>
@@ -273,6 +273,6 @@ private:
     Q_PRIVATE_SLOT(d, void retrieve())
 };
 
-} // Plasma namespace
+} // Plasma5Support namespace
 
 #endif // multiple inclusion guard

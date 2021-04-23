@@ -89,6 +89,6 @@ public:
     QString waitingSourceRequest;
 };
 
-} // Plasma namespace
+} // Plasma5Support namespace
 
 #endif // multiple inclusion guard
