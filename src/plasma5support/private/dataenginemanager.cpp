@@ -44,7 +44,7 @@ public:
 
     ~DataEngineManagerPrivate()
     {
-        for (Plasma5Support::DataEngine *engine : qAsConst(engines)) {
+        for (Plasma5Support::DataEngine *engine : std::as_const(engines)) {
             delete engine;
         }
         engines.clear();
@@ -116,7 +116,9 @@ Plasma5Support::DataEngine *DataEngineManager::loadEngine(const QString &name)
         return engine;
     }
 
-    DataEngine *engine = PluginLoader::self()->loadDataEngine(name);
+    // Expect the plugin id to be the same as the file name or not explicitly set
+    const KPluginMetaData data(QLatin1String("plasma/dataengine/plasma_engine_") + name);
+    DataEngine *engine = KPluginFactory::instantiatePlugin<Plasma5Support::DataEngine>(data).plugin;
     if (!engine) {
         qCDebug(LOG_PLASMA5SUPPORT) << "Can't find a dataengine named" << name;
         return d->nullEngine();
@@ -147,7 +149,7 @@ void DataEngineManager::timerEvent(QTimerEvent *)
     QString path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/plasma_dataenginemanager_log");
     QFile f(path);
     if (!f.open(QIODevice::WriteOnly | QIODevice::Append | QIODevice::Text)) {
-        // qCDebug(LOG_PLASMA5SUPPORT) << "failed to open" << path;
+        // qCDebug(LOG_PLASMA) << "failed to open" << path;
         return;
     }
 
@@ -177,7 +179,7 @@ void DataEngineManager::timerEvent(QTimerEvent *)
             if (relays > 0) {
                 out << "                       Relays: " << dc->d->relays.count() << '\n';
                 QString times;
-                for (SignalRelay *relay : qAsConst(dc->d->relays)) {
+                for (SignalRelay *relay : std::as_const(dc->d->relays)) {
                     times.append(QLatin1Char(' ') + QString::number(relay->m_interval));
                 }
                 out << "                       Relay Timeouts: " << times << " \n";
@@ -191,6 +193,6 @@ void DataEngineManager::timerEvent(QTimerEvent *)
     //    killTimer(event->timerId());
 }
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #include "moc_dataenginemanager_p.cpp"

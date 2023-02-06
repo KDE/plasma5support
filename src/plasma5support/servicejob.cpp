@@ -83,6 +83,6 @@ void ServiceJob::start()
     setResult(false);
 }
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #include "moc_servicejob.cpp"

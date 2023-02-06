@@ -74,6 +74,6 @@ public:
     QSet<QString> disabledOperations;
 };
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #endif

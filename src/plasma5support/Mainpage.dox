@@ -1,10 +1,10 @@
 /** @page libplasma Plasma framework
 
 Plasma framework is the core of the Plasma desktop.  It provides a framework of graphical
-widgets (Plasma::Applet) that can be organised into managed groupings
-(Plasma::Containment), such as a desktop or panel.  It also provides a data
-abstraction layer (Plasma::DataEngine) and a corresponding service interaction
-layer (Plasma::Service) to make implementing widgets easier.
+widgets (Plasma5Support::Applet) that can be organised into managed groupings
+(Plasma5Support::Containment), such as a desktop or panel.  It also provides a data
+abstraction layer (Plasma5Support::DataEngine) and a corresponding service interaction
+layer (Plasma5Support::Service) to make implementing widgets easier.
 
 The <a href="https://doc.qt.io/qt-5/qtquick-index.html">Qt Quick
 framework</a> and set of <a href="https://api.kde.org/frameworks">KDE Frameworks</a>
@@ -20,8 +20,8 @@ collection, such as "current track" and "tag cloud" widgets.
 
 Other important classes are:
 
- - Plasma::DataEngine
- - Plasma::Service
+ - Plasma5Support::DataEngine
+ - Plasma5Support::Service
 
 
 The

@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA5SUPPORT_DATACONTAINER_H
-#define PLASMA5SUPPORT_DATACONTAINER_H
+#ifndef PLASMA_DATACONTAINER_H
+#define PLASMA_DATACONTAINER_H
 
 #include <QHash>
 #include <QObject>
@@ -22,11 +22,11 @@ namespace Plasma5Support
 class DataContainerPrivate;
 
 /**
- * @class DataContainer plasma5support/datacontainer.h <Plasma5Support/DataContainer>
+ * @class DataContainer plasma/datacontainer.h <Plasma/DataContainer>
  *
  * @brief A set of data exported via a DataEngine
  *
- * Plasma::DataContainer wraps the data exported by a DataEngine
+ * Plasma5Support::DataContainer wraps the data exported by a DataEngine
  * implementation, providing a generic wrapper for the data.
  *
  * A DataContainer may have zero or more associated pieces of data which
@@ -273,6 +273,6 @@ private:
     Q_PRIVATE_SLOT(d, void retrieve())
 };
 
-} // Plasma5Support namespace
+} // Plasma namespace
 
 #endif // multiple inclusion guard

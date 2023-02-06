@@ -20,9 +20,9 @@ class ServiceJobPrivate;
 /**
  * @class ServiceJob plasma5support/servicejob.h <Plasma5Support/ServiceJob>
  *
- * @short This class provides jobs for use with Plasma::Service
+ * @short This class provides jobs for use with Plasma5Support::Service
  *
- * Unlike KJob, you can do the work in start(), since Plasma::Service already
+ * Unlike KJob, you can do the work in start(), since Plasma5Support::Service already
  * delays the call to start() until the event loop is reached.
  *
  * If the job is quick enough that it is not worth reporting the progress,
@@ -105,6 +105,6 @@ private:
     ServiceJobPrivate *const d;
 };
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #endif // multiple inclusion guard

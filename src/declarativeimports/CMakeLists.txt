@@ -7,13 +7,15 @@ set(plasma5support_SRCS
     serviceoperationstatus.cpp
     )
 
-add_library(plasma5supportplugin SHARED ${plasma5support_SRCS})
+
+ecm_add_qml_module(plasma5supportplugin URI "org.kde.plasma.plasma5support")
 target_link_libraries(plasma5supportplugin
-        Qt5::Quick
-        Qt5::Qml
-        KF5::I18n
-        KF5::Service #for kplugininfo.h
-        KF5::Plasma5Support
+        Qt${QT_MAJOR_VERSION}::Quick
+        Qt${QT_MAJOR_VERSION}::Qml
+        KF6::I18n
+        KF6::Service #for kplugininfo.h
+        KF6::Plasma5Support
+        KF6::CoreAddons
 )
 
 install(TARGETS plasma5supportplugin DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/plasma/plasma5support)

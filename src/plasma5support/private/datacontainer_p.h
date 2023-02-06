@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA5SUPPORT_DATACONTAINER_P_H
-#define PLASMA5SUPPORT_DATACONTAINER_P_H
+#ifndef PLASMA_DATACONTAINER_P_H
+#define PLASMA_DATACONTAINER_P_H
 
 #include "datacontainer.h"
 #include "servicejob.h"
@@ -13,6 +13,7 @@
 
 #include <QBasicTimer>
 #include <QElapsedTimer>
+#include <QPointer>
 #include <QTimerEvent>
 
 #include <QAbstractItemModel>
@@ -113,6 +114,6 @@ protected:
     void timerEvent(QTimerEvent *event) override;
 };
 
-} // Plasma5Support namespace
+} // Plasma namespace
 
 #endif // multiple inclusion guard

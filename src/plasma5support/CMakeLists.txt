@@ -1,22 +1,21 @@
 
-# This option should be removed, or moved down as far as possible.
-# That means porting the existing frameworks to the CMake automoc
-# feature. Porting is mostly removing explicit moc includes, and
-# leaving the ones which are truly needed (ie, if you remove
-# them, the build fails).
-#set(CMAKE_AUTOMOC_RELAXED_MODE ON)
-
 if(KDE_PLATFORM_FEATURE_BINARY_COMPATIBLE_FEATURE_REDUCTION)
     set(PLASMA5SUPPORT_NO_PACKAGE_EXTRADATA TRUE)
 endif()
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config-plasma5support.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma5support.h)
 
-add_definitions(-DKDE_DEFAULT_DEBUG_AREA=1209)
+add_library(KF6Plasma5Support)
+add_library(KF6::Plasma5Support ALIAS KF6Plasma5Support)
+
+set_target_properties(KF6Plasma5Support PROPERTIES
+    VERSION     ${PLASMA5SUPPORT_VERSION}
+    SOVERSION   ${PLASMA5SUPPORT_SOVERSION}
+    EXPORT_NAME Plasma5Support
+)
 
 ########### next target ###############
-
-set(Plasma5Support_LIB_SRCS
+target_sources(KF6Plasma5Support PRIVATE
 #global
     plasma5support.cpp
     pluginloader.cpp
@@ -34,11 +33,7 @@ set(Plasma5Support_LIB_SRCS
     private/storagethread.cpp
 )
 
-if(HAVE_X11)
-    set(Plasma5Support_LIB_SRCS ${Plasma5Support_LIB_SRCS} private/effectwatcher.cpp)
-endif()
-
-ecm_qt_declare_logging_category(Plasma5Support_LIB_SRCS
+ecm_qt_declare_logging_category(KF6Plasma5Support
     HEADER debug_p.h
     IDENTIFIER LOG_PLASMA5SUPPORT
     CATEGORY_NAME kf.plasma5support.core
@@ -47,9 +42,7 @@ ecm_qt_declare_logging_category(Plasma5Support_LIB_SRCS
     EXPORT PLASMA5SUPPORT
 )
 
-add_library(KF5Plasma5Support ${Plasma5Support_LIB_SRCS})
-add_library(KF5::Plasma5Support ALIAS KF5Plasma5Support)
-ecm_generate_export_header(KF5Plasma5Support
+ecm_generate_export_header(KF6Plasma5Support
     EXPORT_FILE_NAME plasma5support/plasma5support_export.h
     BASE_NAME Plasma5Support
     GROUP_BASE_NAME KF
@@ -58,16 +51,17 @@ ecm_generate_export_header(KF5Plasma5Support
     DEPRECATION_VERSIONS 5.6 5.19 5.28 5.30 5.36 5.46 5.67 5.77 5.78 5.81
 )
 
-target_link_libraries(KF5Plasma5Support
+target_link_libraries(KF6Plasma5Support
 PUBLIC
-    KF5::Service # For kplugininfo.h and kservice.h
+    KF6::Service # For kplugininfo.h and kservice.h
 PRIVATE
-    Qt5::Sql
-    KF5::I18n
-    KF5::KIOCore    #ServiceJob
-    KF5::KIOWidgets  #KIO::JobUiDelegate
-    KF5::XmlGui   #KConfigLoader
-    KF5::Plasma
+    Qt${QT_MAJOR_VERSION}::Sql
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::KIOCore    #ServiceJob
+    KF6::KIOWidgets  #KIO::JobUiDelegate
+    KF6::XmlGui   #KConfigLoader
+    KF6::Plasma
 )
 
 set(Plasma5Support_BUILD_INCLUDE_DIRS
@@ -75,15 +69,15 @@ set(Plasma5Support_BUILD_INCLUDE_DIRS
     ${CMAKE_CURRENT_BINARY_DIR}
     ${CMAKE_CURRENT_BINARY_DIR}/Plasma5Support
 )
-target_include_directories(KF5Plasma5Support PUBLIC
+target_include_directories(KF6Plasma5Support PUBLIC
   "$<BUILD_INTERFACE:${Plasma5Support_BUILD_INCLUDE_DIRS}>"
 )
-target_include_directories(KF5Plasma5Support INTERFACE
-  "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5};${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma5Support>"
+target_include_directories(KF6Plasma5Support INTERFACE
+  "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF};${KDE_INSTALL_INCLUDEDIR_KF}/Plasma5Support>"
 )
 
-set_target_properties(KF5Plasma5Support PROPERTIES
-                                VERSION ${PLASMA5SUPPORT_VERSION_STRING}
+set_target_properties(KF6Plasma5Support PROPERTIES
+                                VERSION ${PLASMA5SUPPORT_VERSION}
                                 SOVERSION ${PLASMA5SUPPORT_SOVERSION}
                                 EXPORT_NAME Plasma5Support
                       )
@@ -110,28 +104,28 @@ set(Plasma5Support_HEADERS
 install(FILES
         ${Plasma5Support_HEADERS}
         ${CMAKE_CURRENT_BINARY_DIR}/plasma5support/plasma5support_export.h
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/plasma5support COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF6}/plasma5support COMPONENT Devel)
 
 install(FILES ${Plasma5Support_CamelCase_HEADERS}
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/Plasma5Support COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF6}/Plasma5Support COMPONENT Devel)
 
 
 install(FILES
    data/servicetypes/plasma5support-dataengine.desktop
    data/servicetypes/plasma5support-service.desktop
-   DESTINATION ${KDE_INSTALL_KSERVICETYPES5DIR})
+   DESTINATION ${KDE_INSTALL_KSERVICETYPESDIR})
 
 install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/plasmoidservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/storage.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 
-install(TARGETS KF5Plasma5Support EXPORT KF5Plasma5SupportTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS KF6Plasma5Support EXPORT KF6Plasma5SupportTargets ${KF6_INSTALL_TARGETS_DEFAULT_ARGS})
 
 if(BUILD_QCH)
     ecm_add_qch(
-        KF5Plasma5Support_QCH
+        KF6Plasma5Support_QCH
         NAME Plasma5Support
-        BASE_NAME KF5Plasma5Support
+        BASE_NAME KF6Plasma5Support
         VERSION ${KF_VERSION}
         ORG_DOMAIN org.kde
         SOURCES # using only public headers, to cover only public API
@@ -140,9 +134,9 @@ if(BUILD_QCH)
             Mainpage.dox
         MD_MAINPAGE "${CMAKE_SOURCE_DIR}/README.md"
         LINK_QCHS
-            Qt5Gui_QCH
-            KF5Service_QCH
-            KF5Package_QCH
+            Qt6Gui_QCH
+            KF6Service_QCH
+            KF6Package_QCH
         INCLUDE_DIRS
             ${Plasma5Support_BUILD_INCLUDE_DIRS}
         BLANK_MACROS

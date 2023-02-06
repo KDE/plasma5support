@@ -206,7 +206,7 @@ private:
     friend class PluginLoader;
 };
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 /**
  * Register a service when it is contained in a loadable module

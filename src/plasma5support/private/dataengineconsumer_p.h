@@ -6,8 +6,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA5SUPPORT_DATAENGINECONSUMER_P_H
-#define PLASMA5SUPPORT_DATAENGINECONSUMER_P_H
+#ifndef PLASMA_DATAENGINECONSUMER_P_H
+#define PLASMA_DATAENGINECONSUMER_P_H
 
 #include <QMap>
 #include <QObject>

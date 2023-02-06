@@ -200,6 +200,6 @@ void Service::registerOperationsScheme()
     setOperationsScheme(&file);
 }
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #include "moc_service.cpp"

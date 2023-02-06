@@ -20,9 +20,6 @@
 #include <QDebug>
 
 // Plasma
-#include <Plasma/Applet>
-
-// Plasma5Support
 #include "dataengine.h"
 #include "storagethread_p.h"
 
@@ -87,7 +84,7 @@ void StorageJob::start()
 void StorageJob::resultSlot(StorageJob *job, const QVariant &result)
 {
     if (job == this) {
-        if (result.type() == QVariant::Map) {
+        if (result.userType() == QMetaType::QVariantMap) {
             m_data = result.toMap();
         }
         setResult(result);
@@ -112,10 +109,12 @@ Storage::Storage(QObject *parent)
     QObject *parentObject = this;
 
     while ((parentObject = parentObject->parent())) {
-        Plasma::Applet *applet = qobject_cast<Plasma::Applet *>(parentObject);
-        if (applet) {
-            m_clientName = applet->pluginMetaData().pluginId();
-            break;
+        if (parentObject->inherits("Applet")) {
+            KPluginMetaData d = parentObject->property("pluginMetaData").value<KPluginMetaData>();
+            if (d.isValid()) {
+                m_clientName = d.pluginId();
+                break;
+            }
         }
 
         Plasma5Support::DataEngine *engine = qobject_cast<Plasma5Support::DataEngine *>(parentObject);

@@ -6,8 +6,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA5SUPPORT_STORAGE_P_H
-#define PLASMA5SUPPORT_STORAGE_P_H
+#ifndef PLASMA_STORAGE_P_H
+#define PLASMA_STORAGE_P_H
 
 #include <QSqlDatabase>
 
@@ -52,4 +52,4 @@ private:
     QString m_clientName;
 };
 
-#endif // PLASMA5SUPPORT_STORAGE_P_H
+#endif // PLASMA_STORAGE_P_H

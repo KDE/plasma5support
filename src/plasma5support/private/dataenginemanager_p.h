@@ -4,17 +4,17 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA5SUPPORT_DATAENGINEMANAGER_P_H
-#define PLASMA5SUPPORT_DATAENGINEMANAGER_P_H
+#ifndef PLASMA_DATAENGINEMANAGER_P_H
+#define PLASMA_DATAENGINEMANAGER_P_H
 
-#include "dataengine.h"
+#include <plasma5support/dataengine.h>
 
 namespace Plasma5Support
 {
 class DataEngineManagerPrivate;
 
 /**
- * @class DataEngineManager plasma5support/dataenginemanager.h <Plasma5Support/DataEngineManager>
+ * @class DataEngineManager plasma/dataenginemanager.h <Plasma/DataEngineManager>
  *
  * @short DataEngine loader and life time manager
  *
@@ -75,6 +75,6 @@ private:
     friend class DataEngineManagerSingleton;
 };
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #endif // multiple inclusion guard

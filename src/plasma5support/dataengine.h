@@ -4,33 +4,31 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA5SUPPORT_DATAENGINE_H
-#define PLASMA5SUPPORT_DATAENGINE_H
+#ifndef PLASMA_DATAENGINE_H
+#define PLASMA_DATAENGINE_H
 
 #include <QHash>
 #include <QObject>
 #include <QStringList>
 
-#include <KPluginInfo>
-#include <KService>
+#include <plasma5support/plasma5support_export.h>
 
+#include <KCoreAddons/KPluginFactory>
+#include <KCoreAddons/KPluginMetaData>
 #include <plasma5support/plasma5support.h>
 #include <plasma5support/service.h>
-#include <plasma5support/version.h>
-#include <plasma5support/plasma5support_export.h>
 
 class QAbstractItemModel;
 
 namespace Plasma5Support
 {
 class DataContainer;
-class DataEngineScript;
 class Package;
 class Service;
 class DataEnginePrivate;
 
 /**
- * @class DataEngine plasma5support/dataengine.h <Plasma5Support/DataEngine>
+ * @class DataEngine plasma5support/dataengine.h <Plasma/DataEngine>
  *
  * @short Data provider for plasmoids (Plasma plugins)
  *
@@ -53,19 +51,6 @@ public:
     typedef QMap<QString, QVariant> Data;
     typedef QMapIterator<QString, QVariant> DataIterator;
     typedef QHash<QString, DataContainer *> SourceDict;
-
-#if PLASMA5SUPPORT_ENABLE_DEPRECATED_SINCE(5, 67)
-    /**
-     * Constructor.
-     *
-     * @param parent The parent object.
-     * @param plugin plugin info that describes the engine
-     *
-     * @deprecated since 5.67
-     **/
-    PLASMA5SUPPORT_DEPRECATED_VERSION(5, 67, "Use KPluginMetaData")
-    explicit DataEngine(const KPluginInfo &plugin, QObject *parent = nullptr);
-#endif
 
     /**
      * Constructor.
@@ -96,16 +81,6 @@ public:
      *         caller when finished with it
      */
     Q_INVOKABLE virtual Service *serviceForSource(const QString &source);
-
-#if PLASMA5SUPPORT_ENABLE_DEPRECATED_SINCE(5, 67)
-    /**
-     * @return description of the plugin that implements this DataEngine
-     *
-     * @deprecated since 5.67, use metadata
-     */
-    PLASMA5SUPPORT_DEPRECATED_VERSION(5, 67, "Use metadata()")
-    KPluginInfo pluginInfo() const;
-#endif
 
     /**
      * @return description of the plugin that implements this DataEngine
@@ -182,10 +157,7 @@ public:
 
     /**
      * Retrieves a pointer to the DataContainer for a given source. This method
-     * should not be used if possible. An exception is for script engines that
-     * can not provide a QMetaObject as required by connectSource for the initial
-     * call to dataUpdated. Using this method, such engines can provide their own
-     * connectSource API.
+     * should not be used if possible.
      *
      * @param source the name of the source.
      * @return pointer to a DataContainer, or zero on failure
@@ -212,13 +184,6 @@ public:
      * @return true if the engine has no sources currently
      */
     bool isEmpty() const;
-
-    /**
-     * Accessor for the associated Package object if any.
-     *
-     * @return the Package object, or 0 if none
-     **/
-    Package package() const;
 
 Q_SIGNALS:
     /**
@@ -437,7 +402,6 @@ protected Q_SLOTS:
 
 private:
     friend class DataEnginePrivate;
-    friend class DataEngineScript;
     friend class DataEngineManager;
     friend class PlasmoidServiceJob;
     friend class NullEngine;
@@ -446,22 +410,9 @@ private:
     Q_PRIVATE_SLOT(d, void sourceDestroyed(QObject *object))
     Q_PRIVATE_SLOT(d, void scheduleSourcesUpdated())
 
-    DataEnginePrivate *const d;
+    DataEnginePrivate *d;
 };
 
-} // Plasma5Support namespace
-
-/**
- * Register a data engine when it is contained in a loadable module
- */
-/* clang-format off */
-#define K_EXPORT_PLASMA5SUPPORT_DATAENGINE(libname, classname) \
-    K_PLUGIN_FACTORY(factory, registerPlugin<classname>();) \
-    K_EXPORT_PLUGIN_VERSION(PLASMA5SUPPORT_VERSION)
-
-#define K_EXPORT_PLASMA5SUPPORT_DATAENGINE_WITH_JSON(libname, classname, jsonFile) \
-    K_PLUGIN_FACTORY_WITH_JSON(factory, jsonFile, registerPlugin<classname>();) \
-    K_EXPORT_PLUGIN_VERSION(PLASMA5SUPPORT_VERSION)
-/* clang-format on */
+} // Plasma namespace
 
 #endif // multiple inclusion guard

@@ -93,7 +93,7 @@ bool DataContainer::visualizationIsConnected(QObject *visualization) const
 
 void DataContainer::connectVisualization(QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment alignment)
 {
-    // qCDebug(LOG_PLASMA5SUPPORT) << "connecting visualization" <<this<< visualization << "at interval of"
+    // qCDebug(LOG_PLASMA) << "connecting visualization" <<this<< visualization << "at interval of"
     //         << pollingInterval << "to" << objectName();
     QMap<QObject *, SignalRelay *>::iterator objIt = d->relayObjects.find(visualization);
     bool connected = objIt != d->relayObjects.end();
@@ -103,23 +103,23 @@ void DataContainer::connectVisualization(QObject *visualization, uint pollingInt
         SignalRelay *relay = objIt.value();
         if (relay) {
             // connected to a relay
-            // qCDebug(LOG_PLASMA5SUPPORT) << "     already connected, but to a relay";
+            // qCDebug(LOG_PLASMA) << "     already connected, but to a relay";
             if (relay->m_interval == pollingInterval && relay->m_align == alignment) {
-                // qCDebug(LOG_PLASMA5SUPPORT) << "    already connected to a relay of the same interval of"
+                // qCDebug(LOG_PLASMA) << "    already connected to a relay of the same interval of"
                 //          << pollingInterval << ", nothing to do";
                 return;
             }
 
             if (relay->receiverCount() == 1) {
-                // qCDebug(LOG_PLASMA5SUPPORT) << "    removing relay, as it is now unused";
+                // qCDebug(LOG_PLASMA) << "    removing relay, as it is now unused";
                 d->relays.remove(relay->m_interval);
                 delete relay;
             } else {
-                if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma::DataEngine::Data)") >= 0) {
+                if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma5Support::DataEngine::Data)") >= 0) {
                     disconnect(relay,
-                               SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)),
+                               SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)),
                                visualization,
-                               SLOT(dataUpdated(QString, Plasma::DataEngine::Data)));
+                               SLOT(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
                 }
                 // modelChanged is always emitted by the dataSource since there is no polling there
                 if (visualization->metaObject()->indexOfSlot("modelChanged(QString,QAbstractItemModel*)") >= 0) {
@@ -131,11 +131,14 @@ void DataContainer::connectVisualization(QObject *visualization, uint pollingInt
             // the visualization was connected already, but not to a relay
             // and it still doesn't want to connect to a relay, so we have
             // nothing to do!
-            // qCDebug(LOG_PLASMA5SUPPORT) << "     already connected, nothing to do";
+            // qCDebug(LOG_PLASMA) << "     already connected, nothing to do";
             return;
         } else {
-            if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma::DataEngine::Data)") >= 0) {
-                disconnect(this, SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)), visualization, SLOT(dataUpdated(QString, Plasma::DataEngine::Data)));
+            if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma5Support::DataEngine::Data)") >= 0) {
+                disconnect(this,
+                           SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)),
+                           visualization,
+                           SLOT(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
             }
             if (visualization->metaObject()->indexOfSlot("modelChanged(QString,QAbstractItemModel*)") >= 0) {
                 disconnect(this, SIGNAL(modelChanged(QString, QAbstractItemModel *)), visualization, SLOT(modelChanged(QString, QAbstractItemModel *)));
@@ -146,23 +149,29 @@ void DataContainer::connectVisualization(QObject *visualization, uint pollingInt
     }
 
     if (pollingInterval < 1) {
-        // qCDebug(LOG_PLASMA5SUPPORT) << "    connecting directly";
+        // qCDebug(LOG_PLASMA) << "    connecting directly";
         d->relayObjects[visualization] = nullptr;
-        if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma::DataEngine::Data)") >= 0) {
-            connect(this, SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)), visualization, SLOT(dataUpdated(QString, Plasma::DataEngine::Data)));
+        if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma5Support::DataEngine::Data)") >= 0) {
+            connect(this,
+                    SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)),
+                    visualization,
+                    SLOT(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
         }
         if (visualization->metaObject()->indexOfSlot("modelChanged(QString,QAbstractItemModel*)") >= 0) {
             connect(this, SIGNAL(modelChanged(QString, QAbstractItemModel *)), visualization, SLOT(modelChanged(QString, QAbstractItemModel *)));
         }
     } else {
-        // qCDebug(LOG_PLASMA5SUPPORT) << "    connecting to a relay";
+        // qCDebug(LOG_PLASMA) << "    connecting to a relay";
         // we only want to do an immediate update if this is not the first object to connect to us
         // if it is the first visualization, then the source will already have been populated
         // engine's sourceRequested method
         bool immediateUpdate = connected || d->relayObjects.count() > 1;
         SignalRelay *relay = d->signalRelay(this, visualization, pollingInterval, alignment, immediateUpdate);
-        if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma::DataEngine::Data)") >= 0) {
-            connect(relay, SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)), visualization, SLOT(dataUpdated(QString, Plasma::DataEngine::Data)));
+        if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma5Support::DataEngine::Data)") >= 0) {
+            connect(relay,
+                    SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)),
+                    visualization,
+                    SLOT(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
         }
         // modelChanged is always emitted by the dataSource since there is no polling there
         if (visualization->metaObject()->indexOfSlot("modelChanged(QString,QAbstractItemModel*)") >= 0) {
@@ -291,8 +300,11 @@ void DataContainer::disconnectVisualization(QObject *visualization)
 
     if (objIt == d->relayObjects.end() || !objIt.value()) {
         // it is connected directly to the DataContainer itself
-        if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma::DataEngine::Data)") >= 0) {
-            disconnect(this, SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)), visualization, SLOT(dataUpdated(QString, Plasma::DataEngine::Data)));
+        if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma5Support::DataEngine::Data)") >= 0) {
+            disconnect(this,
+                       SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)),
+                       visualization,
+                       SLOT(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
         }
         if (visualization->metaObject()->indexOfSlot("modelChanged(QString,QAbstractItemModel*)") >= 0) {
             disconnect(this, SIGNAL(modelChanged(QString, QAbstractItemModel *)), visualization, SLOT(modelChanged(QString, QAbstractItemModel *)));
@@ -304,8 +316,11 @@ void DataContainer::disconnectVisualization(QObject *visualization)
             d->relays.remove(relay->m_interval);
             delete relay;
         } else {
-            if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma::DataEngine::Data)") >= 0) {
-                disconnect(relay, SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data)), visualization, SLOT(dataUpdated(QString, Plasma::DataEngine::Data)));
+            if (visualization->metaObject()->indexOfSlot("dataUpdated(QString,Plasma5Support::DataEngine::Data)") >= 0) {
+                disconnect(relay,
+                           SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data)),
+                           visualization,
+                           SLOT(dataUpdated(QString, Plasma5Support::DataEngine::Data)));
             }
             // modelChanged is always emitted by the dataSource since there is no polling there
             if (visualization->metaObject()->indexOfSlot("modelChanged(QString,QAbstractItemModel*)") >= 0) {
@@ -320,7 +335,7 @@ void DataContainer::disconnectVisualization(QObject *visualization)
 
 void DataContainer::checkForUpdate()
 {
-    // qCDebug(LOG_PLASMA5SUPPORT) << objectName() << d->dirty;
+    // qCDebug(LOG_PLASMA) << objectName() << d->dirty;
     if (d->dirty) {
         Q_EMIT dataUpdated(objectName(), d->data);
 
@@ -341,7 +356,7 @@ void DataContainer::forceImmediateUpdate()
         Q_EMIT dataUpdated(objectName(), d->data);
     }
 
-    for (SignalRelay *relay : qAsConst(d->relays)) {
+    for (SignalRelay *relay : std::as_const(d->relays)) {
         relay->forceImmediateUpdate();
     }
 }
@@ -358,7 +373,7 @@ void DataContainer::setNeedsUpdate(bool update)
 
 bool DataContainer::isUsed() const
 {
-    return !d->relays.isEmpty() || receivers(SIGNAL(dataUpdated(QString, Plasma::DataEngine::Data))) > 0;
+    return !d->relays.isEmpty() || receivers(SIGNAL(dataUpdated(QString, Plasma5Support::DataEngine::Data))) > 0;
 }
 
 void DataContainerPrivate::checkUsage()
@@ -373,7 +388,7 @@ void DataContainer::timerEvent(QTimerEvent *event)
     if (event->timerId() == d->checkUsageTimer.timerId()) {
         if (!isUsed()) {
             // DO NOT CALL ANYTHING AFTER THIS LINE AS IT MAY GET DELETED!
-            // qCDebug(LOG_PLASMA5SUPPORT) << objectName() << "is unused";
+            // qCDebug(LOG_PLASMA) << objectName() << "is unused";
 
             // NOTE: Notifying visualization of the model destruction before actual deletion avoids crashes in some edge cases
             if (d->model) {

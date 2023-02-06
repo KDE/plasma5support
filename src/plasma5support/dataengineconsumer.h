@@ -4,8 +4,8 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#ifndef PLASMA5SUPPORT_DATAENGINECONSUMER_H
-#define PLASMA5SUPPORT_DATAENGINECONSUMER_H
+#ifndef PLASMA_DATAENGINECONSUMER_H
+#define PLASMA_DATAENGINECONSUMER_H
 
 #include <QUrl>
 
@@ -17,7 +17,7 @@ class DataEngine;
 class DataEngineConsumerPrivate;
 
 /**
- * @class DataEngineConsumer plasma5support/dataengineconsumer.h <Plasma5Support/DataEngineConsumer>
+ * @class DataEngineConsumer plasma5support/dataengineconsumer.h <Plasma/DataEngineConsumer>
  *
  * @brief A class that makes it safe and easy to use DataEngines
  *
@@ -42,7 +42,7 @@ public:
     ~DataEngineConsumer();
 
     /**
-     * Returns a Plasma::DataEngine. It never returns a null pointer, and the
+     * Returns a Plasma5Support::DataEngine. It never returns a null pointer, and the
      * DataEngine returned should not be deleted. All DataEngines will be dereferenced
      * once this DataEngineConsumer instance is deleted.
      *
@@ -57,6 +57,6 @@ private:
     DataEngineConsumerPrivate *const d;
 };
 
-} // namespace Plasma
+} // namespace Plasma5Support
 
 #endif

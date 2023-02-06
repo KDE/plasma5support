@@ -110,7 +110,7 @@ void StorageThread::save(QPointer<StorageJob> wcaller, const QVariantMap &params
     QString ids;
     while (it.hasNext()) {
         it.next();
-        QSqlField field(QStringLiteral(":id"), QVariant::String);
+        QSqlField field(QStringLiteral(":id"), QMetaType(QMetaType::QString));
         field.setValue(it.key());
         if (!ids.isEmpty()) {
             ids.append(QStringLiteral(", "));
@@ -146,22 +146,22 @@ void StorageThread::save(QPointer<StorageJob> wcaller, const QVariantMap &params
     it.toFront();
     while (it.hasNext()) {
         it.next();
-        // qCDebug(LOG_PLASMA5SUPPORT) << "going to insert" << valueGroup << it.key();
+        // qCDebug(LOG_PLASMA) << "going to insert" << valueGroup << it.key();
         query.bindValue(QStringLiteral(":id"), it.key());
 
         QString field;
         bool binary = false;
-        switch (it.value().type()) {
-        case QVariant::String:
+        switch (it.value().userType()) {
+        case QMetaType::QString:
             field = QStringLiteral(":txt");
             break;
-        case QVariant::Int:
+        case QMetaType::Int:
             field = QStringLiteral(":int");
             break;
-        case QVariant::Double:
+        case QMetaType::Double:
             field = QStringLiteral(":float");
             break;
-        case QVariant::ByteArray:
+        case QMetaType::QByteArray:
             binary = true;
             field = QStringLiteral(":binary");
             break;
@@ -179,7 +179,7 @@ void StorageThread::save(QPointer<StorageJob> wcaller, const QVariantMap &params
         }
 
         if (!query.exec()) {
-            // qCDebug(LOG_PLASMA5SUPPORT) << "query failed:" << query.lastQuery() << query.lastError().text();
+            // qCDebug(LOG_PLASMA) << "query failed:" << query.lastQuery() << query.lastError().text();
             m_db.commit();
             Q_EMIT newResult(caller, false);
             return;
@@ -253,7 +253,8 @@ void StorageThread::retrieve(QPointer<StorageJob> wcaller, const QVariantMap &pa
             } else if (!query.value(binaryColumn).isNull()) {
                 QByteArray bytes = query.value(binaryColumn).toByteArray();
                 QDataStream in(bytes);
-                QVariant v(in);
+                QVariant v;
+                in >> v;
                 data.insert(key, v);
             }
         }
