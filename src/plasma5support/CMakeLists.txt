@@ -62,6 +62,7 @@ PRIVATE
     KF6::KIOWidgets  #KIO::JobUiDelegate
     KF6::XmlGui   #KConfigLoader
     KF6::Plasma
+    KF6::Package
 )
 
 set(Plasma5Support_BUILD_INCLUDE_DIRS
@@ -104,10 +105,10 @@ set(Plasma5Support_HEADERS
 install(FILES
         ${Plasma5Support_HEADERS}
         ${CMAKE_CURRENT_BINARY_DIR}/plasma5support/plasma5support_export.h
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF6}/plasma5support COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/plasma5support COMPONENT Devel)
 
 install(FILES ${Plasma5Support_CamelCase_HEADERS}
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF6}/Plasma5Support COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/Plasma5Support COMPONENT Devel)
 
 
 install(FILES
