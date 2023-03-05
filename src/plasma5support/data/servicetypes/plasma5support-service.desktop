@@ -3,3 +3,8 @@ Type=ServiceType
 X-KDE-ServiceType=Plasma5Support/Service
 
 Comment=Plasma service
+Comment[es]=Servicio de Plasma
+Comment[fr]=Service de Plasma
+Comment[nn]=Plasma-teneste
+Comment[tr]=Plasma hizmeti
+Comment[x-test]=xxPlasma servicexx

@@ -3,6 +3,11 @@ Type=ServiceType
 X-KDE-ServiceType=Plasma5Support/DataEngine
 
 Comment=Plasma Data Engine
+Comment[es]=Motor de datos de Plasma
+Comment[fr]=Moteur de données de Plasma
+Comment[nn]=Plasma-datamotor
+Comment[tr]=Plasma Veri İşletkesi
+Comment[x-test]=xxPlasma Data Enginexx
 
 [PropertyDef::X-KDE-ParentApp]
 Type=QString
