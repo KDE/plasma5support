@@ -140,7 +140,7 @@ install(FILES
 install(EXPORT KF6Plasma5SupportTargets
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         FILE KF6Plasma5SupportTargets.cmake
-        NAMESPACE KF5::
+        NAMESPACE KF6::
         COMPONENT Devel)
 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/plasma5support_version.h
