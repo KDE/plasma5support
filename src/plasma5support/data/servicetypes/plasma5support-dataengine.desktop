@@ -3,10 +3,16 @@ Type=ServiceType
 X-KDE-ServiceType=Plasma5Support/DataEngine
 
 Comment=Plasma Data Engine
+Comment[ca]=Motor de dades del Plasma
 Comment[es]=Motor de datos de Plasma
+Comment[eu]=Plasma datu-motorra
 Comment[fr]=Moteur de données de Plasma
+Comment[ka]=Plasma-ის მონაცემების ძრავა
+Comment[nl]=Plasma-gegevensengine
 Comment[nn]=Plasma-datamotor
+Comment[sl]=Plasma Data Engine
 Comment[tr]=Plasma Veri İşletkesi
+Comment[uk]=Рушій даних Плазми
 Comment[x-test]=xxPlasma Data Enginexx
 
 [PropertyDef::X-KDE-ParentApp]
