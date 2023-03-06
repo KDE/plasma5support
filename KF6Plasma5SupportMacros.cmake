@@ -1,5 +1,5 @@
 
-find_package(ECM 1.6.0 CONFIG REQUIRED)
+find_package(ECM 5.83.0 CONFIG REQUIRED)
 include(${ECM_KDE_MODULE_DIR}/KDEInstallDirs.cmake)
 
 set(PLASMA5SUPPORT_RELATIVE_DATA_INSTALL_DIR "plasma5support")
