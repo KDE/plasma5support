@@ -33,27 +33,6 @@ void Plasma5SupportPlugin::registerTypes(const char *uri)
     qmlRegisterType<Plasma5Support::SortFilterModel, 0>(uri, 2, 0, "SortFilterModel");
     qmlRegisterType<Plasma5Support::SortFilterModel, 1>(uri, 2, 1, "SortFilterModel");
 
-    // KF6: check if it makes sense to call qmlRegisterInterface for any of these
-    // as they seem currently not used as properties and are only used from JavaScript engine
-    // due to being return types of Q_INVOKABLE methods,
-    // so registering the pointers to the qobject meta-object system would be enough:
-    // Plasma5Support::Service, Plasma5Support::ServiceJob
-    // So this here would become just
-    // qRegisterMetaType<Plasma5Support::Service *>();
-    // qRegisterMetaType<Plasma5Support::ServiceJob *>();
-    // For that also change all usages with those methods to use the fully namespaced type name
-    // in the method signature.
-    QT_WARNING_PUSH
-    QT_WARNING_DISABLE_CLANG("-Wdeprecated-declarations")
-    QT_WARNING_DISABLE_GCC("-Wdeprecated-declarations")
-    // Do not to port these two for KF5 to
-    // qmlRegisterInterface<Plasma5Support::T>(uri, 1);
-    // as this will incompatibly register with the fully namespaced name "Plasma5Support::T",
-    // not just the now explicitly passed alias name "T"
-    qmlRegisterInterface<Plasma5Support::Service>("Service");
-    qmlRegisterInterface<Plasma5Support::ServiceJob>("ServiceJob");
-    QT_WARNING_POP
-
     qmlRegisterType<ServiceOperationStatus>(uri, 2, 0, "ServiceOperationStatus");
     qmlRegisterAnonymousType<QAbstractItemModel>(uri, 1);
 

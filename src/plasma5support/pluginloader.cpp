@@ -70,9 +70,9 @@ public:
 
 QSet<QString> PluginLoaderPrivate::s_customCategories;
 
-QString PluginLoaderPrivate::s_dataEnginePluginDir = QStringLiteral("plasma/dataengine");
-QString PluginLoaderPrivate::s_packageStructurePluginDir = QStringLiteral("plasma/packagestructure");
-QString PluginLoaderPrivate::s_servicesPluginDir = QStringLiteral("plasma/services");
+QString PluginLoaderPrivate::s_dataEnginePluginDir = QStringLiteral("plasma5support/dataengine");
+QString PluginLoaderPrivate::s_packageStructurePluginDir = QStringLiteral("plasma5support/packagestructure");
+QString PluginLoaderPrivate::s_servicesPluginDir = QStringLiteral("plasma5support/services");
 
 PluginLoader::PluginLoader()
     : d(new PluginLoaderPrivate)

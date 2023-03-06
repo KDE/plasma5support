@@ -1,14 +1,14 @@
-/** @page core Plasma Core
+/** @page plasma5support Plasma5Support
 
-<h2>import org.kde.plasma.plasma5support 1.0</h2>
+<h2>import org.kde.plasma.plasma5support 2.0</h2>
 
-- \link Plasma::DataSource DataSource \endlink
-- \link Plasma::DataModel DataModel \endlink
+- \link Plasma5Support::DataSource DataSource \endlink
+- \link Plasma5Support::DataModel DataModel \endlink
 
-- \link Plasma::Service Service \endlink
-- \link Plasma::ServiceJob ServiceJob \endlink
+- \link Plasma5Support::Service Service \endlink
+- \link Plasma5Support::ServiceJob ServiceJob \endlink
 
-- \link Plasma::ServiceOperationStatus ServiceOperationStatus \endlink
+- \link Plasma5Support::ServiceOperationStatus ServiceOperationStatus \endlink
 
 
 

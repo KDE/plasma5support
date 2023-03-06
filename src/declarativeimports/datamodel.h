@@ -9,10 +9,11 @@
 
 #include <QAbstractItemModel>
 #include <QJSValue>
+#include <QRegularExpression>
 #include <QSortFilterProxyModel>
 #include <QVector>
 
-#include <Plasma/DataEngine>
+#include <Plasma5Support/DataEngine>
 
 class QTimer;
 
@@ -183,7 +184,7 @@ class DataModel : public QAbstractItemModel
 
 public:
     DataModel(QObject *parent = nullptr);
-    ~DataModel();
+    ~DataModel() override;
 
     void setDataSource(QObject *source);
     QObject *dataSource() const;
@@ -238,9 +239,9 @@ private Q_SLOTS:
 private:
     DataSource *m_dataSource;
     QString m_keyRoleFilter;
-    QRegExp m_keyRoleFilterRE;
+    QRegularExpression m_keyRoleFilterRE;
     QString m_sourceFilter;
-    QRegExp m_sourceFilterRE;
+    QRegularExpression m_sourceFilterRE;
     QMap<QString, QVector<QVariant>> m_items;
     QHash<int, QByteArray> m_roleNames;
     QHash<QString, int> m_roleIds;
@@ -250,7 +251,7 @@ private:
 int DataModel::countItems() const
 {
     int count = 0;
-    for (const QVector<QVariant> &v : qAsConst(m_items)) {
+    for (const QVector<QVariant> &v : std::as_const(m_items)) {
         count += v.count();
     }
     return count;

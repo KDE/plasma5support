@@ -117,7 +117,7 @@ Plasma5Support::DataEngine *DataEngineManager::loadEngine(const QString &name)
     }
 
     // Expect the plugin id to be the same as the file name or not explicitly set
-    const KPluginMetaData data(QLatin1String("plasma/dataengine/plasma_engine_") + name);
+    const KPluginMetaData data(QLatin1String("plasma5support/dataengine/plasma_engine_") + name);
     DataEngine *engine = KPluginFactory::instantiatePlugin<Plasma5Support::DataEngine>(data).plugin;
     if (!engine) {
         qCDebug(LOG_PLASMA5SUPPORT) << "Can't find a dataengine named" << name;
