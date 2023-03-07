@@ -133,6 +133,7 @@ configure_package_config_file(
 install(FILES
   "${CMAKE_CURRENT_BINARY_DIR}/KF6Plasma5SupportConfig.cmake"
   "${CMAKE_CURRENT_BINARY_DIR}/KF6Plasma5SupportConfigVersion.cmake"
+  "${CMAKE_CURRENT_SOURCE_DIR}/KF6Plasma5SupportMacros.cmake"
   DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
   COMPONENT Devel
 )
