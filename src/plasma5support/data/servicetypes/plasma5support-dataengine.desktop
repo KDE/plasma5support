@@ -4,6 +4,7 @@ X-KDE-ServiceType=Plasma5Support/DataEngine
 
 Comment=Plasma Data Engine
 Comment[ca]=Motor de dades del Plasma
+Comment[ca@valencia]=Motor de dades de Plasma
 Comment[es]=Motor de datos de Plasma
 Comment[eu]=Plasma datu-motorra
 Comment[fr]=Moteur de données de Plasma
