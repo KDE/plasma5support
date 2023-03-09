@@ -53,11 +53,10 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         CoreAddons
         I18n
         KIO
+        Package
         Service
         XmlGui
-        Plasma
     OPTIONAL_COMPONENTS
-        Wayland
         DocTools
 )
 

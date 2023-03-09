@@ -54,14 +54,14 @@ ecm_generate_export_header(KF6Plasma5Support
 target_link_libraries(KF6Plasma5Support
 PUBLIC
     KF6::Service # For kplugininfo.h and kservice.h
+    KF6::KIOCore    #ServiceJob
+    KF6::ConfigCore #KConfigGroup
 PRIVATE
     Qt${QT_MAJOR_VERSION}::Sql
     KF6::I18n
     KF6::CoreAddons
-    KF6::KIOCore    #ServiceJob
     KF6::KIOWidgets  #KIO::JobUiDelegate
     KF6::XmlGui   #KConfigLoader
-    KF6::Plasma
     KF6::Package
 )
 
