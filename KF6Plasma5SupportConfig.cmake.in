@@ -9,7 +9,7 @@ set(Plasma5Support_INSTALL_PREFIX "@PACKAGE_CMAKE_INSTALL_PREFIX@")
 
 set(Plasma5Support_LIBRARIES KF6::Plasma5Support)
 
-set(PLASMA5SUPPORT_DATAENGINES_PLUGINDIR ${KDE_INSTALL_PLUGINDIR}/plasma/dataengine)
+set(PLASMA5SUPPORT_DATAENGINES_PLUGINDIR ${KDE_INSTALL_PLUGINDIR}/plasma5support/dataengine)
 
 include(CMakeFindDependencyMacro)
 find_dependency(Qt6Gui "@REQUIRED_QT_VERSION@")
