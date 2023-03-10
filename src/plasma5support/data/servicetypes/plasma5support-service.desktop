@@ -5,6 +5,7 @@ X-KDE-ServiceType=Plasma5Support/Service
 Comment=Plasma service
 Comment[ca]=Servei del Plasma
 Comment[ca@valencia]=Servei de Plasma
+Comment[cs]=Služba Plasma
 Comment[es]=Servicio de Plasma
 Comment[eu]=Plasma zerbitzua
 Comment[fr]=Service de Plasma
