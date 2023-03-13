@@ -1,0 +1,26 @@
+# German translations for plasma5support package.
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the plasma5support package.
+# Frederik Schwarzer <schwarzer@kde.org>, 2023.
+#
+# Automatically generated, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma5support\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-03-04 02:13+0000\n"
+"PO-Revision-Date: 2023-03-12 16:01+0100\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.07.70\n"
+
+#: plasma5support/private/service_p.h:32
+#, kde-format
+msgctxt "Error message, tried to start an invalid service"
+msgid "Invalid (null) service, can not perform any operations."
+msgstr "Ungültiger Dienst (null), es sind keine Operationen möglich."
