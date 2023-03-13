@@ -49,15 +49,12 @@ find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COM
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
         Config
-        ConfigWidgets
         CoreAddons
         I18n
         KIO
         Package
         Service
         XmlGui
-    OPTIONAL_COMPONENTS
-        DocTools
 )
 
 
