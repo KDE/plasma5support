@@ -13,8 +13,8 @@
 
 #include <plasma5support/plasma5support_export.h>
 
-#include <KCoreAddons/KPluginFactory>
-#include <KCoreAddons/KPluginMetaData>
+#include <KPluginFactory>
+#include <KPluginMetaData>
 #include <plasma5support/plasma5support.h>
 #include <plasma5support/service.h>
 

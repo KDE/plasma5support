@@ -56,6 +56,7 @@ PUBLIC
     KF6::Service # For kplugininfo.h and kservice.h
     KF6::KIOCore    #ServiceJob
     KF6::ConfigCore #KConfigGroup
+    KF6::CoreAddons
 PRIVATE
     Qt${QT_MAJOR_VERSION}::Sql
     KF6::I18n
