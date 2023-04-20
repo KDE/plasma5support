@@ -4,6 +4,9 @@ set(KF_VERSION "5.240.0") # handled by release scripts
 set(KF_DEP_VERSION "5.240.0") # handled by release scripts
 project(Plasma5Support VERSION ${KF_VERSION})
 
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 # ECM setup
 include(FeatureSummary)
 find_package(ECM 5.240.0  NO_MODULE)
