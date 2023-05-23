@@ -31,6 +31,7 @@ Comment[ta]=பிளாஸ்மா தரவு பின்நிரல்
 Comment[tr]=Plasma Veri İşletkesi
 Comment[uk]=Рушій даних Плазми
 Comment[x-test]=xxPlasma Data Enginexx
+Comment[zh_CN]=Plasma 数据引擎
 
 [PropertyDef::X-KDE-ParentApp]
 Type=QString
