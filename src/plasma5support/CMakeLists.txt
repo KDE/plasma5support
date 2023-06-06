@@ -58,7 +58,7 @@ PUBLIC
     KF6::ConfigCore #KConfigGroup
     KF6::CoreAddons
 PRIVATE
-    Qt${QT_MAJOR_VERSION}::Sql
+    Qt::Sql
     KF6::I18n
     KF6::CoreAddons
     KF6::KIOWidgets  #KIO::JobUiDelegate
