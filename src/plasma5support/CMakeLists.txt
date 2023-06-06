@@ -111,12 +111,6 @@ install(FILES
 install(FILES ${Plasma5Support_CamelCase_HEADERS}
         DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/Plasma5Support COMPONENT Devel)
 
-
-install(FILES
-   data/servicetypes/plasma5support-dataengine.desktop
-   data/servicetypes/plasma5support-service.desktop
-   DESTINATION ${KDE_INSTALL_KSERVICETYPESDIR})
-
 install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/plasmoidservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/storage.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
