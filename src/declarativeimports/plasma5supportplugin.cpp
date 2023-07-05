@@ -38,3 +38,5 @@ void Plasma5SupportPlugin::registerTypes(const char *uri)
 
     qmlRegisterAnonymousType<QQmlPropertyMap>(uri, 1);
 }
+
+#include "moc_plasma5supportplugin.cpp"

@@ -21,3 +21,5 @@ Types::~Types()
 }
 
 } // Plasma5Support namespace
+
+#include "moc_plasma5support.cpp"
