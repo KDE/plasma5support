@@ -208,15 +208,4 @@ private:
 
 } // namespace Plasma5Support
 
-/**
- * Register a service when it is contained in a loadable module
- */
-#define K_EXPORT_PLASMA5SUPPORT_SERVICE(libname, classname)                                                                                                            \
-    K_PLUGIN_FACTORY(factory, registerPlugin<classname>();)                                                                                                    \
-    K_EXPORT_PLUGIN_VERSION(PLASMA5SUPPORT_VERSION)
-
-#define K_EXPORT_PLASMA5SUPPORT_SERVICE_WITH_JSON(libname, classname, jsonFile)                                                                                        \
-    K_PLUGIN_FACTORY_WITH_JSON(factory, jsonFile, registerPlugin<classname>();)                                                                                \
-    K_EXPORT_PLUGIN_VERSION(PLASMA5SUPPORT_VERSION)
-
 #endif // multiple inclusion guard

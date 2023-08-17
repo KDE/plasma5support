@@ -19,9 +19,6 @@ find . -name "*.h" -o -name "*.cpp" | xargs perl -p -i -e "s/plasma\/dataenginec
 find . -name "*.h" -o -name "*.cpp" | xargs perl -p -i -e "s/plasma\/service/plasma5support\/service/g"
 find . -name "*.h" -o -name "*.cpp" | xargs perl -p -i -e "s/plasma\/servicejob/plasma5support\/servicejob/g"
 
-
-find . -name "*.h" -o -name "*.cpp" | xargs perl -p -i -e "s/K_EXPORT_PLASMA_DATAENGINE_WITH_JSON/K_EXPORT_PLASMA5SUPPORT_DATAENGINE_WITH_JSON/g"
-
 # Desktop files
 find . -name "*.desktop" | xargs perl -p -i -e "s/Plasma\/DataEngine/Plasma5Support\/DataEngine/g"
 

@@ -64,16 +64,6 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
 
 #########################################################################
 
-ecm_setup_qtplugin_macro_names(
-    JSON_NONE
-        "K_EXPORT_PLASMA5SUPPORT_SERVICE"
-        "K_EXPORT_PLASMA5SUPPORT_DATAENGINE"
-    JSON_ARG3
-        "K_EXPORT_PLASMA5SUPPORT_SERVICE_WITH_JSON"
-        "K_EXPORT_PLASMA5SUPPORT_DATAENGINE_WITH_JSON"
-    CONFIG_CODE_VARIABLE
-        PACKAGE_SETUP_AUTOMOC_VARIABLES
-)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050e00) # must port away from qmlRegisterInterface before upgrading this to 050f00
 add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
 
