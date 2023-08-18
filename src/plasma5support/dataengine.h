@@ -23,7 +23,6 @@ class QAbstractItemModel;
 namespace Plasma5Support
 {
 class DataContainer;
-class Package;
 class Service;
 class DataEnginePrivate;
 
@@ -62,7 +61,7 @@ public:
      */
     explicit DataEngine(const KPluginMetaData &plugin, QObject *parent = nullptr);
 
-    explicit DataEngine(QObject *parent = nullptr, const QVariantList &args = QVariantList());
+    explicit DataEngine(QObject *parent = nullptr);
 
     ~DataEngine() override;
 

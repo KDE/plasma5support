@@ -18,10 +18,11 @@ class Service;
 class DataEnginePrivate
 {
 public:
-    DataEnginePrivate(DataEngine *e, const KPluginMetaData &info, const QVariantList &args = QVariantList());
+    DataEnginePrivate(DataEngine *e, const KPluginMetaData &info);
     ~DataEnginePrivate();
     DataContainer *source(const QString &sourceName, bool createWhenMissing = true);
-    void connectSource(DataContainer *s, QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment align, bool immediateCall = true);
+    void
+    connectSource(DataContainer *s, QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment align, bool immediateCall = true);
     DataContainer *requestSource(const QString &sourceName, bool *newSource = nullptr);
     void internalUpdateSource(DataContainer *);
 

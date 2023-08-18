@@ -32,13 +32,6 @@ Service::Service(QObject *parent)
 {
 }
 
-Service::Service(QObject *parent, const QVariantList &args)
-    : QObject(parent)
-    , d(new ServicePrivate(this))
-{
-    Q_UNUSED(args)
-}
-
 Service::~Service()
 {
     delete d;
@@ -186,8 +179,9 @@ void Service::registerOperationsScheme()
         return;
     }
 
-    const QString path = QStandardPaths::locate(QStandardPaths::GenericDataLocation,
-                                                QStringLiteral(PLASMA5SUPPORT_RELATIVE_DATA_INSTALL_DIR "/services/") + d->name + QStringLiteral(".operations"));
+    const QString path =
+        QStandardPaths::locate(QStandardPaths::GenericDataLocation,
+                               QStringLiteral(PLASMA5SUPPORT_RELATIVE_DATA_INSTALL_DIR "/services/") + d->name + QStringLiteral(".operations"));
 
     if (path.isEmpty()) {
 #ifndef NDEBUG

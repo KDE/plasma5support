@@ -39,19 +39,14 @@ DataEngine::DataEngine(const KPluginMetaData &plugin, QObject *parent)
     // start things in motion external to themselves before they can work
 }
 
-DataEngine::DataEngine(QObject *parent, const QVariantList &args)
+DataEngine::DataEngine(QObject *parent)
     : QObject(parent)
+    , d(new DataEnginePrivate(this, KPluginMetaData()))
 {
-    KPluginMetaData data;
-    if (!args.isEmpty() && args.first().canConvert<KPluginMetaData>()) {
-        data = args.first().value<KPluginMetaData>();
-    }
-    d = new DataEnginePrivate(this, data, args);
 }
 
 DataEngine::~DataEngine()
 {
-    // qCDebug(LOG_PLASMA) << objectName() << ": bye bye birdy! ";
     delete d;
 }
 
@@ -113,14 +108,13 @@ DataContainer *DataEngine::containerForSource(const QString &source)
     return d->source(source, false);
 }
 
-bool DataEngine::sourceRequestEvent(const QString &name)
+bool DataEngine::sourceRequestEvent(const QString & /*name*/)
 {
     return false;
 }
 
-bool DataEngine::updateSourceEvent(const QString &source)
+bool DataEngine::updateSourceEvent(const QString & /*source*/)
 {
-    // qCDebug(LOG_PLASMA) << source;
     return false; // TODO: should this be true to trigger, even needless, updates on every tick?
 }
 
@@ -367,7 +361,7 @@ void DataEngine::setStorageEnabled(const QString &source, bool store)
 }
 
 // Private class implementations
-DataEnginePrivate::DataEnginePrivate(DataEngine *e, const KPluginMetaData &md, const QVariantList &args)
+DataEnginePrivate::DataEnginePrivate(DataEngine *e, const KPluginMetaData &md)
     : q(e)
     , dataEngineDescription(md)
     , refCount(-1)

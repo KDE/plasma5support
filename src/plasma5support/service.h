@@ -149,16 +149,9 @@ Q_SIGNALS:
 
 protected:
     /**
-     * Default constructor
-     *
      * @param parent the parent object for this service
      */
     explicit Service(QObject *parent = nullptr);
-
-    /**
-     * Constructor for plugin loading
-     */
-    Service(QObject *parent, const QVariantList &args);
 
     /**
      * Called when a job should be created by the Service.
