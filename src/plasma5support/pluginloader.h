@@ -7,25 +7,16 @@
 #ifndef PLUGIN_LOADER_H
 #define PLUGIN_LOADER_H
 
+#include <QString>
 #include <plasma5support/plasma5support_export.h>
-
-#include <plasma5support/plasma5support.h>
-
-#include <QVariant>
 
 class KPluginMetaData;
 namespace Plasma5Support
 {
-class Applet;
-class Containment;
 class DataEngine;
 class Service;
 
 class PluginLoaderPrivate;
-
-// TODO:
-// * add loadWallpaper
-// * add KPluginInfo listing support for Containments (already loaded via the applet loading code)
 
 /**
  * @class PluginLoader plasma/pluginloader.h <Plasma/PluginLoader>
@@ -33,10 +24,7 @@ class PluginLoaderPrivate;
  * This is an abstract base class which defines an interface to which Plasma's
  * DataEngine and Service Loading logic can communicate with a parent application.
  * This is deprecated api in KF6, use C++ based QML imports instead
- *
- * @author Ryan Rix <ry@n.rix.si>
- * @since 4.6
- **/
+ */
 class PLASMA5SUPPORT_EXPORT PluginLoader
 {
 public:
@@ -49,7 +37,7 @@ public:
      *
      * @return a Service object, unlike Plasma5Support::Service::loadService, this can return null.
      **/
-    Service *loadService(const QString &name, const QVariantList &args, QObject *parent = nullptr);
+    Service *loadService(const QString &name, QObject *parent = nullptr);
 
     /**
      * Returns a list of all known dataengines.
@@ -59,9 +47,8 @@ public:
      *                  The default value of QString() will result in a
      *                  list of all dataengines
      * @return list of dataengines
-     * @since 5.77
      **/
-    QVector<KPluginMetaData> listDataEngineMetaData(const QString &parentApp = QString());
+    QList<KPluginMetaData> listDataEngineMetaData(const QString &parentApp = QString());
 
     /**
      * Return the active plugin loader
@@ -76,7 +63,5 @@ private:
 };
 
 }
-
-Q_DECLARE_METATYPE(Plasma5Support::PluginLoader *)
 
 #endif
