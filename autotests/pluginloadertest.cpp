@@ -10,11 +10,10 @@
 #include <QSignalSpy>
 #include <qtest.h>
 
-#include <KPluginInfo>
 #include <KPluginMetaData>
 
-#include <plasma/dataengineconsumer.h>
-#include <plasma/pluginloader.h>
+#include <Plasma5Support/DataEngineConsumer>
+#include <Plasma5Support/PluginLoader>
 
 QTEST_MAIN(PluginTest)
 
@@ -25,10 +24,7 @@ PluginTest::PluginTest()
 
 void PluginTest::listEngines()
 {
-    QVector<KPluginMetaData> plugins = Plasma::PluginLoader::self()->listDataEngineMetaData();
-    //     foreach (const KPluginInfo& info, plugins) {
-    // qDebug() << " Found DataEngine: " << info.pluginName() << info.name();
-    //     }
+    QVector<KPluginMetaData> plugins = Plasma5Support::PluginLoader::self()->listDataEngineMetaData();
     qDebug() << " Found " << plugins.count() << " DataEngines";
     // Switch to true in order to let tests pass, this test usually will only
     // work with plugins installed, but there aren't any in plasma-framework
@@ -36,37 +32,12 @@ void PluginTest::listEngines()
     QVERIFY(plugins.count() > 0 || m_buildonly);
 }
 
-void PluginTest::listAppletCategories()
-{
-    const QStringList cats = Plasma::PluginLoader::self()->listAppletCategories();
-    qDebug() << "Categories" << cats;
-    QVERIFY(cats.count() > 0 || m_buildonly);
-}
-
-void PluginTest::listContainmentActions()
-{
-    const QVector<KPluginMetaData> plugins = Plasma::PluginLoader::self()->listContainmentActionsMetaData(QStringLiteral("plasma-shell"));
-    qDebug() << "Categories: " << plugins.count();
-    // QVERIFY(plugins.count() > 0 || m_buildonly);
-}
-
-void PluginTest::listContainmentsOfType()
-{
-    const KPluginInfo::List plugins = Plasma::PluginLoader::listContainmentsOfType(QStringLiteral("Desktop"));
-    qDebug() << "Desktop Containments: " << plugins.count();
-    QVERIFY(plugins.count() > 0 || m_buildonly);
-
-    const QList<KPluginMetaData> pluginsMetaData = Plasma::PluginLoader::listContainmentsMetaDataOfType(QStringLiteral("Desktop"));
-    qDebug() << "Desktop Containments MetaData: " << pluginsMetaData.count();
-    QVERIFY(pluginsMetaData.count() > 0 || m_buildonly);
-}
-
 static const auto source = QStringLiteral("Europe/Sofia");
 
-void EngineTest::dataUpdated(const QString &s, const Plasma::DataEngine::Data &data)
+void EngineTest::dataUpdated(const QString &s, const Plasma5Support::DataEngine::Data &data)
 {
     QVERIFY(source == s);
-    QVERIFY(data["Timezone"] == source);
+    QVERIFY(data[QStringLiteral("Timezone")] == source);
 }
 
 void PluginTest::loadDataEngine()
@@ -74,22 +45,23 @@ void PluginTest::loadDataEngine()
     if (m_buildonly) {
         return;
     }
-    QPointer<Plasma::DataEngine> engine, nullEngine;
+    QPointer<Plasma5Support::DataEngine> engine, nullEngine;
     {
-        Plasma::DataEngineConsumer consumer;
+        Plasma5Support::DataEngineConsumer consumer;
         engine = consumer.dataEngine(QStringLiteral("time"));
         nullEngine = consumer.dataEngine(QStringLiteral("noop"));
         QVERIFY(nullEngine && engine);
-        QVERIFY(!nullEngine->isValid() && engine->isValid());
+        QVERIFY(!nullEngine->isValid());
+        QVERIFY(engine->isValid());
         {
             EngineTest test;
-            engine->connectSource(source, &test);
             QSignalSpy spy(engine, SIGNAL(sourceAdded(QString)));
-            spy.wait();
+            engine->connectSource(source, &test);
+            QCOMPARE_GT(0, spy.count()); // Should be emitted immediately
             QVERIFY(!engine->isEmpty());
         }
         QSignalSpy spy(engine, SIGNAL(sourceRemoved(QString)));
-        spy.wait();
+        QVERIFY(spy.wait());
         QVERIFY(engine->isEmpty());
     }
     QVERIFY(!nullEngine.isNull() && engine.isNull());

@@ -67,8 +67,6 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050e00) # must port away from qmlRegisterInterface before upgrading this to 050f00
 add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
 
-#add_definitions(-Wno-deprecated)
-
 #########################################################################
 
 include(KF6Plasma5SupportMacros.cmake)
@@ -91,9 +89,9 @@ if (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/po")
 endif()
 add_subdirectory(src)
 
-
 if (BUILD_TESTING)
-#    add_subdirectory(autotests)
+    find_package(Qt6Test ${REQUIRED_QT_VERSION} REQUIRED)
+    add_subdirectory(autotests)
 endif()
 
 ################ create Plasma5SupportConfig.cmake and install it ###########################

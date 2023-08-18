@@ -70,7 +70,10 @@ KPluginMetaData DataEngine::metadata() const
     return d->dataEngineDescription;
 }
 
-void DataEngine::connectSource(const QString &source, QObject *visualization, uint pollingInterval, Plasma5Support::Types::IntervalAlignment intervalAlignment) const
+void DataEngine::connectSource(const QString &source,
+                               QObject *visualization,
+                               uint pollingInterval,
+                               Plasma5Support::Types::IntervalAlignment intervalAlignment) const
 {
     // qCDebug(LOG_PLASMA) << "connectSource" << source;
     bool newSource;
@@ -358,8 +361,7 @@ void DataEngine::forceImmediateUpdateOfAllVisualizations()
 
 void DataEngine::setStorageEnabled(const QString &source, bool store)
 {
-    DataContainer *s = d->source(source, false);
-    if (s) {
+    if (DataContainer *s = d->source(source, false)) {
         s->setStorageEnabled(store);
     }
 }
@@ -372,12 +374,11 @@ DataEnginePrivate::DataEnginePrivate(DataEngine *e, const KPluginMetaData &md, c
     , checkSourcesTimerId(0) // first ref
     , updateTimerId(0)
     , minPollingInterval(-1)
-    , valid(false)
+    , valid(true)
 {
     updateTimer.start();
 
     if (dataEngineDescription.isValid()) {
-        valid = true;
         e->setObjectName(dataEngineDescription.name());
     }
 }

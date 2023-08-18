@@ -7,8 +7,8 @@
 #ifndef PLUGINLOADERTEST_H
 #define PLUGINLOADERTEST_H
 
+#include <Plasma5Support/DataEngine>
 #include <QCoreApplication>
-#include <plasma/dataengine.h>
 
 class PluginTest : public QObject
 {
@@ -18,10 +18,6 @@ public:
 
 private Q_SLOTS:
     void listEngines();
-    void listAppletCategories();
-    void listContainmentActions();
-    void listContainmentsOfType();
-
     void loadDataEngine();
 
 private:
@@ -37,7 +33,7 @@ public:
     }
 
 public Q_SLOTS:
-    void dataUpdated(const QString &name, const Plasma::DataEngine::Data &data);
+    void dataUpdated(const QString &name, const Plasma5Support::DataEngine::Data &data);
 };
 
 #endif
