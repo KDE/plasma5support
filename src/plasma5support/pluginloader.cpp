@@ -20,34 +20,11 @@
 
 namespace Plasma5Support
 {
-class PluginLoaderPrivate
-{
-public:
-    static QString s_dataEnginePluginDir;
-    static QString s_servicesPluginDir;
-};
-
-QString PluginLoaderPrivate::s_dataEnginePluginDir = QStringLiteral("plasma5support/dataengine");
-QString PluginLoaderPrivate::s_servicesPluginDir = QStringLiteral("plasma5support/services");
-
-PluginLoader::PluginLoader()
-    : d(new PluginLoaderPrivate)
-{
-}
-
-PluginLoader::~PluginLoader()
-{
-    delete d;
-}
-
-PluginLoader *PluginLoader::self()
-{
-    static PluginLoader *s_pluginLoader = new PluginLoader();
-    return s_pluginLoader;
-}
+PluginLoader::~PluginLoader() = default;
 
 Service *PluginLoader::loadService(const QString &name, QObject *parent)
 {
+    const static QString s_servicesPluginDir = QStringLiteral("plasma5support/services");
     Service *service = nullptr;
 
     // TODO: scripting API support
@@ -58,7 +35,7 @@ Service *PluginLoader::loadService(const QString &name, QObject *parent)
     }
 
     // Look for C++ plugins first
-    KPluginMetaData plugin = KPluginMetaData::findPluginById(PluginLoaderPrivate::s_servicesPluginDir, name);
+    KPluginMetaData plugin = KPluginMetaData::findPluginById(s_servicesPluginDir, name);
     if (plugin.isValid()) {
         service = KPluginFactory::instantiatePlugin<Plasma5Support::Service>(plugin, parent).plugin;
     }
@@ -75,10 +52,11 @@ Service *PluginLoader::loadService(const QString &name, QObject *parent)
 
 QVector<KPluginMetaData> PluginLoader::listDataEngineMetaData(const QString &parentApp)
 {
+    const static QString s_dataEnginePluginDir = QStringLiteral("plasma5support/dataengine");
     if (parentApp.isEmpty()) {
-        return KPluginMetaData::findPlugins(PluginLoaderPrivate::s_dataEnginePluginDir);
+        return KPluginMetaData::findPlugins(s_dataEnginePluginDir);
     } else {
-        return KPluginMetaData::findPlugins(PluginLoaderPrivate::s_dataEnginePluginDir, [&parentApp](const KPluginMetaData &md) -> bool {
+        return KPluginMetaData::findPlugins(s_dataEnginePluginDir, [&parentApp](const KPluginMetaData &md) -> bool {
             return md.value(QStringLiteral("X-KDE-ParentApp")) == parentApp;
         });
     }

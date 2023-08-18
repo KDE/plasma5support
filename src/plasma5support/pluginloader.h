@@ -37,7 +37,7 @@ public:
      *
      * @return a Service object, unlike Plasma5Support::Service::loadService, this can return null.
      **/
-    Service *loadService(const QString &name, QObject *parent = nullptr);
+    static Service *loadService(const QString &name, QObject *parent = nullptr);
 
     /**
      * Returns a list of all known dataengines.
@@ -48,18 +48,12 @@ public:
      *                  list of all dataengines
      * @return list of dataengines
      **/
-    QList<KPluginMetaData> listDataEngineMetaData(const QString &parentApp = QString());
-
-    /**
-     * Return the active plugin loader
-     **/
-    static PluginLoader *self();
-
-    PluginLoader();
-    virtual ~PluginLoader();
+    static QList<KPluginMetaData> listDataEngineMetaData(const QString &parentApp = QString());
 
 private:
-    PluginLoaderPrivate *const d;
+    PluginLoader() = default;
+    virtual ~PluginLoader();
+    void *d;
 };
 
 }

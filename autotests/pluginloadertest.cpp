@@ -24,7 +24,7 @@ PluginTest::PluginTest()
 
 void PluginTest::listEngines()
 {
-    QVector<KPluginMetaData> plugins = Plasma5Support::PluginLoader::self()->listDataEngineMetaData();
+    QVector<KPluginMetaData> plugins = Plasma5Support::PluginLoader::listDataEngineMetaData();
     qDebug() << " Found " << plugins.count() << " DataEngines";
     // Switch to true in order to let tests pass, this test usually will only
     // work with plugins installed, but there aren't any in plasma-framework
