@@ -9,7 +9,7 @@ target_sources(plasma5supportplugin PRIVATE
     )
 
 
-target_link_libraries(plasma5supportplugin
+target_link_libraries(plasma5supportplugin PRIVATE
         Qt::Quick
         Qt::Qml
         KF6::ConfigCore
