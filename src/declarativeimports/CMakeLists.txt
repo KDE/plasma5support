@@ -14,7 +14,6 @@ target_link_libraries(plasma5supportplugin PRIVATE
         Qt::Qml
         KF6::ConfigCore
         KF6::I18n
-        KF6::Service #for kplugininfo.h
         KF6::Plasma5Support
         KF6::CoreAddons
 )

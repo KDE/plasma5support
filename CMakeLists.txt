@@ -47,17 +47,13 @@ add_definitions(-DQT_NO_FOREACH)
 
 set (REQUIRED_QT_VERSION 6.4.0)
 
-find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Sql Qml)
+find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Sql Qml Widgets)
 
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
         Config
         CoreAddons
         I18n
-        KIO
-        Package
-        Service
-        XmlGui
 )
 
 
