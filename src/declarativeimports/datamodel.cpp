@@ -370,7 +370,7 @@ void DataModel::setItems(const QString &sourceName, const QVariantList &list)
 
     // At what row number the first item associated to this source starts
     int sourceIndex = 0;
-    QMap<QString, QVector<QVariant>>::const_iterator i;
+    QMap<QString, QList<QVariant>>::const_iterator i;
     for (i = m_items.constBegin(); i != m_items.constEnd(); ++i) {
         if (i.key() == sourceName) {
             break;
@@ -469,7 +469,7 @@ QVariant DataModel::data(const QModelIndex &index, int role) const
     int count = 0;
     int actualRow = 0;
     QString source;
-    QMap<QString, QVector<QVariant>>::const_iterator i;
+    QMap<QString, QList<QVariant>>::const_iterator i;
     for (i = m_items.constBegin(); i != m_items.constEnd(); ++i) {
         const int oldCount = count;
         count += i.value().count();

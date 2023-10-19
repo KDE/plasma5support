@@ -9,9 +9,9 @@
 
 #include <QAbstractItemModel>
 #include <QJSValue>
+#include <QList>
 #include <QRegularExpression>
 #include <QSortFilterProxyModel>
-#include <QVector>
 
 #include <Plasma5Support/DataEngine>
 
@@ -242,7 +242,7 @@ private:
     QRegularExpression m_keyRoleFilterRE;
     QString m_sourceFilter;
     QRegularExpression m_sourceFilterRE;
-    QMap<QString, QVector<QVariant>> m_items;
+    QMap<QString, QList<QVariant>> m_items;
     QHash<int, QByteArray> m_roleNames;
     QHash<QString, int> m_roleIds;
     int m_maxRoleId;
@@ -251,7 +251,7 @@ private:
 int DataModel::countItems() const
 {
     int count = 0;
-    for (const QVector<QVariant> &v : std::as_const(m_items)) {
+    for (const QList<QVariant> &v : std::as_const(m_items)) {
         count += v.count();
     }
     return count;

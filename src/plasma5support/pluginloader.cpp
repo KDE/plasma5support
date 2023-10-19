@@ -50,7 +50,7 @@ Service *PluginLoader::loadService(const QString &name, QObject *parent)
     }
 }
 
-QVector<KPluginMetaData> PluginLoader::listDataEngineMetaData(const QString &parentApp)
+QList<KPluginMetaData> PluginLoader::listDataEngineMetaData(const QString &parentApp)
 {
     const static QString s_dataEnginePluginDir = QStringLiteral("plasma5support/dataengine");
     if (parentApp.isEmpty()) {
