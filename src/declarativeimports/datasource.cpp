@@ -8,6 +8,7 @@
 */
 
 #include "datasource.h"
+#include <QAbstractItemModel>
 
 namespace Plasma5Support
 {
