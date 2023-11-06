@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
-project(Plasma5Support)
 set(PROJECT_VERSION "5.27.80")
+project(Plasma5Support VERSION ${PROJECT_VERSION})
 
 set(QT_MIN_VERSION "6.5.0")
 set(KF6_MIN_VERSION "5.240.0")
@@ -42,9 +42,6 @@ ecm_setup_version(PROJECT
 
 add_definitions(-DQT_NO_FOREACH)
 ################# now find all used packages #################
-
-set(QT_MIN_VERSION "6.5.0")
-set (REQUIRED_QT_VERSION 6.4.0)
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Gui Quick Sql Qml Widgets)
 

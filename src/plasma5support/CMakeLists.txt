@@ -46,7 +46,7 @@ ecm_generate_export_header(KF6Plasma5Support
     EXPORT_FILE_NAME plasma5support/plasma5support_export.h
     BASE_NAME Plasma5Support
     GROUP_BASE_NAME KF
-    VERSION ${KF6_MIN_VERSION}
+    VERSION ${PROJECT_VERSION}
     DEPRECATED_BASE_VERSION 0
     DEPRECATION_VERSIONS 5.6 5.19 5.28 5.30 5.36 5.46 5.67 5.77 5.78 5.81
 )
