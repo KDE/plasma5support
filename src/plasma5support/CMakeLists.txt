@@ -120,7 +120,7 @@ if(BUILD_QCH)
         KF6Plasma5Support_QCH
         NAME Plasma5Support
         BASE_NAME KF6Plasma5Support
-        VERSION ${KF_VERSION}
+        VERSION ${PROJECT_VERSION}
         ORG_DOMAIN org.kde
         SOURCES # using only public headers, to cover only public API
             ${Plasma5Support_HEADERS}
