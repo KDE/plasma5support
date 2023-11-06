@@ -1,20 +1,18 @@
 cmake_minimum_required(VERSION 3.16)
+project(Plasma5Support)
+set(PROJECT_VERSION "5.27.80")
 
-set(KF_VERSION "5.240.0") # handled by release scripts
-set(KF_DEP_VERSION "5.240.0") # handled by release scripts
-project(Plasma5Support VERSION ${KF_VERSION})
+set(QT_MIN_VERSION "6.5.0")
+set(KF6_MIN_VERSION "5.240.0")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# ECM setup
-include(FeatureSummary)
-find_package(ECM 5.240.0  NO_MODULE)
-set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
-feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
+find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
 
+include(FeatureSummary)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEGitCommitHooks)
@@ -45,9 +43,10 @@ ecm_setup_version(PROJECT
 add_definitions(-DQT_NO_FOREACH)
 ################# now find all used packages #################
 
+set(QT_MIN_VERSION "6.5.0")
 set (REQUIRED_QT_VERSION 6.4.0)
 
-find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Gui Quick Sql Qml Widgets)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Gui Quick Sql Qml Widgets)
 
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
