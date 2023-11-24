@@ -16,7 +16,7 @@ include(FeatureSummary)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEGitCommitHooks)
-include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
+include(KDECompilerSettings NO_POLICY_SCOPE)
 
 include(ECMGenerateExportHeader)
 include(ECMGenerateHeaders)
@@ -37,7 +37,7 @@ add_feature_info(QCH ${BUILD_QCH} "API documentation in QCH format (for e.g. Qt 
 ecm_setup_version(PROJECT
                   VARIABLE_PREFIX PLASMA5SUPPORT
                   VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/plasma5support_version.h"
-                  PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6Plasma5SupportConfigVersion.cmake"
+                  PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/Plasma5SupportConfigVersion.cmake"
                   SOVERSION 6)
 
 add_definitions(-DQT_NO_FOREACH)
@@ -61,7 +61,7 @@ add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
 
 #########################################################################
 
-include(KF6Plasma5SupportMacros.cmake)
+include(Plasma5SupportMacros.cmake)
 
 option(BUILD_COVERAGE "Build Plasma5Support Frameworks with gcov support" OFF)
 
@@ -90,41 +90,41 @@ endif()
 
 # create a Config.cmake and a ConfigVersion.cmake file and install them
 
-set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6Plasma5Support")
+set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/Plasma5Support")
 
 if (BUILD_QCH)
     ecm_install_qch_export(
-        TARGETS KF6Plasma5Support_QCH
-        FILE KF6Plasma5SupportQchTargets.cmake
+        TARGETS Plasma5Support_QCH
+        FILE Plasma5SupportQchTargets.cmake
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         COMPONENT Devel
     )
-    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF6Plasma5SupportQchTargets.cmake\")")
+    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/Plasma5SupportQchTargets.cmake\")")
 endif()
 
 configure_package_config_file(
-  "${CMAKE_CURRENT_SOURCE_DIR}/KF6Plasma5SupportConfig.cmake.in"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6Plasma5SupportConfig.cmake"
+  "${CMAKE_CURRENT_SOURCE_DIR}/Plasma5SupportConfig.cmake.in"
+  "${CMAKE_CURRENT_BINARY_DIR}/Plasma5SupportConfig.cmake"
   INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
   PATH_VARS  CMAKE_INSTALL_PREFIX
 )
 
 install(FILES
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6Plasma5SupportConfig.cmake"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6Plasma5SupportConfigVersion.cmake"
-  "${CMAKE_CURRENT_SOURCE_DIR}/KF6Plasma5SupportMacros.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/Plasma5SupportConfig.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/Plasma5SupportConfigVersion.cmake"
+  "${CMAKE_CURRENT_SOURCE_DIR}/Plasma5SupportMacros.cmake"
   DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
   COMPONENT Devel
 )
 
-install(EXPORT KF6Plasma5SupportTargets
+install(EXPORT Plasma5SupportTargets
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-        FILE KF6Plasma5SupportTargets.cmake
-        NAMESPACE KF6::
+        FILE Plasma5SupportTargets.cmake
+        NAMESPACE Plasma::
         COMPONENT Devel)
 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/plasma5support_version.h
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF} COMPONENT Devel )
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR} COMPONENT Devel )
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
