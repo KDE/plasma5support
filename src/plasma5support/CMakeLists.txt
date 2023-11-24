@@ -104,10 +104,10 @@ set(Plasma5Support_HEADERS
 install(FILES
         ${Plasma5Support_HEADERS}
         ${CMAKE_CURRENT_BINARY_DIR}/plasma5support/plasma5support_export.h
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR}/plasma5support COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR}/Plasma5Support/plasma5support COMPONENT Devel)
 
 install(FILES ${Plasma5Support_CamelCase_HEADERS}
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR}/Plasma5Support COMPONENT Devel)
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR}/Plasma5Support/Plasma5Support COMPONENT Devel)
 
 install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/plasmoidservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)

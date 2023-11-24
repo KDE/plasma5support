@@ -124,7 +124,7 @@ install(EXPORT Plasma5SupportTargets
         COMPONENT Devel)
 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/plasma5support_version.h
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR} COMPONENT Devel )
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR}/Plasma5Support COMPONENT Devel )
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
