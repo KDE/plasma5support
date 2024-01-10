@@ -13,6 +13,7 @@ DeviceNotificationsEngine::DeviceNotificationsEngine(QObject *parent)
     : Plasma5Support::DataEngine(parent)
     , m_solidNotify(new KSolidNotify(this))
 {
+    qWarning("DeviceNotificationsEngine is deprecated. Import KSolidNotify from org.kde.plasma.private.devicenotifier instead.");
     connect(m_solidNotify, &KSolidNotify::notify, this, &DeviceNotificationsEngine::notify);
     connect(m_solidNotify, &KSolidNotify::clearNotification, this, &DeviceNotificationsEngine::clearNotification);
 }
