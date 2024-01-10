@@ -50,9 +50,12 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         Config
         CoreAddons
         I18n
+        Notifications
+        Service
+        Solid
 )
-
-
+find_package(KSysGuard CONFIG REQUIRED) # devicenotifications
+find_package(Plasma ${PROJECT_VERSION} REQUIRED)
 
 #########################################################################
 
