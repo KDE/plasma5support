@@ -20,4 +20,3 @@ target_link_libraries(plasma_engine_devicenotifications
 )
 
 install(TARGETS plasma_engine_devicenotifications DESTINATION ${KDE_INSTALL_PLUGINDIR}/plasma5support/dataengine)
-install(FILES devicenotifications.notifyrc DESTINATION ${KDE_INSTALL_KNOTIFYRCDIR})

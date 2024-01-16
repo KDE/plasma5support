@@ -1,8 +1,0 @@
-[Global]
-Name=Device Notifier
-IconName=device-notifier
-
-[Event/safelyRemovable]
-Name=Device Status
-Sound=dialog-information
-Action=Sound
