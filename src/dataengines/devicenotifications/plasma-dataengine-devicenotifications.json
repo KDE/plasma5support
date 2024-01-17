@@ -3,13 +3,37 @@
         "Authors": [
             {
                 "Email": "wilderkde@gmail.com",
-                "Name": "Jacopo De Simoi"
+                "Name": "Jacopo De Simoi",
+                "Name[ca@valencia]": "Jacopo De Simoi",
+                "Name[ca]": "Jacopo De Simoi",
+                "Name[eu]": "Jacopo De Simoi",
+                "Name[hu]": "Jacopo De Simoi",
+                "Name[nl]": "Jacopo De Simoi",
+                "Name[tr]": "Jacopo De Simoi",
+                "Name[uk]": "Jacopo De Simoi",
+                "Name[x-test]": "xxJacopo De Simoixx"
             }
         ],
         "Category": "",
         "Description": "Passive device notifications for the user.",
+        "Description[ca@valencia]": "Notificacions passives de dispositius per a l'usuari.",
+        "Description[ca]": "Notificacions passives de dispositius per a l'usuari.",
+        "Description[eu]": "Erabiltzailearentzako gailu-jakinarazpen pasiboak.",
+        "Description[hu]": "Passzív eszközértesítések a felhasználónak.",
+        "Description[nl]": "Passieve meldingen van apparaten voor de gebruiker.",
+        "Description[tr]": "Kullanıcı için pasif aygıt bildirimleri.",
+        "Description[uk]": "Пасивні сповіщення користувача щодо пристроїв.",
+        "Description[x-test]": "xxPassive device notifications for the user.xx",
         "Icon": "device-notifier",
         "Name": "Device Notifications",
+        "Name[ca@valencia]": "Notificacions dels dispositius",
+        "Name[ca]": "Notificacions dels dispositius",
+        "Name[eu]": "Gailuaren jakinarazpenak",
+        "Name[hu]": "Eszközértesítések",
+        "Name[nl]": "Meldingen van apparaten",
+        "Name[tr]": "Aygıt Bildirimleri",
+        "Name[uk]": "Сповіщення про пристрої",
+        "Name[x-test]": "xxDevice Notificationsxx",
         "Website": "https://kde.org/plasma-desktop"
     }
 }
