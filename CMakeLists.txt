@@ -49,10 +49,8 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
         Config
         CoreAddons
-        GuiAddons
         I18n
         Notifications
-        KIO
         Service
         Solid
 )
