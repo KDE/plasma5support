@@ -6,12 +6,15 @@
 
 #include "keystate.h"
 
+#include <QDebug>
+
 #include "keyservice.h"
 #include <klocalizedstring.h>
 
 KeyStatesEngine::KeyStatesEngine(QObject *parent)
     : Plasma5Support::DataEngine(parent)
 {
+    qWarning("KeyStatesEngine is deprecated. Use KeyState from org.kde.plasma.private.keyboardindicator instead.");
     m_mods.insert(Qt::Key_Shift, kli18n("Shift"));
     m_mods.insert(Qt::Key_Control, kli18n("Ctrl"));
     m_mods.insert(Qt::Key_Alt, kli18n("Alt"));
