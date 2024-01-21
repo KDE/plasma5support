@@ -6,6 +6,7 @@
                 "Name": "Jacopo De Simoi",
                 "Name[ca@valencia]": "Jacopo De Simoi",
                 "Name[ca]": "Jacopo De Simoi",
+                "Name[eo]": "Jacopo De Simoi",
                 "Name[es]": "Jacopo De Simoi",
                 "Name[eu]": "Jacopo De Simoi",
                 "Name[hu]": "Jacopo De Simoi",
@@ -15,13 +16,15 @@
                 "Name[sl]": "Jacopo De Simoi",
                 "Name[tr]": "Jacopo De Simoi",
                 "Name[uk]": "Jacopo De Simoi",
-                "Name[x-test]": "xxJacopo De Simoixx"
+                "Name[x-test]": "xxJacopo De Simoixx",
+                "Name[zh_TW]": "Jacopo De Simoi"
             }
         ],
         "Category": "",
         "Description": "Passive device notifications for the user.",
         "Description[ca@valencia]": "Notificacions passives de dispositius per a l'usuari.",
         "Description[ca]": "Notificacions passives de dispositius per a l'usuari.",
+        "Description[eo]": "Pasivaj aparat-atentigoj por la uzanto.",
         "Description[es]": "Notificaciones pasivas de dispositivos para el usuario.",
         "Description[eu]": "Erabiltzailearentzako gailu-jakinarazpen pasiboak.",
         "Description[hu]": "Passzív eszközértesítések a felhasználónak.",
@@ -32,10 +35,12 @@
         "Description[tr]": "Kullanıcı için pasif aygıt bildirimleri.",
         "Description[uk]": "Пасивні сповіщення користувача щодо пристроїв.",
         "Description[x-test]": "xxPassive device notifications for the user.xx",
+        "Description[zh_TW]": "給使用者的被動裝置通知。",
         "Icon": "device-notifier",
         "Name": "Device Notifications",
         "Name[ca@valencia]": "Notificacions dels dispositius",
         "Name[ca]": "Notificacions dels dispositius",
+        "Name[eo]": "Aparat-Atentigoj",
         "Name[es]": "Notificaciones de dispositivos",
         "Name[eu]": "Gailuaren jakinarazpenak",
         "Name[hu]": "Eszközértesítések",
@@ -46,6 +51,7 @@
         "Name[tr]": "Aygıt Bildirimleri",
         "Name[uk]": "Сповіщення про пристрої",
         "Name[x-test]": "xxDevice Notificationsxx",
+        "Name[zh_TW]": "裝置通知",
         "Website": "https://kde.org/plasma-desktop"
     }
 }
