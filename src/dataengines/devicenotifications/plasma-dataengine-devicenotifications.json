@@ -13,10 +13,12 @@
                 "Name[ia]": "Jacopo De Simoi",
                 "Name[ka]": "Jacopo De Simoi",
                 "Name[nl]": "Jacopo De Simoi",
+                "Name[pl]": "Jacopo De Simoi",
                 "Name[sl]": "Jacopo De Simoi",
                 "Name[tr]": "Jacopo De Simoi",
                 "Name[uk]": "Jacopo De Simoi",
                 "Name[x-test]": "xxJacopo De Simoixx",
+                "Name[zh_CN]": "Jacopo De Simoi",
                 "Name[zh_TW]": "Jacopo De Simoi"
             }
         ],
@@ -31,10 +33,12 @@
         "Description[ia]": "Notificationes de dispositivo passive pro le usator.",
         "Description[ka]": "პასიური მოწყობილობის გაფრთხილებები მომხმარებლისთვის.",
         "Description[nl]": "Passieve meldingen van apparaten voor de gebruiker.",
+        "Description[pl]": "Powiadamia biernie użytkownika o urządzeniach.",
         "Description[sl]": "Pasivna obvestila naprave za uporabnika.",
         "Description[tr]": "Kullanıcı için pasif aygıt bildirimleri.",
         "Description[uk]": "Пасивні сповіщення користувача щодо пристроїв.",
         "Description[x-test]": "xxPassive device notifications for the user.xx",
+        "Description[zh_CN]": "为用户提供被动的设备通知。",
         "Description[zh_TW]": "給使用者的被動裝置通知。",
         "Icon": "device-notifier",
         "Name": "Device Notifications",
@@ -47,10 +51,12 @@
         "Name[ia]": "Notificationes de dispositivo",
         "Name[ka]": "მოწყობილობის გაფრთხილებები",
         "Name[nl]": "Meldingen van apparaten",
+        "Name[pl]": "Powiadomienia urządzeń",
         "Name[sl]": "Obvestila naprave",
         "Name[tr]": "Aygıt Bildirimleri",
         "Name[uk]": "Сповіщення про пристрої",
         "Name[x-test]": "xxDevice Notificationsxx",
+        "Name[zh_CN]": "设备通知",
         "Name[zh_TW]": "裝置通知",
         "Website": "https://kde.org/plasma-desktop"
     }
