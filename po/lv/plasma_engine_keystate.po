@@ -1,0 +1,93 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Viesturs Zariņš <viesturs.zarins@mii.lu.lv>, 2009.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-22 00:38+0000\n"
+"PO-Revision-Date: 2011-07-07 23:16+0300\n"
+"Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#: keystate.cpp:18
+msgid "Shift"
+msgstr "Shift"
+
+#: keystate.cpp:19
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: keystate.cpp:20
+msgid "Alt"
+msgstr "Alt"
+
+#: keystate.cpp:21
+msgid "Meta"
+msgstr "Meta"
+
+#: keystate.cpp:22
+msgid "Super"
+msgstr "Super"
+
+#: keystate.cpp:23
+msgid "Hyper"
+msgstr "Hiper"
+
+#: keystate.cpp:24
+msgid "AltGr"
+msgstr "AltGr"
+
+#: keystate.cpp:25
+msgid "Num Lock"
+msgstr "Num Lock"
+
+#: keystate.cpp:26
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#: keystate.cpp:27
+msgid "Scroll Lock"
+msgstr "Scroll Lock"
+
+#: keystate.cpp:29
+msgid "Left Button"
+msgstr "Kreisā poga"
+
+#: keystate.cpp:30
+msgid "Right Button"
+msgstr "Labā poga"
+
+#: keystate.cpp:31
+msgid "Middle Button"
+msgstr "Vidējā poga"
+
+#: keystate.cpp:32
+msgid "First X Button"
+msgstr "Pirmā X poga"
+
+#: keystate.cpp:33
+msgid "Second X Button"
+msgstr "Otrā X poga"
+
+#: keystate.cpp:47 keystate.cpp:57 keystate.cpp:84 keystate.cpp:105
+#: keystate.cpp:113
+msgid "Pressed"
+msgstr "Nospiesta"
+
+#: keystate.cpp:48 keystate.cpp:91 keystate.cpp:114
+msgid "Latched"
+msgstr "Lipīga"
+
+#: keystate.cpp:49 keystate.cpp:98 keystate.cpp:115
+msgid "Locked"
+msgstr "Slēgta"
