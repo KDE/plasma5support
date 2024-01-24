@@ -7,7 +7,7 @@
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-workspace\n"
+"Project-Id-Version: plasma5support\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-22 00:38+0000\n"
 "PO-Revision-Date: 2016-09-26 22:37+0100\n"
