@@ -1,89 +1,89 @@
+# Korean messages for knotify4.
+# Copyright (C) 2001,2002,2003,2004 Free Software Foundation, Inc.
+# KIM KyungHeon <tody@teoal.net>, 2001, 2002, 2003, 2004.
+# Shinjo Park <kde@peremen.name>, 2009, 2010, 2011, 2015, 2016, 2021.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: knotify4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-16 00:39+0000\n"
-"PO-Revision-Date: 2024-02-05 11:37\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2021-05-16 23:48+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/plasma5support/"
-"plasma_engine_devicenotifications.pot\n"
-"X-Crowdin-File-ID: 49348\n"
+"X-Generator: Lokalize 20.12.3\n"
 
 #: ksolidnotify.cpp:149
 #, kde-format
 msgid "Device Status"
-msgstr "设备状态"
+msgstr "장치 상태"
 
 #: ksolidnotify.cpp:149
 #, kde-format
 msgid "A device can now be safely removed"
-msgstr "现在可以安全移除设备"
+msgstr "이제 장치를 안전하게 제거할 수 있음"
 
 #: ksolidnotify.cpp:150
 #, kde-format
 msgid "This device can now be safely removed."
-msgstr "现在可以安全移除此设备。"
+msgstr "이제 장치를 안전하게 제거할 수 있습니다."
 
 #: ksolidnotify.cpp:157
 #, kde-format
 msgid "You are not authorized to mount this device."
-msgstr "您没有挂载此设备的权限。"
+msgstr "이 장치를 마운트할 권한이 없습니다."
 
 #: ksolidnotify.cpp:160
 #, kde-format
 msgctxt "Remove is less technical for unmount"
 msgid "You are not authorized to remove this device."
-msgstr "您没有移除此设备的权限。"
+msgstr "이 장치를 제거할 권한이 없습니다."
 
 #: ksolidnotify.cpp:163
 #, kde-format
 msgid "You are not authorized to eject this disc."
-msgstr "您没有弹出此光盘的权限。"
+msgstr "이 디스크를 꺼낼 권한이 없습니다."
 
 #: ksolidnotify.cpp:170
 #, kde-format
 msgid "Could not mount this device as it is busy."
-msgstr "无法挂载设备，因为此设备正忙。"
+msgstr "장치가 사용 중이므로 마운트할 수 없습니다."
 
 #: ksolidnotify.cpp:200
 #, kde-format
 msgid "One or more files on this device are open within an application."
-msgstr "此设备中有文件正在被其他应用程序打开。"
+msgstr "이 장치에 있는 하나 이상의 파일이 다른 앱에서 열려 있습니다."
 
 #: ksolidnotify.cpp:202
 #, kde-format
 msgid "One or more files on this device are opened in application \"%2\"."
 msgid_plural ""
 "One or more files on this device are opened in following applications: %2."
-msgstr[0] "此设备中有文件正在被以下其他应用程序打开：%2。"
+msgstr[0] "이 장치에 있는 하나 이상의 파일이 다음 앱에서 열려 있습니다: %2."
 
 #: ksolidnotify.cpp:205
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
-msgstr "、"
+msgstr ", "
 
 #: ksolidnotify.cpp:222
 #, kde-format
 msgid "Could not mount this device."
-msgstr "无法挂载此设备。"
+msgstr "이 장치를 마운트할 수 없습니다."
 
 #: ksolidnotify.cpp:225
 #, kde-format
 msgctxt "Remove is less technical for unmount"
 msgid "Could not remove this device."
-msgstr "无法移除此设备。"
+msgstr "이 장치를 제거할 수 없습니다."
 
 #: ksolidnotify.cpp:228
 #, kde-format
 msgid "Could not eject this disc."
-msgstr "无法弹出此光盘。"
+msgstr "이 디스크를 꺼낼 수 없습니다."
