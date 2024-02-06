@@ -16,6 +16,7 @@
                 "Name[ia]": "Aaron Seigo",
                 "Name[it]": "Aaron Seigo",
                 "Name[ka]": "აარონ სეიგო",
+                "Name[ko]": "Aaron Seigo",
                 "Name[lv]": "Aaron Seigo",
                 "Name[nl]": "Aaron Seigo",
                 "Name[pl]": "Aaron Seigo",
@@ -23,6 +24,7 @@
                 "Name[tr]": "Aaron Seigo",
                 "Name[uk]": "Aaron Seigo",
                 "Name[x-test]": "xxAaron Seigoxx",
+                "Name[zh_CN]": "Aaron Seigo",
                 "Name[zh_TW]": "Aaron Seigo"
             }
         ],
@@ -40,6 +42,7 @@
         "Description[ia]": "Modificator de claviero e statos de buttones del mus",
         "Description[it]": "Stati dei modificatori della tastiera e dei pulsanti del mouse",
         "Description[ka]": "კლავიატურის მოდიფიკატორი და თაგუნას ღილაკების მდგომარეობები",
+        "Description[ko]": "키보드 수정자 키 및 마우스 단추 상태",
         "Description[lv]": "Tastatūras modifikatora un peles pogu stāvokļi",
         "Description[nl]": "Wijzigt toetsenbord en muisknoptoestanden",
         "Description[pl]": "Wyświetla stany modyfikatorów klawiatury i przycisków myszy",
@@ -47,6 +50,7 @@
         "Description[tr]": "Klavye niteleyicisi ve fare düğmeleri durumları",
         "Description[uk]": "Стан модифікаторів клавіатури і кнопок миші",
         "Description[x-test]": "xxKeyboard modifier and mouse buttons statesxx",
+        "Description[zh_CN]": "显示键盘修饰健和鼠标按键状态",
         "Description[zh_TW]": "鍵盤組合鍵與滑鼠按鍵狀態",
         "EnabledByDefault": true,
         "Icon": "input-keyboard",
@@ -64,6 +68,7 @@
         "Name[ia]": "Stato del mus e del claviero",
         "Name[it]": "Stato di tastiera e mouse",
         "Name[ka]": "კლავიატურისა და თაგუნას მდგომარეობა",
+        "Name[ko]": "키보드와 마우스 상태",
         "Name[lv]": "Tastatūras un peles statuss",
         "Name[nl]": "Toetsenbord en muisstatus",
         "Name[pl]": "Stan klawiatury i myszy",
@@ -71,6 +76,7 @@
         "Name[tr]": "Klavye ve Fare Durumu",
         "Name[uk]": "Стан клавіатури і миші",
         "Name[x-test]": "xxKeyboard and Mouse Statexx",
+        "Name[zh_CN]": "键盘和鼠标状态",
         "Name[zh_TW]": "鍵盤與滑鼠狀態",
         "Website": "https://www.kde.org/plasma-desktop"
     }
