@@ -4,6 +4,7 @@
             {
                 "Email": "wilderkde@gmail.com",
                 "Name": "Jacopo De Simoi",
+                "Name[ar]": "Jacopo De Simoi",
                 "Name[ca@valencia]": "Jacopo De Simoi",
                 "Name[ca]": "Jacopo De Simoi",
                 "Name[cs]": "Jacopo De Simoi",
@@ -33,6 +34,7 @@
         ],
         "Category": "",
         "Description": "Passive device notifications for the user.",
+        "Description[ar]": "إخطارات الجهاز السلبية للمستخدم.",
         "Description[ca@valencia]": "Notificacions passives de dispositius per a l'usuari.",
         "Description[ca]": "Notificacions passives de dispositius per a l'usuari.",
         "Description[cs]": "Pasivní upozornění zařízení pro uživatele.",
@@ -60,6 +62,7 @@
         "Description[zh_TW]": "給使用者的被動裝置通知。",
         "Icon": "device-notifier",
         "Name": "Device Notifications",
+        "Name[ar]": "إخطارات الأجهزة",
         "Name[ca@valencia]": "Notificacions dels dispositius",
         "Name[ca]": "Notificacions dels dispositius",
         "Name[cs]": "Upozornění zařízení",
