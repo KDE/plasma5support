@@ -15,6 +15,7 @@ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
 
 include(FeatureSummary)
 include(KDEInstallDirs)
+include(KDEClangFormat)
 include(KDECMakeSettings)
 include(KDEGitCommitHooks)
 include(KDECompilerSettings NO_POLICY_SCOPE)
