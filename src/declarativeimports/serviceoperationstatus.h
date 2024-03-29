@@ -8,6 +8,7 @@
 
 #include <QObject>
 #include <QPointer>
+#include <QQmlEngine>
 
 #include "plasma5support/service.h"
 
@@ -23,6 +24,7 @@ class Service;
 class ServiceOperationStatus : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
 
     /**
      * The service instance we want to monitor

@@ -8,6 +8,8 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config-plasma5support.h.cmake ${CMAKE
 add_library(Plasma5Support)
 add_library(Plasma::Plasma5Support ALIAS Plasma5Support)
 
+qt_extract_metatypes(Plasma5Support)
+
 set_target_properties(Plasma5Support PROPERTIES
     VERSION     ${PLASMA5SUPPORT_VERSION}
     SOVERSION   ${PLASMA5SUPPORT_SOVERSION}

@@ -11,6 +11,7 @@
 #define DATASOURCE_H
 
 #include <QObject>
+#include <QQmlEngine>
 #include <QQmlParserStatus>
 #include <QQmlPropertyMap>
 
@@ -30,6 +31,7 @@ class DataEngine;
 class DataSource : public QObject, public QQmlParserStatus, DataEngineConsumer
 {
     Q_OBJECT
+    QML_ELEMENT
     Q_INTERFACES(QQmlParserStatus)
 
 public:

@@ -1,11 +1,11 @@
 
-ecm_add_qml_module(plasma5supportplugin URI "org.kde.plasma.plasma5support")
+ecm_add_qml_module(plasma5supportplugin URI "org.kde.plasma.plasma5support" VERSION 2.0 DEPENDENCIES QtCore QtQuick GENERATE_PLUGIN_SOURCE)
 
 target_sources(plasma5supportplugin PRIVATE
-    plasma5supportplugin.cpp
     datamodel.cpp
     datasource.cpp
     serviceoperationstatus.cpp
+    types.h
     )
 
 

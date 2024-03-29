@@ -10,6 +10,7 @@
 #include <QAbstractItemModel>
 #include <QJSValue>
 #include <QList>
+#include <QQmlEngine>
 #include <QRegularExpression>
 #include <QSortFilterProxyModel>
 
@@ -31,6 +32,7 @@ class DataModel;
 class SortFilterModel : public QSortFilterProxyModel
 {
     Q_OBJECT
+    QML_ELEMENT
     /**
      * The source model of this sorting proxy model. It has to inherit QAbstractItemModel (ListModel is not supported)
      */
@@ -157,6 +159,7 @@ private:
 class DataModel : public QAbstractItemModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
     /**
      * The instance of DataSource to construct this model on
