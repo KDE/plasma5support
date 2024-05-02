@@ -45,7 +45,7 @@ public:
     ~DataEngineManagerPrivate()
     {
         for (Plasma5Support::DataEngine *engine : std::as_const(engines)) {
-            delete engine;
+            engine->deleteLater();
         }
         engines.clear();
         delete nullEng;
