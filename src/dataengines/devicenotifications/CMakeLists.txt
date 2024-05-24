@@ -12,10 +12,8 @@ add_library(plasma_engine_devicenotifications MODULE ${device_notifications_engi
 target_link_libraries(plasma_engine_devicenotifications
     KF6::I18n
     KF6::Notifications
-    KF6::Service
     KF6::Solid
     KSysGuard::ProcessCore
-    Plasma::Plasma
     Plasma::Plasma5Support
 )
 

@@ -11,10 +11,7 @@ kcoreaddons_add_plugin(plasma_engine_keystate SOURCES ${keystate_engine_SRCS} IN
 
 target_link_libraries(plasma_engine_keystate
     KF6::GuiAddons
-    Plasma::Plasma
     Plasma::Plasma5Support
-    KF6::Service
-    KF6::KIOCore
     KF6::I18n
 )
 

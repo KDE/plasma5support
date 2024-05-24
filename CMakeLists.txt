@@ -54,12 +54,9 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         GuiAddons
         I18n
         Notifications
-        KIO
-        Service
         Solid
 )
 find_package(KSysGuard CONFIG REQUIRED) # devicenotifications
-find_package(Plasma ${PROJECT_DEP_VERSION} REQUIRED)
 
 #########################################################################
 
