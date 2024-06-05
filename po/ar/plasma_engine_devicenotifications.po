@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 23.08.1\n"
 
 #: ksolidnotify.cpp:149
 #, kde-format
@@ -64,7 +63,7 @@ msgstr "ثمّة ملفّ أو أكثر في هذا الجهاز مفتوح في
 msgid "One or more files on this device are opened in application \"%2\"."
 msgid_plural ""
 "One or more files on this device are opened in following applications: %2."
-msgstr[0] "لا تطبيقات تستخدم أيّ ملفّ في الجهاز."
+msgstr[0] "لا تطبيقات تستخدم أيّ ملفّ في الجهاز الجهاز."
 msgstr[1] "ثمّة ملفّ أو أكثر في هذا الجهاز مفتوح في التّطبيق \"%2\"."
 msgstr[2] "ثمّة ملفّ أو أكثر في هذا الجهاز مفتوح في التّطبيقين \"%2\"."
 msgstr[3] "ثمّة ملفّ أو أكثر في هذا الجهاز مفتوح في التّطبيقات \"%2\"."
@@ -75,7 +74,7 @@ msgstr[5] "ثمّة ملفّ أو أكثر في هذا الجهاز مفتوح �
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
-msgstr "،"
+msgstr "، "
 
 #: ksolidnotify.cpp:222
 #, kde-format
