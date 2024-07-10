@@ -1,8 +1,4 @@
 
-if(KDE_PLATFORM_FEATURE_BINARY_COMPATIBLE_FEATURE_REDUCTION)
-    set(PLASMA5SUPPORT_NO_PACKAGE_EXTRADATA TRUE)
-endif()
-
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config-plasma5support.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma5support.h)
 
 add_library(Plasma5Support)
