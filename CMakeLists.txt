@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-set(PROJECT_VERSION "6.1.4")
+set(PROJECT_VERSION "6.1.5")
 project(Plasma5Support VERSION ${PROJECT_VERSION})
 
 set(PROJECT_DEP_VERSION "6.1.4")
