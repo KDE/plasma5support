@@ -55,6 +55,8 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         I18n
         Notifications
         Solid
+        Service
+        KIO
 )
 find_package(KSysGuard CONFIG REQUIRED) # devicenotifications
 

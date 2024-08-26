@@ -11,4 +11,5 @@ Dependencies:
     'frameworks/ki18n': '@latest-kf6'
     'frameworks/knotifications': '@latest-kf6'
     'frameworks/solid': '@latest-kf6'
+    'frameworks/kio': '@latest-kf6'
     'plasma/libksysguard': '@same'
