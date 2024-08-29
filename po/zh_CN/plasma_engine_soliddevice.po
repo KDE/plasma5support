@@ -329,7 +329,7 @@ msgstr "UUID"
 
 #: soliddeviceengine.cpp:296
 msgid "Encrypted Container"
-msgstr "加密容器"
+msgstr "已加密容器"
 
 #: soliddeviceengine.cpp:308
 msgid "OpticalDisc"
@@ -345,11 +345,11 @@ msgstr "数据"
 
 #: soliddeviceengine.cpp:320
 msgid "Video CD"
-msgstr "Video CD"
+msgstr "VCD"
 
 #: soliddeviceengine.cpp:323
 msgid "Super Video CD"
-msgstr "Super Video CD"
+msgstr "超级 VCD"
 
 #: soliddeviceengine.cpp:326
 msgid "Video DVD"
@@ -595,7 +595,7 @@ msgstr "文件系统未响应"
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem mounted at '%1' is not responding"
-msgstr "挂载于“%1”的文件系统未响应"
+msgstr "挂载于“%1”的文件系统没有响应"
 
 #: soliddeviceengine.cpp:553
 msgid "Free Space"
