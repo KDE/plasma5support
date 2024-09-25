@@ -45,7 +45,7 @@ ecm_setup_version(PROJECT
 add_definitions(-DQT_NO_FOREACH)
 ################# now find all used packages #################
 
-find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Gui Quick Sql Qml Widgets)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Gui Quick Sql Qml Widgets Gui)
 
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
@@ -56,8 +56,10 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         Notifications
         Solid
         Service
+        IdleTime
         KIO
 )
+
 find_package(KSysGuard CONFIG REQUIRED) # devicenotifications
 
 #########################################################################
