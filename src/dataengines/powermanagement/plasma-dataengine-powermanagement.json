@@ -15,6 +15,7 @@
         "Description[eu]": "Bateria, AC, loa eta PowerDevil-i buruzko informazioa.",
         "Description[hu]": "A telepek, a tápellátás és a PowerDevil energiakezelő jellemzői.",
         "Description[ia]": "Batteria, AC, reposo e information de PowerDevil.",
+        "Description[it]": "Informazioni su batteria, alimentazione, sospensione e PowerDevil",
         "Description[ka]": "ელემენტის, კვების, ძილისა და PowerDevil-ის ინფორმაცია.",
         "Description[nl]": "Accu-, stroomvoorziening-, slaapstand- en PowerDevil-informatie.",
         "Description[sl]": "Baterija, napajanje, spanje in informacija o PowerDevilu.",
@@ -22,6 +23,7 @@
         "Description[tr]": "Pil, AC, uyku ve PowerDevil bilgisi",
         "Description[uk]": "Акумулятор, мережеве живлення, відомості щодо присипляння і PowerDevil.",
         "Description[x-test]": "xxBattery, AC, sleep and PowerDevil information.xx",
+        "Description[zh_TW]": "電池、市電電源、睡眠模式與 PowerDevil 資訊。",
         "Icon": "preferences-system-power-management",
         "Name": "Power Management",
         "Name[bg]": "Управление на захранването",
@@ -31,6 +33,7 @@
         "Name[eu]": "Energia-kudeaketa",
         "Name[hu]": "Energiakezelés",
         "Name[ia]": "Gestion de energia",
+        "Name[it]": "Gestione energetica",
         "Name[ka]": "კვების მართვა",
         "Name[nl]": "Energiebeheer",
         "Name[sl]": "Upravljanje z energijo",
@@ -38,6 +41,7 @@
         "Name[tr]": "Güç Yönetimi",
         "Name[uk]": "Керування живленням",
         "Name[x-test]": "xxPower Managementxx",
+        "Name[zh_TW]": "電源管理",
         "Website": "https://kde.org/plasma-desktop"
     }
 }
