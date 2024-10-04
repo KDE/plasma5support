@@ -60,8 +60,9 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         KIO
 )
 
-find_package(KSysGuard CONFIG REQUIRED) # devicenotifications
+find_package(KSysGuard CONFIG REQUIRED) #devicenotifications
 find_package(KF6NetworkManagerQt) #geolocation
+find_package(X11) #mouse
 
 #########################################################################
 
