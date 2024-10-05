@@ -14,3 +14,7 @@ Dependencies:
     'frameworks/kio': '@latest-kf6'
     'frameworks/kidletime': '@latest-kf6'
     'plasma/libksysguard': '@same'
+
+- 'on': [ 'Linux' ]
+  'require':
+    'frameworks/networkmanager-qt': '@latest-kf6'
