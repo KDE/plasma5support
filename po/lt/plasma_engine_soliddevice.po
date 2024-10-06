@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-27 00:41+0000\n"
-"PO-Revision-Date: 2024-02-26 01:31+0200\n"
+"PO-Revision-Date: 2024-10-05 16:49+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -599,7 +599,7 @@ msgstr "Failų sistema neatsako"
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem mounted at '%1' is not responding"
-msgstr "Failų sistema, prijungta ties \"%1\", neatsako"
+msgstr "Failų sistema, prijungta ties „%1“, neatsako"
 
 #: soliddeviceengine.cpp:553
 msgid "Free Space"
