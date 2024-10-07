@@ -3,14 +3,38 @@
         "Authors": [
             {
                 "Email": "plasma-devel@kde.org",
-                "Name": "Gregor Taetzner"
+                "Name": "Gregor Taetzner",
+                "Name[ca]": "Gregor Taetzner",
+                "Name[es]": "Gregor Taetzner",
+                "Name[ka]": "Gregor Taetzner",
+                "Name[nl]": "Gregor Taetzner",
+                "Name[sv]": "Gregor Taetzner",
+                "Name[tr]": "Gregor Taetzner",
+                "Name[uk]": "Gregor Taetzner",
+                "Name[x-test]": "xxGregor Taetznerxx"
             }
         ],
         "Category": "",
         "Description": "PackageKit Data Engine",
+        "Description[ca]": "Motor de dades del PackageKit",
+        "Description[es]": "Motor de datos de PackageKit",
+        "Description[ka]": "PackageKit -ის მონაცემების ძრავა",
+        "Description[nl]": "Pakketkit Gegevensengine",
+        "Description[sv]": "PackageKit-datagränssnitt",
+        "Description[tr]": "PackageKit verisi işletkesi",
+        "Description[uk]": "Рушій даних PackageKit",
+        "Description[x-test]": "xxPackageKit Data Enginexx",
         "Icon": "package-x-generic",
         "License": "GPL",
         "Name": "PackageKit",
+        "Name[ca]": "PackageKit",
+        "Name[es]": "PackageKit",
+        "Name[ka]": "PackageKit",
+        "Name[nl]": "PackageKit",
+        "Name[sv]": "PackageKit",
+        "Name[tr]": "PackageKit",
+        "Name[uk]": "PackageKit",
+        "Name[x-test]": "xxPackageKitxx",
         "Website": "https://www.kde.org/plasma-desktop"
     }
 }
