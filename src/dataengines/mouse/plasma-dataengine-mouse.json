@@ -21,6 +21,7 @@
         "Description[tr]": "Fare konumu ve imleci",
         "Description[uk]": "Позиція вказівника миші і курсора",
         "Description[x-test]": "xxMouse position and cursorxx",
+        "Description[zh_CN]": "鼠标位置和光标",
         "Icon": "input-mouse",
         "Name": "Pointer Position",
         "Name[bg]": "Разположение на курсора",
@@ -36,6 +37,7 @@
         "Name[tr]": "İşaretçi Konumu",
         "Name[uk]": "Позиція вказівника",
         "Name[x-test]": "xxPointer Positionxx",
+        "Name[zh_CN]": "指针位置",
         "Website": "https://kde.org/plasma-desktop"
     }
 }
