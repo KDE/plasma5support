@@ -4,6 +4,7 @@
             {
                 "Email": "damu@iki.fi",
                 "Name": "Petri Damstén",
+                "Name[ar]": "بيتري دامستن",
                 "Name[bg]": "Petri Damstén",
                 "Name[ca@valencia]": "Petri Damstén",
                 "Name[ca]": "Petri Damstén",
@@ -27,6 +28,7 @@
         ],
         "Category": "",
         "Description": "Geolocation Data Engine",
+        "Description[ar]": "محرّك بيانات الموقع الجغرافي",
         "Description[bg]": "Енджин за данни за геолокация",
         "Description[ca@valencia]": "Motor de dades de geolocalització",
         "Description[ca]": "Motor de dades de geolocalització",
@@ -48,6 +50,7 @@
         "Description[zh_CN]": "地理位置数据引擎",
         "Icon": "applications-internet",
         "Name": "Geolocation",
+        "Name[ar]": "الموقع الجغرافي",
         "Name[bg]": "Геолокация",
         "Name[ca@valencia]": "Geolocalització",
         "Name[ca]": "Geolocalització",

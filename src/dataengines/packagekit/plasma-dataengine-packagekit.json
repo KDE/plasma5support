@@ -4,6 +4,7 @@
             {
                 "Email": "plasma-devel@kde.org",
                 "Name": "Gregor Taetzner",
+                "Name[ar]": "جريجور تايتزنر",
                 "Name[bg]": "Gregor Taetzner",
                 "Name[ca@valencia]": "Gregor Taetzner",
                 "Name[ca]": "Gregor Taetzner",
@@ -27,6 +28,7 @@
         ],
         "Category": "",
         "Description": "PackageKit Data Engine",
+        "Description[ar]": "محرّك بيانات عُدّة الحزم",
         "Description[bg]": "Енджин за данни на PackageKit",
         "Description[ca@valencia]": "Motor de dades de PackageKit",
         "Description[ca]": "Motor de dades del PackageKit",
@@ -49,6 +51,7 @@
         "Icon": "package-x-generic",
         "License": "GPL",
         "Name": "PackageKit",
+        "Name[ar]": "عُدّة الحزم",
         "Name[bg]": "PackageKit",
         "Name[ca@valencia]": "PackageKit",
         "Name[ca]": "PackageKit",
