@@ -1,3 +1,5 @@
+configure_file(config-X11.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-X11.h)
+
 add_subdirectory(plasma5support)
 add_subdirectory(declarativeimports)
 add_subdirectory(dataengines)

@@ -11,7 +11,9 @@
 
 #include <Plasma5Support/DataEngine>
 
-#ifdef HAVE_XFIXES
+#include "config-X11.h"
+
+#if WITH_X11
 class CursorNotificationHandler;
 #endif
 
@@ -35,7 +37,7 @@ private Q_SLOTS:
 private:
     QPoint lastPosition;
     int timerId;
-#ifdef HAVE_XFIXES
+#if WITH_X11
     CursorNotificationHandler *handler;
 #endif
 };
