@@ -62,7 +62,11 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
 
 find_package(KSysGuard CONFIG REQUIRED) #devicenotifications
 find_package(KF6NetworkManagerQt) #geolocation
-find_package(X11) #mouse
+
+option(WITH_X11 "Build mouse data engine with X11 support." ON)
+if(WITH_X11)
+    find_package(X11 REQUIRED) #mouse
+endif()
 
 #########################################################################
 
