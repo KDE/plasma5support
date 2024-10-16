@@ -22,6 +22,7 @@
         "Description[tr]": "Dosyalar ve dizinler hakkında bilgi.",
         "Description[uk]": "Інформація про файли і каталоги.",
         "Description[x-test]": "xxInformation about files and directories.xx",
+        "Description[zh_CN]": "关于文件和目录的信息。",
         "Icon": "system-file-manager",
         "License": "",
         "Name": "Files and Directories",
@@ -39,6 +40,7 @@
         "Name[tr]": "Dosyalar ve Dizinler",
         "Name[uk]": "Файли і каталоги",
         "Name[x-test]": "xxFiles and Directoriesxx",
+        "Name[zh_CN]": "文件和目录",
         "Website": "https://kde.org/plasma-desktop"
     }
 }
