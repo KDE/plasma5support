@@ -9,12 +9,14 @@
                 "Name[ca]": "Alex Merry",
                 "Name[es]": "Alex Merry",
                 "Name[eu]": "Alex Merry",
+                "Name[he]": "אלכס מרי",
                 "Name[ka]": "Alex Merry",
                 "Name[nl]": "Alex Merry",
                 "Name[sl]": "Alex Merry",
                 "Name[tr]": "Alex Merry",
                 "Name[uk]": "Alex Merry",
-                "Name[x-test]": "xxAlex Merryxx"
+                "Name[x-test]": "xxAlex Merryxx",
+                "Name[zh_CN]": "Alex Merry"
             }
         ],
         "Category": "System",
@@ -24,12 +26,14 @@
         "Description[ca]": "Llocs, com es veuen en el gestor de fitxers i en els diàlegs de fitxer.",
         "Description[es]": "Lugares, como se ven en el gestor de archivos y en los diálogos de archivos.",
         "Description[eu]": "Lekuak, fitxategi-kudeatzailean eta fitxategien elkarrizketa-koadroetan ikusten diren bezala.",
+        "Description[he]": "מקומות, כפי שהם מופיעים במנהל הקבצים ובחלוניות של קבצים.",
         "Description[ka]": "ადგილები, როგორც ისინი ჩანს ფაილების მმართველში და ფაილის ფანჯრებში.",
         "Description[nl]": "Plaatsen, zoals deze gezien worden in de bestandsbeheerder en in bestandsdialogen.",
         "Description[sl]": "Mesta, kot jih vidite v upravitelju datotek in v pogovornih oknih datotek.",
         "Description[tr]": "Dosya yöneticisi ve iletişim kutularında görüldüğü üzere Yerler.",
         "Description[uk]": "Місця, так, як їх показано у менеджері файлів і діалогових вікнах.",
         "Description[x-test]": "xxPlaces, as seen in the file manager and in file dialogs.xx",
+        "Description[zh_CN]": "文件管理器和文件对话框中显示的常用位置列表。",
         "EnabledByDefault": true,
         "Icon": "folder-favorites",
         "License": "LGPL",
@@ -39,12 +43,14 @@
         "Name[ca]": "Llocs",
         "Name[es]": "Lugares",
         "Name[eu]": "Lekuak",
+        "Name[he]": "מקומות",
         "Name[ka]": "ადგილები",
         "Name[nl]": "Plaatsen",
         "Name[sl]": "Mesta",
         "Name[tr]": "Yerler",
         "Name[uk]": "Місця",
         "Name[x-test]": "xxPlacesxx",
+        "Name[zh_CN]": "常用位置",
         "Website": "https://www.kde.org/plasma-desktop"
     }
 }
