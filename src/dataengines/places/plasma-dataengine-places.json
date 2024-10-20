@@ -17,11 +17,14 @@
                 "Name[it]": "Alex Merry",
                 "Name[ka]": "Alex Merry",
                 "Name[nl]": "Alex Merry",
+                "Name[pl]": "Alex Merry",
                 "Name[sl]": "Alex Merry",
+                "Name[sv]": "Alex Merry",
                 "Name[tr]": "Alex Merry",
                 "Name[uk]": "Alex Merry",
                 "Name[x-test]": "xxAlex Merryxx",
-                "Name[zh_CN]": "Alex Merry"
+                "Name[zh_CN]": "Alex Merry",
+                "Name[zh_TW]": "Alex Merry"
             }
         ],
         "Category": "System",
@@ -39,11 +42,14 @@
         "Description[it]": "Risorse, come si vedono nel gestore dei file e nelle finestre di selezione dei file.",
         "Description[ka]": "ადგილები, როგორც ისინი ჩანს ფაილების მმართველში და ფაილის ფანჯრებში.",
         "Description[nl]": "Plaatsen, zoals deze gezien worden in de bestandsbeheerder en in bestandsdialogen.",
+        "Description[pl]": "Wyświetla miejsca, tak jak w przeglądarce plików i oknach dialogowych plików.",
         "Description[sl]": "Mesta, kot jih vidite v upravitelju datotek in v pogovornih oknih datotek.",
+        "Description[sv]": "Platser som visas i filhanterare och fildialogrutor.",
         "Description[tr]": "Dosya yöneticisi ve iletişim kutularında görüldüğü üzere Yerler.",
         "Description[uk]": "Місця, так, як їх показано у менеджері файлів і діалогових вікнах.",
         "Description[x-test]": "xxPlaces, as seen in the file manager and in file dialogs.xx",
         "Description[zh_CN]": "文件管理器和文件对话框中显示的常用位置列表。",
+        "Description[zh_TW]": "在檔案管理員與檔案對話框中看到的「快速存取」項目。",
         "EnabledByDefault": true,
         "Icon": "folder-favorites",
         "License": "LGPL",
@@ -61,11 +67,14 @@
         "Name[it]": "Risorse",
         "Name[ka]": "ადგილები",
         "Name[nl]": "Plaatsen",
+        "Name[pl]": "Miejsca",
         "Name[sl]": "Mesta",
+        "Name[sv]": "Platser",
         "Name[tr]": "Yerler",
         "Name[uk]": "Місця",
         "Name[x-test]": "xxPlacesxx",
         "Name[zh_CN]": "常用位置",
+        "Name[zh_TW]": "快速存取",
         "Website": "https://www.kde.org/plasma-desktop"
     }
 }
