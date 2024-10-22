@@ -3,15 +3,39 @@
         "Authors": [
             {
                 "Email": "chani@kde.org",
-                "Name": "Chani Armitage"
+                "Name": "Chani Armitage",
+                "Name[ca]": "Chani Armitage",
+                "Name[ia]": "Chani Armitage",
+                "Name[ka]": "Chani Armitage",
+                "Name[nl]": "Chani Armitage",
+                "Name[sl]": "Chani Armitage",
+                "Name[tr]": "Chani Armitage",
+                "Name[uk]": "Chani Armitage",
+                "Name[x-test]": "xxChani Armitagexx"
             }
         ],
         "Category": "",
         "Description": "Information on Plasma Activities",
+        "Description[ca]": "Informació quant a activitats del Plasma",
+        "Description[ia]": "Information re activitates de Plasma",
+        "Description[ka]": "Plasma-ის აქტივობების ინფორმაცია",
+        "Description[nl]": "Informatie over Plasma activiteiten",
+        "Description[sl]": "Informacije o dejavnosti Plasme",
+        "Description[tr]": "Plasma Etkinlikler hakkında bilgi",
+        "Description[uk]": "Інформація про простори дій Плазми",
+        "Description[x-test]": "xxInformation on Plasma Activitiesxx",
         "EnabledByDefault": true,
         "Icon": "preferences-desktop-activities",
         "License": "LGPL",
         "Name": "Activities Engine",
+        "Name[ca]": "Motor d'activitats",
+        "Name[ia]": "Motor de activitate",
+        "Name[ka]": "ქმედებების ძრავი",
+        "Name[nl]": "Activiteiten-engine",
+        "Name[sl]": "Stroj dejavnosti",
+        "Name[tr]": "Etkinlikler İşletkesi",
+        "Name[uk]": "Рушій просторів дій",
+        "Name[x-test]": "xxActivities Enginexx",
         "Website": "https://www.kde.org/plasma-desktop"
     },
     "X-Plasma-EngineName": "activities"

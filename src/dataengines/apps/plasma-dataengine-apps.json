@@ -3,14 +3,38 @@
         "Authors": [
             {
                 "Email": "chani@kde.org",
-                "Name": "Chani"
+                "Name": "Chani",
+                "Name[ca]": "Chani",
+                "Name[ia]": "Chani",
+                "Name[ka]": "Chani",
+                "Name[nl]": "Chani",
+                "Name[sl]": "Chani",
+                "Name[tr]": "Chani",
+                "Name[uk]": "Chani",
+                "Name[x-test]": "xxChanixx"
             }
         ],
         "Description": "Information and launching of all applications in the app menu.",
+        "Description[ca]": "Informació i llançament de totes les aplicacions en el menú d'aplicacions.",
+        "Description[ia]": "Information e lanceamento de omne applicationes in le menu de app",
+        "Description[ka]": "აპის მენიუში მყოფი ყველა აპლიკაციის ინფორმაცია და გაშვება.",
+        "Description[nl]": "Informatie en starten van alle toepassingen in het toepassingenmenu.",
+        "Description[sl]": "Informacija in zagon vseh aplikaciji v meniju aplikacij",
+        "Description[tr]": "Uygulama menüsündeki uygulamalar hakkında bilgi ve uygulamaların başlatılması",
+        "Description[uk]": "Відомості і запуск всіх програма з меню програм.",
+        "Description[x-test]": "xxInformation and launching of all applications in the app menu.xx",
         "EnabledByDefault": true,
         "Icon": "user-desktop",
         "License": "LGPL",
         "Name": "Application Information",
+        "Name[ca]": "Informació de les aplicacions",
+        "Name[ia]": "Information de application",
+        "Name[ka]": "აპლიკაციის ინფორმაცია",
+        "Name[nl]": "Toepassingsinformatie",
+        "Name[sl]": "Informacije o aplikaciji",
+        "Name[tr]": "Uygulama Bilgisi",
+        "Name[uk]": "Відомості щодо програм",
+        "Name[x-test]": "xxApplication Informationxx",
         "Website": "https://www.kde.org/plasma-desktop"
     }
 }
