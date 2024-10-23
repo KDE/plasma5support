@@ -4,18 +4,25 @@
             {
                 "Email": "chani@kde.org",
                 "Name": "Chani",
+                "Name[ca@valencia]": "Chani",
                 "Name[ca]": "Chani",
+                "Name[es]": "Chani",
+                "Name[he]": "צ׳אני",
                 "Name[ia]": "Chani",
                 "Name[ka]": "Chani",
                 "Name[nl]": "Chani",
                 "Name[sl]": "Chani",
                 "Name[tr]": "Chani",
                 "Name[uk]": "Chani",
-                "Name[x-test]": "xxChanixx"
+                "Name[x-test]": "xxChanixx",
+                "Name[zh_CN]": "Chani"
             }
         ],
         "Description": "Information and launching of all applications in the app menu.",
+        "Description[ca@valencia]": "Informació i llançament de totes les aplicacions en el menú d'aplicacions.",
         "Description[ca]": "Informació i llançament de totes les aplicacions en el menú d'aplicacions.",
+        "Description[es]": "Información y ejecución de todas las aplicaciones en el menú de aplicaciones.",
+        "Description[he]": "מידע והפעלה של כל היישומים בתפריט היישומים.",
         "Description[ia]": "Information e lanceamento de omne applicationes in le menu de app",
         "Description[ka]": "აპის მენიუში მყოფი ყველა აპლიკაციის ინფორმაცია და გაშვება.",
         "Description[nl]": "Informatie en starten van alle toepassingen in het toepassingenmenu.",
@@ -23,11 +30,15 @@
         "Description[tr]": "Uygulama menüsündeki uygulamalar hakkında bilgi ve uygulamaların başlatılması",
         "Description[uk]": "Відомості і запуск всіх програма з меню програм.",
         "Description[x-test]": "xxInformation and launching of all applications in the app menu.xx",
+        "Description[zh_CN]": "显示应用菜单中的所有应用程序的信息和启动它们。",
         "EnabledByDefault": true,
         "Icon": "user-desktop",
         "License": "LGPL",
         "Name": "Application Information",
+        "Name[ca@valencia]": "Informació de les aplicacions",
         "Name[ca]": "Informació de les aplicacions",
+        "Name[es]": "Información de la aplicación",
+        "Name[he]": "פרטי יישום",
         "Name[ia]": "Information de application",
         "Name[ka]": "აპლიკაციის ინფორმაცია",
         "Name[nl]": "Toepassingsinformatie",
@@ -35,6 +46,7 @@
         "Name[tr]": "Uygulama Bilgisi",
         "Name[uk]": "Відомості щодо програм",
         "Name[x-test]": "xxApplication Informationxx",
+        "Name[zh_CN]": "应用程序信息",
         "Website": "https://www.kde.org/plasma-desktop"
     }
 }
