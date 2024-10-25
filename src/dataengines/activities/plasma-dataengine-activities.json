@@ -4,6 +4,7 @@
             {
                 "Email": "chani@kde.org",
                 "Name": "Chani Armitage",
+                "Name[ar]": "تشاني ارميتاج",
                 "Name[bg]": "Chani Armitage",
                 "Name[ca@valencia]": "Chani Armitage",
                 "Name[ca]": "Chani Armitage",
@@ -17,11 +18,13 @@
                 "Name[tr]": "Chani Armitage",
                 "Name[uk]": "Chani Armitage",
                 "Name[x-test]": "xxChani Armitagexx",
-                "Name[zh_CN]": "Chani Armitage"
+                "Name[zh_CN]": "Chani Armitage",
+                "Name[zh_TW]": "Chani Armitage"
             }
         ],
         "Category": "",
         "Description": "Information on Plasma Activities",
+        "Description[ar]": "معلومات أنشطة بلازما",
         "Description[bg]": "Информация за Дейности на Plasma.",
         "Description[ca@valencia]": "Informació quant a activitats de Plasma",
         "Description[ca]": "Informació quant a activitats del Plasma",
@@ -36,10 +39,12 @@
         "Description[uk]": "Інформація про простори дій Плазми",
         "Description[x-test]": "xxInformation on Plasma Activitiesxx",
         "Description[zh_CN]": "关于 Plasma 活动的信息",
+        "Description[zh_TW]": "Plasma 活動的資訊",
         "EnabledByDefault": true,
         "Icon": "preferences-desktop-activities",
         "License": "LGPL",
         "Name": "Activities Engine",
+        "Name[ar]": "محرّك الأنشطة",
         "Name[bg]": "Енджин на Дейности",
         "Name[ca@valencia]": "Motor d'activitats",
         "Name[ca]": "Motor d'activitats",
@@ -54,6 +59,7 @@
         "Name[uk]": "Рушій просторів дій",
         "Name[x-test]": "xxActivities Enginexx",
         "Name[zh_CN]": "活动引擎",
+        "Name[zh_TW]": "活動引擎",
         "Website": "https://www.kde.org/plasma-desktop"
     },
     "X-Plasma-EngineName": "activities"
