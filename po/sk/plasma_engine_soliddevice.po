@@ -1,7 +1,7 @@
 # translation of plasma_engine_soliddevice.po to Slovak
 # Richard Fric <Richard.Fric@kdemail.net>, 2009.
 # Michal Sulek <misurel@gmail.com>, 2009.
-# Roman Paholík <wizzardsk@gmail.com>, 2012, 2013, 2014, 2015.
+# SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2024 Roman Paholík <wizzardsk@gmail.com>
 # Mthw <jari_45@hotmail.com>, 2018.
 # Matej Mrenica <matejm98mthw@gmail.com>, 2021.
 msgid ""
@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-27 00:41+0000\n"
-"PO-Revision-Date: 2021-02-24 11:08+0100\n"
-"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
-"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2024-11-11 18:00+0100\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.12.2\n"
+"X-Generator: Lokalize 24.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: soliddeviceengine.cpp:112
@@ -525,28 +525,20 @@ msgid "Bluetooth Battery"
 msgstr "Batéria bluetooth"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Camera Battery"
 msgid "Tablet Battery"
-msgstr "Batéria fotoaparátu"
+msgstr "Batéria tabletu"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Phone Battery"
 msgid "Headphone Battery"
-msgstr "Batéria telefónu"
+msgstr "Batéria slúchadiel"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Headset Battery"
-msgstr "Batéria myši"
+msgstr "Batéria náhlavnej sady"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Touchpad Battery"
-msgstr "Batéria myši"
+msgstr "Batéria touchpadu"
 
 #: soliddeviceengine.cpp:395
 msgid "Not Charging"
