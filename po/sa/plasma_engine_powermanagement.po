@@ -20,7 +20,7 @@ msgstr ""
 #, kde-format
 msgctxt "Placeholder is the battery number"
 msgid "Battery %1"
-msgstr ""
+msgstr "बैटरी %1"
 
 #: powermanagementengine.cpp:467
 #, kde-format

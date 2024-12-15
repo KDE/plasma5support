@@ -41,7 +41,7 @@ msgstr "एतत् यन्त्रं माउण्ट् कर्तु
 #, kde-format
 msgctxt "Remove is less technical for unmount"
 msgid "You are not authorized to remove this device."
-msgstr ""
+msgstr "भवन्तः एतत् यन्त्रं निष्कासयितुं अधिकृताः न सन्ति।"
 
 #: ksolidnotify.cpp:163
 #, kde-format
@@ -64,13 +64,15 @@ msgid "One or more files on this device are opened in application \"%2\"."
 msgid_plural ""
 "One or more files on this device are opened in following applications: %2."
 msgstr[0] ""
+"अस्मिन् यन्त्रे एकः वा अधिकः सञ्चिकाः \"%2\" इति अनुप्रयोगे उद्घाटिताः भवन्ति ।"
 msgstr[1] ""
+"अस्मिन् यन्त्रे एकः वा अधिकः सञ्चिकाः निम्नलिखित-अनुप्रयोगेषु उद्घाटिताः भवन्ति: %2."
 
 #: ksolidnotify.cpp:205
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
-msgstr ""
+msgstr ", ९. "
 
 #: ksolidnotify.cpp:222
 #, kde-format
@@ -81,7 +83,7 @@ msgstr "एतत् यन्त्रं माउण्ट् कर्तु
 #, kde-format
 msgctxt "Remove is less technical for unmount"
 msgid "Could not remove this device."
-msgstr ""
+msgstr "एतत् यन्त्रं निष्कासयितुं न शक्तवान्।"
 
 #: ksolidnotify.cpp:228
 #, kde-format

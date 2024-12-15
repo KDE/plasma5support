@@ -20,4 +20,4 @@ msgstr ""
 #, kde-format
 msgctxt "error; %1 is the desktop file name of the service"
 msgid "Failed to resolve service action for %1."
-msgstr ""
+msgstr "%1 कृते सेवाक्रियायाः समाधानं कर्तुं असफलम् ।"
