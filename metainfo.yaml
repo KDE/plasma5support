@@ -6,7 +6,7 @@ portingAid: false
 deprecated: false
 release: true
 libraries:
- - cmake: Plasma::Plasma5Support
+    - cmake: Plasma::Plasma5Support
 cmakename: Plasma5Support
 
 public_lib: true
