@@ -4,13 +4,13 @@
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2010.
 # Serdar Soytetir <tulliana@gmail.com>, 2012, 2013.
 # Volkan Gezer <volkangezer@gmail.com>, 2014, 2022.
-# SPDX-FileCopyrightText: 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-27 00:41+0000\n"
-"PO-Revision-Date: 2024-07-02 01:25+0300\n"
+"PO-Revision-Date: 2025-02-27 21:05+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.07.70\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #: soliddeviceengine.cpp:112
 msgid "Parent UDI"
@@ -455,7 +455,7 @@ msgstr "Yeniden yazılabilir"
 
 #: soliddeviceengine.cpp:347
 msgid "Capacity"
-msgstr "Kapasite"
+msgstr "Sığa"
 
 #: soliddeviceengine.cpp:355
 msgid "Camera"
