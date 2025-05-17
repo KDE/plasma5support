@@ -14,9 +14,9 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/plasma5support/"
+"X-Crowdin-File: /kf6-stable/messages/plasma5support/"
 "plasma_engine_powermanagement.pot\n"
-"X-Crowdin-File-ID: 56138\n"
+"X-Crowdin-File-ID: 57082\n"
 
 #: powermanagementengine.cpp:465
 #, kde-format
