@@ -62,6 +62,8 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         Service
         IdleTime
         KIO
+        UnitConversion #Weather dataengine
+        Holidays #Weather dataengine
 )
 
 find_package(KSysGuard CONFIG) #devicenotifications

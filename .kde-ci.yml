@@ -13,6 +13,8 @@ Dependencies:
     'frameworks/solid': '@latest-kf6'
     'frameworks/kio': '@latest-kf6'
     'frameworks/kidletime': '@latest-kf6'
+    'frameworks/kholidays': '@latest-kf6'
+    'frameworks/kunitconversion': '@latest-kf6'
     'plasma/plasma-activities': '@latest-kf6'
     'plasma/libksysguard': '@same'
 
