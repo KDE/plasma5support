@@ -180,7 +180,7 @@ KJob *NOAAIon::requestAPIJob(const QString &source, const QUrl &url, Callback on
 // the station ID code and the coordinates of the station
 void NOAAIon::getStationList()
 {
-    const QString stationsFileName = u"plasma/weather/noaa_station_list.xml"_s;
+    const QString stationsFileName = u"plasma/weather_legacy/noaa_station_list.xml"_s;
     const QString stationsPath = QStandardPaths::locate(QStandardPaths::GenericDataLocation, stationsFileName);
 
     if (stationsPath.isEmpty()) {
