@@ -1,8 +1,10 @@
 {
     "KPlugin": {
         "Description": "Weather forecast by German Weather Service",
+        "Description[x-test]": "xxWeather forecast by German Weather Servicexx",
         "Icon": "noneyet",
-        "Name": "German Weather Service"
+        "Name": "German Weather Service",
+        "Name[x-test]": "xxGerman Weather Servicexx"
     },
     "X-KDE-ParentApp": "weatherengine"
 }

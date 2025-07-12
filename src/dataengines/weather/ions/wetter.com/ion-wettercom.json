@@ -1,8 +1,10 @@
 {
     "KPlugin": {
         "Description": "Weather forecast by wetter.com",
+        "Description[x-test]": "xxWeather forecast by wetter.comxx",
         "Icon": "noneyet",
-        "Name": "wetter.com"
+        "Name": "wetter.com",
+        "Name[x-test]": "xxwetter.comxx"
     },
     "X-KDE-ParentApp": "weatherengine"
 }

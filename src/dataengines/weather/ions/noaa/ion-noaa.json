@@ -1,8 +1,10 @@
 {
     "KPlugin": {
         "Description": "XML Data from NOAA's National Weather Service",
+        "Description[x-test]": "xxXML Data from NOAA's National Weather Servicexx",
         "Icon": "noneyet",
-        "Name": "NOAA's National Weather Service"
+        "Name": "NOAA's National Weather Service",
+        "Name[x-test]": "xxNOAA's National Weather Servicexx"
     },
     "X-KDE-ParentApp": "weatherengine"
 }

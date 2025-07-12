@@ -1,8 +1,10 @@
 {
     "KPlugin": {
         "Description": "XML Data from Environment Canada",
+        "Description[x-test]": "xxXML Data from Environment Canadaxx",
         "Icon": "noneyet",
-        "Name": "Environment Canada"
+        "Name": "Environment Canada",
+        "Name[x-test]": "xxEnvironment Canadaxx"
     },
     "X-KDE-ParentApp": "weatherengine"
 }

@@ -3,14 +3,17 @@
         "Authors": [
             {
                 "Email": "shawn.starr@rogers.com",
-                "Name": "Shawn Starr"
+                "Name": "Shawn Starr",
+                "Name[x-test]": "xxShawn Starrxx"
             }
         ],
         "Category": "",
         "Description": "Weather data from multiple online sources",
+        "Description[x-test]": "xxWeather data from multiple online sourcesxx",
         "Icon": "weather-clear",
         "License": "GPLv2+",
         "Name": "Weather",
+        "Name[x-test]": "xxWeatherxx",
         "Website": "https://www.kde.org"
     }
 }
