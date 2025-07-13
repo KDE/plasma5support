@@ -1,9 +1,25 @@
 {
     "KPlugin": {
         "Description": "Weather forecast by wetter.com",
+        "Description[ca]": "Previsió meteorològica per wetter.com",
+        "Description[cs]": "Předpověď počasí od wetter.com",
+        "Description[es]": "Previsión meteorológica de wetter.com",
+        "Description[he]": "תחזית מזג אוויר מ־wetter.com",
+        "Description[ka]": "ამინდის პროგნოზი wetter.com-დან",
+        "Description[nl]": "Weersvoorspelling door wetter.com",
+        "Description[sl]": "Vremenska napoved od wetter.com",
+        "Description[uk]": "Прогноз погоди з wetter.com",
         "Description[x-test]": "xxWeather forecast by wetter.comxx",
         "Icon": "noneyet",
         "Name": "wetter.com",
+        "Name[ca]": "wetter.com",
+        "Name[cs]": "wetter.com",
+        "Name[es]": "wetter.com",
+        "Name[he]": "wetter.com",
+        "Name[ka]": "wetter.com",
+        "Name[nl]": "wetter.com",
+        "Name[sl]": "wetter.com",
+        "Name[uk]": "wetter.com",
         "Name[x-test]": "xxwetter.comxx"
     },
     "X-KDE-ParentApp": "weatherengine"

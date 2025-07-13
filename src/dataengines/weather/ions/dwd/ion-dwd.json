@@ -1,9 +1,25 @@
 {
     "KPlugin": {
         "Description": "Weather forecast by German Weather Service",
+        "Description[ca]": "Previsió meteorològica del Servei meteorològic alemany",
+        "Description[cs]": "Předpověď počasí od Německé informační služby o počasí",
+        "Description[es]": "Previsión meteorológica del servicio meteorológico alemán",
+        "Description[he]": "תחזית מזג אוויר משירות מזג האוויר הגרמני",
+        "Description[ka]": "ამინდის პროგნოზი გერმანიის ამინდის სერვისისგან",
+        "Description[nl]": "Weersvoorspelling door Duitse weerdienst",
+        "Description[sl]": "Vremenska napoved nemške vremenske službe",
+        "Description[uk]": "Прогноз погоди від Німецької служби погоди",
         "Description[x-test]": "xxWeather forecast by German Weather Servicexx",
         "Icon": "noneyet",
         "Name": "German Weather Service",
+        "Name[ca]": "Servei meteorològic alemany",
+        "Name[cs]": "Německá informační služba o počasí",
+        "Name[es]": "Servicio meteorológico alemán",
+        "Name[he]": "שירות מזג האוויר הגרמני",
+        "Name[ka]": "ამინდის გერმანული სერვისი",
+        "Name[nl]": "Duitse weerdienst",
+        "Name[sl]": "Nemška vremenska služba",
+        "Name[uk]": "Німецька служба погоди",
         "Name[x-test]": "xxGerman Weather Servicexx"
     },
     "X-KDE-ParentApp": "weatherengine"

@@ -1,9 +1,25 @@
 {
     "KPlugin": {
         "Description": "XML Data from the British Broadcasting Corporation",
+        "Description[ca]": "Dades XML de la British Broadcasting Corporation",
+        "Description[cs]": "Data XML z British Broadcasting Corporation",
+        "Description[es]": "Datos XML de la British Broadcasting Corporation",
+        "Description[he]": "נתוני XML מתאגיד השידור הבריטי (BBC)",
+        "Description[ka]": "XML მონაცემები BBC-სგან",
+        "Description[nl]": "XML-gegevens van de British Broadcasting Corporation",
+        "Description[sl]": "Podatki XML iz British Broadcasting Corporation",
+        "Description[uk]": "Дані XML від BBC",
         "Description[x-test]": "xxXML Data from the British Broadcasting Corporationxx",
         "Icon": "noneyet",
         "Name": "BBC Weather",
+        "Name[ca]": "BBC Weather",
+        "Name[cs]": "BBC Weather",
+        "Name[es]": "BBC Weather",
+        "Name[he]": "BBC Weather",
+        "Name[ka]": "BBC ამინდი",
+        "Name[nl]": "BBC Weather",
+        "Name[sl]": "BBC Vreme",
+        "Name[uk]": "Погода BBC",
         "Name[x-test]": "xxBBC Weatherxx"
     },
     "X-KDE-ParentApp": "weatherengine"
