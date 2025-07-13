@@ -7,7 +7,7 @@
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2018, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-workspace\n"
+"Project-Id-Version: plasma5support\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-11 00:45+0000\n"
 "PO-Revision-Date: 2024-06-11 11:40+0200\n"
@@ -4919,9 +4919,3 @@ msgstr "Possibilitat de ruixats i tempestes elèctriques"
 msgctxt "weather forecast"
 msgid "Showers And Thunderstorms Likely"
 msgstr "Probabilitat de ruixats i tempestes elèctriques"
-
-#~ msgid "UK"
-#~ msgstr "RU"
-
-#~ msgid "USA"
-#~ msgstr "EUA"
