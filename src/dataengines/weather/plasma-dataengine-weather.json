@@ -4,6 +4,7 @@
             {
                 "Email": "shawn.starr@rogers.com",
                 "Name": "Shawn Starr",
+                "Name[ca@valencia]": "Shawn Starr",
                 "Name[ca]": "Shawn Starr",
                 "Name[cs]": "Shawn Starr",
                 "Name[es]": "Shawn Starr",
@@ -17,6 +18,7 @@
         ],
         "Category": "",
         "Description": "Weather data from multiple online sources",
+        "Description[ca@valencia]": "Dades meteorològiques de múltiples fonts en línia",
         "Description[ca]": "Dades meteorològiques de múltiples fonts en línia",
         "Description[cs]": "Data o počasí z různých online zdrojů",
         "Description[es]": "Datos meteorológicos desde múltiples fuentes.",
@@ -29,6 +31,7 @@
         "Icon": "weather-clear",
         "License": "GPLv2+",
         "Name": "Weather",
+        "Name[ca@valencia]": "Meteorologia",
         "Name[ca]": "Meteorologia",
         "Name[cs]": "Počasí",
         "Name[es]": "Meteorología",
