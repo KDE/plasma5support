@@ -1,6 +1,7 @@
 {
     "KPlugin": {
         "Description": "XML Data from Environment Canada",
+        "Description[ar]": "بيانات XML من وزارة البيئة الكندية",
         "Description[ca@valencia]": "Dades XML des de Medi ambient del Canadà",
         "Description[ca]": "Dades XML des de Medi ambient del Canadà",
         "Description[cs]": "XML data z meteorologického úřadu Kanady (EC)",
@@ -9,10 +10,13 @@
         "Description[ka]": "XML მონაცემები კანადის გარემოს დაცვის სერვისიდან",
         "Description[nl]": "XML-gegevens van Environment Canada",
         "Description[sl]": "Podatki XML od Environment Canada",
+        "Description[tr]": "Environment Canada tarafından sağlanan XML biçiminde veri",
         "Description[uk]": "Дані XML з метеорологічного відділу Канади",
         "Description[x-test]": "xxXML Data from Environment Canadaxx",
+        "Description[zh_CN]": "Environment Canada 提供的 XML 数据",
         "Icon": "noneyet",
         "Name": "Environment Canada",
+        "Name[ar]": "بيئة كندا",
         "Name[ca@valencia]": "Medi ambient del Canadà",
         "Name[ca]": "Medi ambient del Canadà",
         "Name[cs]": "Meteorologický úřad Kanady (EC)",
@@ -21,8 +25,10 @@
         "Name[ka]": "კანადის გარემო",
         "Name[nl]": "Environment Canada",
         "Name[sl]": "Environment Canada",
+        "Name[tr]": "Environment Canada",
         "Name[uk]": "Погода в Канаді",
-        "Name[x-test]": "xxEnvironment Canadaxx"
+        "Name[x-test]": "xxEnvironment Canadaxx",
+        "Name[zh_CN]": "Environment Canada"
     },
     "X-KDE-ParentApp": "weatherengine"
 }

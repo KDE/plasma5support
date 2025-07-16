@@ -1,6 +1,7 @@
 {
     "KPlugin": {
         "Description": "XML Data from NOAA's National Weather Service",
+        "Description[ar]": "بيانات XML من خدمة الطقس الوطنية التابعة لـ NOAA",
         "Description[ca@valencia]": "Dades XML del servei meteorològic nacional de NOAA",
         "Description[ca]": "Dades XML del servei meteorològic nacional de NOAA",
         "Description[cs]": "XML data služby o počasí agentury NOAA",
@@ -9,10 +10,13 @@
         "Description[ka]": "XML მონაცემების NOAA-ის ნაციონალური ამინდის სერვისისგან",
         "Description[nl]": "XML-gegevens van NOAA's nationale weerdienst",
         "Description[sl]": "Podatki XML od NOAA's National Weather Service",
+        "Description[tr]": "NOAA’nın Ulusal Hava Durumu Hizmeti tarafından sağlanan XML biçiminde veri",
         "Description[uk]": "Дані XML з національної служби погоди NOAA",
         "Description[x-test]": "xxXML Data from NOAA's National Weather Servicexx",
+        "Description[zh_CN]": "NOAA's National Weather Service 提供的 XML 数据",
         "Icon": "noneyet",
         "Name": "NOAA's National Weather Service",
+        "Name[ar]": "خدمة الطقس الوطنية NOAA ",
         "Name[ca@valencia]": "Servei meteorològic nacional de NOAA",
         "Name[ca]": "Servei meteorològic nacional de NOAA",
         "Name[cs]": "Informační služba o počasí agentury NOAA",
@@ -21,8 +25,10 @@
         "Name[ka]": "NOAA-ის ამინდის ნაციონალური სერვისი",
         "Name[nl]": "NOAA's nationale weerdienst",
         "Name[sl]": "NOAA's nacionalna vremenska služba",
+        "Name[tr]": "NOAA’nın Ulusal Hava Durumu Hizmeti",
         "Name[uk]": "Національна служба погоди NOAA",
-        "Name[x-test]": "xxNOAA's National Weather Servicexx"
+        "Name[x-test]": "xxNOAA's National Weather Servicexx",
+        "Name[zh_CN]": "NOAA's National Weather Service"
     },
     "X-KDE-ParentApp": "weatherengine"
 }

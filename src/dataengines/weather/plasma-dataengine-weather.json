@@ -4,6 +4,7 @@
             {
                 "Email": "shawn.starr@rogers.com",
                 "Name": "Shawn Starr",
+                "Name[ar]": "Shawn Starr",
                 "Name[ca@valencia]": "Shawn Starr",
                 "Name[ca]": "Shawn Starr",
                 "Name[cs]": "Shawn Starr",
@@ -12,12 +13,15 @@
                 "Name[ka]": "Shawn Starr",
                 "Name[nl]": "Shawn Starr",
                 "Name[sl]": "Shawn Starr",
+                "Name[tr]": "Shawn Starr",
                 "Name[uk]": "Shawn Starr",
-                "Name[x-test]": "xxShawn Starrxx"
+                "Name[x-test]": "xxShawn Starrxx",
+                "Name[zh_CN]": "Shawn Starr"
             }
         ],
         "Category": "",
         "Description": "Weather data from multiple online sources",
+        "Description[ar]": "بيانات الطقس من عدّة مصادر على الإنترنت",
         "Description[ca@valencia]": "Dades meteorològiques de múltiples fonts en línia",
         "Description[ca]": "Dades meteorològiques de múltiples fonts en línia",
         "Description[cs]": "Data o počasí z různých online zdrojů",
@@ -26,11 +30,14 @@
         "Description[ka]": "ამინდის მონაცემები მრავალი ონლაინ წყაროებიდან",
         "Description[nl]": "Weergegevens voor meervoudige online bronnen",
         "Description[sl]": "Vremenski podatki iz več spletnih virov",
+        "Description[tr]": "Birden çok çevrimiçi kaynaktan hava durumu verisi",
         "Description[uk]": "Дані щодо погоди з декількох мережевих джерел",
         "Description[x-test]": "xxWeather data from multiple online sourcesxx",
+        "Description[zh_CN]": "来自多个在线信息源的天气数据",
         "Icon": "weather-clear",
         "License": "GPLv2+",
         "Name": "Weather",
+        "Name[ar]": "الطقس",
         "Name[ca@valencia]": "Meteorologia",
         "Name[ca]": "Meteorologia",
         "Name[cs]": "Počasí",
@@ -39,8 +46,10 @@
         "Name[ka]": "ამინდი",
         "Name[nl]": "Het weer",
         "Name[sl]": "Vreme",
+        "Name[tr]": "Hava Durumu",
         "Name[uk]": "Погода",
         "Name[x-test]": "xxWeatherxx",
+        "Name[zh_CN]": "天气",
         "Website": "https://www.kde.org"
     }
 }
