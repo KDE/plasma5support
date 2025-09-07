@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma_engine_weather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-11 00:45+0000\n"
-"PO-Revision-Date: 2022-12-28 02:30+0200\n"
+"PO-Revision-Date: 2025-09-06 21:37+0300\n"
 "Last-Translator: Moo <<>>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #: bbcukmet_i18n.dat:1
 #, kde-format
@@ -2753,14 +2753,13 @@ msgstr "Vėjuota"
 #, kde-format
 msgctxt "Short for Today"
 msgid "Today"
-msgstr ""
+msgstr "Šiandien"
 
 #: ions/bbcukmet/ion_bbcukmet.cpp:669
-#, fuzzy, kde-format
-#| msgid "Night"
+#, kde-format
 msgctxt "Short for Tonight"
 msgid "Tonight"
-msgstr "Naktis"
+msgstr "Šiąnakt"
 
 #: ions/bbcukmet/ion_bbcukmet.cpp:690
 #, kde-format
