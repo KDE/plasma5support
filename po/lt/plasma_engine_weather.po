@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma_engine_weather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-11 00:45+0000\n"
-"PO-Revision-Date: 2025-09-06 21:37+0300\n"
+"PO-Revision-Date: 2025-09-08 15:36+0300\n"
 "Last-Translator: Moo <<>>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -2904,7 +2904,7 @@ msgstr "silpna dulksna"
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy drizzle"
-msgstr "stipri dulksna"
+msgstr "smarki dulksna"
 
 #: ions/wetter.com/ion_wettercom.cpp:172
 #, kde-format
@@ -2916,7 +2916,7 @@ msgstr "ledijanti dulksna"
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy freezing drizzle"
-msgstr "stipri šalta dulksna"
+msgstr "smarki ledijanti dulksna"
 
 #: ions/wetter.com/ion_wettercom.cpp:174
 #, kde-format
@@ -2946,13 +2946,13 @@ msgstr "ledijantis lietus"
 #, kde-format
 msgctxt "weather condition"
 msgid "light rain snow"
-msgstr "silpnas lietaus sniegas"
+msgstr "silpnas lietus su sniegu"
 
 #: ions/wetter.com/ion_wettercom.cpp:182
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy rain snow"
-msgstr "smarkus lietaus sniegas"
+msgstr "smarkus lietus su sniegu"
 
 #: ions/wetter.com/ion_wettercom.cpp:183
 #, kde-format
@@ -3232,7 +3232,7 @@ msgstr ""
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Rain Snow"
-msgstr ""
+msgstr "Ledijantis lietus su sniegu"
 
 #: noaa_i18n.dat:41
 #, kde-format
@@ -3316,7 +3316,7 @@ msgstr ""
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Rain Snow"
-msgstr ""
+msgstr "Smarkus ledijantis lietus su sniegu"
 
 #: noaa_i18n.dat:59
 #, kde-format
@@ -3382,7 +3382,7 @@ msgstr ""
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Snow"
-msgstr "Smarkus lietaus sniegas"
+msgstr "Smarkus lietus su sniegu"
 
 #: noaa_i18n.dat:71
 #, kde-format
@@ -3628,7 +3628,7 @@ msgstr ""
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Rain Snow"
-msgstr ""
+msgstr "Silpnas ledijantis lietus su sniegu"
 
 #: noaa_i18n.dat:118
 #, kde-format
@@ -3700,7 +3700,7 @@ msgstr ""
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Snow"
-msgstr "Silpnas liūtinis lietus"
+msgstr "Silpnas lietus su sniegu"
 
 #: noaa_i18n.dat:131
 #, kde-format
@@ -4050,7 +4050,7 @@ msgstr ""
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Snow"
-msgstr "Lietaus sniegas"
+msgstr "Lietus su sniegu"
 
 #: noaa_i18n.dat:192
 #, kde-format
