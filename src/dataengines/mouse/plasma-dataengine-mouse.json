@@ -41,7 +41,6 @@
         "Description[ta]": "சுட்டியின் இருப்பிடம் மற்றும் சுட்டிக்குறி",
         "Description[tr]": "Fare konumu ve imleci",
         "Description[uk]": "Позиція вказівника миші і курсора",
-        "Description[x-test]": "xxMouse position and cursorxx",
         "Description[zh_CN]": "鼠标位置和光标",
         "Description[zh_TW]": "滑鼠位置與游標",
         "Icon": "input-mouse",
@@ -79,7 +78,6 @@
         "Name[ta]": "சுட்டிக்குறியின் இருப்பிடம்",
         "Name[tr]": "İşaretçi Konumu",
         "Name[uk]": "Позиція вказівника",
-        "Name[x-test]": "xxPointer Positionxx",
         "Name[zh_CN]": "指针位置",
         "Name[zh_TW]": "指標位置",
         "Website": "https://kde.org/plasma-desktop"

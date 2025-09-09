@@ -38,7 +38,6 @@
                 "Name[ta]": "பிளாஸ்மா குழு",
                 "Name[tr]": "Plasma Takımı",
                 "Name[uk]": "Команда розробників Плазми",
-                "Name[x-test]": "xxThe Plasma Teamxx",
                 "Name[zh_CN]": "The Plasma Team",
                 "Name[zh_TW]": "Plasma 團隊"
             }
@@ -79,7 +78,6 @@
         "Description[ta]": "Solid மூலம் சாதன விவரங்கள்",
         "Description[tr]": "Solid aracılığıyla aygıt verisi",
         "Description[uk]": "Дані щодо пристроїв з Solid",
-        "Description[x-test]": "xxDevice data via Solidxx",
         "Description[zh_CN]": "通过 Solid 获得设备数据",
         "Description[zh_TW]": "透過 Solid 的裝置資料",
         "Icon": "drive-harddisk",
@@ -118,7 +116,6 @@
         "Name[ta]": "சாதன விவரங்கள்",
         "Name[tr]": "Aygıt Bilgisi",
         "Name[uk]": "Інформація про пристрої",
-        "Name[x-test]": "xxDevice Informationxx",
         "Name[zh_CN]": "设备信息",
         "Name[zh_TW]": "裝置資訊",
         "Website": "https://kde.org/plasma-desktop"

@@ -37,7 +37,6 @@
                 "Name[ta]": "அலெக்ஸ் மெரி",
                 "Name[tr]": "Alex Merry",
                 "Name[uk]": "Alex Merry",
-                "Name[x-test]": "xxAlex Merryxx",
                 "Name[zh_CN]": "Alex Merry",
                 "Name[zh_TW]": "Alex Merry"
             }
@@ -77,7 +76,6 @@
         "Description[ta]": "கோப்பு உலாவியில் காட்டப்படும் சிறப்பு இடங்கள்",
         "Description[tr]": "Dosya yöneticisi ve iletişim kutularında görüldüğü üzere Yerler.",
         "Description[uk]": "Місця, так, як їх показано у менеджері файлів і діалогових вікнах.",
-        "Description[x-test]": "xxPlaces, as seen in the file manager and in file dialogs.xx",
         "Description[zh_CN]": "文件管理器和文件对话框中显示的常用位置列表。",
         "Description[zh_TW]": "在檔案管理員與檔案對話框中看到的「快速存取」項目。",
         "EnabledByDefault": true,
@@ -117,7 +115,6 @@
         "Name[ta]": "இடங்கள்",
         "Name[tr]": "Yerler",
         "Name[uk]": "Місця",
-        "Name[x-test]": "xxPlacesxx",
         "Name[zh_CN]": "常用位置",
         "Name[zh_TW]": "快速存取",
         "Website": "https://www.kde.org/plasma-desktop"

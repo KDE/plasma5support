@@ -37,7 +37,6 @@
                 "Name[ta]": "இச்சானி ஆர்மிட்டேஜ்",
                 "Name[tr]": "Chani Armitage",
                 "Name[uk]": "Chani Armitage",
-                "Name[x-test]": "xxChani Armitagexx",
                 "Name[zh_CN]": "Chani Armitage",
                 "Name[zh_TW]": "Chani Armitage"
             }
@@ -77,7 +76,6 @@
         "Description[ta]": "பிளாஸ்மா செயல்பாடுகளைப் பற்றிய விவரங்கள்",
         "Description[tr]": "Plasma Etkinlikler hakkında bilgi",
         "Description[uk]": "Інформація про простори дій Плазми",
-        "Description[x-test]": "xxInformation on Plasma Activitiesxx",
         "Description[zh_CN]": "关于 Plasma 活动的信息",
         "Description[zh_TW]": "Plasma 活動的資訊",
         "EnabledByDefault": true,
@@ -117,7 +115,6 @@
         "Name[ta]": "செயல்பாடுகள் பின்னணி சேவை",
         "Name[tr]": "Etkinlikler İşletkesi",
         "Name[uk]": "Рушій просторів дій",
-        "Name[x-test]": "xxActivities Enginexx",
         "Name[zh_CN]": "活动引擎",
         "Name[zh_TW]": "活動引擎",
         "Website": "https://www.kde.org/plasma-desktop"

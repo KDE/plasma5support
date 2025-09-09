@@ -37,7 +37,6 @@
                 "Name[ta]": "இச்சானி",
                 "Name[tr]": "Chani",
                 "Name[uk]": "Chani",
-                "Name[x-test]": "xxChanixx",
                 "Name[zh_CN]": "Chani",
                 "Name[zh_TW]": "Chani"
             }
@@ -76,7 +75,6 @@
         "Description[ta]": "செயலிப்பட்டியிலுள்ள செயலிகளைப் பற்றிய விவரங்களை வழங்கி அவற்றைத் திறக்க உதவும்.",
         "Description[tr]": "Uygulama menüsündeki uygulamalar hakkında bilgi ve uygulamaların başlatılması",
         "Description[uk]": "Відомості і запуск всіх програма з меню програм.",
-        "Description[x-test]": "xxInformation and launching of all applications in the app menu.xx",
         "Description[zh_CN]": "显示应用菜单中的所有应用程序的信息和启动它们。",
         "Description[zh_TW]": "查看應用程式選單中所有應用程式的資訊，或是啟動它們。",
         "EnabledByDefault": true,
@@ -116,7 +114,6 @@
         "Name[ta]": "செயலி விவரங்கள்",
         "Name[tr]": "Uygulama Bilgisi",
         "Name[uk]": "Відомості щодо програм",
-        "Name[x-test]": "xxApplication Informationxx",
         "Name[zh_CN]": "应用程序信息",
         "Name[zh_TW]": "應用程式資訊",
         "Website": "https://www.kde.org/plasma-desktop"
