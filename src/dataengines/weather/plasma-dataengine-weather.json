@@ -26,7 +26,6 @@
                 "Name[sv]": "Shawn Starr",
                 "Name[tr]": "Shawn Starr",
                 "Name[uk]": "Shawn Starr",
-                "Name[x-test]": "xxShawn Starrxx",
                 "Name[zh_CN]": "Shawn Starr",
                 "Name[zh_TW]": "Shawn Starr"
             }
@@ -55,7 +54,6 @@
         "Description[sv]": "Väderdata från flera olika nättjänster",
         "Description[tr]": "Birden çok çevrimiçi kaynaktan hava durumu verisi",
         "Description[uk]": "Дані щодо погоди з декількох мережевих джерел",
-        "Description[x-test]": "xxWeather data from multiple online sourcesxx",
         "Description[zh_CN]": "来自多个在线信息源的天气数据",
         "Description[zh_TW]": "來自數種不同線上來源的天氣資料",
         "Icon": "weather-clear",
@@ -83,7 +81,6 @@
         "Name[sv]": "Väder",
         "Name[tr]": "Hava Durumu",
         "Name[uk]": "Погода",
-        "Name[x-test]": "xxWeatherxx",
         "Name[zh_CN]": "天气",
         "Name[zh_TW]": "天氣",
         "Website": "https://www.kde.org"

@@ -23,7 +23,6 @@
         "Description[sv]": "XML-data från Environment Canada",
         "Description[tr]": "Environment Canada tarafından sağlanan XML biçiminde veri",
         "Description[uk]": "Дані XML з метеорологічного відділу Канади",
-        "Description[x-test]": "xxXML Data from Environment Canadaxx",
         "Description[zh_CN]": "Environment Canada 提供的 XML 数据",
         "Description[zh_TW]": "來自 Environment Canada 的 XML 資料",
         "Icon": "noneyet",
@@ -50,7 +49,6 @@
         "Name[sv]": "Environment Canada",
         "Name[tr]": "Environment Canada",
         "Name[uk]": "Погода в Канаді",
-        "Name[x-test]": "xxEnvironment Canadaxx",
         "Name[zh_CN]": "Environment Canada",
         "Name[zh_TW]": "Environment Canada"
     },

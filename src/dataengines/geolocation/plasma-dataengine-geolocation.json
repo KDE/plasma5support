@@ -37,7 +37,6 @@
                 "Name[ta]": "பெட்ரி டாம்ஸ்டென்",
                 "Name[tr]": "Petri Damstén",
                 "Name[uk]": "Petri Damstén",
-                "Name[x-test]": "xxPetri Damsténxx",
                 "Name[zh_CN]": "Petri Damstén",
                 "Name[zh_TW]": "Petri Damstén"
             }
@@ -77,7 +76,6 @@
         "Description[ta]": "புவியிருப்பிட சேவை",
         "Description[tr]": "Coğrafi konum verisi işletkesi",
         "Description[uk]": "Рушій даних геопозиціювання",
-        "Description[x-test]": "xxGeolocation Data Enginexx",
         "Description[zh_CN]": "地理位置数据引擎",
         "Description[zh_TW]": "地理位置資料引擎",
         "Icon": "applications-internet",
@@ -115,7 +113,6 @@
         "Name[ta]": "புவியிருப்பிடம்",
         "Name[tr]": "Coğrafi Konum",
         "Name[uk]": "Геопозиціювання",
-        "Name[x-test]": "xxGeolocationxx",
         "Name[zh_CN]": "地理位置",
         "Name[zh_TW]": "地理位置",
         "Website": "https://kde.org/plasma-desktop"
