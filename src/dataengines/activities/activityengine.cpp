@@ -43,7 +43,7 @@ void ActivityEngine::init()
         // some convenience sources for times when checking every activity source would suck
         // it starts with _ so that it can easily be filtered out of sources()
         // maybe I should just make it not included in sources() instead?
-        m_runningActivities = m_activityController->activities(KActivities::Info::Running);
+        m_runningActivities = m_activityController->activities();
         setData(QStringLiteral("Status"), QStringLiteral("Current"), m_currentActivity);
         setData(QStringLiteral("Status"), QStringLiteral("Running"), m_runningActivities);
 
@@ -70,29 +70,10 @@ void ActivityEngine::insertActivity(const QString &id)
     setData(id, QStringLiteral("Icon"), activity->icon());
     setData(id, QStringLiteral("Current"), m_currentActivity == id);
 
-    QString state;
-    switch (activity->state()) {
-    case KActivities::Info::Running:
-        state = QLatin1String("Running");
-        break;
-    case KActivities::Info::Starting:
-        state = QLatin1String("Starting");
-        break;
-    case KActivities::Info::Stopping:
-        state = QLatin1String("Stopping");
-        break;
-    case KActivities::Info::Stopped:
-        state = QLatin1String("Stopped");
-        break;
-    case KActivities::Info::Invalid:
-    default:
-        state = QLatin1String("Invalid");
-    }
-    setData(id, QStringLiteral("State"), state);
+    setData(id, QStringLiteral("State"), QLatin1String("Running"));
     setData(id, QStringLiteral("Score"), m_activityScores.value(id));
 
     connect(activity, &KActivities::Info::infoChanged, this, &ActivityEngine::activityDataChanged);
-    connect(activity, &KActivities::Info::stateChanged, this, &ActivityEngine::activityStateChanged);
 
     m_runningActivities << id;
 }
@@ -191,44 +172,6 @@ void ActivityEngine::activityDataChanged()
     setData(activity->id(), QStringLiteral("Icon"), activity->icon());
     setData(activity->id(), QStringLiteral("Current"), m_currentActivity == activity->id());
     setData(activity->id(), QStringLiteral("Score"), m_activityScores.value(activity->id()));
-}
-
-void ActivityEngine::activityStateChanged()
-{
-    KActivities::Info *activity = qobject_cast<KActivities::Info *>(sender());
-    const QString id = activity->id();
-    if (!activity) {
-        return;
-    }
-    QString state;
-    switch (activity->state()) {
-    case KActivities::Info::Running:
-        state = QLatin1String("Running");
-        break;
-    case KActivities::Info::Starting:
-        state = QLatin1String("Starting");
-        break;
-    case KActivities::Info::Stopping:
-        state = QLatin1String("Stopping");
-        break;
-    case KActivities::Info::Stopped:
-        state = QLatin1String("Stopped");
-        break;
-    case KActivities::Info::Invalid:
-    default:
-        state = QLatin1String("Invalid");
-    }
-    setData(id, QStringLiteral("State"), state);
-
-    if (activity->state() == KActivities::Info::Running) {
-        if (!m_runningActivities.contains(id)) {
-            m_runningActivities << id;
-        }
-    } else {
-        m_runningActivities.removeAll(id);
-    }
-
-    setData(QStringLiteral("Status"), QStringLiteral("Running"), m_runningActivities);
 }
 
 Plasma5Support::Service *ActivityEngine::serviceForSource(const QString &source)
