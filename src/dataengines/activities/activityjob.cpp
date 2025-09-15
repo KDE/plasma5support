@@ -54,16 +54,6 @@ void ActivityJob::start()
         setResult(true);
         return;
     }
-    if (operation == QLatin1String("stop")) {
-        m_activityController->stopActivity(m_id);
-        setResult(true);
-        return;
-    }
-    if (operation == QLatin1String("start")) {
-        m_activityController->startActivity(m_id);
-        setResult(true);
-        return;
-    }
     if (operation == QLatin1String("setName")) {
         m_activityController->setActivityName(m_id, parameters()[QStringLiteral("Name")].toString());
         setResult(true);

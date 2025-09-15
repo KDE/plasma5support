@@ -39,7 +39,6 @@ public Q_SLOTS:
     void currentActivityChanged(const QString &id);
 
     void activityDataChanged();
-    void activityStateChanged();
 
     void disableRanking();
     void enableRanking();
