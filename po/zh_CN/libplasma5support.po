@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/plasma5support/libplasma5support.pot\n"
-"X-Crowdin-File-ID: 43347\n"
+"X-Crowdin-File: /kf6-stable/messages/plasma5support/libplasma5support.pot\n"
+"X-Crowdin-File-ID: 52586\n"
 
 #: plasma5support/private/service_p.h:32
 #, kde-format
