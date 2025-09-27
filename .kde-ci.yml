@@ -15,7 +15,7 @@ Dependencies:
     'frameworks/kidletime': '@latest-kf6'
     'frameworks/kholidays': '@latest-kf6'
     'frameworks/kunitconversion': '@latest-kf6'
-    'plasma/plasma-activities': '@latest-kf6'
+    'plasma/plasma-activities': '@same'
     'plasma/libksysguard': '@same'
 
  - 'on': ['Linux']
