@@ -13,7 +13,7 @@ Dependencies:
     'frameworks/solid': '@latest-kf6'
     'frameworks/kio': '@latest-kf6'
     'frameworks/kidletime': '@latest-kf6'
-    'plasma/plasma-activities': '@latest-kf6'
+    'plasma/plasma-activities': '@same'
     'plasma/libksysguard': '@same'
 
  - 'on': ['Linux']
