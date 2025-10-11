@@ -61,7 +61,7 @@ void DataContainer::setModel(QAbstractItemModel *model)
     }
 
     if (d->model) {
-        d->model.data()->deleteLater();
+        d->model->deleteLater();
     }
 
     d->model = model;

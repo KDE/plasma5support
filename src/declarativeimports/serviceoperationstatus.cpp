@@ -77,7 +77,7 @@ void ServiceOperationStatus::updateStatus()
         return;
     }
 
-    bool enabled = m_service.data()->isOperationEnabled(m_operation);
+    bool enabled = m_service->isOperationEnabled(m_operation);
     if (enabled != m_enabled) {
         m_enabled = enabled;
         Q_EMIT enabledChanged();
