@@ -119,18 +119,18 @@ static QJsonArray accessPoints()
     if (!NetworkManager::isWirelessEnabled() || !config.readEntry("Wifi", false)) {
         return wifiAccessPoints;
     }
-    for (const auto &device : NetworkManager::networkInterfaces()) {
+    for (const auto devices = NetworkManager::networkInterfaces(); const auto &device : devices) {
         QSharedPointer<NetworkManager::WirelessDevice> wifi = qSharedPointerDynamicCast<NetworkManager::WirelessDevice>(device);
         if (!wifi) {
             continue;
         }
-        for (const auto &network : wifi->networks()) {
+        for (const auto networks = wifi->networks(); const auto &network : networks) {
             const QString &ssid = network->ssid();
             if (ssid.isEmpty() || ssid.endsWith(QLatin1String("_nomap"))) {
                 // skip hidden SSID and networks with "_nomap"
                 continue;
             }
-            for (const auto &accessPoint : network->accessPoints()) {
+            for (const auto accessPoints = network->accessPoints(); const auto &accessPoint : accessPoints) {
                 wifiAccessPoints.append(QJsonObject{{QStringLiteral("macAddress"), accessPoint->hardwareAddress()}});
             }
         }
