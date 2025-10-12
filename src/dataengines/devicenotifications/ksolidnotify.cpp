@@ -106,11 +106,11 @@ void KSolidNotify::connectSignals(Solid::Device *device)
 void KSolidNotify::queryBlockingApps(const QString &devicePath)
 {
     QProcess *p = new QProcess;
-    connect(p, static_cast<void (QProcess::*)(QProcess::ProcessError)>(&QProcess::errorOccurred), [=, this](QProcess::ProcessError) {
+    connect(p, &QProcess::errorOccurred, [=, this](QProcess::ProcessError) {
         Q_EMIT blockingAppsReady({});
         p->deleteLater();
     });
-    connect(p, static_cast<void (QProcess::*)(int, QProcess::ExitStatus)>(&QProcess::finished), [=, this](int, QProcess::ExitStatus) {
+    connect(p, &QProcess::finished, [=, this](int, QProcess::ExitStatus) {
         QStringList blockApps;
         QString out = QString::fromUtf8(p->readAll());
         const auto pidList = QStringView(out).split(QRegularExpression(QStringLiteral("\\s+")), Qt::SkipEmptyParts);
