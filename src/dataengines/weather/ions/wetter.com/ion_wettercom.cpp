@@ -400,7 +400,7 @@ void WetterComIon::parseSearchResults(const QString &source, QXmlStreamReader &x
 
 void WetterComIon::validate(const QString &source, bool parseError)
 {
-    if (!m_locations.count() || parseError) {
+    if (m_locations.isEmpty() || parseError) {
         const QString invalidPlace = source.section(QLatin1Char('|'), 2, 2);
 
         if (m_place[invalidPlace].name.isEmpty()) {
