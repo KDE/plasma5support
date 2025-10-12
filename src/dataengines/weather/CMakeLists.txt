@@ -1,3 +1,4 @@
+remove_definitions(-DTRANSLATION_DOMAIN=\"libplasma5support\")
 add_definitions(-DTRANSLATION_DOMAIN=\"plasma_engine_weather\")
 remove_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x50f02)
 

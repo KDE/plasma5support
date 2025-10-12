@@ -1,3 +1,4 @@
+remove_definitions(-DTRANSLATION_DOMAIN=\"libplasma5support\")
 add_definitions(-DTRANSLATION_DOMAIN=\"plasma_engine_powermanagement\")
 
 set(powermanagement_engine_SRCS
