@@ -921,7 +921,7 @@ float EnvCanadaIon::parseCoordinate(QStringView coord) const
 {
     // Coordinates are in form of "64.52N" or "105.23W"
     const QRegularExpression coord_re(QStringLiteral("([0-9\\.]+)([NSEW])"));
-    const QRegularExpressionMatch match = coord_re.match(coord);
+    const QRegularExpressionMatch match = coord_re.matchView(coord);
     if (!match.hasMatch()) {
         return qQNaN();
     }

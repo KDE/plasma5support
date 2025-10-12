@@ -25,7 +25,7 @@ WeatherEngine::WeatherEngine(QObject *parent)
     // Globally notify all plugins to remove their sources (and unload plugin)
     connect(this, &Plasma5Support::DataEngine::sourceRemoved, this, &WeatherEngine::removeIonSource);
 
-    QNetworkInformation::load(QNetworkInformation::Feature::Reachability);
+    QNetworkInformation::loadBackendByFeatures(QNetworkInformation::Feature::Reachability);
     connect(QNetworkInformation::instance(), &QNetworkInformation::reachabilityChanged, this, &WeatherEngine::onOnlineStateChanged);
 
     // Get the list of available plugins but don't load them
