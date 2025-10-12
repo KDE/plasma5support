@@ -29,7 +29,7 @@ void ActivityJob::start()
     const QString operation = operationName();
     if (operation == QLatin1String("add")) {
         // I wonder how well plasma will handle this...
-        QString name = parameters()[QStringLiteral("Name")].toString();
+        QString name = parameters().value(QStringLiteral("Name")).toString();
         if (name.isEmpty()) {
             name = i18n("unnamed");
         }
@@ -38,7 +38,7 @@ void ActivityJob::start()
         return;
     }
     if (operation == QLatin1String("remove")) {
-        QString id = parameters()[QStringLiteral("Id")].toString();
+        QString id = parameters().value(QStringLiteral("Id")).toString();
         m_activityController->removeActivity(id);
         setResult(true);
         return;
@@ -55,7 +55,7 @@ void ActivityJob::start()
         return;
     }
     if (operation == QLatin1String("setName")) {
-        m_activityController->setActivityName(m_id, parameters()[QStringLiteral("Name")].toString());
+        m_activityController->setActivityName(m_id, parameters().value(QStringLiteral("Name")).toString());
         setResult(true);
         return;
     }
