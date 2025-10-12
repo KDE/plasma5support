@@ -48,7 +48,7 @@ void WeatherEngine::updateIonList()
     for (const KPluginMetaData &info : infos) {
         // We want to provide the short ion name, but pluginId is the full plugin library name
         const QString ionName = info.pluginId().split(QLatin1Char('_')).last();
-        const QString data = QStringLiteral("%1|%2").arg(info.name()).arg(ionName);
+        const QString data = QStringLiteral("%1|%2").arg(info.name(), ionName);
         setData(QStringLiteral("ions"), info.pluginId(), data);
     }
 }

@@ -690,7 +690,7 @@ void WetterComIon::updateWeather(const QString &source, bool parseError)
         data.insert(QStringLiteral("Total Weather Days"), i);
 
         data.insert(QStringLiteral("Credit"), weatherData.credits); // FIXME i18n?
-        data.insert(QStringLiteral("Credit Url"), QStringLiteral("%1/place/%2.html").arg(weatherData.creditsUrl).arg(placeInfo.placeCode));
+        data.insert(QStringLiteral("Credit Url"), QStringLiteral("%1/place/%2.html").arg(weatherData.creditsUrl, placeInfo.placeCode));
 
         qCDebug(IONENGINE_WETTERCOM) << "updated weather data:" << weatherSource << data;
     } else {

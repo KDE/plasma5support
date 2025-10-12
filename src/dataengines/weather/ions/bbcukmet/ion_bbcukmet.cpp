@@ -670,12 +670,12 @@ void UKMETIon::updateWeather(const QString &source)
         }
 
         data.insert(u"Short Forecast Day %1"_s.arg(day),
-                    u"%1|%2|%3|%4|%5|%6"_s.arg(weekDayLabel)
-                        .arg(forecast.iconName)
-                        .arg(i18nc("weather forecast", forecast.summary.toUtf8().data()))
-                        .arg(qIsNaN(forecast.tempHigh) ? QString() : QString::number(forecast.tempHigh))
-                        .arg(qIsNaN(forecast.tempLow) ? QString() : QString::number(forecast.tempLow))
-                        .arg(forecast.precipitationPct));
+                    u"%1|%2|%3|%4|%5|%6"_s.arg(weekDayLabel,
+                                               forecast.iconName,
+                                               i18nc("weather forecast", forecast.summary.toUtf8().data()),
+                                               qIsNaN(forecast.tempHigh) ? QString() : QString::number(forecast.tempHigh),
+                                               qIsNaN(forecast.tempLow) ? QString() : QString::number(forecast.tempLow),
+                                               QString::number(forecast.precipitationPct)));
 
         ++day;
 

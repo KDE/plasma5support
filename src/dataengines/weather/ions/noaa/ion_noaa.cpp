@@ -460,10 +460,12 @@ void NOAAIon::updateWeather(const QString &source)
 
         // Get the short day name for the forecast
         data.insert(u"Short Forecast Day %1"_s.arg(forecastDay),
-                    u"%1|%2|%3|%4|%5|%6"_s.arg(forecast.day, iconName, i18nForecast(forecast.summary))
-                        .arg(qIsNaN(forecast.high) ? u"N/A"_s : QString::number(forecast.high))
-                        .arg(qIsNaN(forecast.low) ? u"N/A"_s : QString::number(forecast.low))
-                        .arg(forecast.precipitation));
+                    u"%1|%2|%3|%4|%5|%6"_s.arg(forecast.day,
+                                               iconName,
+                                               i18nForecast(forecast.summary),
+                                               qIsNaN(forecast.high) ? u"N/A"_s : QString::number(forecast.high),
+                                               qIsNaN(forecast.low) ? u"N/A"_s : QString::number(forecast.low),
+                                               QString::number(forecast.precipitation)));
         ++forecastDay;
     }
     // Set the number of days we provide after the filtering
