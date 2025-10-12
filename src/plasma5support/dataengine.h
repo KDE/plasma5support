@@ -79,7 +79,7 @@ public:
      *         is parented to the DataEngine, but should be deleted by the
      *         caller when finished with it
      */
-    Q_INVOKABLE virtual Service *serviceForSource(const QString &source);
+    Q_INVOKABLE virtual Plasma5Support::Service *serviceForSource(const QString &source);
 
     /**
      * @return description of the plugin that implements this DataEngine
@@ -161,7 +161,7 @@ public:
      * @param source the name of the source.
      * @return pointer to a DataContainer, or zero on failure
      **/
-    Q_INVOKABLE DataContainer *containerForSource(const QString &source);
+    Q_INVOKABLE Plasma5Support::DataContainer *containerForSource(const QString &source);
 
     /**
      * @return The model associated to a source if any. The ownership of the model stays with the DataContainer.
