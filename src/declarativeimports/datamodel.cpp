@@ -428,7 +428,7 @@ void DataModel::removeSource(const QString &sourceName)
     if (m_keyRoleFilter.isEmpty()) {
         // source name in the map, linear scan
         for (int i = 0; i < m_items.value(QString()).count(); ++i) {
-            if (m_items.value(QString())[i].value<QVariantMap>().value(QStringLiteral("DataEngineSource")) == sourceName) {
+            if (m_items.value(QString()).at(i).value<QVariantMap>().value(QStringLiteral("DataEngineSource")) == sourceName) {
                 beginRemoveRows(QModelIndex(), i, i);
                 m_items[QString()].remove(i);
                 endRemoveRows();

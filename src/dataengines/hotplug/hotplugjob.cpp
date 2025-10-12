@@ -19,7 +19,7 @@
 void HotplugJob::start()
 {
     if (operationName() == QLatin1String("invokeAction")) {
-        const QString desktopFile = parameters()[QStringLiteral("predicate")].toString();
+        const QString desktopFile = parameters().value(QStringLiteral("predicate")).toString();
         const QString filePath = QStandardPaths::locate(QStandardPaths::GenericDataLocation, "solid/actions/" + desktopFile);
 
         auto services = KService(filePath).actions();

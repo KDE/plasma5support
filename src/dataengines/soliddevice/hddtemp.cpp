@@ -85,5 +85,5 @@ bool HddTemp::updateData()
 
 QVariant HddTemp::data(const QString source, const DataType type) const
 {
-    return m_data[source][type];
+    return m_data[source].at(type);
 }

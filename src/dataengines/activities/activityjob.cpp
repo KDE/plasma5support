@@ -60,7 +60,7 @@ void ActivityJob::start()
         return;
     }
     if (operation == QLatin1String("setIcon")) {
-        m_activityController->setActivityIcon(m_id, parameters()[QStringLiteral("Icon")].toString());
+        m_activityController->setActivityIcon(m_id, parameters().value(QStringLiteral("Icon")).toString());
         setResult(true);
         return;
     }

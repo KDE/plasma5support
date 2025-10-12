@@ -318,7 +318,7 @@ void DWDIon::parseForecastData(const QString &source, const QJsonDocument &doc)
     weatherMap = weatherMap.first().toMap(); // Mind the .first(). It needs guarding against isEmpty.
     if (!weatherMap.isEmpty()) {
         // Forecast data
-        QVariantList daysList = weatherMap[u"days"_s].toList();
+        const QVariantList daysList = weatherMap[u"days"_s].toList();
 
         WeatherData &weatherData = m_weatherData[source];
         QList<WeatherData::ForecastInfo> &forecasts = weatherData.forecasts;
@@ -329,7 +329,7 @@ void DWDIon::parseForecastData(const QString &source, const QJsonDocument &doc)
         int dayNumber = 0;
 
         for (const QVariant &day : daysList) {
-            QMap dayMap = day.toMap();
+            const QMap dayMap = day.toMap();
             QString period = dayMap[u"dayDate"_s].toString();
             QString cond = dayMap[u"icon"_s].toString();
 
@@ -362,15 +362,14 @@ void DWDIon::parseForecastData(const QString &source, const QJsonDocument &doc)
         }
 
         // Warnings data
-        QVariantList warningData = weatherMap[u"warnings"_s].toList();
-
+        const QVariantList warningData = weatherMap[u"warnings"_s].toList();
         QList<WeatherData::WarningInfo> &warningList = weatherData.warnings;
 
         // Flush out the old forecasts when updating.
         warningList.clear();
 
         for (const QVariant &warningElement : warningData) {
-            QMap warningMap = warningElement.toMap();
+            const QMap warningMap = warningElement.toMap();
 
             WeatherData::WarningInfo warning;
             warning.headline = warningMap[u"headline"_s].toString();
@@ -387,7 +386,7 @@ void DWDIon::parseForecastData(const QString &source, const QJsonDocument &doc)
 void DWDIon::parseMeasureData(const QString &source, const QJsonDocument &doc)
 {
     WeatherData &weatherData = m_weatherData[source];
-    QVariantMap weatherMap = doc.object().toVariantMap();
+    const QVariantMap weatherMap = doc.object().toVariantMap();
 
     if (!weatherMap.isEmpty()) {
         weatherData.observationDateTime = parseDateFromMSecs(weatherMap[u"time"_s]);

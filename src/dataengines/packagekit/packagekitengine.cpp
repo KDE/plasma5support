@@ -26,7 +26,7 @@ void PackagekitEngine::init()
 
     QDBusMessage reply = QDBusConnection::sessionBus().call(message);
     if (reply.type() == QDBusMessage::ReplyMessage && reply.arguments().size() == 1) {
-        QStringList list = reply.arguments().first().toStringList();
+        QStringList list = reply.arguments().constFirst().toStringList();
         if (list.contains(QLatin1String("org.freedesktop.PackageKit"))) {
             m_pk_available = true;
         }
