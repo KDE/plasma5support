@@ -431,7 +431,7 @@ DataContainer *DataEnginePrivate::source(const QString &sourceName, bool createW
     s->setObjectName(sourceName);
     sources.insert(sourceName, s);
     QObject::connect(s, SIGNAL(destroyed(QObject *)), q, SLOT(sourceDestroyed(QObject *)));
-    QObject::connect(s, SIGNAL(updateRequested(DataContainer *)), q, SLOT(internalUpdateSource(DataContainer *)));
+    QObject::connect(s, SIGNAL(updateRequested(Plasma5Support::DataContainer *)), q, SLOT(internalUpdateSource(Plasma5Support::DataContainer *)));
 
     return s;
 }
