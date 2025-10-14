@@ -216,7 +216,7 @@ void DataEngine::addSource(DataContainer *source)
         return;
     }
 
-    QObject::connect(source, SIGNAL(updateRequested(DataContainer *)), this, SLOT(internalUpdateSource(DataContainer *)));
+    QObject::connect(source, SIGNAL(updateRequested(Plasma5Support::DataContainer *)), this, SLOT(internalUpdateSource(Plasma5Support::DataContainer *)));
     QObject::connect(source, SIGNAL(destroyed(QObject *)), this, SLOT(sourceDestroyed(QObject *)));
     d->sources.insert(source->objectName(), source);
     Q_EMIT sourceAdded(source->objectName());
