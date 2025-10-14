@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_engine_weather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-11 00:45+0000\n"
+"POT-Creation-Date: 2025-10-14 00:44+0000\n"
 "PO-Revision-Date: 2025-06-04 19:40+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -2696,7 +2696,7 @@ msgctxt "weather forecast"
 msgid "Windy"
 msgstr "Ventoso"
 
-#: ions/bbcukmet/ion_bbcukmet.cpp:669 ions/dwd/ion_dwd.cpp:501
+#: ions/bbcukmet/ion_bbcukmet.cpp:669 ions/dwd/ion_dwd.cpp:500
 #, kde-format
 msgctxt "Short for Today"
 msgid "Today"
@@ -2714,49 +2714,49 @@ msgctxt "credit line, keep string short"
 msgid "Data from BBC Weather"
 msgstr "Datos de BBC Weather"
 
-#: ions/dwd/ion_dwd.cpp:505 ions/envcan/ion_envcan.cpp:1569
+#: ions/dwd/ion_dwd.cpp:504 ions/envcan/ion_envcan.cpp:1569
 #, kde-format
 msgctxt "Short for Saturday"
 msgid "Sat"
 msgstr "Sáb"
 
-#: ions/dwd/ion_dwd.cpp:506 ions/envcan/ion_envcan.cpp:1570
+#: ions/dwd/ion_dwd.cpp:505 ions/envcan/ion_envcan.cpp:1570
 #, kde-format
 msgctxt "Short for Sunday"
 msgid "Sun"
 msgstr "Dom"
 
-#: ions/dwd/ion_dwd.cpp:507 ions/envcan/ion_envcan.cpp:1571
+#: ions/dwd/ion_dwd.cpp:506 ions/envcan/ion_envcan.cpp:1571
 #, kde-format
 msgctxt "Short for Monday"
 msgid "Mon"
 msgstr "Lun"
 
-#: ions/dwd/ion_dwd.cpp:508 ions/envcan/ion_envcan.cpp:1572
+#: ions/dwd/ion_dwd.cpp:507 ions/envcan/ion_envcan.cpp:1572
 #, kde-format
 msgctxt "Short for Tuesday"
 msgid "Tue"
 msgstr "Mar"
 
-#: ions/dwd/ion_dwd.cpp:509 ions/envcan/ion_envcan.cpp:1573
+#: ions/dwd/ion_dwd.cpp:508 ions/envcan/ion_envcan.cpp:1573
 #, kde-format
 msgctxt "Short for Wednesday"
 msgid "Wed"
 msgstr "Mié"
 
-#: ions/dwd/ion_dwd.cpp:510 ions/envcan/ion_envcan.cpp:1574
+#: ions/dwd/ion_dwd.cpp:509 ions/envcan/ion_envcan.cpp:1574
 #, kde-format
 msgctxt "Short for Thursday"
 msgid "Thu"
 msgstr "Jue"
 
-#: ions/dwd/ion_dwd.cpp:511 ions/envcan/ion_envcan.cpp:1575
+#: ions/dwd/ion_dwd.cpp:510 ions/envcan/ion_envcan.cpp:1575
 #, kde-format
 msgctxt "Short for Friday"
 msgid "Fri"
 msgstr "Vie"
 
-#: ions/dwd/ion_dwd.cpp:536
+#: ions/dwd/ion_dwd.cpp:535
 #, kde-format
 msgctxt "credit line, don't change name!"
 msgid "Source: Deutscher Wetterdienst"
@@ -2798,7 +2798,7 @@ msgctxt "credit line, keep string short"
 msgid "Data from Environment and Climate Change Canada"
 msgstr "Datos de Environment and Climate Change Canada"
 
-#: ions/noaa/ion_noaa.cpp:482
+#: ions/noaa/ion_noaa.cpp:484
 #, kde-format
 msgctxt "credit line, keep string short)"
 msgid "Data from NOAA National Weather Service"
@@ -2807,7 +2807,7 @@ msgstr "Datos del Servicio Meteorológico Nacional NOAA"
 #. i18n: The forecast summary can include several single conditions that follow
 #. a temporary sequence, separated by " then ". Also include spaces if necessary.
 #. If there is no suitable separtor, a sentence separator might do.
-#: ions/noaa/ion_noaa.cpp:618
+#: ions/noaa/ion_noaa.cpp:620
 #, kde-format
 msgctxt ""
 "Separator between forecast conditions that follow a temporal sequence (ex. "
