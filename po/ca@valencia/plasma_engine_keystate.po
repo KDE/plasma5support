@@ -3,8 +3,8 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2009, 2013, 2015.
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2016.
+# SPDX-FileCopyrightText: 2009, 2013, 2015 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2016 Antoni Bella Pérez <antonibella5@yahoo.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma5support\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: keystate.cpp:18
 msgid "Shift"
-msgstr "Maj"
+msgstr "Majús"
 
 #: keystate.cpp:19
 msgid "Ctrl"
@@ -55,7 +55,7 @@ msgstr "Bloq Núm"
 
 #: keystate.cpp:26
 msgid "Caps Lock"
-msgstr "Bloq Maj"
+msgstr "Bloq Majús"
 
 #: keystate.cpp:27
 msgid "Scroll Lock"
