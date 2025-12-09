@@ -1,14 +1,15 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Spanish translations for plasma_engine_soliddevice.po package.
+# Copyright (C) 2010-2025 This file is copyright:
+# This file is distributed under the same license as the plasma5support package.
 #
-# SPDX-FileCopyrightText: 2010, 2012, 2013, 2014, 2015, 2018, 2020, 2024 Eloy Cuadra <ecuadra@eloihr.net>
-# Javier Vinal <fjvinal@gmail.com>, 2012.
+# SPDX-FileCopyrightText: 2010, 2012, 2013, 2014, 2015, 2018, 2020, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2012 Javier Vinal <fjvinal@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2024-02-24 20:15+0100\n"
+"PO-Revision-Date: 2025-12-08 12:07+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -622,147 +623,3 @@ msgstr "Unidad de temperatura"
 #: soliddeviceengine.cpp:627 soliddeviceengine.cpp:631
 msgid "In Use"
 msgstr "En uso"
-
-#~ msgid "Network Interface"
-#~ msgstr "Interfaz de red"
-
-#~ msgid "Interface Name"
-#~ msgstr "Nombre de la interfaz"
-
-#~ msgid "Wireless"
-#~ msgstr "Inalámbrica"
-
-#~ msgid "Hardware Address"
-#~ msgstr "Dirección hardware"
-
-#~ msgid "MAC Address"
-#~ msgstr "Dirección MAC"
-
-#~ msgid "AC Adapter"
-#~ msgstr "Adaptador AC"
-
-#~ msgid "Button"
-#~ msgstr "Botón"
-
-#~ msgid "Lid Button"
-#~ msgstr "Botón de la tapa"
-
-#~ msgid "Power Button"
-#~ msgstr "Botón de encendido"
-
-#~ msgid "Sleep Button"
-#~ msgstr "Botón «Dormir»"
-
-#~ msgid "Unknown Button Type"
-#~ msgstr "Tipo de botón desconocido"
-
-#~ msgid "Has State"
-#~ msgstr "Tiene el estado"
-
-#~ msgid "State Value"
-#~ msgstr "Valor del estado"
-
-#~ msgid "Pressed"
-#~ msgstr "Pulsado"
-
-#~ msgid "Audio Interface"
-#~ msgstr "Interfaz de audio"
-
-#~ msgid "ALSA"
-#~ msgstr "ALSA"
-
-#~ msgid "Open Sound System"
-#~ msgstr "Open Sound System"
-
-#~ msgid "Unknown Audio Driver"
-#~ msgstr "Controlador de audio desconocido"
-
-#~ msgid "Driver"
-#~ msgstr "Controlador"
-
-#~ msgid "Driver Handle"
-#~ msgstr "Manejador del controlador"
-
-#~ msgid "Name"
-#~ msgstr "Nombre"
-
-#~ msgid "Unknown Audio Interface Type"
-#~ msgstr "Tipo de interfaz de audio desconocido"
-
-#~ msgid "Audio Control"
-#~ msgstr "Control de audio"
-
-#~ msgid "Audio Input"
-#~ msgstr "Entrada de audio"
-
-#~ msgid "Audio Output"
-#~ msgstr "Salida de audio"
-
-#~ msgid "Audio Device Type"
-#~ msgstr "Tipo de dispositivo de audio"
-
-#~ msgid "Internal Soundcard"
-#~ msgstr "Tarjeta de sonido interna"
-
-#~ msgid "USB Soundcard"
-#~ msgstr "Tarjeta de sonido USB"
-
-#~ msgid "Firewire Soundcard"
-#~ msgstr "Tarjeta de sonido Firewire"
-
-#~ msgid "Headset"
-#~ msgstr "Auriculares"
-
-#~ msgid "Modem"
-#~ msgstr "Módem"
-
-#~ msgid "Soundcard Type"
-#~ msgstr "Tipo de tarjeta de sonido"
-
-#~ msgid "DVB Interface"
-#~ msgstr "Interfaz DVB"
-
-#~ msgid "Device Adapter"
-#~ msgstr "Adaptador de dispositivo"
-
-#~ msgid "DVB Unknown"
-#~ msgstr "DVB desconocido"
-
-#~ msgid "DVB Audio"
-#~ msgstr "DVB Audio"
-
-#~ msgid "DVB Ca"
-#~ msgstr "DVB Ca"
-
-#~ msgid "DVB Demux"
-#~ msgstr "DVB Demux"
-
-#~ msgid "DVB DVR"
-#~ msgstr "DVB DVR"
-
-#~ msgid "DVB Frontend"
-#~ msgstr "Interfaz DVB"
-
-#~ msgid "DVB Net"
-#~ msgstr "Red DVB"
-
-#~ msgid "DVB OSD"
-#~ msgstr "DVB OSD"
-
-#~ msgid "DVB Sec"
-#~ msgstr "DVB Sec"
-
-#~ msgid "DVB Video"
-#~ msgstr "DVB Vídeo"
-
-#~ msgid "DVB Device Type"
-#~ msgstr "Tipo de dispositivo DVB"
-
-#~ msgid "Device Index"
-#~ msgstr "Índice del dispositivo"
-
-#~ msgid "Video"
-#~ msgstr "Vídeo"
-
-#~ msgid "Driver Handles"
-#~ msgstr "Manejadores de dispositivos"

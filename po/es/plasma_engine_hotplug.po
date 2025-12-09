@@ -1,15 +1,15 @@
 # Spanish translations for plasma_engine_hotplug.po package.
-# Copyright (C) 2019 This file is copyright:
-# This file is distributed under the same license as the plasma-workspace package.
-#
+# Copyright (C) 2019-2025 This file is copyright:
+# This file is distributed under the same license as the plasma5support package.
 # Automatically generated, 2019.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2019.
+#
+# SPDX-FileCopyrightText: 2019, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_engine_hotplug\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2019-07-02 18:51+0200\n"
+"PO-Revision-Date: 2025-12-08 12:07+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -24,7 +24,3 @@ msgstr ""
 msgctxt "error; %1 is the desktop file name of the service"
 msgid "Failed to resolve service action for %1."
 msgstr "No se ha podido resolver la acción del servicio para %1."
-
-#~ msgctxt "A default name for an action without proper label"
-#~ msgid "Unknown"
-#~ msgstr "Desconocida"
