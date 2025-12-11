@@ -26,3 +26,5 @@ add_subdirectory(places)
 add_subdirectory(apps)
 add_subdirectory(weather)
 add_subdirectory(time)
+add_subdirectory(executable)
+
