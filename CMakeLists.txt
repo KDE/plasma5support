@@ -64,11 +64,13 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
         KIO
         UnitConversion #Weather dataengine
         Holidays #Weather dataengine
+        Prison #Clipboard dataengine
 )
 
 find_package(KSysGuard CONFIG) #devicenotifications
 find_package(KF6NetworkManagerQt) #geolocation
 find_package(PlasmaActivities) #activites
+find_package(LibKlipper REQUIRED) #clipboard
 
 option(WITH_X11 "Build mouse data engine with X11 support." ON)
 if(WITH_X11)
