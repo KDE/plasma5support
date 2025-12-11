@@ -110,6 +110,7 @@ install(FILES ${Plasma5Support_CamelCase_HEADERS}
 install(FILES data/operations/dataengineservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/plasmoidservice.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 install(FILES data/operations/storage.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
+install(FILES data/operations/statusnotifieritem.operations DESTINATION ${PLASMA5SUPPORT_DATA_INSTALL_DIR}/services)
 
 install(TARGETS Plasma5Support EXPORT Plasma5SupportTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
