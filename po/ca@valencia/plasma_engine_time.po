@@ -6,7 +6,7 @@
 # SPDX-FileCopyrightText: 2014 Antoni Bella Pérez <antonibella5@yahoo.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-workspace\n"
+"Project-Id-Version: plasma5support\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-10 00:46+0000\n"
 "PO-Revision-Date: 2014-09-26 11:08+0200\n"
