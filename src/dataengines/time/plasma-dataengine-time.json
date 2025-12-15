@@ -60,6 +60,7 @@
         "Description[ru]": "Установка даты и времени в соответствии с часовым поясом",
         "Description[sl]": "Datum in čas po časovni coni",
         "Description[uk]": "Дата і час за часовими поясами",
+        "Description[zh_CN]": "根据时区提供日期和时间",
         "EnabledByDefault": true,
         "Icon": "preferences-system-time",
         "License": "LGPL",
@@ -78,6 +79,7 @@
         "Name[ru]": "Дата и время",
         "Name[sl]": "Datum in čas",
         "Name[uk]": "Дата і час",
+        "Name[zh_CN]": "日期和时间",
         "Website": "https://www.kde.org/plasma-desktop"
     }
 }
