@@ -8,8 +8,10 @@
         ],
         "Category": "",
         "Description": "Run Executable Data Engine",
+        "Description[ka]": "შესრულებადი მონაცემთა ძრავის გაშვება",
         "Icon": "application-x-executable-script",
         "Name": "Run Commands",
+        "Name[ka]": "ბრძანებების გაშვება",
         "Website": "https://kde.org/plasma-desktop"
     }
 }
