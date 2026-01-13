@@ -8,6 +8,7 @@
         ],
         "Category": "",
         "Description": "Run Executable Data Engine",
+        "Description[ca@valencia]": "Motor de dades d'execució d'ordres",
         "Description[ca]": "Motor de dades d'execució d'ordres",
         "Description[es]": "Lanzar el ejecutable del motor de datos",
         "Description[he]": "הרצת מנוע נתונים שמיועד להרצה",
@@ -16,8 +17,11 @@
         "Description[pt_BR]": "Mecanismo de dados da execução de comandos",
         "Description[sl]": "Zaženi izvedljivi podatkovni stroj",
         "Description[tr]": "Yürütülebilir veri işletkesi çalıştırın",
+        "Description[uk]": "Виконати програму рушія даних",
+        "Description[zh_TW]": "執行可執行檔的資料引擎",
         "Icon": "application-x-executable-script",
         "Name": "Run Commands",
+        "Name[ca@valencia]": "Execució d'ordres",
         "Name[ca]": "Execució d'ordres",
         "Name[es]": "Ejecutar órdenes",
         "Name[he]": "הרצת פקודות",
@@ -26,6 +30,8 @@
         "Name[pt_BR]": "Executar comandos",
         "Name[sl]": "Zaženi ukaze",
         "Name[tr]": "Komutlar Çalıştır",
+        "Name[uk]": "Виконання команд",
+        "Name[zh_TW]": "執行指令",
         "Website": "https://kde.org/plasma-desktop"
     }
 }
