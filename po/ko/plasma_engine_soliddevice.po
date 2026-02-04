@@ -131,7 +131,7 @@ msgstr "플랫폼"
 
 #: soliddeviceengine.cpp:173
 msgid "Hard Disk"
-msgstr "하드디스크"
+msgstr "하드 디스크"
 
 #: soliddeviceengine.cpp:173
 msgid "Cdrom Drive"
