@@ -603,11 +603,11 @@ msgstr "剩余空间"
 
 #: soliddeviceengine.cpp:554
 msgid "Free Space Text"
-msgstr "剩余空间文字"
+msgstr "剩余空间文本"
 
 #: soliddeviceengine.cpp:556
 msgid "Size Text"
-msgstr "大小文字"
+msgstr "大小文本"
 
 #: soliddeviceengine.cpp:582
 msgid "Temperature"
