@@ -80,7 +80,7 @@
         "Description[ta]": "எப்போதேனும் செருகி கழற்றக்கூடிய சாதனங்களை கவனிக்கும்.",
         "Description[tr]": "Takıp çıkarılabilir aygıtları görünüp kaybolduklarında izler.",
         "Description[uk]": "Стежить за з’єднанням і від’єднанням портативних пристроїв.",
-        "Description[zh_CN]": "跟踪热插拔设备的出现与消失。",
+        "Description[zh_CN]": "跟踪可热插拔设备的连接与断开。",
         "Description[zh_TW]": "追蹤熱插拔裝置的出現與消失。",
         "Icon": "drive-removable-media-usb",
         "License": "",
