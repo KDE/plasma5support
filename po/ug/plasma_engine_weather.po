@@ -8,20 +8,21 @@ msgstr ""
 "Project-Id-Version: plasma_engine_weather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2013-09-08 07:05+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"PO-Revision-Date: 2026-04-01 09:26-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #: bbcukmet_i18n.dat:1
 #, kde-format
 msgctxt "weather condition"
 msgid "clear"
-msgstr "سۈزۈك"
+msgstr "ئوچۇق"
 
 #: bbcukmet_i18n.dat:2
 #, kde-format
@@ -33,7 +34,7 @@ msgstr "بەزىدە ھاۋا ئوچۇق"
 #, kde-format
 msgctxt "weather condition"
 msgid "clear sky"
-msgstr "سۈزۈك ئاسمان"
+msgstr "ھاۋا ئوچۇق"
 
 #: bbcukmet_i18n.dat:4 ions/wetter.com/ion_wettercom.cpp:158
 #: ions/wetter.com/ion_wettercom.cpp:159
@@ -52,13 +53,13 @@ msgstr "مۆلدۈر ۋە بۇلۇتلۇق"
 #, kde-format
 msgctxt "weather condition"
 msgid "cloudy with heavy snow"
-msgstr "قاتتىق قار ۋە بۇلۇتلۇق"
+msgstr "قېلىن قار ۋە بۇلۇتلۇق"
 
 #: bbcukmet_i18n.dat:7
 #, kde-format
 msgctxt "weather condition"
 msgid "cloudy with light snow"
-msgstr "بوش قار ۋە بۇلۇتلۇق"
+msgstr "سۇس قار ۋە بۇلۇتلۇق"
 
 #: bbcukmet_i18n.dat:8
 #, kde-format
@@ -119,111 +120,105 @@ msgstr "تۇمانلىق"
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy rain"
-msgstr "قاتتىق يامغۇر"
+msgstr "قارا يامغۇر"
 
 #: bbcukmet_i18n.dat:18
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy rain shower"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:19
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "heavy rain shower"
+#, kde-format
 msgctxt "weather condition"
 msgid "heavy rain showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:20
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy shower"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:21 ions/wetter.com/ion_wettercom.cpp:191
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:22 ions/wetter.com/ion_wettercom.cpp:187
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy snow"
-msgstr "قاتتىق قار"
+msgstr "قېلىن قار"
 
 #: bbcukmet_i18n.dat:23
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy snow shower"
-msgstr "شىدەتتلىك ئۆتكۈنچى قار"
+msgstr "قېلىن ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:24
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy snow showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى قار"
+msgstr "قېلىن ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:25
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "white cloud"
+#, kde-format
 msgctxt "weather condition"
 msgid "light cloud"
-msgstr "ئاق بۇلۇت"
+msgstr "سۇس بۇلۇت"
 
 #: bbcukmet_i18n.dat:26 ions/wetter.com/ion_wettercom.cpp:175
 #: ions/wetter.com/ion_wettercom.cpp:176
 #, kde-format
 msgctxt "weather condition"
 msgid "light rain"
-msgstr "ئاجىر يامغۇر"
+msgstr "سۇس يامغۇر"
 
 #: bbcukmet_i18n.dat:27
 #, kde-format
 msgctxt "weather condition"
 msgid "light rain shower"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:28
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "light rain shower"
+#, kde-format
 msgctxt "weather condition"
 msgid "light rain showers"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:29
 #, kde-format
 msgctxt "weather condition"
 msgid "light shower"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:30 ions/wetter.com/ion_wettercom.cpp:189
 #, kde-format
 msgctxt "weather condition"
 msgid "light showers"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:31 ions/wetter.com/ion_wettercom.cpp:184
 #: ions/wetter.com/ion_wettercom.cpp:185
 #, kde-format
 msgctxt "weather condition"
 msgid "light snow"
-msgstr "ئاجىر قار"
+msgstr "سۇس قار"
 
 #: bbcukmet_i18n.dat:32
 #, kde-format
 msgctxt "weather condition"
 msgid "light snow shower"
-msgstr "ئاجىر ئۆتكۈنچى قار"
+msgstr "سۇس ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:33 ions/wetter.com/ion_wettercom.cpp:194
 #, kde-format
 msgctxt "weather condition"
 msgid "light snow showers"
-msgstr "ئاجىر ئۆتكۈنچى قار"
+msgstr "سۇس ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:34
 #, kde-format
@@ -241,13 +236,13 @@ msgstr "تۇمانلىق"
 #, kde-format
 msgctxt "weather condition"
 msgid "N/A"
-msgstr "N/A"
+msgstr "ئىشلەتكىلى بولمايدۇ"
 
 #: bbcukmet_i18n.dat:37
 #, kde-format
 msgctxt "weather condition"
 msgid "na"
-msgstr "na"
+msgstr "ئىشلەتكىلى بولمايدۇ"
 
 #: bbcukmet_i18n.dat:38
 #, kde-format
@@ -283,7 +278,7 @@ msgstr "ئۆتكۈنچى مۆلدۈر ئارىلاش يامغۇر"
 #, kde-format
 msgctxt "weather condition"
 msgid "sunny"
-msgstr "ئوچۇق كۈن"
+msgstr "قۇياش پارلىغان"
 
 #: bbcukmet_i18n.dat:44
 #, kde-format
@@ -292,39 +287,35 @@ msgid "sunny intervals"
 msgstr "بەزىدە كۈن چىقىدۇ"
 
 #: bbcukmet_i18n.dat:45
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "white cloud"
+#, kde-format
 msgctxt "weather condition"
 msgid "thick cloud"
-msgstr "ئاق بۇلۇت"
+msgstr "قېلىن بۇلۇت"
 
 #: bbcukmet_i18n.dat:46 ions/wetter.com/ion_wettercom.cpp:196
 #: ions/wetter.com/ion_wettercom.cpp:197
 #, kde-format
 msgctxt "weather condition"
 msgid "thunderstorm"
-msgstr "گۈلدۈرماما"
+msgstr "گۈلدۈرمامىلىق يامغۇر"
 
 #: bbcukmet_i18n.dat:47
 #, kde-format
 msgctxt "weather condition"
 msgid "thundery shower"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:48
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "heavy showers"
+#, kde-format
 msgctxt "weather condition"
 msgid "thundery showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:49
 #, kde-format
 msgctxt "weather condition"
 msgid "tropical storm"
-msgstr "تروپىك گۈلدۈرمامىسى"
+msgstr "تىروپىك گۈلدۈرمامىسى"
 
 #: bbcukmet_i18n.dat:50
 #, kde-format
@@ -348,7 +339,7 @@ msgstr "بەزىدە ھاۋا ئوچۇق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "clear sky"
-msgstr "سۈزۈك ئاسمان"
+msgstr "ھاۋا ئوچۇق"
 
 #: bbcukmet_i18n.dat:54
 #, kde-format
@@ -366,13 +357,13 @@ msgstr "مۆلدۈر ۋە بۇلۇتلۇق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "cloudy with heavy snow"
-msgstr "قاتتىق قار ۋە بۇلۇتلۇق"
+msgstr "قېلىن قار ۋە بۇلۇتلۇق"
 
 #: bbcukmet_i18n.dat:57
 #, kde-format
 msgctxt "weather forecast"
 msgid "cloudy with light snow"
-msgstr "بوش قار ۋە بۇلۇتلۇق"
+msgstr "سۇس قار ۋە بۇلۇتلۇق"
 
 #: bbcukmet_i18n.dat:58
 #, kde-format
@@ -432,109 +423,103 @@ msgstr "تۇمانلىق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "heavy rain"
-msgstr "قاتتىق يامغۇر"
+msgstr "قارا يامغۇر"
 
 #: bbcukmet_i18n.dat:68
 #, kde-format
 msgctxt "weather forecast"
 msgid "heavy rain shower"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:69
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "heavy rain shower"
+#, kde-format
 msgctxt "weather forecast"
 msgid "heavy rain showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:70
 #, kde-format
 msgctxt "weather forecast"
 msgid "heavy shower"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:71
 #, kde-format
 msgctxt "weather forecast"
 msgid "heavy showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:72
 #, kde-format
 msgctxt "weather forecast"
 msgid "heavy snow"
-msgstr "قاتتىق قار"
+msgstr "قېلىن قار"
 
 #: bbcukmet_i18n.dat:73
 #, kde-format
 msgctxt "weather forecast"
 msgid "heavy snow shower"
-msgstr "شىدەتتلىك ئۆتكۈنچى قار"
+msgstr "قېلىن ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:74
 #, kde-format
 msgctxt "weather forecast"
 msgid "heavy snow showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى قار"
+msgstr "قېلىن ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:75
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "white cloud"
+#, kde-format
 msgctxt "weather forecast"
 msgid "light cloud"
-msgstr "ئاق بۇلۇت"
+msgstr "سۇس بۇلۇت"
 
 #: bbcukmet_i18n.dat:76
 #, kde-format
 msgctxt "weather forecast"
 msgid "light rain"
-msgstr "ئاجىر يامغۇر"
+msgstr "سۇس يامغۇر"
 
 #: bbcukmet_i18n.dat:77
 #, kde-format
 msgctxt "weather forecast"
 msgid "light rain shower"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:78
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain shower"
+#, kde-format
 msgctxt "weather forecast"
 msgid "light rain showers"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:79
 #, kde-format
 msgctxt "weather forecast"
 msgid "light shower"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:80
 #, kde-format
 msgctxt "weather forecast"
 msgid "light showers"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:81
 #, kde-format
 msgctxt "weather forecast"
 msgid "light snow"
-msgstr "ئاجىر قار"
+msgstr "سۇس قار"
 
 #: bbcukmet_i18n.dat:82
 #, kde-format
 msgctxt "weather forecast"
 msgid "light snow shower"
-msgstr "ئاجىر ئۆتكۈنچى قار"
+msgstr "سۇس ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:83
 #, kde-format
 msgctxt "weather forecast"
 msgid "light snow showers"
-msgstr "ئاجىر ئۆتكۈنچى قار"
+msgstr "سۇس ئۆتكۈنچى قار"
 
 #: bbcukmet_i18n.dat:84
 #, kde-format
@@ -552,7 +537,7 @@ msgstr "تۇمانلىق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "na"
-msgstr "na"
+msgstr "ئىشلەتكىلى بولمايدۇ"
 
 #: bbcukmet_i18n.dat:87
 #, kde-format
@@ -588,7 +573,7 @@ msgstr "ئۆتكۈنچى مۆلدۈر ئارىلاش يامغۇر"
 #, kde-format
 msgctxt "weather forecast"
 msgid "sunny"
-msgstr "ئوچۇق كۈن"
+msgstr "قۇياش پارلىغان"
 
 #: bbcukmet_i18n.dat:93
 #, kde-format
@@ -597,40 +582,34 @@ msgid "sunny intervals"
 msgstr "بەزىدە كۈن چىقىدۇ"
 
 #: bbcukmet_i18n.dat:94
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "white cloud"
+#, kde-format
 msgctxt "weather forecast"
 msgid "thick cloud"
-msgstr "ئاق بۇلۇت"
+msgstr "قېلىن بۇلۇت"
 
 #: bbcukmet_i18n.dat:95
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "thunderstorm"
+#, kde-format
 msgctxt "weather forecast"
 msgid "thunderstorm"
-msgstr "گۈلدۈرماما"
+msgstr "گۈلدۈرمامىلىق يامغۇر"
 
 #: bbcukmet_i18n.dat:96
 #, kde-format
 msgctxt "weather forecast"
 msgid "thundery shower"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:97
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "heavy showers"
+#, kde-format
 msgctxt "weather forecast"
 msgid "thundery showers"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: bbcukmet_i18n.dat:98
 #, kde-format
 msgctxt "weather forecast"
 msgid "tropical storm"
-msgstr "تروپىك گۈلدۈرمامىسى"
+msgstr "تىروپىك گۈلدۈرمامىسى"
 
 #: bbcukmet_i18n.dat:99
 #, kde-format
@@ -642,12 +621,10 @@ msgstr "ئاق بۇلۇت"
 #, kde-format
 msgctxt "visibility"
 msgid "Excellent"
-msgstr ""
+msgstr "ناھايىتى ياخشى"
 
 #: bbcukmet_i18n.dat:101
-#, fuzzy, kde-format
-#| msgctxt "visibility"
-#| msgid "Very good"
+#, kde-format
 msgctxt "visibility"
 msgid "Very Good"
 msgstr "بەك ياخشى"
@@ -662,7 +639,7 @@ msgstr "ياخشى"
 #, kde-format
 msgctxt "visibility"
 msgid "Moderate"
-msgstr "لايىق"
+msgstr "ئوتتۇراھال"
 
 #: bbcukmet_i18n.dat:104
 #, kde-format
@@ -671,9 +648,7 @@ msgid "Poor"
 msgstr "ناچار"
 
 #: bbcukmet_i18n.dat:105
-#, fuzzy, kde-format
-#| msgctxt "visibility"
-#| msgid "Very poor"
+#, kde-format
 msgctxt "visibility"
 msgid "Very Poor"
 msgstr "بەك ناچار"
@@ -682,13 +657,13 @@ msgstr "بەك ناچار"
 #, kde-format
 msgctxt "weather condition"
 msgid "Blowing Snow"
-msgstr "قار ئۇچقۇنى"
+msgstr "شاماللىق قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:3 noaa_i18n.dat:10
 #, kde-format
 msgctxt "weather condition"
 msgid "Clear"
-msgstr "تازىلا"
+msgstr "ئوچۇق"
 
 #: envcan_i18n.dat:4
 #, kde-format
@@ -700,19 +675,19 @@ msgstr "بۇلۇتلۇق"
 #, kde-format
 msgctxt "weather condition"
 msgid "Decreasing Cloud"
-msgstr ""
+msgstr "بۇلۇت ئازىيىش"
 
 #: envcan_i18n.dat:6
 #, kde-format
 msgctxt "weather condition"
 msgid "Distant Precipitation"
-msgstr ""
+msgstr "يىراقتىكى يېغىن"
 
 #: envcan_i18n.dat:7
 #, kde-format
 msgctxt "weather condition"
 msgid "Drifting Snow"
-msgstr "地吹雪"
+msgstr "قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:8 noaa_i18n.dat:13
 #, kde-format
@@ -730,7 +705,7 @@ msgstr "چاڭ-توزان"
 #, kde-format
 msgctxt "weather condition"
 msgid "Dust Devils"
-msgstr ""
+msgstr "چاڭ-توزانلىق قۇيۇن"
 
 #: envcan_i18n.dat:11 noaa_i18n.dat:27
 #, kde-format
@@ -742,37 +717,37 @@ msgstr "تۇمان"
 #, kde-format
 msgctxt "weather condition"
 msgid "Fog Bank Near Station"
-msgstr ""
+msgstr "ھاۋا رايى پونكىتىنىڭ ئەتراپى تۇمانلىق"
 
 #: envcan_i18n.dat:13
 #, kde-format
 msgctxt "weather condition"
 msgid "Fog Depositing Ice"
-msgstr ""
+msgstr "مۇزلۇق تۇمان"
 
 #: envcan_i18n.dat:14
 #, kde-format
 msgctxt "weather condition"
 msgid "Fog Patches"
-msgstr ""
+msgstr "تۇمان رايونى"
 
 #: envcan_i18n.dat:15
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing drizzle"
-msgstr "سوغۇق سىم-سىم يامغۇر"
+msgstr "توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:16
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing rain"
-msgstr "سوغۇق يامغۇر"
+msgstr "توڭ يامغۇر"
 
 #: envcan_i18n.dat:17 noaa_i18n.dat:40
 #, kde-format
 msgctxt "weather condition"
 msgid "Funnel Cloud"
-msgstr ""
+msgstr "سۈكەن بۇلۇت"
 
 #: envcan_i18n.dat:18 noaa_i18n.dat:42
 #, kde-format
@@ -790,73 +765,73 @@ msgstr "سۇس تۇمان"
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Blowing Snow"
-msgstr ""
+msgstr "بورانلىق قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:21
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Drifting Snow"
-msgstr ""
+msgstr "قېلىن قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:22 noaa_i18n.dat:46
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Drizzle"
-msgstr ""
+msgstr "سىم-سىم قارا يامغۇر"
 
 #: envcan_i18n.dat:23
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Hail"
-msgstr ""
+msgstr "قاتتىق مۆلدۈر"
 
 #: envcan_i18n.dat:24
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Mixed Rain and Drizzle"
-msgstr ""
+msgstr "قارا يامغۇر ئارىلاش سىم-سىم  يامغۇر"
 
 #: envcan_i18n.dat:25
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Mixed Rain and Snow Shower"
-msgstr ""
+msgstr "قارا يامغۇر ئارىلاش ئۆتكۈنچى قار"
 
 #: envcan_i18n.dat:26 noaa_i18n.dat:62
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain"
-msgstr "قاتتىق يامغۇر"
+msgstr "قارا يامغۇر"
 
 #: envcan_i18n.dat:27
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain and Snow"
-msgstr ""
+msgstr "قارا يامغۇر ۋە قار"
 
 #: envcan_i18n.dat:28
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rainshower"
-msgstr ""
+msgstr "قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:29 noaa_i18n.dat:78
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow"
-msgstr "قاتتىق قار"
+msgstr "قېلىن قار"
 
 #: envcan_i18n.dat:30
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Pellets"
-msgstr ""
+msgstr "قېلىن قار دانچىسى"
 
 #: envcan_i18n.dat:31
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snowshower"
-msgstr ""
+msgstr "قېلىن ئۆتكۈنچى قار"
 
 #: envcan_i18n.dat:32 noaa_i18n.dat:226
 #, kde-format
@@ -868,31 +843,31 @@ msgstr "گۈلدۈرماما"
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm with Hail"
-msgstr ""
+msgstr "قاتتىق گۈلدۈرمامىلىق مۆلدۈر"
 
 #: envcan_i18n.dat:34
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm with Rain"
-msgstr ""
+msgstr "قاتتىق گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:35 noaa_i18n.dat:101
 #, kde-format
 msgctxt "weather condition"
 msgid "Ice Crystals"
-msgstr "مۇز كرىستالى"
+msgstr "مۇز كىرىستالى"
 
 #: envcan_i18n.dat:36 noaa_i18n.dat:102
 #, kde-format
 msgctxt "weather condition"
 msgid "Ice Pellets"
-msgstr ""
+msgstr "مۇز دانچىسى"
 
 #: envcan_i18n.dat:37
 #, kde-format
 msgctxt "weather condition"
 msgid "Increasing Cloud"
-msgstr ""
+msgstr "تەدرىجىي بۇلۇتلۇق"
 
 #: envcan_i18n.dat:38 noaa_i18n.dat:106
 #, kde-format
@@ -904,61 +879,61 @@ msgstr "سىم-سىم يامغۇر"
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Drizzle"
-msgstr ""
+msgstr "سۇس توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:40 noaa_i18n.dat:115
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Rain"
-msgstr ""
+msgstr "سۇس توڭ يامغۇر"
 
 #: envcan_i18n.dat:41 noaa_i18n.dat:121
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain"
-msgstr "بوشراق يامغۇر"
+msgstr "سۇس يامغۇر"
 
 #: envcan_i18n.dat:42
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rainshower"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:43 noaa_i18n.dat:137
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow"
-msgstr "بوش قار"
+msgstr "سۇس قار"
 
 #: envcan_i18n.dat:44
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Pellets"
-msgstr ""
+msgstr "سۇس ئۇششاق دانچە قار"
 
 #: envcan_i18n.dat:45
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snowshower"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى قار"
 
 #: envcan_i18n.dat:46
 #, kde-format
 msgctxt "weather condition"
 msgid "Lightning Visible"
-msgstr ""
+msgstr "كۆرۈنۈشچان چاقماق"
 
 #: envcan_i18n.dat:47
 #, kde-format
 msgctxt "weather condition"
 msgid "Mainly Clear"
-msgstr ""
+msgstr "ئاساسەن ئوچۇق"
 
 #: envcan_i18n.dat:48
 #, kde-format
 msgctxt "weather condition"
 msgid "Mainly Sunny"
-msgstr "ئاساسەن ھاۋا ئوچۇق"
+msgstr "ئاساسەن قۇياش پارلىغان"
 
 #: envcan_i18n.dat:49
 #, kde-format
@@ -970,25 +945,25 @@ msgstr "سۈزۈك تۇمان"
 #, kde-format
 msgctxt "weather condition"
 msgid "Mixed Rain and Drizzle"
-msgstr ""
+msgstr "يامغۇر ئارىلاش سىم-سىم  يامغۇر"
 
 #: envcan_i18n.dat:51
 #, kde-format
 msgctxt "weather condition"
 msgid "Mixed Rain and Snow Shower"
-msgstr ""
+msgstr "يامغۇر ئارىلاش ئۆتكۈنچى قار"
 
 #: envcan_i18n.dat:52 noaa_i18n.dat:165
 #, kde-format
 msgctxt "weather condition"
 msgid "Mostly Cloudy"
-msgstr "بۇلۇتلۇق بەزىدە ئوچۇق"
+msgstr "ئاساسەن بۇلۇتلۇق"
 
 #: envcan_i18n.dat:53
 #, kde-format
 msgctxt "weather condition"
 msgid "Not Reported"
-msgstr ""
+msgstr "مەلۇم قىلىنمىغان"
 
 #: envcan_i18n.dat:54 noaa_i18n.dat:175
 #, kde-format
@@ -1012,115 +987,115 @@ msgstr "يامغۇر ۋە قار"
 #, kde-format
 msgctxt "weather condition"
 msgid "Rainshower"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:58
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Drizzle"
-msgstr ""
+msgstr "يېقىندا سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:59
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Dust or Sand Storm"
-msgstr ""
+msgstr "يېقىندا چاڭ-توزان ياكى قۇم بوران"
 
 #: envcan_i18n.dat:60
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Fog"
-msgstr ""
+msgstr "يېقىندا تۇمان"
 
 #: envcan_i18n.dat:61
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Freezing Precipitation"
-msgstr ""
+msgstr "يېقىندا توڭ يامغۇر"
 
 #: envcan_i18n.dat:62
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Hail"
-msgstr ""
+msgstr "يېقىندا مۆلدۈر"
 
 #: envcan_i18n.dat:63
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Rain"
-msgstr ""
+msgstr "يېقىندا يامغۇر"
 
 #: envcan_i18n.dat:64
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Rain and Snow"
-msgstr ""
+msgstr "يېقىندا يامغۇر ۋە قار"
 
 #: envcan_i18n.dat:65
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Rainshower"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:66
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Snow"
-msgstr ""
+msgstr "يېقىندا قار"
 
 #: envcan_i18n.dat:67
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Snowshower"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى قار"
 
 #: envcan_i18n.dat:68
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Thunderstorm"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:69
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Thunderstorm with Hail"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق مۆلدۈر"
 
 #: envcan_i18n.dat:70
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Thunderstorm with Heavy Hail"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق قاتتىق مۆلدۈر"
 
 #: envcan_i18n.dat:71
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Thunderstorm with Heavy Rain"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق قارا يامغۇر"
 
 #: envcan_i18n.dat:72
 #, kde-format
 msgctxt "weather condition"
 msgid "Recent Thunderstorm with Rain"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:73
 #, kde-format
 msgctxt "weather condition"
 msgid "Sand or Dust Storm"
-msgstr ""
+msgstr "چاڭ-توزان ياكى قۇم بوران"
 
 #: envcan_i18n.dat:74
 #, kde-format
 msgctxt "weather condition"
 msgid "Severe Sand or Dust Storm"
-msgstr ""
+msgstr "كۈچلۈك چاڭ-توزان ياكى قۇم بوران"
 
 #: envcan_i18n.dat:75 noaa_i18n.dat:195
 #, kde-format
 msgctxt "weather condition"
 msgid "Shallow Fog"
-msgstr ""
+msgstr "تېيىز تۇمان"
 
 #: envcan_i18n.dat:76 noaa_i18n.dat:209
 #, kde-format
@@ -1138,65 +1113,61 @@ msgstr "قار"
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Crystals"
-msgstr ""
+msgstr "قار كىرىستالى"
 
 #: envcan_i18n.dat:79 noaa_i18n.dat:217
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Grains"
-msgstr ""
+msgstr "دانچە قار"
 
 #: envcan_i18n.dat:80
 #, kde-format
 msgctxt "weather condition"
 msgid "Squalls"
-msgstr ""
+msgstr "قارا بوران"
 
 #: envcan_i18n.dat:81
 #, kde-format
 msgctxt "weather condition"
 msgid "Sunny"
-msgstr "ئوچۇق كۈن"
+msgstr "قۇياش پارلىغان"
 
 #: envcan_i18n.dat:82
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm with Hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق مۆلدۈر"
 
 #: envcan_i18n.dat:83
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm with Rain"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:84
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "light rain shower"
+#, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm with light rainshowers"
-msgstr "ئاجىر ئۆتكۈنچى يامغۇر"
+msgstr "گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:85
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "heavy rain shower"
+#, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm with heavy rainshowers"
-msgstr "شىدەتتلىك ئۆتكۈنچى يامغۇر"
+msgstr "گۈلدۈرمامىلىق ئۆتكۈنچى قارا يامغۇر"
 
 #: envcan_i18n.dat:86
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm with Sand or Dust Storm"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق چاڭ-توزان ياكى قۇم بوران"
 
 #: envcan_i18n.dat:87
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm without Precipitation"
-msgstr ""
+msgstr "يېغىنسىز گۈلدۈرماما"
 
 #: envcan_i18n.dat:88
 #, kde-format
@@ -1208,445 +1179,447 @@ msgstr "قارا قۇيۇن"
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few clouds"
-msgstr ""
+msgstr "ئازراق بۇلۇت"
 
 #: envcan_i18n.dat:90
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries"
-msgstr ""
+msgstr "ئازراق قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:91
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries mixed with ice pellets"
-msgstr ""
+msgstr "ئازراق قار ئۇچقۇنى بىلەن مۇز دانچىسى"
 
 #: envcan_i18n.dat:92
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries or rain showers"
-msgstr ""
+msgstr "ئازراق قار ئۇچقۇنى ياكى ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:93
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries or thundershowers"
-msgstr ""
+msgstr "ئازراق قار ئۇچقۇنى ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:94
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few rain showers or flurries"
-msgstr ""
+msgstr "ئازراق ئۆتكۈنچى يامغۇر ياكى قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:95
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few rain showers or wet flurries"
-msgstr ""
+msgstr "ئازراق ئۆتكۈنچى يامغۇر ياكى ھۆل قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:96
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers"
-msgstr ""
+msgstr "ئازراق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:97
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers or drizzle"
-msgstr ""
+msgstr "ئازراق ئۆتكۈنچى يامغۇر ياكى سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:98
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers or thundershowers"
-msgstr ""
+msgstr "ئازراق ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:99
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers or thunderstorms"
-msgstr ""
+msgstr "ئازراق ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:100
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few thundershowers"
-msgstr ""
+msgstr "ئازراق گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:101
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few thunderstorms"
-msgstr ""
+msgstr "ئازراق گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:102
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few wet flurries"
-msgstr ""
+msgstr "ئازراق ھۆل قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:103
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few wet flurries or rain showers"
-msgstr ""
+msgstr "ئازراق ھۆل قار ئۇچقۇنى ياكى ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:104
 #, kde-format
 msgctxt "weather forecast"
 msgid "A mix of sun and cloud"
-msgstr ""
+msgstr "بەزىدە ئوچۇق ۋە بەزىدە بۇلۇتلۇق"
 
 #: envcan_i18n.dat:105
 #, kde-format
 msgctxt "weather forecast"
 msgid "Blizzard"
-msgstr "قار-شىۋىرغان"
+msgstr "شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:106
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of drizzle"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:107
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of drizzle mixed with freezing drizzle"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ئارىلاش توڭ سىم-سىم يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:108
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of drizzle mixed with rain"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ئارىلاش يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:109
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of drizzle or rain"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ياكى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:110
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of flurries"
-msgstr ""
+msgstr "قار ئۇچقۇنداش ئېھتىمالى"
 
 #: envcan_i18n.dat:111
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of flurries at times heavy"
-msgstr ""
+msgstr "قار ئۇچقۇنداش بەزىدە كۈچىيىش ئېھتىمالى"
 
 #: envcan_i18n.dat:112
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of flurries mixed with ice pellets"
-msgstr ""
+msgstr "قار ئۇچقۇنى بىلەن مۇز دانچىسى ئېھتىمالى"
 
 #: envcan_i18n.dat:113
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of flurries or ice pellets"
-msgstr ""
+msgstr "قار ئۇچقۇنى ياكى مۇز دانچىسى ئېھتىمالى"
 
 #: envcan_i18n.dat:114
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of flurries or rain showers"
-msgstr ""
+msgstr "قار ئۇچقۇنى ياكى ئۆتكۈنچى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:115
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of flurries or thundershowers"
-msgstr ""
+msgstr "قار ئۇچقۇنى ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:116
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of freezing drizzle"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:117
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of freezing rain"
-msgstr ""
+msgstr "توڭ يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:118
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of freezing rain mixed with snow"
-msgstr ""
+msgstr "قار ئارىلاش توڭ يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:119
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of freezing rain or rain"
-msgstr ""
+msgstr "توڭ يامغۇر ياكى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:120
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of freezing rain or snow"
-msgstr ""
+msgstr "توڭ يامغۇر ياكى قار ئېھتىمالى"
 
 #: envcan_i18n.dat:121
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow"
-msgstr ""
+msgstr "سۇس قار ئېھتىمالى"
 
 #: envcan_i18n.dat:122
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow and blowing snow"
-msgstr ""
+msgstr "سۇس قار ۋە شاماللىق قار ئېھتىمالى"
 
 #: envcan_i18n.dat:123
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow mixed with freezing drizzle"
-msgstr ""
+msgstr "سۇس قار ئارىلاش توڭ سىم-سىم يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:124
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow mixed with ice pellets"
-msgstr ""
+msgstr "سۇس قار ئارىلاش مۇز دانچىسى ئېھتىمالى"
 
 #: envcan_i18n.dat:125
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow mixed with rain"
-msgstr ""
+msgstr "سۇس قار ئارىلاش يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:126
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow or freezing rain"
-msgstr ""
+msgstr "سۇس قار ياكى توڭ يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:127
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow or ice pellets"
-msgstr ""
+msgstr "سۇس قار ياكى مۇز دانچىسى ئېھتىمالى"
 
 #: envcan_i18n.dat:128
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light snow or rain"
-msgstr ""
+msgstr "سۇس قار ياكى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:129
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of light wet snow"
-msgstr ""
+msgstr "سۇس ھۆل قار ئېھتىمالى"
 
 #: envcan_i18n.dat:130
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain"
-msgstr ""
+msgstr "يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:131
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain at times heavy"
-msgstr ""
+msgstr "يامغۇر بەزىدە يامغۇر كۈچىيىش ئېھتىمالى"
 
 #: envcan_i18n.dat:132
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain mixed with snow"
-msgstr ""
+msgstr "قار ئارىلاش يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:133
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain or drizzle"
-msgstr ""
+msgstr "يامغۇر ياكى سىم-سىم يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:134
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain or freezing rain"
-msgstr ""
+msgstr "يامغۇر ياكى توڭ يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:135
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain or snow"
-msgstr ""
+msgstr "يامغۇر ياكى قار ئېھتىمالى"
 
 #: envcan_i18n.dat:136
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain showers or flurries"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى قار ئۇچقۇنى ئېھتىمالى"
 
 #: envcan_i18n.dat:137
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain showers or wet flurries"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى ھۆل قار ئۇچقۇنى ئېھتىمالى"
 
 #: envcan_i18n.dat:138
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of severe thunderstorms"
-msgstr ""
+msgstr "قاتتىق گۈلدۈرمامىلىق يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:139
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of showers"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:140
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of showers at times heavy"
-msgstr ""
+msgstr "سىم-سىم يامغۇر بەزىدە قارا يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:141
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of showers at times heavy or thundershowers"
 msgstr ""
+"سىم-سىم يامغۇر بەزىدە قارا يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر "
+"ئېھتىمالى"
 
 #: envcan_i18n.dat:142
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of showers at times heavy or thunderstorms"
-msgstr ""
+msgstr "سىم-سىم يامغۇر بەزىدە قارا يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:143
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of showers or drizzle"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى سىم-سىم يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:144
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of showers or thundershowers"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:145
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of showers or thunderstorms"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:146
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of snow"
-msgstr ""
+msgstr "قار ئېھتىمالى"
 
 #: envcan_i18n.dat:147
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of snow and blizzard"
-msgstr ""
+msgstr "قار ۋە شىۋىرغانلىق قار ئېھتىمالى"
 
 #: envcan_i18n.dat:148
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of snow mixed with freezing drizzle"
-msgstr ""
+msgstr "قار ئارىلاش توڭ سىم-سىم يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:149
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of snow mixed with freezing rain"
-msgstr ""
+msgstr "قار ئارىلاش توڭ يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:150
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of snow mixed with rain"
-msgstr ""
+msgstr "قار ئارىلاش يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:151
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of snow or rain"
-msgstr ""
+msgstr "قار ياكى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:152
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of snow squalls"
-msgstr ""
+msgstr "شىۋىرغانلىق قار ئېھتىمالى"
 
 #: envcan_i18n.dat:153
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of thundershowers"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:154
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of thunderstorms"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:155
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of thunderstorms and possible hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر ۋە مۆلدۈر ئېھتىمالى"
 
 #: envcan_i18n.dat:156
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of wet flurries"
-msgstr ""
+msgstr "ھۆل قار ئۇچقۇنى ئېھتىمالى"
 
 #: envcan_i18n.dat:157
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of wet flurries at times heavy"
-msgstr ""
+msgstr "ھۆل قار ئۇچقۇنى بەزىدە كۈچىيىش ئېھتىمالى"
 
 #: envcan_i18n.dat:158
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of wet flurries or rain showers"
-msgstr ""
+msgstr "ھۆل قار ئۇچقۇنى ياكى ئۆتكۈنچى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:159
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of wet snow"
-msgstr ""
+msgstr "ھۆل قار ئېھتىمالى"
 
 #: envcan_i18n.dat:160
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of wet snow mixed with rain"
-msgstr ""
+msgstr "ھۆل قار ئارىلاش يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:161
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of wet snow or rain"
-msgstr ""
+msgstr "ھۆل قار ياكى يامغۇر ئېھتىمالى"
 
 #: envcan_i18n.dat:162 noaa_i18n.dat:356
 #, kde-format
 msgctxt "weather forecast"
 msgid "Clear"
-msgstr "تازىلا"
+msgstr "ئوچۇق"
 
 #: envcan_i18n.dat:163 noaa_i18n.dat:351
 #, kde-format
@@ -1661,32 +1634,28 @@ msgid "Cloudy"
 msgstr "بۇلۇتلۇق"
 
 #: envcan_i18n.dat:165
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "partly cloudy"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Partly cloudy"
 msgstr "قىسمەن بۇلۇتلۇق"
 
 #: envcan_i18n.dat:166
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "partly cloudy"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Mainly cloudy"
-msgstr "قىسمەن بۇلۇتلۇق"
+msgstr "ئاساسەن بۇلۇتلۇق"
 
 #: envcan_i18n.dat:167
 #, kde-format
 msgctxt "weather forecast"
 msgid "Cloudy periods"
-msgstr ""
+msgstr "بەزەن بۇلۇتلۇق"
 
 #: envcan_i18n.dat:168
 #, kde-format
 msgctxt "weather forecast"
 msgid "Cloudy with sunny periods"
-msgstr ""
+msgstr "بۇلۇتلۇق بەزەن قۇياش پارلىغان"
 
 #: envcan_i18n.dat:169 noaa_i18n.dat:318
 #, kde-format
@@ -1698,67 +1667,67 @@ msgstr "سىم-سىم يامغۇر"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Drizzle mixed with freezing drizzle"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ئارىلاش توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:171
 #, kde-format
 msgctxt "weather forecast"
 msgid "Drizzle mixed with rain"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:172
 #, kde-format
 msgctxt "weather forecast"
 msgid "Drizzle or freezing drizzle"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ياكى توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:173
 #, kde-format
 msgctxt "weather forecast"
 msgid "Drizzle or rain"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ياكى يامغۇر"
 
 #: envcan_i18n.dat:174 noaa_i18n.dat:310
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries"
-msgstr ""
+msgstr "قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:175
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries at times heavy"
-msgstr ""
+msgstr "قار ئۇچقۇنى بەزىدە كۈچىيىش"
 
 #: envcan_i18n.dat:176
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries at times heavy or rain showers"
-msgstr ""
+msgstr "قار ئۇچقۇنى بەزىدە كۈچىيىش ياكى ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:177
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries mixed with ice pellets"
-msgstr ""
+msgstr "قار ئۇچقۇنى ئارىلاش مۇز دانچىسى"
 
 #: envcan_i18n.dat:178
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries or ice pellets"
-msgstr ""
+msgstr "قار ئۇچقۇنى ياكى مۇز دانچىسى"
 
 #: envcan_i18n.dat:179
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries or rain showers"
-msgstr ""
+msgstr "قار ئۇچقۇنى ياكى ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:180
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries or thundershowers"
-msgstr ""
+msgstr "قار ئۇچقۇنى ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:181 noaa_i18n.dat:337
 #, kde-format
@@ -1770,585 +1739,577 @@ msgstr "تۇمان"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Fog developing"
-msgstr ""
+msgstr "تۇمان شەكىللىنىۋاتىدۇ"
 
 #: envcan_i18n.dat:183
 #, kde-format
 msgctxt "weather forecast"
 msgid "Fog dissipating"
-msgstr ""
+msgstr "تۇمان تارقاۋاتىدۇ"
 
 #: envcan_i18n.dat:184
 #, kde-format
 msgctxt "weather forecast"
 msgid "Fog patches"
-msgstr ""
+msgstr "تۇمان رايونى"
 
 #: envcan_i18n.dat:185
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing drizzle"
-msgstr "سوغۇق سىم-سىم يامغۇر"
+msgstr "توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:186
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing rain"
-msgstr "سوغۇق يامغۇر"
+msgstr "توڭ يامغۇر"
 
 #: envcan_i18n.dat:187
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing rain mixed with ice pellets"
-msgstr ""
+msgstr "توڭ يامغۇر ئارىلاش مۇز دانچىسى"
 
 #: envcan_i18n.dat:188
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing rain mixed with rain"
-msgstr ""
+msgstr "توڭ يامغۇر ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:189
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing rain mixed with snow"
-msgstr ""
+msgstr "قار ئارىلاش توڭ يامغۇر"
 
 #: envcan_i18n.dat:190
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing rain or ice pellets"
-msgstr ""
+msgstr "توڭ يامغۇر ياكى مۇز دانچىسى"
 
 #: envcan_i18n.dat:191
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing rain or rain"
-msgstr ""
+msgstr "توڭ يامغۇر ياكى يامغۇر"
 
 #: envcan_i18n.dat:192
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing rain or snow"
-msgstr ""
+msgstr "توڭ يامغۇر ياكى قار"
 
 #: envcan_i18n.dat:193
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice fog"
-msgstr ""
+msgstr "مۇز تۇمان"
 
 #: envcan_i18n.dat:194
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice fog developing"
-msgstr ""
+msgstr "مۇز تۇمان شەكىللىنىۋاتىدۇ"
 
 #: envcan_i18n.dat:195
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice fog dissipating"
-msgstr ""
+msgstr "مۇز تۇمان تارقاۋاتىدۇ"
 
 #: envcan_i18n.dat:196
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets"
-msgstr ""
+msgstr "مۇز دانچىسى"
 
 #: envcan_i18n.dat:197
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Snow mixed with freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets mixed with freezing rain"
-msgstr "قار ئارىلاش سوغۇق يامغۇر"
+msgstr "مۇز دانچىسى ئارىلاش توڭ يامغۇر"
 
 #: envcan_i18n.dat:198
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets mixed with snow"
-msgstr ""
+msgstr "مۇز دانچىسى ئارىلاش قار"
 
 #: envcan_i18n.dat:199
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Snow or freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets or freezing rain"
-msgstr "قار ياكى سوغۇق يامغۇر"
+msgstr "مۇز دانچىسى ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:200
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets or snow"
-msgstr ""
+msgstr "مۇز دانچىسى ياكى قار"
 
 #: envcan_i18n.dat:201
 #, kde-format
 msgctxt "weather forecast"
 msgid "Increasing cloudiness"
-msgstr ""
+msgstr "تەدرىجىي ھاۋا تۇتۇق"
 
 #: envcan_i18n.dat:202
 #, kde-format
 msgctxt "weather forecast"
 msgid "Increasing clouds"
-msgstr ""
+msgstr "تەدرىجىي بۇلۇتلۇق"
 
 #: envcan_i18n.dat:203
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow"
-msgstr "بوش قار"
+msgstr "سۇس قار"
 
 #: envcan_i18n.dat:204
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow and blizzard"
-msgstr ""
+msgstr "سۇس قار ۋە شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:205
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow and blizzard and blowing snow"
-msgstr ""
+msgstr "سۇس قار ۋە شىۋىرغانلىق قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:206
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow and blowing snow"
-msgstr ""
+msgstr "سۇس قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:207
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow mixed with freezing drizzle"
-msgstr ""
+msgstr "سۇس قار ئارىلاش توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:208
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow mixed with freezing rain"
-msgstr ""
+msgstr "سۇس قار ئارىلاش توڭ يامغۇر"
 
 #: envcan_i18n.dat:209
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow mixed with ice pellets"
-msgstr ""
+msgstr "سۇس قار ئارىلاش مۇز دانچىسى"
 
 #: envcan_i18n.dat:210
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow mixed with rain"
-msgstr ""
+msgstr "سۇس قار ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:211
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow or freezing drizzle"
-msgstr ""
+msgstr "سۇس قار ۋە توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:212
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow or freezing rain"
-msgstr ""
+msgstr "سۇس قار ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:213
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow or ice pellets"
-msgstr ""
+msgstr "سۇس قار ياكى مۇز دانچىسى"
 
 #: envcan_i18n.dat:214
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light snow or rain"
-msgstr ""
+msgstr "سۇس قار ياكى يامغۇر"
 
 #: envcan_i18n.dat:215
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light wet snow"
-msgstr ""
+msgstr "سۇس ھۆل قار"
 
 #: envcan_i18n.dat:216
 #, kde-format
 msgctxt "weather forecast"
 msgid "Light wet snow or rain"
-msgstr ""
+msgstr "سۇس ھۆل قار ياكى يامغۇر"
 
 #: envcan_i18n.dat:217
 #, kde-format
 msgctxt "weather forecast"
 msgid "Local snow squalls"
-msgstr ""
+msgstr "دائىرىلىك شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:218
 #, kde-format
 msgctxt "weather forecast"
 msgid "Near blizzard"
-msgstr ""
+msgstr "يېقىنقى شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:219
 #, kde-format
 msgctxt "weather forecast"
 msgid "Overcast"
-msgstr "بۇلۇتلۇق"
+msgstr "تۇتۇق"
 
 #: envcan_i18n.dat:220
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of drizzle"
-msgstr ""
+msgstr "قەرەللىك سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:221
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of drizzle mixed with freezing drizzle"
-msgstr ""
+msgstr "قەرەللىك سىم-سىم يامغۇر ئارىلاش توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:222
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of drizzle mixed with rain"
-msgstr ""
+msgstr "قەرەللىك سىم-سىم يامغۇر ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:223
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of drizzle or freezing drizzle"
-msgstr ""
+msgstr "قەرەللىك سىم-سىم يامغۇر ياكى توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:224
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of drizzle or rain"
-msgstr ""
+msgstr "قەرەللىك سىم-سىم يامغۇر ياكى يامغۇر"
 
 #: envcan_i18n.dat:225
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing drizzle"
-msgstr ""
+msgstr "قەرەللىك توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:226
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing drizzle or drizzle"
-msgstr ""
+msgstr "قەرەللىك توڭ سىم-سىم يامغۇر ياكى سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:227
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing drizzle or rain"
-msgstr ""
+msgstr "قەرەللىك توڭ سىم-سىم يامغۇر ياكى يامغۇر"
 
 #: envcan_i18n.dat:228
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain"
-msgstr ""
+msgstr "قەرەللىك توڭ يامغۇر"
 
 #: envcan_i18n.dat:229
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain mixed with ice pellets"
-msgstr ""
+msgstr "قەرەللىك توڭ يامغۇر ئارىلاش مۇز دانچىسى"
 
 #: envcan_i18n.dat:230
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain mixed with rain"
-msgstr ""
+msgstr "قەرەللىك توڭ يامغۇر ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:231
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain mixed with snow"
-msgstr ""
+msgstr "قار ئارىلاش قەرەللىك توڭ يامغۇر"
 
 #: envcan_i18n.dat:232
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain or ice pellets"
-msgstr ""
+msgstr "قەرەللىك توڭ يامغۇر ياكى مۇز دانچىسى"
 
 #: envcan_i18n.dat:233
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain or rain"
-msgstr ""
+msgstr "قەرەللىك توڭ يامغۇر ياكى يامغۇر"
 
 #: envcan_i18n.dat:234
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain or snow"
-msgstr ""
+msgstr "قەرەللىك توڭ يامغۇر ياكى قار"
 
 #: envcan_i18n.dat:235
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets"
-msgstr ""
+msgstr "قەرەللىك مۇز دانچىسى"
 
 #: envcan_i18n.dat:236
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Snow mixed with freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets mixed with freezing rain"
-msgstr "قار ئارىلاش سوغۇق يامغۇر"
+msgstr "قەرەللىك مۇز دانچىسى ئارىلاش توڭ يامغۇر"
 
 #: envcan_i18n.dat:237
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets mixed with snow"
-msgstr ""
+msgstr "قار ئارىلاش قەرەللىك مۇز دانچىسى"
 
 #: envcan_i18n.dat:238
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Snow or freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets or freezing rain"
-msgstr "قار ياكى سوغۇق يامغۇر"
+msgstr "قەرەللىك مۇز دانچىسى ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:239
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets or snow"
-msgstr ""
+msgstr "قەرەللىك مۇز دانچىسى ياكى قار"
 
 #: envcan_i18n.dat:240
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow"
-msgstr ""
+msgstr "قەرەللىك سۇس قار"
 
 #: envcan_i18n.dat:241
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow and blizzard"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ۋە شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:242
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow and blizzard and blowing snow"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ۋە شىۋىرغانلىق قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:243
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow and blowing snow"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:244
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow mixed with freezing drizzle"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ئارىلاش توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:245
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow mixed with freezing rain"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ئارىلاش توڭ يامغۇر"
 
 #: envcan_i18n.dat:246
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow mixed with ice pellets"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ئارىلاش مۇز دانچىسى"
 
 #: envcan_i18n.dat:247
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow mixed with rain"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:248
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow or freezing drizzle"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ياكى توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:249
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow or freezing rain"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:250
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow or ice pellets"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ياكى مۇز دانچىسى"
 
 #: envcan_i18n.dat:251
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light snow or rain"
-msgstr ""
+msgstr "قەرەللىك سۇس قار ياكى يامغۇر"
 
 #: envcan_i18n.dat:252
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light wet snow"
-msgstr ""
+msgstr "قەرەللىك سۇس ھۆل قار"
 
 #: envcan_i18n.dat:253
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light wet snow mixed with rain"
-msgstr ""
+msgstr "قەرەللىك سۇس ھۆل قار ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:254
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of light wet snow or rain"
-msgstr ""
+msgstr "قەرەللىك سۇس ھۆل قار ياكى يامغۇر"
 
 #: envcan_i18n.dat:255
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain"
-msgstr ""
+msgstr "قەرەللىك يامغۇر"
 
 #: envcan_i18n.dat:256
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain mixed with freezing rain"
-msgstr ""
+msgstr "قەرەللىك يامغۇر ئارىلاش توڭ يامغۇر"
 
 #: envcan_i18n.dat:257
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain mixed with snow"
-msgstr ""
+msgstr "قەرەللىك يامغۇر ئارىلاش قار"
 
 #: envcan_i18n.dat:258
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain or drizzle"
-msgstr ""
+msgstr "قەرەللىك يامغۇر ياكى سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:259
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain or freezing rain"
-msgstr ""
+msgstr "قەرەللىك يامغۇر ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:260
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain or snow"
-msgstr ""
+msgstr "قەرەللىك يامغۇر ياكى قار"
 
 #: envcan_i18n.dat:261
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain or thundershowers"
-msgstr ""
+msgstr "قەرەللىك يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:262
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain or thunderstorms"
-msgstr ""
+msgstr "قەرەللىك يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:263
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow"
-msgstr ""
+msgstr "قەرەللىك قار"
 
 #: envcan_i18n.dat:264
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow and blizzard"
-msgstr ""
+msgstr "قەرەللىك قار ۋە شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:265
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow and blizzard and blowing snow"
-msgstr ""
+msgstr "قەرەللىك قار ۋە شىۋىرغانلىق قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:266
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow and blowing snow"
-msgstr ""
+msgstr "قەرەللىك قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:267
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow mixed with freezing drizzle"
-msgstr ""
+msgstr "قەرەللىك قار ئارىلاش توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:268
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow mixed with freezing rain"
-msgstr ""
+msgstr "قەرەللىك قار ئارىلاش توڭ يامغۇر"
 
 #: envcan_i18n.dat:269
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow mixed with ice pellets"
-msgstr ""
+msgstr "قەرەللىك قار ئارىلاش مۇز دانچىسى"
 
 #: envcan_i18n.dat:270
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow mixed with rain"
-msgstr ""
+msgstr "قەرەللىك قار ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:271
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow or freezing drizzle"
-msgstr ""
+msgstr "قەرەللىك قار ياكى توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:272
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow or freezing rain"
-msgstr ""
+msgstr "قەرەللىك قار ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:273
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow or ice pellets"
-msgstr ""
+msgstr "قەرەللىك قار ياكى مۇز دانچىسى"
 
 #: envcan_i18n.dat:274
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow or rain"
-msgstr ""
+msgstr "قەرەللىك قار ياكى يامغۇر"
 
 #: envcan_i18n.dat:275
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of wet snow"
-msgstr ""
+msgstr "قەرەللىك ھۆل قار"
 
 #: envcan_i18n.dat:276
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of wet snow mixed with rain"
-msgstr ""
+msgstr "قەرەللىك ھۆل قار ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:277
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of wet snow or rain"
-msgstr ""
+msgstr "قەرەللىك ھۆل قار ياكى يامغۇر"
 
 #: envcan_i18n.dat:278 noaa_i18n.dat:322
 #, kde-format
@@ -2360,103 +2321,103 @@ msgstr "يامغۇر"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy"
-msgstr ""
+msgstr "يامغۇر بەزىدە قارا يامغۇر"
 
 #: envcan_i18n.dat:280
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy mixed with freezing rain"
-msgstr ""
+msgstr "توڭ يامغۇر ئارىلاش بەزىدە قارا يامغۇر"
 
 #: envcan_i18n.dat:281
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy mixed with snow"
-msgstr ""
+msgstr "قار ئارىلاش بەزىدە قارا يامغۇر"
 
 #: envcan_i18n.dat:282
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy or drizzle"
-msgstr ""
+msgstr "بەزىدە قارا يامغۇر ياكى سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:283
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy or freezing rain"
-msgstr ""
+msgstr "بەزىدە قارا يامغۇر ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:284
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy or snow"
-msgstr ""
+msgstr "بەزىدە قارا يامغۇر ياكى قار"
 
 #: envcan_i18n.dat:285
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy or thundershowers"
-msgstr ""
+msgstr "بەزىدە قارا يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:286
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain at times heavy or thunderstorms"
-msgstr ""
+msgstr "بەزىدە قارا يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:287
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain mixed with freezing rain"
-msgstr ""
+msgstr "توڭ يامغۇر ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:288
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain mixed with snow"
-msgstr ""
+msgstr "قار ئارىلاش يامغۇر"
 
 #: envcan_i18n.dat:289
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain or drizzle"
-msgstr ""
+msgstr "يامغۇر ياكى سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:290
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain or freezing rain"
-msgstr ""
+msgstr "يامغۇر ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:291
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain or snow"
-msgstr ""
+msgstr "يامغۇر ياكى قار"
 
 #: envcan_i18n.dat:292
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain or thundershowers"
-msgstr ""
+msgstr "يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:293
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain or thunderstorms"
-msgstr ""
+msgstr "يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:294
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain showers or flurries"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:295
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain showers or wet flurries"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى ھۆل قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:296
 #, kde-format
@@ -2468,37 +2429,37 @@ msgstr "ئۆتكۈنچى يامغۇر"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers at times heavy"
-msgstr ""
+msgstr "سىم-سىم يامغۇر بەزىدە قارا يامغۇر"
 
 #: envcan_i18n.dat:298
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers at times heavy or thundershowers"
-msgstr ""
+msgstr "سىم-سىم يامغۇر بەزىدە قارا يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:299
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers at times heavy or thunderstorms"
-msgstr ""
+msgstr "سىم-سىم يامغۇر بەزىدە قارا يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:300
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers or drizzle"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:301
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers or thundershowers"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:302
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers or thunderstorms"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:303 noaa_i18n.dat:329
 #, kde-format
@@ -2516,121 +2477,121 @@ msgstr "قار"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow and blizzard"
-msgstr ""
+msgstr "قار ۋە شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:306
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow and blizzard and blowing snow"
-msgstr ""
+msgstr "قار ۋە شىۋىرغانلىق قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:307
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow and blowing snow"
-msgstr ""
+msgstr "قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:308
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy"
-msgstr ""
+msgstr "قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:309
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy and blizzard"
-msgstr ""
+msgstr "قار بەزىدە قېلىن قار ۋە شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:310
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy and blowing snow"
-msgstr ""
+msgstr "قار بەزىدە قېلىن قار ۋە شاماللىق قار"
 
 #: envcan_i18n.dat:311
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy mixed with freezing drizzle"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر ئارىلاش قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:312
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy mixed with freezing rain"
-msgstr ""
+msgstr "توڭ يامغۇر ئارىلاش قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:313
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy mixed with ice pellets"
-msgstr ""
+msgstr "مۇز دانچىسى ئارىلاش قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:314
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy mixed with rain"
-msgstr ""
+msgstr "يامغۇر ئارىلاش قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:315
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy or freezing rain"
-msgstr ""
+msgstr "توڭ يامغۇر ياكى قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:316
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy or ice pellets"
-msgstr ""
+msgstr "مۇز دانچىسى ياكى قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:317
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow at times heavy or rain"
-msgstr ""
+msgstr "يامغۇر ياكى قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:318
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow mixed with freezing drizzle"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر ئارىلاش قار"
 
 #: envcan_i18n.dat:319
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow mixed with freezing rain"
-msgstr "قار ئارىلاش سوغۇق يامغۇر"
+msgstr "توڭ يامغۇر ئارىلاش قار"
 
 #: envcan_i18n.dat:320
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow mixed with ice pellets"
-msgstr ""
+msgstr "مۇز دانچىسى ئارىلاش قار"
 
 #: envcan_i18n.dat:321
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow mixed with rain"
-msgstr "قار ئارىلاش يامغۇر"
+msgstr "يامغۇر ئارىلاش قار"
 
 #: envcan_i18n.dat:322
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow or freezing drizzle"
-msgstr ""
+msgstr "قار ۋە توڭ سىم-سىم يامغۇر"
 
 #: envcan_i18n.dat:323
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow or freezing rain"
-msgstr "قار ياكى سوغۇق يامغۇر"
+msgstr "قار ياكى توڭ يامغۇر"
 
 #: envcan_i18n.dat:324
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow or ice pellets"
-msgstr ""
+msgstr "قار ياكى مۇز دانچىسى"
 
 #: envcan_i18n.dat:325
 #, kde-format
@@ -2642,93 +2603,91 @@ msgstr "قار ياكى يامغۇر"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow squalls"
-msgstr ""
+msgstr "شىۋىرغانلىق قار"
 
 #: envcan_i18n.dat:327 noaa_i18n.dat:348
 #, kde-format
 msgctxt "weather forecast"
 msgid "Sunny"
-msgstr "ئوچۇق كۈن"
+msgstr "قۇياش پارلىغان"
 
 #: envcan_i18n.dat:328
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Mainly Sunny"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Mainly sunny"
-msgstr "ئاساسەن ھاۋا ئوچۇق"
+msgstr "ئاساسەن قۇياش پارلىغان"
 
 #: envcan_i18n.dat:329
 #, kde-format
 msgctxt "weather forecast"
 msgid "Sunny with cloudy periods"
-msgstr ""
+msgstr "قۇياش پارلىغان قىسمەن بۇلۇتلۇق"
 
 #: envcan_i18n.dat:330 noaa_i18n.dat:274
 #, kde-format
 msgctxt "weather forecast"
 msgid "Thunderstorms"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر"
 
 #: envcan_i18n.dat:331
 #, kde-format
 msgctxt "weather forecast"
 msgid "Thunderstorms and possible hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر ۋە بەلكىم مۆلدۈر"
 
 #: envcan_i18n.dat:332
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet flurries"
-msgstr ""
+msgstr "ھۆل قار ئۇچقۇنى"
 
 #: envcan_i18n.dat:333
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet flurries at times heavy"
-msgstr ""
+msgstr "ھۆل قار ئۇچقۇنى بەزىدە كۈچىيىش"
 
 #: envcan_i18n.dat:334
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet flurries at times heavy or rain showers"
-msgstr ""
+msgstr "ھۆل قار ئۇچقۇنى بەزىدە كۈچىيىش ياكى ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:335
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet flurries or rain showers"
-msgstr ""
+msgstr "ھۆل قار ئۇچقۇنى ياكى ئۆتكۈنچى يامغۇر"
 
 #: envcan_i18n.dat:336
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet snow"
-msgstr ""
+msgstr "ھۆل قار"
 
 #: envcan_i18n.dat:337
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet snow at times heavy"
-msgstr ""
+msgstr "ھۆل قار بەزىدە كۈچىيىش"
 
 #: envcan_i18n.dat:338
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet snow at times heavy mixed with rain"
-msgstr ""
+msgstr "يامغۇر ئارىلاش ھۆل قار بەزىدە قېلىن قار"
 
 #: envcan_i18n.dat:339
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet snow mixed with rain"
-msgstr ""
+msgstr "يامغۇر ئارىلاش ھۆل قار"
 
 #: envcan_i18n.dat:340
 #, kde-format
 msgctxt "weather forecast"
 msgid "Wet snow or rain"
-msgstr ""
+msgstr "ھۆل قار ياكى يامغۇر"
 
 #: envcan_i18n.dat:341 noaa_i18n.dat:338
 #, kde-format
@@ -2740,20 +2699,19 @@ msgstr "شاماللىق"
 #, kde-format
 msgctxt "Short for Today"
 msgid "Today"
-msgstr ""
+msgstr "بۈگۈن"
 
 #: ions/bbcukmet/ion_bbcukmet.cpp:669
-#, fuzzy, kde-format
-#| msgid "Night"
+#, kde-format
 msgctxt "Short for Tonight"
 msgid "Tonight"
-msgstr "كېچە"
+msgstr "بۈگۈن كەچ"
 
 #: ions/bbcukmet/ion_bbcukmet.cpp:690
 #, kde-format
 msgctxt "credit line, keep string short"
 msgid "Data from BBC Weather"
-msgstr ""
+msgstr "ب ب س ھاۋا رايى ئۇچۇرى"
 
 #: ions/dwd/ion_dwd.cpp:504 ions/envcan/ion_envcan.cpp:1569
 #, kde-format
@@ -2801,14 +2759,14 @@ msgstr "ج"
 #, kde-format
 msgctxt "credit line, don't change name!"
 msgid "Source: Deutscher Wetterdienst"
-msgstr ""
+msgstr "مەنبە: Deutscher Wetterdienst"
 
 #: ions/envcan/ion_envcan.cpp:946 ions/envcan/ion_envcan.cpp:948
 #: ions/envcan/ion_envcan.cpp:1433 ions/envcan/ion_envcan.cpp:1562
 #: ions/envcan/ion_envcan.cpp:1578 ions/noaa/ion_noaa.cpp:383
 #, kde-format
 msgid "N/A"
-msgstr "N/A"
+msgstr "ئىشلەتكىلى بولمايدۇ"
 
 #: ions/envcan/ion_envcan.cpp:1566
 #, kde-format
@@ -2825,7 +2783,7 @@ msgstr "كەچ"
 #, kde-format
 msgctxt "Short for night, appended to the end of the weekday"
 msgid "nt"
-msgstr "nt"
+msgstr "كېچە"
 
 #: ions/envcan/ion_envcan.cpp:1599
 #, kde-format
@@ -2837,13 +2795,13 @@ msgstr "ئىزلا"
 #, kde-format
 msgctxt "credit line, keep string short"
 msgid "Data from Environment and Climate Change Canada"
-msgstr ""
+msgstr "ئۇچۇر مەنبەسى كانادا مۇھىت ۋە كىلىمات ئۆزگىرىشى"
 
 #: ions/noaa/ion_noaa.cpp:484
 #, kde-format
 msgctxt "credit line, keep string short)"
 msgid "Data from NOAA National Weather Service"
-msgstr ""
+msgstr "ئۇچۇر مەنبەسى NOAA دۆلەتلىك ھاۋا رايى مۇلازىمىتى"
 
 #. i18n: The forecast summary can include several single conditions that follow
 #. a temporary sequence, separated by " then ". Also include spaces if necessary.
@@ -2854,13 +2812,13 @@ msgctxt ""
 "Separator between forecast conditions that follow a temporal sequence (ex. "
 "\"Rain then Sunny\")"
 msgid " then "
-msgstr ""
+msgstr " ئاندىن "
 
 #: ions/wetter.com/ion_wettercom.cpp:156 ions/wetter.com/ion_wettercom.cpp:157
 #, kde-format
 msgctxt "weather condition"
 msgid "few clouds"
-msgstr "ئاز بۇلۇت"
+msgstr "ئازراق بۇلۇت"
 
 #: ions/wetter.com/ion_wettercom.cpp:160 ions/wetter.com/ion_wettercom.cpp:161
 #, kde-format
@@ -2873,37 +2831,37 @@ msgstr "بۇلۇتلۇق"
 #, kde-format
 msgctxt "weather condition"
 msgid "haze"
-msgstr ""
+msgstr "تۈتەك"
 
 #: ions/wetter.com/ion_wettercom.cpp:165 ions/wetter.com/ion_wettercom.cpp:166
 #, kde-format
 msgctxt "weather condition"
 msgid "fog with icing"
-msgstr ""
+msgstr "مۇزلۇق تۇمان"
 
 #: ions/wetter.com/ion_wettercom.cpp:169
 #, kde-format
 msgctxt "weather condition"
 msgid "light drizzle"
-msgstr ""
+msgstr "ئۆتكۈنچى سىم-سىم يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:171
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy drizzle"
-msgstr ""
+msgstr "سىم-سىم قارا يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:172
 #, kde-format
 msgctxt "weather condition"
 msgid "freezing drizzle"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:173
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy freezing drizzle"
-msgstr ""
+msgstr "توڭ سىم-سىم قارا يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:174
 #, kde-format
@@ -2915,31 +2873,31 @@ msgstr "يامغۇر"
 #, kde-format
 msgctxt "weather condition"
 msgid "moderate rain"
-msgstr ""
+msgstr "ئوتتۇراھال يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:179
 #, kde-format
 msgctxt "weather condition"
 msgid "light freezing rain"
-msgstr ""
+msgstr "سۇس توڭ يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:180
 #, kde-format
 msgctxt "weather condition"
 msgid "freezing rain"
-msgstr ""
+msgstr "توڭ يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:181
 #, kde-format
 msgctxt "weather condition"
 msgid "light rain snow"
-msgstr ""
+msgstr "قار ئارىلاش سۇس يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:182
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy rain snow"
-msgstr ""
+msgstr "قار ئارىلاش ئېغىر يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:183
 #, kde-format
@@ -2951,7 +2909,7 @@ msgstr "قار"
 #, kde-format
 msgctxt "weather condition"
 msgid "moderate snow"
-msgstr ""
+msgstr "ئوتتۇراھال قار"
 
 #: ions/wetter.com/ion_wettercom.cpp:188 ions/wetter.com/ion_wettercom.cpp:190
 #, kde-format
@@ -2963,37 +2921,37 @@ msgstr "ئۆتكۈنچى يامغۇر"
 #, kde-format
 msgctxt "weather condition"
 msgid "light snow rain showers"
-msgstr ""
+msgstr "قار ئارىلاش سۇس ئۆتكۈنچى يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:193
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy snow rain showers"
-msgstr ""
+msgstr "قار ئارىلاش قاتتىق ئۆتكۈنچى يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:195
 #, kde-format
 msgctxt "weather condition"
 msgid "snow showers"
-msgstr ""
+msgstr "ئۆتكۈنچى قار"
 
 #: ions/wetter.com/ion_wettercom.cpp:198
 #, kde-format
 msgctxt "weather condition"
 msgid "light thunderstorm"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:199
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy thunderstorm"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر"
 
 #: ions/wetter.com/ion_wettercom.cpp:200
 #, kde-format
 msgctxt "weather condition"
 msgid "n/a"
-msgstr "n/a"
+msgstr "ئىشلەتكىلى بولمايدۇ"
 
 #: ions/wetter.com/ion_wettercom.cpp:362
 #, kde-format
@@ -3010,7 +2968,7 @@ msgstr "%1 (%2)، %3، %4"
 #: ions/wetter.com/ion_wettercom.cpp:670
 #, kde-format
 msgid "Day"
-msgstr "كۈن"
+msgstr "كۈندۈز"
 
 #: ions/wetter.com/ion_wettercom.cpp:680
 #, kde-format
@@ -3021,43 +2979,43 @@ msgstr "كېچە"
 #, kde-format
 msgctxt "weather condition"
 msgid "A Few Clouds"
-msgstr ""
+msgstr "ئازراق بۇلۇتلۇق"
 
 #: noaa_i18n.dat:2
 #, kde-format
 msgctxt "weather condition"
 msgid "A Few Clouds and Breezy"
-msgstr ""
+msgstr "ئازراق بۇلۇتلۇق ۋە مەيىن شامال"
 
 #: noaa_i18n.dat:3
 #, kde-format
 msgctxt "weather condition"
 msgid "A Few Clouds and Windy"
-msgstr ""
+msgstr "ئازراق بۇلۇتلۇق ۋە شاماللىق"
 
 #: noaa_i18n.dat:4
 #, kde-format
 msgctxt "weather condition"
 msgid "A Few Clouds with Haze"
-msgstr ""
+msgstr "سۇس تۇمان ئازراق بۇلۇتلۇق"
 
 #: noaa_i18n.dat:5
 #, kde-format
 msgctxt "weather condition"
 msgid "Blowing Dust"
-msgstr "چاڭ-توزان"
+msgstr "شاماللىق چاڭ-توزان"
 
 #: noaa_i18n.dat:6
 #, kde-format
 msgctxt "weather condition"
 msgid "Blowing Sand"
-msgstr "قۇم-توزان"
+msgstr "شاماللىق قۇم"
 
 #: noaa_i18n.dat:8
 #, kde-format
 msgctxt "weather condition"
 msgid "Blowing Snow in Vicinity"
-msgstr ""
+msgstr "يېقىندىكى قار ئۇچقۇنى"
 
 #: noaa_i18n.dat:9
 #, kde-format
@@ -3069,947 +3027,943 @@ msgstr "مەيىن شامال"
 #, kde-format
 msgctxt "weather condition"
 msgid "Clear and Breezy"
-msgstr ""
+msgstr "ئوچۇق ۋە مەيىن شامال"
 
 #: noaa_i18n.dat:12
 #, kde-format
 msgctxt "weather condition"
 msgid "Clear with Haze"
-msgstr ""
+msgstr "ئوچۇق ۋە تۈتەك"
 
 #: noaa_i18n.dat:14
 #, kde-format
 msgctxt "weather condition"
 msgid "Drizzle Fog"
-msgstr ""
+msgstr "سىم-سىم يامغۇر تۇمان"
 
 #: noaa_i18n.dat:15
 #, kde-format
 msgctxt "weather condition"
 msgid "Drizzle Fog/Mist"
-msgstr ""
+msgstr "سىم-سىم يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:16
 #, kde-format
 msgctxt "weather condition"
 msgid "Drizzle Ice Pellets"
-msgstr ""
+msgstr "سىم-سىم يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:17
 #, kde-format
 msgctxt "weather condition"
 msgid "Drizzle Snow"
-msgstr ""
+msgstr "سىم-سىم يامغۇر قار"
 
 #: noaa_i18n.dat:19
 #, kde-format
 msgctxt "weather condition"
 msgid "Dust/Sand Whirls"
-msgstr ""
+msgstr "چاڭ-توزان/قۇم بورانلىق قۇيۇن"
 
 #: noaa_i18n.dat:20
 #, kde-format
 msgctxt "weather condition"
 msgid "Dust/Sand Whirls in Vicinity"
-msgstr ""
+msgstr "يېقىندىكى چاڭ-توزان/قۇم بورانلىق قۇيۇن"
 
 #: noaa_i18n.dat:21
 #, kde-format
 msgctxt "weather condition"
 msgid "Dust Storm"
-msgstr ""
+msgstr "چاڭ-توزانلىق بوران"
 
 #: noaa_i18n.dat:22
 #, kde-format
 msgctxt "weather condition"
 msgid "Dust Storm in Vicinity"
-msgstr ""
+msgstr "يېقىن ئەتراپتىكى چاڭ-توزانلىق بوران"
 
 #: noaa_i18n.dat:23
 #, kde-format
 msgctxt "weather condition"
 msgid "Fair"
-msgstr "ياخشىراق"
+msgstr "ئوچۇقراق"
 
 #: noaa_i18n.dat:24
 #, kde-format
 msgctxt "weather condition"
 msgid "Fair and Breezy"
-msgstr ""
+msgstr "ئوچۇقراق ۋە مەيىن شامال"
 
 #: noaa_i18n.dat:25
 #, kde-format
 msgctxt "weather condition"
 msgid "Fair and Windy"
-msgstr ""
+msgstr "ئوچۇقراق ۋە شاماللىق"
 
 #: noaa_i18n.dat:26
 #, kde-format
 msgctxt "weather condition"
 msgid "Fair with Haze"
-msgstr ""
+msgstr "ئوچۇقراق ۋە تۈتەك"
 
 #: noaa_i18n.dat:28
 #, kde-format
 msgctxt "weather condition"
 msgid "Fog in Vicinity"
-msgstr ""
+msgstr "يېقىندا تۇمان"
 
 #: noaa_i18n.dat:29
 #, kde-format
 msgctxt "weather condition"
 msgid "Fog/Mist"
-msgstr ""
+msgstr "تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:30
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Drizzle"
-msgstr "سوغۇق سىم-سىم يامغۇر"
+msgstr "توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:31
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Drizzle in Vicinity"
-msgstr ""
+msgstr "يېقىندا توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:32
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Drizzle Rain"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:33
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Drizzle Snow"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر قار"
 
 #: noaa_i18n.dat:34
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Fog"
-msgstr "سوغۇق تۇمان"
+msgstr "توڭ تۇمان"
 
 #: noaa_i18n.dat:35
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Fog in Vicinity"
-msgstr ""
+msgstr "يېقىندا توڭ تۇمان"
 
 #: noaa_i18n.dat:36
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Rain"
-msgstr "سوغۇق يامغۇر"
+msgstr "توڭ يامغۇر"
 
 #: noaa_i18n.dat:37
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Rain in Vicinity"
-msgstr ""
+msgstr "يېقىندا توڭ يامغۇر"
 
 #: noaa_i18n.dat:38
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Rain Rain"
-msgstr ""
+msgstr "توڭ يامغۇر"
 
 #: noaa_i18n.dat:39
 #, kde-format
 msgctxt "weather condition"
 msgid "Freezing Rain Snow"
-msgstr ""
+msgstr "توڭ يامغۇر قار"
 
 #: noaa_i18n.dat:41
 #, kde-format
 msgctxt "weather condition"
 msgid "Funnel Cloud in Vicinity"
-msgstr ""
+msgstr "يېقىندا سۈكەن بۇلۇت"
 
 #: noaa_i18n.dat:43
 #, kde-format
 msgctxt "weather condition"
 msgid "Hail Showers"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر"
 
 #: noaa_i18n.dat:47
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Drizzle Fog"
-msgstr ""
+msgstr "سىم-سىم قارا يامغۇر تۇمان"
 
 #: noaa_i18n.dat:48
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Drizzle Fog/Mist"
-msgstr ""
+msgstr "سىم-سىم قارا يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:49
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Drizzle Ice Pellets"
-msgstr ""
+msgstr "سىم-سىم قارا يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:50
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Drizzle Snow"
-msgstr ""
+msgstr "سىم-سىم قارا يامغۇر قار"
 
 #: noaa_i18n.dat:51
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Dust Storm"
-msgstr ""
+msgstr "كۈچلۈك چاڭ-توزانلىق بوران"
 
 #: noaa_i18n.dat:52
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Drizzle"
-msgstr ""
+msgstr "توڭ سىم-سىم قارا يامغۇر"
 
 #: noaa_i18n.dat:53
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Drizzle Rain"
-msgstr ""
+msgstr "توڭ سىم-سىم قارا يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:54
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Drizzle Snow"
-msgstr ""
+msgstr "توڭ سىم-سىم قارا يامغۇر قار"
 
 #: noaa_i18n.dat:55
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Fog"
-msgstr ""
+msgstr "قېلىن توڭ تۇمان"
 
 #: noaa_i18n.dat:56
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Rain"
-msgstr ""
+msgstr "توڭ قارا يامغۇر"
 
 #: noaa_i18n.dat:57
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Rain Rain"
-msgstr ""
+msgstr "توڭ قارا يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:58
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Freezing Rain Snow"
-msgstr ""
+msgstr "توڭ قارا يامغۇر، قار"
 
 #: noaa_i18n.dat:59
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Ice Pellets"
-msgstr ""
+msgstr "چوڭ مۇز دانچىسى"
 
 #: noaa_i18n.dat:60
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Ice Pellets Drizzle"
-msgstr ""
+msgstr "چوڭ مۇز دانچىسى سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:61
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Ice Pellets Rain"
-msgstr ""
+msgstr "چوڭ مۇز دانچىسى يامغۇر"
 
 #: noaa_i18n.dat:63
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Fog"
-msgstr ""
+msgstr "قارا يامغۇر تۇمان"
 
 #: noaa_i18n.dat:64
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Fog/Mist"
-msgstr ""
+msgstr "قارا يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:65
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Freezing Drizzle"
-msgstr ""
+msgstr "قارا يامغۇر توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:66
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Freezing Rain"
-msgstr ""
+msgstr "قارا يامغۇر توڭ يامغۇر"
 
 #: noaa_i18n.dat:67
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Ice Pellets"
-msgstr ""
+msgstr "قارا يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:68
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Showers"
-msgstr ""
+msgstr "قارا يامغۇر ئۆتكۈنچى يامغۇر"
 
 #: noaa_i18n.dat:69
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Showers Fog/Mist"
-msgstr ""
+msgstr "قارا يامغۇر ئۆتكۈنچى يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:70
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Rain Snow"
-msgstr ""
+msgstr "قارا يامغۇر قار"
 
 #: noaa_i18n.dat:71
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Sand Storm"
-msgstr ""
+msgstr "كۈچلۈك قۇم بوران"
 
 #: noaa_i18n.dat:72
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Showers Rain"
-msgstr ""
+msgstr "ئۆتكۈنچى قارا يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:73
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Showers Rain Fog/Mist"
-msgstr ""
+msgstr "ئۆتكۈنچى قارا يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:74
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Showers Snow"
-msgstr ""
+msgstr "ئۆتكۈنچى قارا يامغۇر قار"
 
 #: noaa_i18n.dat:75
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Showers Snow Fog"
-msgstr ""
+msgstr "ئۆتكۈنچى قارا يامغۇر قار تۇمان"
 
 #: noaa_i18n.dat:76
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Showers Snow Fog/Mist"
-msgstr ""
+msgstr "ئۆتكۈنچى قارا يامغۇر قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:77
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy small Hail/Snow Pellets"
-msgstr ""
+msgstr "قېلىن كىچىك مۆلدۈر/قار دانچىسى"
 
 #: noaa_i18n.dat:79
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Blowing Snow"
-msgstr ""
+msgstr "قېلىن قار شاماللىق قار"
 
 #: noaa_i18n.dat:80
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Fog"
-msgstr ""
+msgstr "قېلىن قار تۇمان"
 
 #: noaa_i18n.dat:81
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Fog/Mist"
-msgstr ""
+msgstr "قېلىن قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:82
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Freezing Drizzle"
-msgstr ""
+msgstr "قېلىن قار توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:83
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Freezing Rain"
-msgstr ""
+msgstr "قېلىن قار توڭ يامغۇر"
 
 #: noaa_i18n.dat:84
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Grains"
-msgstr ""
+msgstr "قېلىن چوڭ دانچە قار"
 
 #: noaa_i18n.dat:85
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Low Drifting Snow"
-msgstr ""
+msgstr "قېلىن قار شاماللىق تۆۋەن قار ئۇچقۇنى"
 
 #: noaa_i18n.dat:86
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Rain"
-msgstr ""
+msgstr "قېلىن قار يامغۇر"
 
 #: noaa_i18n.dat:87
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Showers"
-msgstr ""
+msgstr "قېلىن ئۆتكۈنچى قار"
 
 #: noaa_i18n.dat:88
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Showers Fog"
-msgstr ""
+msgstr "قېلىن ئۆتكۈنچى قار تۇمان"
 
 #: noaa_i18n.dat:89
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Snow Showers Fog/Mist"
-msgstr ""
+msgstr "قېلىن قار ئۆتكۈنچى يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:90
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر"
 
 #: noaa_i18n.dat:91
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر تۇمان"
 
 #: noaa_i18n.dat:92
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Fog and Windy"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر تۇمان ۋە شاماللىق"
 
 #: noaa_i18n.dat:93
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Fog/Mist"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:94
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:95
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Hail Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر تۇمان"
 
 #: noaa_i18n.dat:96
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Hail Fog/Hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر تۇمان/مۆلدۈر"
 
 #: noaa_i18n.dat:97
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Hail Haze"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر تۈتەك"
 
 #: noaa_i18n.dat:98
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Haze"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر تۈتەك"
 
 #: noaa_i18n.dat:99
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Rain Small Hail/Snow Pellets"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر كىچىك مۆلدۈر/قار دانچىسى"
 
 #: noaa_i18n.dat:100
 #, kde-format
 msgctxt "weather condition"
 msgid "Heavy Thunderstorm Snow"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قېلىن قار"
 
 #: noaa_i18n.dat:103
 #, kde-format
 msgctxt "weather condition"
 msgid "Ice Pellets Drizzle"
-msgstr ""
+msgstr "مۇز دانچىسى سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:104
 #, kde-format
 msgctxt "weather condition"
 msgid "Ice Pellets in Vicinity"
-msgstr ""
+msgstr "يېقىندا مۇز دانچىسى"
 
 #: noaa_i18n.dat:105
 #, kde-format
 msgctxt "weather condition"
 msgid "Ice Pellets Rain"
-msgstr ""
+msgstr "مۇز دانچىسى يامغۇر"
 
 #: noaa_i18n.dat:107
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Drizzle Fog"
-msgstr ""
+msgstr "سۇس سىم-سىم يامغۇر تۇمان"
 
 #: noaa_i18n.dat:108
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Drizzle Fog/Mist"
-msgstr ""
+msgstr "سۇس سىم-سىم يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:109
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Drizzle Ice Pellets"
-msgstr ""
+msgstr "سۇس سىم-سىم يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:110
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Drizzle Snow"
-msgstr ""
+msgstr "سۇس سىم-سىم يامغۇر قار"
 
 #: noaa_i18n.dat:112
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Drizzle Rain"
-msgstr ""
+msgstr "سۇس توڭ سىم-سىم يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:113
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Drizzle Snow"
-msgstr ""
+msgstr "سۇس توڭ سىم-سىم يامغۇر قار"
 
 #: noaa_i18n.dat:114
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Fog"
-msgstr ""
+msgstr "سۇس توڭ تۇمان"
 
 #: noaa_i18n.dat:116
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Rain Rain"
-msgstr ""
+msgstr "سۇس توڭ يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:117
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Freezing Rain Snow"
-msgstr ""
+msgstr "سۇس توڭ يامغۇر، قار"
 
 #: noaa_i18n.dat:118
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Ice Pellets"
-msgstr ""
+msgstr "سۇس مۇز دانچىسى"
 
 #: noaa_i18n.dat:119
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Ice Pellets Drizzle"
-msgstr ""
+msgstr "كىچىك مۇز دانچىسى سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:120
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Ice Pellets Rain"
-msgstr ""
+msgstr "كىچىك مۇز دانچىسى يامغۇر"
 
 #: noaa_i18n.dat:122
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain and Breezy"
-msgstr ""
+msgstr "سۇس يامغۇر ۋە مەيىن شامال"
 
 #: noaa_i18n.dat:123
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Fog"
-msgstr ""
+msgstr "سۇس يامغۇر تۇمان"
 
 #: noaa_i18n.dat:124
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Fog/Mist"
-msgstr ""
+msgstr "سۇس يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:125
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Freezing Drizzle"
-msgstr ""
+msgstr "سۇس يامغۇر توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:126
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Freezing Rain"
-msgstr ""
+msgstr "سۇس يامغۇر توڭ يامغۇر"
 
 #: noaa_i18n.dat:127
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Ice Pellets"
-msgstr ""
+msgstr "سۇس يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:128
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Showers"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى يامغۇر"
 
 #: noaa_i18n.dat:129
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Showers Fog/Mist"
-msgstr ""
+msgstr "سۇس يامغۇر ئۆتكۈنچى يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:130
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Rain Snow"
-msgstr ""
+msgstr "سۇس يامغۇر قار"
 
 #: noaa_i18n.dat:131
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Showers Rain"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:132
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Showers Rain Fog/Mist"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:133
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Showers Snow"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى يامغۇر قار"
 
 #: noaa_i18n.dat:134
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Showers Snow Fog"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى يامغۇر قار تۇمان"
 
 #: noaa_i18n.dat:135
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Showers Snow Fog/Mist"
-msgstr ""
+msgstr "سۇس ئۆتكۈنچى يامغۇر قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:136
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Small Hail/Snow Pellets"
-msgstr ""
+msgstr "سۇس كىچىك مۆلدۈر/قار دانچىسى"
 
 #: noaa_i18n.dat:138
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Blowing Snow"
-msgstr ""
+msgstr "سۇس قار شاماللىق قار"
 
 #: noaa_i18n.dat:139
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Blowing Snow Fog/Mist"
-msgstr ""
+msgstr "سۇس قار شاماللىق قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:140
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Drizzle"
-msgstr ""
+msgstr "سۇس قار سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:141
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Fog"
-msgstr ""
+msgstr "سۇس قار تۇمان"
 
 #: noaa_i18n.dat:142
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Fog/Mist"
-msgstr ""
+msgstr "سۇس قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:143
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Freezing Drizzle"
-msgstr ""
+msgstr "سۇس قار توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:144
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Freezing Rain"
-msgstr ""
+msgstr "سۇس قار توڭ يامغۇر"
 
 #: noaa_i18n.dat:145
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Grains"
-msgstr ""
+msgstr "ئۇششاق دانچە قار"
 
 #: noaa_i18n.dat:146
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Low Drifting Snow"
-msgstr ""
+msgstr "سۇس قار شاماللىق تۆۋەن قار ئۇچقۇنى"
 
 #: noaa_i18n.dat:147
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Rain"
-msgstr ""
+msgstr "سۇس قار يامغۇر"
 
 #: noaa_i18n.dat:148
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Showers"
-msgstr ""
+msgstr "سۇس قار ئۆتكۈنچى يامغۇر"
 
 #: noaa_i18n.dat:149
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Showers Fog"
-msgstr ""
+msgstr "سۇس قار ئۆتكۈنچى يامغۇر تۇمان"
 
 #: noaa_i18n.dat:150
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Snow Showers Fog/Mist"
-msgstr ""
+msgstr "سۇس قار ئۆتكۈنچى يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:151
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر"
 
 #: noaa_i18n.dat:152
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Fog"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر تۇمان"
 
 #: noaa_i18n.dat:153
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Fog/Mist"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:154
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Hail"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:155
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Hail Fog"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر مۆلدۈر تۇمان"
 
 #: noaa_i18n.dat:156
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Hail Fog/Mist"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر مۆلدۈر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:157
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Hail Haze"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر مۆلدۈر تۈتەك"
 
 #: noaa_i18n.dat:158
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Haze"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر تۈتەك"
 
 #: noaa_i18n.dat:159
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Rain Small Hail/Snow Pellets"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق يامغۇر كىچىك مۆلدۈر/قار دانچىسى"
 
 #: noaa_i18n.dat:160
 #, kde-format
 msgctxt "weather condition"
 msgid "Light Thunderstorm Snow"
-msgstr ""
+msgstr "سۇس گۈلدۈرمامىلىق قار"
 
 #: noaa_i18n.dat:161
 #, kde-format
 msgctxt "weather condition"
 msgid "Low Drifting Dust"
-msgstr ""
+msgstr "تۆۋەن لەيلىمە چاڭ-توزان"
 
 #: noaa_i18n.dat:162
 #, kde-format
 msgctxt "weather condition"
 msgid "Low Drifting Sand"
-msgstr ""
+msgstr "تۆۋەن لەيلىمە قۇم"
 
 #: noaa_i18n.dat:163
 #, kde-format
 msgctxt "weather condition"
 msgid "Low Drifting Snow"
-msgstr ""
+msgstr "تۆۋەن لەيلىمە قار ئۇچقۇنى"
 
 #: noaa_i18n.dat:164
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Mostly Clear"
+#, kde-format
 msgctxt "weather condition"
 msgid "Mostly Clear"
-msgstr "ئوچۇق بەزىدە بۇلۇتلۇق"
+msgstr "ئاساسەن ئوچۇق"
 
 #: noaa_i18n.dat:166
 #, kde-format
 msgctxt "weather condition"
 msgid "Mostly Cloudy and Breezy"
-msgstr ""
+msgstr "ئاساسەن بۇلۇتلۇق ۋە شاماللىق"
 
 #: noaa_i18n.dat:167
 #, kde-format
 msgctxt "weather condition"
 msgid "Mostly Cloudy and Windy"
-msgstr "بۇلۇتلۇق بەزىدە ئوچۇق ۋە شاماللىق"
+msgstr "ئاساسەن بۇلۇتلۇق ۋە شاماللىق"
 
 #: noaa_i18n.dat:168
 #, kde-format
 msgctxt "weather condition"
 msgid "Mostly Cloudy with Haze"
-msgstr ""
+msgstr "ئاساسەن بۇلۇتلۇق ۋە تۈتەك"
 
 #: noaa_i18n.dat:169
 #, kde-format
 msgctxt "weather condition"
 msgid "Overcast"
-msgstr "بۇلۇتلۇق"
+msgstr "تۇتۇق"
 
 #: noaa_i18n.dat:170
 #, kde-format
 msgctxt "weather condition"
 msgid "Overcast and Breezy"
-msgstr ""
+msgstr "تۇتۇق ۋە مەيىن شامال"
 
 #: noaa_i18n.dat:171
 #, kde-format
 msgctxt "weather condition"
 msgid "Overcast and Windy"
-msgstr ""
+msgstr "تۇتۇق ۋە شاماللىق"
 
 #: noaa_i18n.dat:172
 #, kde-format
 msgctxt "weather condition"
 msgid "Overcast with Haze"
-msgstr ""
+msgstr "تۇتۇق تۈتەك"
 
 #: noaa_i18n.dat:173
 #, kde-format
 msgctxt "weather condition"
 msgid "Partial Fog"
-msgstr "دائىرىلىك تۇمانلىق"
+msgstr "قىسمەن تۇمانلىق"
 
 #: noaa_i18n.dat:174
 #, kde-format
 msgctxt "weather condition"
 msgid "Partial Fog in Vicinity"
-msgstr ""
+msgstr "يېقىندا قىسمەن تۇمانلىق"
 
 #: noaa_i18n.dat:176
 #, kde-format
 msgctxt "weather condition"
 msgid "Partly Cloudy and Breezy"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ۋە مەيىن شامال"
 
 #: noaa_i18n.dat:177
 #, kde-format
 msgctxt "weather condition"
 msgid "Partly Cloudy and Windy"
-msgstr "بەزى يەرلەر بۇلۇتلۇق ۋە كۈچلۈك شامال"
+msgstr "قىسمەن بۇلۇتلۇق ۋە شاماللىق"
 
 #: noaa_i18n.dat:178
 #, kde-format
 msgctxt "weather condition"
 msgid "Partly Cloudy with Haze"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق تۈتەك"
 
 #: noaa_i18n.dat:179
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "Freezing Fog"
+#, kde-format
 msgctxt "weather condition"
 msgid "Patchy Freezing Fog"
-msgstr "سوغۇق تۇمان"
+msgstr "قىسمەن توڭ تۇمان"
 
 #: noaa_i18n.dat:180
 #, kde-format
 msgctxt "weather condition"
 msgid "Patches of Fog"
-msgstr ""
+msgstr "قىسمەن تۇمان"
 
 #: noaa_i18n.dat:181
 #, kde-format
 msgctxt "weather condition"
 msgid "Patches of Fog in Vicinity"
-msgstr ""
+msgstr "يېقىندا قىسمەن تۇمان"
 
 #: noaa_i18n.dat:182
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Fog"
-msgstr ""
+msgstr "يامغۇر تۇمان"
 
 #: noaa_i18n.dat:183
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Fog/Mist"
-msgstr ""
+msgstr "يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:184
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Freezing Drizzle"
-msgstr ""
+msgstr "يامغۇر توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:185
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Freezing Rain"
-msgstr ""
+msgstr "يامغۇر توڭ يامغۇر"
 
 #: noaa_i18n.dat:186
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Ice Pellets"
-msgstr ""
+msgstr "يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:187
 #, kde-format
@@ -4021,25 +3975,25 @@ msgstr "ئۆتكۈنچى يامغۇر"
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Showers Fog/Mist"
-msgstr ""
+msgstr "يامغۇر ئۆتكۈنچى يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:189
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Showers in Vicinity"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى يامغۇر"
 
 #: noaa_i18n.dat:190
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Showers in Vicinity Fog/Mist"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:191
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Snow"
-msgstr ""
+msgstr "يامغۇر قار"
 
 #: noaa_i18n.dat:192
 #, kde-format
@@ -4051,133 +4005,133 @@ msgstr "قۇم"
 #, kde-format
 msgctxt "weather condition"
 msgid "Sand Storm"
-msgstr ""
+msgstr "قۇم بوران"
 
 #: noaa_i18n.dat:194
 #, kde-format
 msgctxt "weather condition"
 msgid "Sand Storm in Vicinity"
-msgstr ""
+msgstr "يېقىندا قۇم بوران"
 
 #: noaa_i18n.dat:196
 #, kde-format
 msgctxt "weather condition"
 msgid "Shallow Fog in Vicinity"
-msgstr ""
+msgstr "يېقىندا سۇس تۇمان"
 
 #: noaa_i18n.dat:197
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Hail"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:198
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Ice Pellets"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:199
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers in Vicinity Fog"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى يامغۇر تۇمان"
 
 #: noaa_i18n.dat:200
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers in Vicinity Snow"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى يامغۇر قار"
 
 #: noaa_i18n.dat:201
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Rain"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:202
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Rain Fog/Mist"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر، يامغۇر، تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:203
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Rain in Vicinity"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى يامغۇر، يامغۇر"
 
 #: noaa_i18n.dat:204
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Rain in Vicinity Fog/Mist"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى يامغۇر، يامغۇر، تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:205
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Snow"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر قار"
 
 #: noaa_i18n.dat:206
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Snow Fog"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر قار تۇمان"
 
 #: noaa_i18n.dat:207
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Snow Fog/Mist"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:208
 #, kde-format
 msgctxt "weather condition"
 msgid "Small Hail/Snow Pellets"
-msgstr ""
+msgstr "كىچىك مۆلدۈر/قار دانچىسى"
 
 #: noaa_i18n.dat:211
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Blowing Snow"
-msgstr ""
+msgstr "قار شاماللىق قار"
 
 #: noaa_i18n.dat:212
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Drizzle"
-msgstr ""
+msgstr "قار سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:213
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Fog"
-msgstr ""
+msgstr "قار تۇمان"
 
 #: noaa_i18n.dat:214
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Fog/Mist"
-msgstr ""
+msgstr "قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:215
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Freezing Drizzle"
-msgstr ""
+msgstr "قار توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:216
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Freezing Rain"
-msgstr ""
+msgstr "قار توڭ يامغۇر"
 
 #: noaa_i18n.dat:218
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Low Drifting Snow"
-msgstr ""
+msgstr "قار شاماللىق تۆۋەن قار ئۇچقۇنى"
 
 #: noaa_i18n.dat:219
 #, kde-format
@@ -4195,253 +4149,253 @@ msgstr "ئۆتكۈنچى قار"
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Showers Fog"
-msgstr ""
+msgstr "ئۆتكۈنچى قار تۇمان"
 
 #: noaa_i18n.dat:222
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Showers Fog/Mist"
-msgstr ""
+msgstr "ئۆتكۈنچى قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:223
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Showers in Vicinity"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى قار"
 
 #: noaa_i18n.dat:224
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Showers in Vicinity Fog"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى قار تۇمان"
 
 #: noaa_i18n.dat:225
 #, kde-format
 msgctxt "weather condition"
 msgid "Snow Showers in Vicinity Fog/Mist"
-msgstr ""
+msgstr "يېقىندا ئۆتكۈنچى قار تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:227
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر تۇمان"
 
 #: noaa_i18n.dat:228
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:229
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Hail Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر مۆلدۈر تۇمان"
 
 #: noaa_i18n.dat:230
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Haze in Vicinity"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر تۈتەك"
 
 #: noaa_i18n.dat:231
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Haze in Vicinity Hail"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر تۈتەك مۆلدۈر"
 
 #: noaa_i18n.dat:232
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر"
 
 #: noaa_i18n.dat:233
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر تۇمان"
 
 #: noaa_i18n.dat:234
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain Fog/Mist"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:235
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain Hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:236
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain Hail Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر تۇمان"
 
 #: noaa_i18n.dat:237
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain Hail Fog/Mist"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:238
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain Hail Haze"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر مۆلدۈر تۈتەك"
 
 #: noaa_i18n.dat:239
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Heavy Rain Haze"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قارا يامغۇر تۈتەك"
 
 #: noaa_i18n.dat:240
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Ice Pellets"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر مۇز دانچىسى"
 
 #: noaa_i18n.dat:241
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm in Vicinity"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر"
 
 #: noaa_i18n.dat:242
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm in Vicinity Fog"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر تۇمان"
 
 #: noaa_i18n.dat:243
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm in Vicinity Fog/Mist"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:244
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm in Vicinity Hail"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:245
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm in Vicinity Hail Haze"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر مۆلدۈر تۈتەك"
 
 #: noaa_i18n.dat:246
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm in Vicinity Haze"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق يامغۇر تۈتەك"
 
 #: noaa_i18n.dat:247
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر"
 
 #: noaa_i18n.dat:248
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر تۇمان"
 
 #: noaa_i18n.dat:249
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain Fog/Mist"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:250
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain Hail"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:251
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain Hail Fog"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر مۆلدۈر تۇمان"
 
 #: noaa_i18n.dat:252
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain Hail Fog/Mist"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر مۆلدۈر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:253
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain Hail Haze"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر مۆلدۈر تۈتەك"
 
 #: noaa_i18n.dat:254
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Light Rain Haze"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق سۇس يامغۇر تۈتەك"
 
 #: noaa_i18n.dat:255
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Rain"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر"
 
 #: noaa_i18n.dat:256
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Rain Fog/Mist"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:257
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Rain Hail Fog/Mist"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر مۆلدۈر تۇمان/سۇس تۇمان"
 
 #: noaa_i18n.dat:258
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Rain Small Hail/Snow Pellets"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر كىچىك مۆلدۈر/قار دانچىسى"
 
 #: noaa_i18n.dat:259
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Showers in Vicinity"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر"
 
 #: noaa_i18n.dat:260
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Showers in Vicinity Hail"
-msgstr ""
+msgstr "يېقىندا گۈلدۈرمامىلىق ئۆتكۈنچى يامغۇر مۆلدۈر"
 
 #: noaa_i18n.dat:261
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Small Hail/Snow Pellets"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق كىچىك مۆلدۈر/قار دانچىسى"
 
 #: noaa_i18n.dat:262
 #, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm Snow"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق قار"
 
 #: noaa_i18n.dat:263
 #, kde-format
 msgctxt "weather condition"
 msgid "Tornado/Water Spout"
-msgstr ""
+msgstr "قارا قۇيۇن/سۇ قارا قۇيۇنى"
 
 #: noaa_i18n.dat:264
 #, kde-format
@@ -4453,25 +4407,25 @@ msgstr "شاماللىق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice Crystals"
-msgstr "مۇز كرىستالى"
+msgstr "مۇز كىرىستالى"
 
 #: noaa_i18n.dat:267
 #, kde-format
 msgctxt "weather forecast"
 msgid "Volcanic Ash"
-msgstr "ۋولقان كۇلى"
+msgstr "يانار تاغ كۈلى"
 
 #: noaa_i18n.dat:268
 #, kde-format
 msgctxt "weather forecast"
 msgid "Water Spout"
-msgstr ""
+msgstr "سۇ قارا قۇيۇنى"
 
 #: noaa_i18n.dat:269
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing Spray"
-msgstr ""
+msgstr "توڭ تۇمان"
 
 #: noaa_i18n.dat:270
 #, kde-format
@@ -4483,111 +4437,103 @@ msgstr "قىرو"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Thunderstorms"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:272
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Thunderstorms"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:273
 #, kde-format
 msgctxt "weather forecast"
 msgid "Thunderstorms Likely"
-msgstr ""
+msgstr "گۈلدۈرمامىلىق يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:275
 #, kde-format
 msgctxt "weather forecast"
 msgid "Severe Tstms"
-msgstr ""
+msgstr "قاتتىق گۈلدۈرمامىلىق يامغۇر"
 
 #: noaa_i18n.dat:276
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow/Sleet"
-msgstr "ئاجىر قار"
+msgstr "قار/مۆلدۈر ئارىلاش يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:277
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Snow/Sleet"
-msgstr ""
+msgstr "قار/مۆلدۈر ئارىلاش يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:278
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow/Sleet Likely"
-msgstr ""
+msgstr "قار/مۆلدۈر ئارىلاش يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:279
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow/Sleet"
-msgstr ""
+msgstr "قار/مۆلدۈر ئارىلاش يامغۇر"
 
 #: noaa_i18n.dat:280
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain/Sleet"
-msgstr "ئاجىر يامغۇر"
+msgstr "يامغۇر/مۆلدۈر ئارىلاش يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:281
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Rain/Sleet"
-msgstr ""
+msgstr "يامغۇر/مۆلدۈر ئارىلاش يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:282
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain/Sleet Likely"
-msgstr ""
+msgstr "يامغۇر/مۆلدۈر ئارىلاش يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:283
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain/Sleet"
-msgstr ""
+msgstr "يامغۇر/مۆلدۈر ئارىلاش يامغۇر"
 
 #: noaa_i18n.dat:284
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain/Freezing Rain"
-msgstr "ئاجىر يامغۇر"
+msgstr "يامغۇر/توڭ يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:285
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Rain/Freezing Rain"
-msgstr ""
+msgstr "يامغۇر/توڭ يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:286
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain/Freezing Rain Likely"
-msgstr ""
+msgstr "يامغۇر/توڭ يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:287
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain/Freezing Rain"
-msgstr ""
+msgstr "يامغۇر/توڭ يامغۇر"
 
 #: noaa_i18n.dat:288
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Wintry Mix"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Wintry Mix Likely"
-msgstr "قىشتەك"
+msgstr "يامغۇر ئارىلاش قار ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:289
 #, kde-format
@@ -4596,148 +4542,136 @@ msgid "Wintry Mix"
 msgstr "قىشتەك"
 
 #: noaa_i18n.dat:290
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Freezing Drizzle"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Freezing Drizzle"
-msgstr "سوغۇق سىم-سىم يامغۇر"
+msgstr "توڭ سىم-سىم يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:291
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Freezing Drizzle"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:292
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing Drizzle Likely"
-msgstr ""
+msgstr "توڭ سىم-سىم يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:293
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing Drizzle"
-msgstr "سوغۇق سىم-سىم يامغۇر"
+msgstr "توڭ سىم-سىم يامغۇر"
 
 #: noaa_i18n.dat:294
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Freezing Rain"
-msgstr "ئاجىر يامغۇر"
+msgstr "توڭ يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:295
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Freezing Rain"
-msgstr ""
+msgstr "توڭ يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:296
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing Rain Likely"
-msgstr ""
+msgstr "توڭ يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:297
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing Rain"
-msgstr "سوغۇق يامغۇر"
+msgstr "توڭ يامغۇر"
 
 #: noaa_i18n.dat:298
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain/Snow"
-msgstr "ئاجىر يامغۇر"
+msgstr "يامغۇر/قار ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:299
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Rain/Snow"
-msgstr ""
+msgstr "يامغۇر/قار ئېھتىمالى"
 
 #: noaa_i18n.dat:300
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain/Snow Likely"
-msgstr ""
+msgstr "يامغۇر/قار ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:301
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain/Snow"
-msgstr ""
+msgstr "يامغۇر/قار"
 
 #: noaa_i18n.dat:302
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow"
-msgstr "ئاجىر قار"
+msgstr "قار ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:303
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Snow"
-msgstr ""
+msgstr "قار ئېھتىمالى"
 
 #: noaa_i18n.dat:304
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow Likely"
-msgstr ""
+msgstr "قار ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:306
 #, kde-format
 msgctxt "weather forecast"
 msgid "Heavy Snow"
-msgstr "قاتتىق قار"
+msgstr "قېلىن قار"
 
 #: noaa_i18n.dat:307
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Flurries"
-msgstr "ئاجىر يامغۇر"
+msgstr "قار ئۇچقۇنداش ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:308
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Flurries"
-msgstr ""
+msgstr "قار ئۇچقۇنداش ئېھتىمالى"
 
 #: noaa_i18n.dat:309
 #, kde-format
 msgctxt "weather forecast"
 msgid "Flurries Likely"
-msgstr ""
+msgstr "قار ئۇچقۇنداش ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:311
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light snow showers"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow Showers"
-msgstr "ئاجىر ئۆتكۈنچى قار"
+msgstr "ئۆتكۈنچى قار ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:312
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Snow Showers"
-msgstr ""
+msgstr "ئۆتكۈنچى قار ئېھتىمالى"
 
 #: noaa_i18n.dat:313
 #, kde-format
 msgctxt "weather forecast"
 msgid "Snow Showers Likely"
-msgstr ""
+msgstr "ئۆتكۈنچى قار ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:314
 #, kde-format
@@ -4746,70 +4680,64 @@ msgid "Snow Showers"
 msgstr "ئۆتكۈنچى قار"
 
 #: noaa_i18n.dat:315
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Drizzle"
-msgstr "ئاجىر يامغۇر"
+msgstr "سىم-سىم يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:316
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Drizzle"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:317
 #, kde-format
 msgctxt "weather forecast"
 msgid "Drizzle Likely"
-msgstr ""
+msgstr "سىم-سىم يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:319
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain"
-msgstr "ئاجىر يامغۇر"
+msgstr "يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:320
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Rain"
-msgstr ""
+msgstr "يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:321
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain Likely"
-msgstr ""
+msgstr "يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:323
 #, kde-format
 msgctxt "weather forecast"
 msgid "Heavy Rain"
-msgstr "قاتتىق يامغۇر"
+msgstr "قارا يامغۇر"
 
 #: noaa_i18n.dat:324
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light snow showers"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain Showers"
-msgstr "ئاجىر ئۆتكۈنچى قار"
+msgstr "ئۆتكۈنچى يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:325
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Rain Showers"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:326
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain Showers Likely"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ئېھتىمالى چوڭ"
 
 #: noaa_i18n.dat:327
 #, kde-format
@@ -4821,19 +4749,19 @@ msgstr "ئۆتكۈنچى يامغۇر"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Sleet"
-msgstr ""
+msgstr "مۆلدۈر ئارىلاش يامغۇر"
 
 #: noaa_i18n.dat:330
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing Fog"
-msgstr "سوغۇق تۇمان"
+msgstr "توڭ تۇمان"
 
 #: noaa_i18n.dat:331
 #, kde-format
 msgctxt "weather forecast"
 msgid "Ice Fog"
-msgstr ""
+msgstr "توڭ تۇمان"
 
 #: noaa_i18n.dat:332
 #, kde-format
@@ -4845,31 +4773,31 @@ msgstr "سۇس تۇمان"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Blowing Sand"
-msgstr "قۇم-توزان"
+msgstr "شاماللىق قۇم"
 
 #: noaa_i18n.dat:334
 #, kde-format
 msgctxt "weather forecast"
 msgid "Blowing Dust"
-msgstr "چاڭ-توزان"
+msgstr "شاماللىق چاڭ-توزان"
 
 #: noaa_i18n.dat:335
 #, kde-format
 msgctxt "weather forecast"
 msgid "Blowing Snow"
-msgstr "قار ئۇچقۇنى"
+msgstr "شاماللىق قار ئۇچقۇنى"
 
 #: noaa_i18n.dat:336
 #, kde-format
 msgctxt "weather forecast"
 msgid "Dense Fog"
-msgstr ""
+msgstr "قويۇق تۇمان"
 
 #: noaa_i18n.dat:339
 #, kde-format
 msgctxt "weather forecast"
 msgid "Blustery"
-msgstr ""
+msgstr "بوران"
 
 #: noaa_i18n.dat:340
 #, kde-format
@@ -4887,13 +4815,13 @@ msgstr "سوغۇق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Hot"
-msgstr "قىزىق"
+msgstr "ئىسسىق"
 
 #: noaa_i18n.dat:344
 #, kde-format
 msgctxt "weather forecast"
 msgid "Mostly Cloudy"
-msgstr "بۇلۇتلۇق بەزىدە ئوچۇق"
+msgstr "ئاساسەن بۇلۇتلۇق"
 
 #: noaa_i18n.dat:345
 #, kde-format
@@ -4905,21 +4833,19 @@ msgstr "قىسمەن بۇلۇتلۇق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Mostly Sunny"
-msgstr "ئوچۇق بەزىدە بۇلۇتلۇق"
+msgstr "ئاساسەن قۇياش پارلىغان"
 
 #: noaa_i18n.dat:347
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Mostly Sunny"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Partly Sunny"
-msgstr "ئوچۇق بەزىدە بۇلۇتلۇق"
+msgstr "قىسمەن قۇياش پارلىغان"
 
 #: noaa_i18n.dat:349
 #, kde-format
 msgctxt "weather forecast"
 msgid "Increasing Clouds"
-msgstr "ئاستا-ئاستا بۇلۇتلۇق"
+msgstr "تەدرىجىي بۇلۇتلۇق"
 
 #: noaa_i18n.dat:350
 #, kde-format
@@ -4931,59 +4857,55 @@ msgstr "پەيدىن-پەي بۇلۇتلۇق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Gradual Clearing"
-msgstr ""
+msgstr "پەيدىنپەي ئېچىلىۋاتىدۇ"
 
 #: noaa_i18n.dat:353
 #, kde-format
 msgctxt "weather forecast"
 msgid "Clearing Late"
-msgstr ""
+msgstr "كېيىنرەك ئېچىلىدۇ"
 
 #: noaa_i18n.dat:354
 #, kde-format
 msgctxt "weather forecast"
 msgid "Decreasing Clouds"
-msgstr ""
+msgstr "بۇلۇت ئازىيىۋاتىدۇ"
 
 #: noaa_i18n.dat:355
 #, kde-format
 msgctxt "weather forecast"
 msgid "Becoming Sunny"
-msgstr ""
+msgstr "قۇياش پارلايدۇ"
 
 #: noaa_i18n.dat:357
 #, kde-format
 msgctxt "weather forecast"
 msgid "Mostly Clear"
-msgstr "ئوچۇق بەزىدە بۇلۇتلۇق"
+msgstr "ئاساسەن ئوچۇق"
 
 #: noaa_i18n.dat:358
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "Thunderstorm"
+#, kde-format
 msgctxt "weahter forecast"
 msgid "Showers And Thunderstorms"
-msgstr "گۈلدۈرماما"
+msgstr "ئۆتكۈنچى يامغۇر ۋە گۈلدۈرمامىلىق يامغۇر"
 
 #: noaa_i18n.dat:359
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light snow showers"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Showers And Thunderstorms"
-msgstr "ئاجىر ئۆتكۈنچى قار"
+msgstr "ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر ئېھتىمالى كىچىك"
 
 #: noaa_i18n.dat:360
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Showers And Thunderstorms"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر ئېھتىمالى"
 
 #: noaa_i18n.dat:361
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers And Thunderstorms Likely"
-msgstr ""
+msgstr "ئۆتكۈنچى يامغۇر ياكى گۈلدۈرمامىلىق يامغۇر ئېھتىمالى چوڭ"
 
 #~ msgid "UK"
 #~ msgstr "UK"

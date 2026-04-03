@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2013-09-08 07:05+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"PO-Revision-Date: 2026-04-01 09:25-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #: soliddeviceengine.cpp:112
 msgid "Parent UDI"
@@ -39,7 +40,7 @@ msgstr "سىنبەلگە"
 
 #: soliddeviceengine.cpp:117 soliddeviceengine.cpp:594
 msgid "Emblems"
-msgstr "كاكارلار"
+msgstr "كاكار"
 
 #: soliddeviceengine.cpp:118 soliddeviceengine.cpp:476
 #: soliddeviceengine.cpp:482 soliddeviceengine.cpp:495
@@ -50,11 +51,11 @@ msgstr "ھالەت"
 #: soliddeviceengine.cpp:483 soliddeviceengine.cpp:491
 #: soliddeviceengine.cpp:493
 msgid "Operation result"
-msgstr ""
+msgstr "مەشغۇلات نەتىجىسى"
 
 #: soliddeviceengine.cpp:120
 msgid "Timestamp"
-msgstr "Timestamp"
+msgstr "ۋاقىت تامغا"
 
 #: soliddeviceengine.cpp:128
 msgid "Processor"
@@ -66,7 +67,7 @@ msgstr "نومۇرى"
 
 #: soliddeviceengine.cpp:130
 msgid "Max Speed"
-msgstr "ئەڭ چوڭ تېزلىك"
+msgstr "ئەڭ يۇقىرى تېزلىك"
 
 #: soliddeviceengine.cpp:131
 msgid "Can Change Frequency"
@@ -135,7 +136,7 @@ msgstr "قاتتىق دىسكا"
 
 #: soliddeviceengine.cpp:173
 msgid "Cdrom Drive"
-msgstr "Cdrom قوزغاتقۇچى"
+msgstr "Cdrom قوزغاتقۇچ"
 
 #: soliddeviceengine.cpp:173
 msgid "Floppy"
@@ -155,7 +156,7 @@ msgstr "Memory Stick"
 
 #: soliddeviceengine.cpp:175
 msgid "Smart Media"
-msgstr "Smart Media"
+msgstr "ئىدراكلىق ۋاسىتە"
 
 #: soliddeviceengine.cpp:175
 msgid "SdMmc"
@@ -171,7 +172,7 @@ msgstr "باش لىنىيە"
 
 #: soliddeviceengine.cpp:178
 msgid "Drive Type"
-msgstr "قوزغاتقۇ تىپى"
+msgstr "قوزغاتقۇچ تۈرى"
 
 #: soliddeviceengine.cpp:179 soliddeviceengine.cpp:192
 #: soliddeviceengine.cpp:360 soliddeviceengine.cpp:374
@@ -253,7 +254,7 @@ msgstr "HDDVD-RW"
 
 #: soliddeviceengine.cpp:254
 msgid "Supported Media"
-msgstr "قوللايدىغان ۋاسىتىلەر"
+msgstr "قوللايدىغان ۋاسىتە"
 
 #: soliddeviceengine.cpp:256
 msgid "Read Speed"
@@ -289,7 +290,7 @@ msgstr "ھۆججەت سىستېمىسى"
 #: soliddeviceengine.cpp:276
 #, kde-format
 msgid "Partition Table"
-msgstr "رايون(Partition) جەدۋىلى"
+msgstr "دىسكا رايون جەدۋىلى"
 
 #: soliddeviceengine.cpp:276
 #, kde-format
@@ -308,7 +309,7 @@ msgstr "ئىشلىتىلىشى"
 #: soliddeviceengine.cpp:281
 #, kde-format
 msgid "Unknown"
-msgstr "نامەلۇم"
+msgstr "يوچۇن"
 
 #: soliddeviceengine.cpp:284
 msgid "Ignored"
@@ -316,11 +317,11 @@ msgstr "پەرۋا قىلمىدى"
 
 #: soliddeviceengine.cpp:285
 msgid "File System Type"
-msgstr "ھۆججەت سىستېما تىپى"
+msgstr "ھۆججەت سىستېما تۈرى"
 
 #: soliddeviceengine.cpp:286
 msgid "Label"
-msgstr "ئەن"
+msgstr "بەلگە"
 
 #: soliddeviceengine.cpp:287
 msgid "UUID"
@@ -328,7 +329,7 @@ msgstr "UUID"
 
 #: soliddeviceengine.cpp:296
 msgid "Encrypted Container"
-msgstr "شىفىرلانغان قاچا"
+msgstr "شىفىرلانغان يۈكدان"
 
 #: soliddeviceengine.cpp:308
 msgid "OpticalDisc"
@@ -356,7 +357,7 @@ msgstr "سىن DVD"
 
 #: soliddeviceengine.cpp:329
 msgid "Video Blu Ray"
-msgstr ""
+msgstr "كۆك نۇر سىن"
 
 #: soliddeviceengine.cpp:331
 msgid "Available Content"
@@ -436,11 +437,11 @@ msgstr "ئۆچۈرۈپ يېزىشچان HD DVD"
 
 #: soliddeviceengine.cpp:343
 msgid "Disc Type"
-msgstr "دىسكا تىپى"
+msgstr "دىسكا تۈرى"
 
 #: soliddeviceengine.cpp:344
 msgid "Appendable"
-msgstr "قوشۇشقا بولىدۇ"
+msgstr "قوشۇشچان"
 
 #: soliddeviceengine.cpp:345
 msgid "Blank"
@@ -448,7 +449,7 @@ msgstr "بوش"
 
 #: soliddeviceengine.cpp:346
 msgid "Rewritable"
-msgstr "يېزىشقا بولىدىغان"
+msgstr "يېزىشچان"
 
 #: soliddeviceengine.cpp:347
 msgid "Capacity"
@@ -460,15 +461,15 @@ msgstr "كامېرا"
 
 #: soliddeviceengine.cpp:357 soliddeviceengine.cpp:371
 msgid "Supported Protocols"
-msgstr "قوللايدىغان كېلىشىملەر"
+msgstr "قوللايدىغان كېلىشىم"
 
 #: soliddeviceengine.cpp:358 soliddeviceengine.cpp:372
 msgid "Supported Drivers"
-msgstr "قوللايدىغان قوزغاتقۇلار"
+msgstr "قوللايدىغان قوزغاتقۇ"
 
 #: soliddeviceengine.cpp:369
 msgid "Portable Media Player"
-msgstr "ئەپچىل ۋاسىتە قويغۇچ"
+msgstr "ئەپچىل ۋاسىتە ياڭراتقۇچ"
 
 #: soliddeviceengine.cpp:383
 msgid "Battery"
@@ -507,56 +508,40 @@ msgid "Camera Battery"
 msgstr "كامېرا توكدانى"
 
 #: soliddeviceengine.cpp:389
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Phone Battery"
-msgstr "چاشقىنەك توكدانى"
+msgstr "تېلېفون توكدانى"
 
 #: soliddeviceengine.cpp:389
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Monitor Battery"
-msgstr "چاشقىنەك توكدانى"
+msgstr "كۆزەتكۈچ توكدانى"
 
 #: soliddeviceengine.cpp:390
 msgid "Gaming Input Battery"
-msgstr ""
+msgstr "ئويۇن كىرگۈزۈش ئۈسكۈنىسى توكدانى"
 
 #: soliddeviceengine.cpp:390
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Bluetooth Battery"
-msgstr "چاشقىنەك توكدانى"
+msgstr "كۆكچىش توكدانى"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Camera Battery"
 msgid "Tablet Battery"
-msgstr "كامېرا توكدانى"
+msgstr "تاختا كومپيۇتېر توكدانى"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Headphone Battery"
-msgstr "چاشقىنەك توكدانى"
+msgstr "تىڭشىغۇچ توكدانى"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Headset Battery"
-msgstr "چاشقىنەك توكدانى"
+msgstr "مىكروفونلۇق تىڭشىغۇچ توكدانى"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Touchpad Battery"
-msgstr "چاشقىنەك توكدانى"
+msgstr "سەزگۈر تاختا توكدانى"
 
 #: soliddeviceengine.cpp:395
-#, fuzzy
-#| msgid "Charging"
 msgid "Not Charging"
-msgstr "توكلاۋاتىدۇ"
+msgstr "توكلىمايۋاتىدۇ"
 
 #: soliddeviceengine.cpp:395
 msgid "Charging"
@@ -576,7 +561,7 @@ msgstr "توك مەنبە ئۇلاندى"
 
 #: soliddeviceengine.cpp:399
 msgid "Type"
-msgstr "تىپى"
+msgstr "تۈرى"
 
 #: soliddeviceengine.cpp:400
 msgid "Charge Percent"
@@ -592,11 +577,11 @@ msgstr "ھالىتىنى ئۆزگەرت"
 
 #: soliddeviceengine.cpp:427
 msgid "Type Description"
-msgstr ""
+msgstr "تۈر چۈشەندۈرۈشى"
 
 #: soliddeviceengine.cpp:432
 msgid "Device Types"
-msgstr "ئۈسكۈنە تىپلىرى"
+msgstr "ئۈسكۈنە تۈرى"
 
 #: soliddeviceengine.cpp:456 soliddeviceengine.cpp:555
 msgid "Size"
@@ -605,12 +590,12 @@ msgstr "چوڭلۇقى"
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem is not responding"
-msgstr ""
+msgstr "ھۆججەت سىستېمىسىدا ئىنكاس يوق"
 
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem mounted at '%1' is not responding"
-msgstr ""
+msgstr "«%1» غا ئېگەرلەنگەن ھۆججەت سىستېمىسىدا ئىنكاس يوق"
 
 #: soliddeviceengine.cpp:553
 msgid "Free Space"
@@ -618,13 +603,11 @@ msgstr "بىكار بوشلۇق"
 
 #: soliddeviceengine.cpp:554
 msgid "Free Space Text"
-msgstr ""
+msgstr "ئەركىن بوشلۇق تېكىستى"
 
 #: soliddeviceengine.cpp:556
-#, fuzzy
-#| msgid "Size"
 msgid "Size Text"
-msgstr "چوڭلۇقى"
+msgstr "چوڭلۇق تېكىستى"
 
 #: soliddeviceengine.cpp:582
 msgid "Temperature"
