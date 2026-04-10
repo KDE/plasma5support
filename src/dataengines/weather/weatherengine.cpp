@@ -124,8 +124,11 @@ bool WeatherEngine::sourceRequestEvent(const QString &source)
     // is down. when it comes up again, then it will be refreshed
     ion->connectSource(source, this);
 
-    qCDebug(WEATHER) << "sourceRequestEvent(): Network is: " << QNetworkInformation::instance()->reachability();
-    if (QNetworkInformation::instance()->reachability() != QNetworkInformation::Reachability::Online) {
+    if (QNetworkInformation::instance()) {
+        qCDebug(WEATHER) << "sourceRequestEvent(): Network is: " << QNetworkInformation::instance()->reachability();
+    }
+
+    if (QNetworkInformation::instance() && QNetworkInformation::instance()->reachability() != QNetworkInformation::Reachability::Online) {
         setData(source, Data());
         return true;
     }
@@ -143,8 +146,11 @@ bool WeatherEngine::sourceRequestEvent(const QString &source)
  */
 bool WeatherEngine::updateSourceEvent(const QString &source)
 {
-    qCDebug(WEATHER) << "updateSourceEvent(): Network is: " << QNetworkInformation::instance()->reachability();
-    if (QNetworkInformation::instance()->reachability() != QNetworkInformation::Reachability::Online) {
+    if (QNetworkInformation::instance()) {
+        qCDebug(WEATHER) << "updateSourceEvent(): Network is: " << QNetworkInformation::instance()->reachability();
+    }
+
+    if (QNetworkInformation::instance() && QNetworkInformation::instance()->reachability() != QNetworkInformation::Reachability::Online) {
         return false;
     }
 
