@@ -115,7 +115,7 @@ msgstr "prehánky krúp"
 #, kde-format
 msgctxt "weather condition"
 msgid "hazy"
-msgstr "hmlisto"
+msgstr "oparno"
 
 #: bbcukmet_i18n.dat:17 ions/wetter.com/ion_wettercom.cpp:178
 #, kde-format
@@ -1276,7 +1276,7 @@ msgstr "Kombinácia slnka a mrakov"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Blizzard"
-msgstr "Snehová búrka"
+msgstr "Fujavica"
 
 #: envcan_i18n.dat:106
 #, kde-format
@@ -1966,7 +1966,7 @@ msgstr "Zatiahnuté"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of drizzle"
-msgstr "Občasné mrholenie"
+msgstr "Úseky mrholenia"
 
 #: envcan_i18n.dat:221
 #, kde-format
@@ -1996,7 +1996,7 @@ msgstr "Občasné mrholenie alebo dážď"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing drizzle"
-msgstr "Občasné mrznúce mrholenie"
+msgstr "Úseky mrznúceho mrholenia"
 
 #: envcan_i18n.dat:226
 #, kde-format
@@ -2014,7 +2014,7 @@ msgstr "Občasné mrznúce mrholenie alebo dážď"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of freezing rain"
-msgstr "Občasný mrznúci dážď"
+msgstr "Úseky mrznúceho dažďa"
 
 #: envcan_i18n.dat:229
 #, kde-format
@@ -2176,7 +2176,7 @@ msgstr "Občasné slabé mokré sneženie alebo dážď"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of rain"
-msgstr "Občasný dážď"
+msgstr "Úseky dažďa"
 
 #: envcan_i18n.dat:256
 #, kde-format
@@ -2224,7 +2224,7 @@ msgstr "Občasný dážď alebo búrky"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Periods of snow"
-msgstr "Občasné sneženie"
+msgstr "Úseky sneženia"
 
 #: envcan_i18n.dat:264
 #, kde-format
@@ -3920,7 +3920,7 @@ msgstr "Polooblačno s oparom"
 #, kde-format
 msgctxt "weather condition"
 msgid "Patchy Freezing Fog"
-msgstr "Silná mrznúca hmla"
+msgstr "Prerušovaná mrznúca hmla"
 
 #: noaa_i18n.dat:180
 #, kde-format
@@ -4424,7 +4424,7 @@ msgstr "Morské tornádo"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Freezing Spray"
-msgstr "Mrznúci dážď"
+msgstr "Mrznúce striekanie"
 
 #: noaa_i18n.dat:270
 #, kde-format
@@ -4508,7 +4508,7 @@ msgstr "Dážď/dážď so snehom"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain/Freezing Rain"
-msgstr "Občasný dážď/mrznúci dážď"
+msgstr "Malá pravdepodobnosť dažďa/mrznúceho dažďa"
 
 #: noaa_i18n.dat:285
 #, kde-format
@@ -4544,7 +4544,7 @@ msgstr "Zimné počasie mix."
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Freezing Drizzle"
-msgstr "Občasné mrznúce mrholenie"
+msgstr "Malá pravdepodobnosť mrznúceho mrholenia"
 
 #: noaa_i18n.dat:291
 #, kde-format
@@ -4568,7 +4568,7 @@ msgstr "Mrznúce mrholenie"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Freezing Rain"
-msgstr "Občasný mrznúci dážď"
+msgstr "Malá pravdepodobnosť mrznúceho dažďa"
 
 #: noaa_i18n.dat:295
 #, kde-format
@@ -4616,7 +4616,7 @@ msgstr "Dážď/sneženie"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow"
-msgstr "Občasné sneženie"
+msgstr "Malá pravdepodobnosť sneženia"
 
 #: noaa_i18n.dat:303
 #, kde-format
@@ -4658,7 +4658,7 @@ msgstr "Pravdepodobnosť prívalov"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow Showers"
-msgstr "Občasné snehové prehánky"
+msgstr "Malá pravdepodobnosť snehových prehánok"
 
 #: noaa_i18n.dat:312
 #, kde-format
@@ -4682,7 +4682,7 @@ msgstr "Snehové prehánky"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Drizzle"
-msgstr "Občasné mrholenie"
+msgstr "Malá pravdepodobnosť mrholenia"
 
 #: noaa_i18n.dat:316
 #, kde-format
@@ -4700,7 +4700,7 @@ msgstr "Pravdepodobnosť mrholenia"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain"
-msgstr "Občasný dážď"
+msgstr "Malá pravdepodobnosť dažďa"
 
 #: noaa_i18n.dat:320
 #, kde-format
@@ -4724,7 +4724,7 @@ msgstr "Silný dážď"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain Showers"
-msgstr "Občasné dažďové prehánky"
+msgstr "Malá pravdepodobnosť dažďových prehánok"
 
 #: noaa_i18n.dat:325
 #, kde-format
@@ -4748,7 +4748,7 @@ msgstr "Dažďové prehánky"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Sleet"
-msgstr "Dážď so snehom"
+msgstr "Krupiažový sneh"
 
 #: noaa_i18n.dat:330
 #, kde-format
@@ -4874,7 +4874,7 @@ msgstr "Ubúdanie oblačnosti"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Becoming Sunny"
-msgstr "Slnečno"
+msgstr "Slnečnejšie"
 
 #: noaa_i18n.dat:357
 #, kde-format
@@ -4892,7 +4892,7 @@ msgstr "Prehánky alebo búrky"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Showers And Thunderstorms"
-msgstr "Malá pravdepodobnosť búrok"
+msgstr "Malá pravdepodobnosť prehánok alebo búrok"
 
 #: noaa_i18n.dat:360
 #, kde-format
@@ -4904,7 +4904,7 @@ msgstr "Občasné prehánky alebo silné búrky"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Showers And Thunderstorms Likely"
-msgstr "Pravdepodobnosť búrok"
+msgstr "Pravdepodobnosť prehánok a búrok"
 
 #~ msgid "UK"
 #~ msgstr "UK"
