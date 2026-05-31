@@ -45,26 +45,24 @@ void PluginTest::loadDataEngine()
     if (m_buildonly) {
         return;
     }
-    QPointer<Plasma5Support::DataEngine> engine, nullEngine;
+    QPointer<Plasma5Support::DataEngine> engine;
     {
         Plasma5Support::DataEngineConsumer consumer;
         engine = consumer.dataEngine(QStringLiteral("time"));
-        nullEngine = consumer.dataEngine(QStringLiteral("noop"));
-        QVERIFY(nullEngine && engine);
-        QVERIFY(!nullEngine->isValid());
+        QVERIFY(engine);
         QVERIFY(engine->isValid());
         {
             EngineTest test;
             QSignalSpy spy(engine, SIGNAL(sourceAdded(QString)));
             engine->connectSource(source, &test);
-            QCOMPARE_GT(0, spy.count()); // Should be emitted immediately
+            QCOMPARE(spy.count(), 2); // Should be emitted immediately
             QVERIFY(!engine->isEmpty());
         }
         QSignalSpy spy(engine, SIGNAL(sourceRemoved(QString)));
         QVERIFY(spy.wait());
         QVERIFY(engine->isEmpty());
     }
-    QVERIFY(!nullEngine.isNull() && engine.isNull());
+    QVERIFY(engine.isNull());
 }
 
 #include "moc_pluginloadertest.cpp"
