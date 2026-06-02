@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma_engine_weather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2026-04-01 09:26-0400\n"
+"PO-Revision-Date: 2026-06-01 17:42-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
@@ -16,13 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: bbcukmet_i18n.dat:1
 #, kde-format
 msgctxt "weather condition"
 msgid "clear"
-msgstr "ئوچۇق"
+msgstr "سۈزۈك"
 
 #: bbcukmet_i18n.dat:2
 #, kde-format
@@ -639,7 +639,7 @@ msgstr "ياخشى"
 #, kde-format
 msgctxt "visibility"
 msgid "Moderate"
-msgstr "ئوتتۇراھال"
+msgstr "لايىق"
 
 #: bbcukmet_i18n.dat:104
 #, kde-format
@@ -663,7 +663,7 @@ msgstr "شاماللىق قار ئۇچقۇنى"
 #, kde-format
 msgctxt "weather condition"
 msgid "Clear"
-msgstr "ئوچۇق"
+msgstr "تازىلا"
 
 #: envcan_i18n.dat:4
 #, kde-format
@@ -1619,7 +1619,7 @@ msgstr "ھۆل قار ياكى يامغۇر ئېھتىمالى"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Clear"
-msgstr "ئوچۇق"
+msgstr "تازىلا"
 
 #: envcan_i18n.dat:163 noaa_i18n.dat:351
 #, kde-format
@@ -2968,7 +2968,7 @@ msgstr "%1 (%2)، %3، %4"
 #: ions/wetter.com/ion_wettercom.cpp:670
 #, kde-format
 msgid "Day"
-msgstr "كۈندۈز"
+msgstr "كۈن"
 
 #: ions/wetter.com/ion_wettercom.cpp:680
 #, kde-format
@@ -3087,7 +3087,7 @@ msgstr "يېقىن ئەتراپتىكى چاڭ-توزانلىق بوران"
 #, kde-format
 msgctxt "weather condition"
 msgid "Fair"
-msgstr "ئوچۇقراق"
+msgstr "ياخشىراق"
 
 #: noaa_i18n.dat:24
 #, kde-format
@@ -4815,7 +4815,7 @@ msgstr "سوغۇق"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Hot"
-msgstr "ئىسسىق"
+msgstr "قىزىق"
 
 #: noaa_i18n.dat:344
 #, kde-format
