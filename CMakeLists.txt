@@ -46,10 +46,6 @@ add_definitions(-DQT_NO_FOREACH)
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Gui Quick Sql Qml Widgets Gui)
 
-if (Qt6Gui_VERSION VERSION_GREATER_EQUAL "6.10.0")
-    find_package(Qt6GuiPrivate ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
-endif()
-
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
         Config
@@ -68,11 +64,6 @@ find_package(KF6 ${KF_DEP_VERSION} REQUIRED
 find_package(KSysGuard CONFIG) #devicenotifications
 find_package(KF6NetworkManagerQt) #geolocation
 find_package(PlasmaActivities) #activites
-
-option(WITH_X11 "Build mouse data engine with X11 support." ON)
-if(WITH_X11)
-    find_package(X11 REQUIRED) #mouse
-endif()
 
 #########################################################################
 
