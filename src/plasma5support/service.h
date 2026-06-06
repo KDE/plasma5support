@@ -15,6 +15,7 @@
 
 #include <plasma5support/plasma5support.h>
 #include <plasma5support/plasma5support_export.h>
+#include <plasma5support/servicejob.h>
 
 class QIODevice;
 class QWidget;
@@ -23,7 +24,6 @@ class QQuickItem;
 
 namespace Plasma5Support
 {
-class ServiceJob;
 class ServicePrivate;
 
 /**
