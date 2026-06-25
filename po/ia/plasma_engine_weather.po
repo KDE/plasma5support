@@ -1178,91 +1178,91 @@ msgstr "Tornado"
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few clouds"
-msgstr "Un pauc nubes"
+msgstr "Un pauco de nubes"
 
 #: envcan_i18n.dat:90
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries"
-msgstr "Un pauc de turbines"
+msgstr "Un pauco de turbines"
 
 #: envcan_i18n.dat:91
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries mixed with ice pellets"
-msgstr "Un pauc de turbines miscite con glacie graupel"
+msgstr "Un pauco de turbines miscite con glacie graupel"
 
 #: envcan_i18n.dat:92
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries or rain showers"
-msgstr "Un pauc de turbines o passageres de pluvia"
+msgstr "Un pauco de turbines o passageres de pluvia"
 
 #: envcan_i18n.dat:93
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few flurries or thundershowers"
-msgstr "Un pauc de turbines o passageres de tonitro"
+msgstr "Un pauco de turbines o passageres de tonitro"
 
 #: envcan_i18n.dat:94
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few rain showers or flurries"
-msgstr "Un pauc de passageres de pluvia o turbines"
+msgstr "Un pauco de passageres de pluvia o turbines"
 
 #: envcan_i18n.dat:95
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few rain showers or wet flurries"
-msgstr "Un pauc de passageres de pluvia o turbines molliate"
+msgstr "Un pauco de passageres de pluvia o turbines molliate"
 
 #: envcan_i18n.dat:96
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers"
-msgstr "Un pauc passageres de pluvia"
+msgstr "Un pauco passageres de pluvia"
 
 #: envcan_i18n.dat:97
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers or drizzle"
-msgstr "Un pauc de passageres o pluvia fin"
+msgstr "Un pauco de passageres o pluvia fin"
 
 #: envcan_i18n.dat:98
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers or thundershowers"
-msgstr "Un pauc de passageres o passageres de tonitro"
+msgstr "Un pauco de passageres o passageres de tonitro"
 
 #: envcan_i18n.dat:99
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few showers or thunderstorms"
-msgstr "Un pauc de passageres o tempestas de tonitro"
+msgstr "Un pauco de passageres o tempestas de tonitro"
 
 #: envcan_i18n.dat:100
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few thundershowers"
-msgstr "Un pauc de tempesta de tonitro"
+msgstr "Un pauco de tempesta de tonitro"
 
 #: envcan_i18n.dat:101
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few thunderstorms"
-msgstr "Un pauc de tempestas de tonitro"
+msgstr "Un pauco de tempestas de tonitro"
 
 #: envcan_i18n.dat:102
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few wet flurries"
-msgstr "Un pauc de turbines molliate"
+msgstr "Un pauco de turbines molliate"
 
 #: envcan_i18n.dat:103
 #, kde-format
 msgctxt "weather forecast"
 msgid "A few wet flurries or rain showers"
-msgstr "Un pauc de turbine molliate  o passageres de pluvia"
+msgstr "Un pauco de turbine molliate  o passageres de pluvia"
 
 #: envcan_i18n.dat:104
 #, kde-format
@@ -2994,7 +2994,7 @@ msgstr "Un Pauc Nubes e ventose"
 #, kde-format
 msgctxt "weather condition"
 msgid "A Few Clouds with Haze"
-msgstr "Un pauc nubes con nebuletta"
+msgstr "Un pauco de nubes con nebuletta"
 
 #: noaa_i18n.dat:5
 #, kde-format
