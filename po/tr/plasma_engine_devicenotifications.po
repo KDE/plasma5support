@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma5support package.
 #
-# SPDX-FileCopyrightText: 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2024, 2026 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma5support\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2024-03-18 19:21+0300\n"
+"PO-Revision-Date: 2026-07-21 21:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #: ksolidnotify.cpp:149
 #, kde-format
@@ -51,7 +51,7 @@ msgstr "Bu diski çıkarmak için yetkili değilsiniz."
 #: ksolidnotify.cpp:170
 #, kde-format
 msgid "Could not mount this device as it is busy."
-msgstr "Bu aygıt şu anda meşgul olduğundan bağlanamıyor."
+msgstr "Bu aygıt şu anda meşgûl olduğundan bağlanamıyor."
 
 #: ksolidnotify.cpp:200
 #, kde-format
