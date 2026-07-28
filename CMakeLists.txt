@@ -46,7 +46,7 @@ add_definitions(-DQT_NO_FOREACH)
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Gui Quick Sql Qml Widgets Gui)
 
-find_package(KF6 ${KF_DEP_VERSION} REQUIRED
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED
     COMPONENTS
         Config
         CoreAddons
@@ -93,7 +93,7 @@ endif()
 add_subdirectory(src)
 
 if (BUILD_TESTING)
-    find_package(Qt6Test ${REQUIRED_QT_VERSION} REQUIRED)
+    find_package(Qt6Test ${QT_MIN_VERSION} REQUIRED)
     add_subdirectory(autotests)
 endif()
 
