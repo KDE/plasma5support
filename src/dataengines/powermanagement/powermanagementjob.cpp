@@ -93,7 +93,7 @@ void PowerManagementJob::start()
                                                           QStringLiteral("org.freedesktop.ScreenSaver"),
                                                           QStringLiteral("UnInhibit"));
         msg << m_lockInhibitionCookie;
-        QDBusReply<uint> reply = QDBusConnection::sessionBus().call(msg);
+        QDBusReply<void> reply = QDBusConnection::sessionBus().call(msg);
         m_lockInhibitionCookie = reply.isValid() ? -1 : m_lockInhibitionCookie; // reset cookie if the stop request was successful
         setResult(reply.isValid());
         return;
