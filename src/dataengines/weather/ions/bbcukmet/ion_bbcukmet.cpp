@@ -588,7 +588,7 @@ void UKMETIon::validate(const QString &source)
     }
     setData(source,
             u"validate"_s,
-            QVariant(u"bbcukmet|valid|%1|%2"_s.arg( //
+            QVariant(u"bbcukmet|valid|%1%2"_s.arg( //
                 m_locations.count() == 1 ? u"single"_s : u"multiple"_s,
                 placeList)));
 
