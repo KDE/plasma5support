@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2026-09-23 06:56+0900\n"
+"PO-Revision-Date: 2026-09-24 19:51-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -108,23 +108,23 @@ msgstr "ساقلاش قوزغاتقۇچ"
 
 #: soliddeviceengine.cpp:170
 msgid "Ide"
-msgstr ""
+msgstr "Ide"
 
 #: soliddeviceengine.cpp:170
 msgid "Usb"
-msgstr ""
+msgstr "Usb"
 
 #: soliddeviceengine.cpp:170
 msgid "Ieee1394"
-msgstr ""
+msgstr "Ieee1394"
 
 #: soliddeviceengine.cpp:171
 msgid "Scsi"
-msgstr ""
+msgstr "Scsi"
 
 #: soliddeviceengine.cpp:171
 msgid "Sata"
-msgstr ""
+msgstr "Sata"
 
 #: soliddeviceengine.cpp:171
 msgid "Platform"
@@ -148,11 +148,11 @@ msgstr "ماگنىتلىق لېنتا"
 
 #: soliddeviceengine.cpp:174
 msgid "Compact Flash"
-msgstr ""
+msgstr "Compact Flash"
 
 #: soliddeviceengine.cpp:174
 msgid "Memory Stick"
-msgstr ""
+msgstr "Memory Stick"
 
 #: soliddeviceengine.cpp:175
 msgid "Smart Media"
@@ -160,11 +160,11 @@ msgstr "ئىدراكلىق ۋاسىتە"
 
 #: soliddeviceengine.cpp:175
 msgid "SdMmc"
-msgstr ""
+msgstr "SdMmc"
 
 #: soliddeviceengine.cpp:175
 msgid "Xd"
-msgstr ""
+msgstr "Xd"
 
 #: soliddeviceengine.cpp:177
 msgid "Bus"
@@ -190,67 +190,67 @@ msgstr "ئوپتىكىلىق قوزغاتقۇچ"
 
 #: soliddeviceengine.cpp:207
 msgid "CD-R"
-msgstr ""
+msgstr "CD-R"
 
 #: soliddeviceengine.cpp:210
 msgid "CD-RW"
-msgstr ""
+msgstr "CD-RW"
 
 #: soliddeviceengine.cpp:213
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: soliddeviceengine.cpp:216
 msgid "DVD-R"
-msgstr ""
+msgstr "DVD-R"
 
 #: soliddeviceengine.cpp:219
 msgid "DVD-RW"
-msgstr ""
+msgstr "DVD-RW"
 
 #: soliddeviceengine.cpp:222
 msgid "DVD-RAM"
-msgstr ""
+msgstr "DVD-RAM"
 
 #: soliddeviceengine.cpp:225
 msgid "DVD+R"
-msgstr ""
+msgstr "DVD+R"
 
 #: soliddeviceengine.cpp:228
 msgid "DVD+RW"
-msgstr ""
+msgstr "DVD+RW"
 
 #: soliddeviceengine.cpp:231
 msgid "DVD+DL"
-msgstr ""
+msgstr "DVD+DL"
 
 #: soliddeviceengine.cpp:234
 msgid "DVD+DLRW"
-msgstr ""
+msgstr "DVD+DLRW"
 
 #: soliddeviceengine.cpp:237
 msgid "BD"
-msgstr ""
+msgstr "BD"
 
 #: soliddeviceengine.cpp:240
 msgid "BD-R"
-msgstr ""
+msgstr "BD-R"
 
 #: soliddeviceengine.cpp:243
 msgid "BD-RE"
-msgstr ""
+msgstr "BD-RE"
 
 #: soliddeviceengine.cpp:246
 msgid "HDDVD"
-msgstr ""
+msgstr "HDDVD"
 
 #: soliddeviceengine.cpp:249
 msgid "HDDVD-R"
-msgstr ""
+msgstr "HDDVD-R"
 
 #: soliddeviceengine.cpp:252
 msgid "HDDVD-RW"
-msgstr ""
+msgstr "HDDVD-RW"
 
 #: soliddeviceengine.cpp:254
 msgid "Supported Media"
@@ -295,7 +295,7 @@ msgstr "دىسكا رايون جەدۋىلى"
 #: soliddeviceengine.cpp:276
 #, kde-format
 msgid "Raid"
-msgstr ""
+msgstr "Raid"
 
 #: soliddeviceengine.cpp:276
 #, kde-format
@@ -325,7 +325,7 @@ msgstr "بەلگە"
 
 #: soliddeviceengine.cpp:287
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: soliddeviceengine.cpp:296
 msgid "Encrypted Container"
@@ -369,7 +369,7 @@ msgstr "نامەلۇم دىسكا تىپى"
 
 #: soliddeviceengine.cpp:334
 msgid "CD Rom"
-msgstr ""
+msgstr "CD Rom"
 
 #: soliddeviceengine.cpp:334
 msgid "CD Recordable"
@@ -381,11 +381,11 @@ msgstr "ئۆچۈرۈپ يېزىشچان CD"
 
 #: soliddeviceengine.cpp:335
 msgid "DVD Rom"
-msgstr ""
+msgstr "DVD Rom"
 
 #: soliddeviceengine.cpp:335
 msgid "DVD Ram"
-msgstr ""
+msgstr "DVD Ram"
 
 #: soliddeviceengine.cpp:336
 msgid "DVD Recordable"
@@ -425,7 +425,7 @@ msgstr "ئۆچۈرۈپ يېزىشچان كۆك نۇر"
 
 #: soliddeviceengine.cpp:340
 msgid "HD DVD Rom"
-msgstr ""
+msgstr "HD DVD Rom"
 
 #: soliddeviceengine.cpp:341
 msgid "HD DVD Recordable"

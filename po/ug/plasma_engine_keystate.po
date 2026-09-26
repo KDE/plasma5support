@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma_engine_keystate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2026-09-23 06:56+0900\n"
+"PO-Revision-Date: 2026-09-24 19:50-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -20,35 +20,35 @@ msgstr ""
 
 #: keystate.cpp:18
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: keystate.cpp:19
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: keystate.cpp:20
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: keystate.cpp:21
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: keystate.cpp:22
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: keystate.cpp:23
 msgid "Hyper"
-msgstr ""
+msgstr "Hyper"
 
 #: keystate.cpp:24
 msgid "AltGr"
-msgstr ""
+msgstr "AltGr"
 
 #: keystate.cpp:25
 msgid "Num Lock"
-msgstr ""
+msgstr "Num Lock"
 
 #: keystate.cpp:26
 msgid "Caps Lock"
@@ -56,7 +56,7 @@ msgstr "CapsLock"
 
 #: keystate.cpp:27
 msgid "Scroll Lock"
-msgstr ""
+msgstr "Scroll Lock"
 
 #: keystate.cpp:29
 msgid "Left Button"
