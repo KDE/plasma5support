@@ -38,6 +38,7 @@
                 "Name[sv]": "Gregor Taetzner",
                 "Name[ta]": "கிரெகோர் டாட்ஸ்னர்",
                 "Name[tr]": "Gregor Taetzner",
+                "Name[ug]": "Gregor Taetzner",
                 "Name[uk]": "Gregor Taetzner",
                 "Name[zh_CN]": "Gregor Taetzner",
                 "Name[zh_TW]": "Gregor Taetzner"
@@ -78,6 +79,7 @@
         "Description[sl]": "Podatkovni stroj za packagekit",
         "Description[sv]": "PackageKit-datagränssnitt",
         "Description[tr]": "PackageKit verisi işletkesi",
+        "Description[ug]": "PackageKit سانلىق مەلۇمات موتورى",
         "Description[uk]": "Рушій даних PackageKit",
         "Description[zh_CN]": "PackageKit 数据引擎",
         "Description[zh_TW]": "PackageKit 資料引擎",
@@ -117,6 +119,7 @@
         "Name[sl]": "PackageKit",
         "Name[sv]": "PackageKit",
         "Name[tr]": "PackageKit",
+        "Name[ug]": "PackageKit",
         "Name[uk]": "PackageKit",
         "Name[zh_CN]": "PackageKit",
         "Name[zh_TW]": "PackageKit",

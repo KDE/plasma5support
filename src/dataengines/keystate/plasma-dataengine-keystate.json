@@ -39,6 +39,7 @@
                 "Name[sv]": "Aaron Seigo",
                 "Name[ta]": "ஆரோன் சீகோ",
                 "Name[tr]": "Aaron Seigo",
+                "Name[ug]": "Aaron Seigo",
                 "Name[uk]": "Aaron Seigo",
                 "Name[zh_CN]": "Aaron Seigo",
                 "Name[zh_TW]": "Aaron Seigo"
@@ -81,6 +82,7 @@
         "Description[sv]": "Tangentbordsväljare och musknapparnas tillstånd",
         "Description[ta]": "விசைப்பலகை மாற்றி விசைகளின் மற்றும் சுட்டி பட்டன்களின் நிலை",
         "Description[tr]": "Klavye niteleyicisi ve fare düğmeleri durumları",
+        "Description[ug]": "ھەرپتاختا بىرىكمە كۇنۇپكىسى ۋە چاشقىنەك توپچە ھالىتى",
         "Description[uk]": "Стан модифікаторів клавіатури і кнопок миші",
         "Description[zh_CN]": "显示键盘修饰健和鼠标按键状态",
         "Description[zh_TW]": "鍵盤組合鍵與滑鼠按鍵狀態",
@@ -123,6 +125,7 @@
         "Name[sv]": "Tangentbords- och mustillstånd",
         "Name[ta]": "விசைப்பலகை மற்றும் சுட்டியின் நிலை",
         "Name[tr]": "Klavye ve Fare Durumu",
+        "Name[ug]": "ھەرپتاختا ۋە چاشقىنەك ھالىتى",
         "Name[uk]": "Стан клавіатури і миші",
         "Name[zh_CN]": "键盘和鼠标状态",
         "Name[zh_TW]": "鍵盤與滑鼠狀態",

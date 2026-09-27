@@ -31,6 +31,7 @@
         "Description[sv]": "XML-data från Environment Canada",
         "Description[ta]": "சுற்றுச்சூழல் கனடா வழங்கும் XML தரவு",
         "Description[tr]": "Environment Canada tarafından sağlanan XML biçiminde veri",
+        "Description[ug]": "كانادا مۇھىتى تەمىنلىگەن XML سانلىق مەلۇماتى",
         "Description[uk]": "Дані XML з метеорологічного відділу Канади",
         "Description[zh_CN]": "Environment Canada 提供的 XML 数据",
         "Description[zh_TW]": "來自 Environment Canada 的 XML 資料",
@@ -66,6 +67,7 @@
         "Name[sv]": "Environment Canada",
         "Name[ta]": "சுற்றுச்சூழல் கனடா",
         "Name[tr]": "Environment Canada",
+        "Name[ug]": "كانادا مۇھىتى",
         "Name[uk]": "Погода в Канаді",
         "Name[zh_CN]": "Environment Canada",
         "Name[zh_TW]": "Environment Canada"

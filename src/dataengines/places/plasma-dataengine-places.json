@@ -38,6 +38,7 @@
                 "Name[sv]": "Alex Merry",
                 "Name[ta]": "அலெக்ஸ் மெரி",
                 "Name[tr]": "Alex Merry",
+                "Name[ug]": "Alex Merry",
                 "Name[uk]": "Alex Merry",
                 "Name[zh_CN]": "Alex Merry",
                 "Name[zh_TW]": "Alex Merry"
@@ -79,6 +80,7 @@
         "Description[sv]": "Platser som visas i filhanterare och fildialogrutor.",
         "Description[ta]": "கோப்பு உலாவியில் காட்டப்படும் சிறப்பு இடங்கள்",
         "Description[tr]": "Dosya yöneticisi ve iletişim kutularında görüldüğü üzere Yerler.",
+        "Description[ug]": "ھۆججەت باشقۇرغۇچ ۋە ھۆججەت سۆزلەشكۈدە دائىم كۆرۈنىدىغان ئورۇن تىزىمى.",
         "Description[uk]": "Місця, так, як їх показано у менеджері файлів і діалогових вікнах.",
         "Description[zh_CN]": "文件管理器和文件对话框中显示的常用位置列表。",
         "Description[zh_TW]": "在檔案管理員與檔案對話框中看到的「快速存取」項目。",

@@ -39,6 +39,7 @@
                 "Name[sv]": "Jacopo De Simoi",
                 "Name[ta]": "ஜாக்கோப்போ டீ சிமோயி",
                 "Name[tr]": "Jacopo De Simoi",
+                "Name[ug]": "Jacopo De Simoi",
                 "Name[uk]": "Jacopo De Simoi",
                 "Name[zh_CN]": "Jacopo De Simoi",
                 "Name[zh_TW]": "Jacopo De Simoi"
@@ -81,6 +82,7 @@
         "Description[sv]": "Passiva enhetsunderrättelser för användaren.",
         "Description[ta]": "பயனருக்கான சாதன அறிவிப்புகள்.",
         "Description[tr]": "Kullanıcı için pasif aygıt bildirimleri",
+        "Description[ug]": "ئىشلەتكۈچىگە پاسسىپ ئۈسكۈنىنى ئۇقتۇرىدۇ.",
         "Description[uk]": "Пасивні сповіщення користувача щодо пристроїв.",
         "Description[zh_CN]": "为用户提供被动的设备通知。",
         "Description[zh_TW]": "給使用者的被動裝置通知。",

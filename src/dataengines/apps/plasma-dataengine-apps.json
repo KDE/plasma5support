@@ -38,6 +38,7 @@
                 "Name[sv]": "Chani",
                 "Name[ta]": "இச்சானி",
                 "Name[tr]": "Chani",
+                "Name[ug]": "Chani",
                 "Name[uk]": "Chani",
                 "Name[zh_CN]": "Chani",
                 "Name[zh_TW]": "Chani"
@@ -78,6 +79,7 @@
         "Description[sv]": "Information om och start av alla program i programmenyn.",
         "Description[ta]": "செயலிப்பட்டியிலுள்ள செயலிகளைப் பற்றிய விவரங்களை வழங்கி அவற்றைத் திறக்க உதவும்.",
         "Description[tr]": "Uygulama menüsündeki uygulamalar hakkında bilgi ve uygulamaların başlatılması",
+        "Description[ug]": "پىروگرامما تىزىملىكىدىكى ھەممە پىروگراممىنىڭ ئۇچۇرىنى كۆرسىتىدۇ ياكى ئىجرا قىلىدۇ.",
         "Description[uk]": "Відомості і запуск всіх програма з меню програм.",
         "Description[zh_CN]": "显示应用菜单中的所有应用程序的信息和启动它们。",
         "Description[zh_TW]": "查看應用程式選單中所有應用程式的資訊，或是啟動它們。",
@@ -119,6 +121,7 @@
         "Name[sv]": "Programinformation",
         "Name[ta]": "செயலி விவரங்கள்",
         "Name[tr]": "Uygulama Bilgisi",
+        "Name[ug]": "پىروگرامما ئۇچۇرى",
         "Name[uk]": "Відомості щодо програм",
         "Name[zh_CN]": "应用程序信息",
         "Name[zh_TW]": "應用程式資訊",

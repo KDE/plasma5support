@@ -31,6 +31,7 @@
         "Description[sv]": "XML-data från NOAA:s nationella vädertjänst",
         "Description[ta]": "NOAA-இன் தேசிய வானிலை சேவை வழங்கும் XML தரவு",
         "Description[tr]": "NOAA’nın Ulusal Hava Durumu Hizmeti tarafından sağlanan XML biçiminde veri",
+        "Description[ug]": "NOAA دۆلەت ھاۋا رايى مۇلازىمىتى تەمىنلىگەن XML سانلىق مەلۇماتى",
         "Description[uk]": "Дані XML з національної служби погоди NOAA",
         "Description[zh_CN]": "NOAA's National Weather Service 提供的 XML 数据",
         "Description[zh_TW]": "來自 NOAA 國家天氣服務的 XML 資料",
@@ -66,6 +67,7 @@
         "Name[sv]": "NOAA:s nationella vädertjänst",
         "Name[ta]": "NOAA-வின் தேசிய வானிலை சேவை",
         "Name[tr]": "NOAA’nın Ulusal Hava Durumu Hizmeti",
+        "Name[ug]": "NOAA تەمىنلىگەن دۆلەت ھاۋا رايى مۇلازىمىتى",
         "Name[uk]": "Національна служба погоди NOAA",
         "Name[zh_CN]": "NOAA's National Weather Service",
         "Name[zh_TW]": "NOAA 的國家天氣服務"
