@@ -1,13 +1,14 @@
 # Translation of plasma_engine_soliddevice.po into Serbian.
 # Chusslove Illich <caslav.ilic@gmx.net>, 2009, 2011, 2012, 2013, 2014, 2015, 2016.
 # Dalibor Djuric <daliborddjuric@gmail.com>, 2010.
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2016-03-20 15:25+0100\n"
-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"PO-Revision-Date: 2026-10-04 12:24+0200\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -518,37 +519,27 @@ msgstr "батерија монитора"
 
 #: soliddeviceengine.cpp:390
 msgid "Gaming Input Battery"
-msgstr ""
+msgstr "батерија контролора за игре"
 
 #: soliddeviceengine.cpp:390
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Bluetooth Battery"
-msgstr "батерија миша"
+msgstr "блутут батерија"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Camera Battery"
 msgid "Tablet Battery"
-msgstr "батерија фотоапарата"
+msgstr "батерија таблице"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Phone Battery"
 msgid "Headphone Battery"
-msgstr "батерија телефона"
+msgstr "батерија слушалица"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Headset Battery"
-msgstr "батерија миша"
+msgstr "батерија слушалица са микрофоном"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Touchpad Battery"
-msgstr "батерија миша"
+msgstr "батерија додирника"
 
 #: soliddeviceengine.cpp:395
 msgid "Not Charging"
@@ -601,12 +592,12 @@ msgstr "величина"
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem is not responding"
-msgstr ""
+msgstr "Фајл систем се не одазива"
 
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem mounted at '%1' is not responding"
-msgstr ""
+msgstr "Фајл систем монтиран у „%1“ се не одазива"
 
 #: soliddeviceengine.cpp:553
 msgid "Free Space"
@@ -617,10 +608,8 @@ msgid "Free Space Text"
 msgstr "текст слободног простора"
 
 #: soliddeviceengine.cpp:556
-#, fuzzy
-#| msgid "Size"
 msgid "Size Text"
-msgstr "величина"
+msgstr "текст величине"
 
 #: soliddeviceengine.cpp:582
 msgid "Temperature"

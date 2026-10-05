@@ -1,13 +1,14 @@
 # Translation of plasma_engine_soliddevice.po into Serbian.
 # Chusslove Illich <caslav.ilic@gmx.net>, 2009, 2011, 2012, 2013, 2014, 2015, 2016.
 # Dalibor Djuric <daliborddjuric@gmail.com>, 2010.
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2016-03-20 15:25+0100\n"
-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"PO-Revision-Date: 2026-10-04 12:24+0200\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavianlatin\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +57,7 @@ msgstr "rezultat postupka"
 
 #: soliddeviceengine.cpp:120
 msgid "Timestamp"
-msgstr "vreme"
+msgstr "vrijeme"
 
 #: soliddeviceengine.cpp:128
 msgid "Processor"
@@ -518,37 +519,27 @@ msgstr "baterija monitora"
 
 #: soliddeviceengine.cpp:390
 msgid "Gaming Input Battery"
-msgstr ""
+msgstr "baterija kontrolora za igre"
 
 #: soliddeviceengine.cpp:390
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Bluetooth Battery"
-msgstr "baterija miša"
+msgstr "bluetooth baterija"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Camera Battery"
 msgid "Tablet Battery"
-msgstr "baterija fotoaparata"
+msgstr "baterija tablice"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Phone Battery"
 msgid "Headphone Battery"
-msgstr "baterija telefona"
+msgstr "baterija slušalica"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Headset Battery"
-msgstr "baterija miša"
+msgstr "baterija slušalica sa mikrofonom"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Touchpad Battery"
-msgstr "baterija miša"
+msgstr "baterija dodirnika"
 
 #: soliddeviceengine.cpp:395
 msgid "Not Charging"
@@ -601,12 +592,12 @@ msgstr "veličina"
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem is not responding"
-msgstr ""
+msgstr "Fajl sistem se ne odaziva"
 
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem mounted at '%1' is not responding"
-msgstr ""
+msgstr "Fajl sistem montiran u „%1“ se ne odaziva"
 
 #: soliddeviceengine.cpp:553
 msgid "Free Space"
@@ -617,10 +608,8 @@ msgid "Free Space Text"
 msgstr "tekst slobodnog prostora"
 
 #: soliddeviceengine.cpp:556
-#, fuzzy
-#| msgid "Size"
 msgid "Size Text"
-msgstr "veličina"
+msgstr "tekst veličine"
 
 #: soliddeviceengine.cpp:582
 msgid "Temperature"

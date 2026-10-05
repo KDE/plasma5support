@@ -1,13 +1,14 @@
 # Translation of plasma_engine_weather.po into Serbian.
 # Chusslove Illich <caslav.ilic@gmx.net>, 2009, 2011, 2016, 2017.
 # Dalibor Djuric <daliborddjuric@gmail.com>, 2009, 2010.
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_engine_weather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2017-05-21 12:19+0200\n"
-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"PO-Revision-Date: 2026-10-04 12:24+0200\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -131,9 +132,7 @@ msgid "heavy rain shower"
 msgstr "јаки кишни пљускови"
 
 #: bbcukmet_i18n.dat:19
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "heavy rain shower"
+#, kde-format
 msgctxt "weather condition"
 msgid "heavy rain showers"
 msgstr "јаки кишни пљускови"
@@ -188,9 +187,7 @@ msgid "light rain shower"
 msgstr "слаби кишни пљускови"
 
 #: bbcukmet_i18n.dat:28
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "light rain shower"
+#, kde-format
 msgctxt "weather condition"
 msgid "light rain showers"
 msgstr "слаби кишни пљускови"
@@ -312,12 +309,10 @@ msgid "thundery shower"
 msgstr "пљусак са грмљавином"
 
 #: bbcukmet_i18n.dat:48
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "thundery shower"
+#, kde-format
 msgctxt "weather condition"
 msgid "thundery showers"
-msgstr "пљусак са грмљавином"
+msgstr "пљускови са грмљавином"
 
 #: bbcukmet_i18n.dat:49
 #, kde-format
@@ -440,12 +435,10 @@ msgid "heavy rain shower"
 msgstr "јак кишни пљусак"
 
 #: bbcukmet_i18n.dat:69
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "heavy rain shower"
+#, kde-format
 msgctxt "weather forecast"
 msgid "heavy rain showers"
-msgstr "јак кишни пљусак"
+msgstr "јаки кишни пљускови"
 
 #: bbcukmet_i18n.dat:70
 #, kde-format
@@ -496,12 +489,10 @@ msgid "light rain shower"
 msgstr "слаб кишни пљусак"
 
 #: bbcukmet_i18n.dat:78
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "light rain shower"
+#, kde-format
 msgctxt "weather forecast"
 msgid "light rain showers"
-msgstr "слаб кишни пљусак"
+msgstr "слаби кишни пљускови"
 
 #: bbcukmet_i18n.dat:79
 #, kde-format
@@ -612,12 +603,10 @@ msgid "thundery shower"
 msgstr "пљусак са грмљавином"
 
 #: bbcukmet_i18n.dat:97
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "thundery shower"
+#, kde-format
 msgctxt "weather forecast"
 msgid "thundery showers"
-msgstr "пљусак са грмљавином"
+msgstr "пљускови са грмљавином"
 
 #: bbcukmet_i18n.dat:98
 #, kde-format
@@ -1163,20 +1152,16 @@ msgid "Thunderstorm with Rain"
 msgstr "грмљавина са кишом"
 
 #: envcan_i18n.dat:84
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "Thunderstorm with Rain"
+#, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm with light rainshowers"
-msgstr "грмљавина са кишом"
+msgstr "грмљавина са слабим кишним пљусковима"
 
 #: envcan_i18n.dat:85
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "Recent Thunderstorm with Heavy Rain"
+#, kde-format
 msgctxt "weather condition"
 msgid "Thunderstorm with heavy rainshowers"
-msgstr "недавна грмљавина са јаком кишом"
+msgstr "грмљавина са јаким кишним пљусковима"
 
 #: envcan_i18n.dat:86
 #, kde-format
@@ -1489,7 +1474,7 @@ msgstr "могући кишни пљускови или снежење"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance of rain showers or wet flurries"
-msgstr "кишни пљускови или мокро снежење"
+msgstr "могући кишни пљускови или мокро снежење"
 
 #: envcan_i18n.dat:138
 #, kde-format
@@ -1654,20 +1639,16 @@ msgid "Cloudy"
 msgstr "облачно"
 
 #: envcan_i18n.dat:165
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "partly cloudy"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Partly cloudy"
 msgstr "делимично облачно"
 
 #: envcan_i18n.dat:166
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "partly cloudy"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Mainly cloudy"
-msgstr "делимично облачно"
+msgstr "углавном облачно"
 
 #: envcan_i18n.dat:167
 #, kde-format
@@ -1844,44 +1825,34 @@ msgid "Ice fog dissipating"
 msgstr "ледена магла у осипању"
 
 #: envcan_i18n.dat:196
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Ice pellet"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets"
-msgstr "ледена крупа"
+msgstr "ледене крупе"
 
 #: envcan_i18n.dat:197
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Ice pellet mixed with freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets mixed with freezing rain"
-msgstr "ледена крупа помешана са леденом кишом"
+msgstr "ледене крупе помешане са леденом кишом"
 
 #: envcan_i18n.dat:198
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Ice pellet mixed with snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets mixed with snow"
-msgstr "ледена крупа помешана са снегом"
+msgstr "ледене крупе помешане са снегом"
 
 #: envcan_i18n.dat:199
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Ice pellet or freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets or freezing rain"
-msgstr "ледена крупа или ледена киша"
+msgstr "ледене крупе или ледена киша"
 
 #: envcan_i18n.dat:200
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Ice pellet or snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Ice pellets or snow"
-msgstr "ледена крупа или снег"
+msgstr "ледене крупе или снег"
 
 #: envcan_i18n.dat:201
 #, kde-format
@@ -2088,41 +2059,31 @@ msgid "Periods of freezing rain or snow"
 msgstr "периоди ледене кише или снега"
 
 #: envcan_i18n.dat:235
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Periods of ice pellet"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets"
 msgstr "периоди ледених крупа"
 
 #: envcan_i18n.dat:236
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Periods of ice pellet mixed with freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets mixed with freezing rain"
 msgstr "периоди ледених крупа помешаних са леденом кишом"
 
 #: envcan_i18n.dat:237
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Periods of ice pellet mixed with snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets mixed with snow"
 msgstr "периоди ледених крупа помешаних са снегом"
 
 #: envcan_i18n.dat:238
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Periods of ice pellet or freezing rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets or freezing rain"
 msgstr "периоди ледених крупа или ледене кише"
 
 #: envcan_i18n.dat:239
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Periods of ice pellet or snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Periods of ice pellets or snow"
 msgstr "периоди ледених крупа или снега"
@@ -2656,9 +2617,7 @@ msgid "Sunny"
 msgstr "сунчано"
 
 #: envcan_i18n.dat:328
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Mainly Sunny"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Mainly sunny"
 msgstr "углавном сунчано"
@@ -2745,14 +2704,13 @@ msgstr "ветровито"
 #, kde-format
 msgctxt "Short for Today"
 msgid "Today"
-msgstr ""
+msgstr "данас"
 
 #: ions/bbcukmet/ion_bbcukmet.cpp:669
-#, fuzzy, kde-format
-#| msgid "Night"
+#, kde-format
 msgctxt "Short for Tonight"
 msgid "Tonight"
-msgstr "ноћ"
+msgstr "ноћас"
 
 # ! Додати варијанту ентитета са беспреломним размацима, кад буде доступн
 #: ions/bbcukmet/ion_bbcukmet.cpp:690
@@ -2807,7 +2765,7 @@ msgstr "пет"
 #, kde-format
 msgctxt "credit line, don't change name!"
 msgid "Source: Deutscher Wetterdienst"
-msgstr ""
+msgstr "Извор: Deutscher Wetterdienst"
 
 #: ions/envcan/ion_envcan.cpp:946 ions/envcan/ion_envcan.cpp:948
 #: ions/envcan/ion_envcan.cpp:1433 ions/envcan/ion_envcan.cpp:1562
@@ -2841,12 +2799,10 @@ msgstr "у траговима"
 
 # ! Додати варијанту ентитета са беспреломним размацима, кад буде доступна.
 #: ions/envcan/ion_envcan.cpp:1625
-#, fuzzy, kde-format
-#| msgctxt "credit line, keep string short"
-#| msgid "Data from Environment Canada"
+#, kde-format
 msgctxt "credit line, keep string short"
 msgid "Data from Environment and Climate Change Canada"
-msgstr "Подаци са Енвајронмента Канада"
+msgstr "Подаци са Environment and Climate Change Canada"
 
 # ! Додати варијанту ентитета са беспреломним размацима, кад буде доступн
 #: ions/noaa/ion_noaa.cpp:484
@@ -2864,7 +2820,7 @@ msgctxt ""
 "Separator between forecast conditions that follow a temporal sequence (ex. "
 "\"Rain then Sunny\")"
 msgid " then "
-msgstr ""
+msgstr " па "
 
 #: ions/wetter.com/ion_wettercom.cpp:156 ions/wetter.com/ion_wettercom.cpp:157
 #, kde-format
@@ -3892,9 +3848,7 @@ msgid "Low Drifting Snow"
 msgstr "ниско разношени снег"
 
 #: noaa_i18n.dat:164
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Mostly Clear"
+#, kde-format
 msgctxt "weather condition"
 msgid "Mostly Clear"
 msgstr "углавном ведро"
@@ -3972,12 +3926,10 @@ msgid "Partly Cloudy with Haze"
 msgstr "делимично облачно са измаглицом"
 
 #: noaa_i18n.dat:179
-#, fuzzy, kde-format
-#| msgctxt "weather condition"
-#| msgid "Heavy Freezing Fog"
+#, kde-format
 msgctxt "weather condition"
 msgid "Patchy Freezing Fog"
-msgstr "јака ледена магла"
+msgstr "местимична ледена магла"
 
 #: noaa_i18n.dat:180
 #, kde-format
@@ -4019,7 +3971,7 @@ msgstr "киша, ледена киша"
 #, kde-format
 msgctxt "weather condition"
 msgid "Rain Ice Pellets"
-msgstr "киша, снежне крупе"
+msgstr "киша, ледене крупе"
 
 #: noaa_i18n.dat:187
 #, kde-format
@@ -4139,7 +4091,7 @@ msgstr "пљускови, снег, магла"
 #, kde-format
 msgctxt "weather condition"
 msgid "Showers Snow Fog/Mist"
-msgstr "пљускови, снег, магла измаглица"
+msgstr "пљускови, снег, магла/измаглица"
 
 #: noaa_i18n.dat:208
 #, kde-format
@@ -4514,12 +4466,10 @@ msgid "Severe Tstms"
 msgstr "озбиљни услови"
 
 #: noaa_i18n.dat:276
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Snow/Sleet"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow/Sleet"
-msgstr "могућ снег/суснежица"
+msgstr "мали изгледи за снег/суснежицу"
 
 #: noaa_i18n.dat:277
 #, kde-format
@@ -4540,12 +4490,10 @@ msgid "Snow/Sleet"
 msgstr "снег/суснежица"
 
 #: noaa_i18n.dat:280
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Rain/Sleet"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain/Sleet"
-msgstr "могућа киша/суснежица"
+msgstr "мали изгледи за кишу/суснежицу"
 
 #: noaa_i18n.dat:281
 #, kde-format
@@ -4566,12 +4514,10 @@ msgid "Rain/Sleet"
 msgstr "киша/суснежица"
 
 #: noaa_i18n.dat:284
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Rain/Freezing Rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain/Freezing Rain"
-msgstr "могућа киша/ледена киша"
+msgstr "мали изгледи за кишу/ледену кишу"
 
 #: noaa_i18n.dat:285
 #, kde-format
@@ -4592,12 +4538,10 @@ msgid "Rain/Freezing Rain"
 msgstr "киша/ледена киша"
 
 #: noaa_i18n.dat:288
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Wintry Mix"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Wintry Mix Likely"
-msgstr "зимска мешавина"
+msgstr "вероватна зимска мешавина"
 
 #: noaa_i18n.dat:289
 #, kde-format
@@ -4606,12 +4550,10 @@ msgid "Wintry Mix"
 msgstr "зимска мешавина"
 
 #: noaa_i18n.dat:290
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Freezing Drizzle"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Freezing Drizzle"
-msgstr "могуће ледено ромињање"
+msgstr "мали изгледи за ледено ромињање"
 
 #: noaa_i18n.dat:291
 #, kde-format
@@ -4632,12 +4574,10 @@ msgid "Freezing Drizzle"
 msgstr "ледено ромињање"
 
 #: noaa_i18n.dat:294
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Freezing Rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Freezing Rain"
-msgstr "могућа ледена киша"
+msgstr "мали изгледи за ледену кишу"
 
 #: noaa_i18n.dat:295
 #, kde-format
@@ -4658,12 +4598,10 @@ msgid "Freezing Rain"
 msgstr "ледена киша"
 
 #: noaa_i18n.dat:298
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Rain/Snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain/Snow"
-msgstr "могућ снег/киша"
+msgstr "мали изгледи за кишу/снег"
 
 #: noaa_i18n.dat:299
 #, kde-format
@@ -4684,12 +4622,10 @@ msgid "Rain/Snow"
 msgstr "снег/киша"
 
 #: noaa_i18n.dat:302
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Snow"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow"
-msgstr "могућ снег"
+msgstr "мали изгледи за снег"
 
 #: noaa_i18n.dat:303
 #, kde-format
@@ -4710,12 +4646,10 @@ msgid "Heavy Snow"
 msgstr "јак снег"
 
 #: noaa_i18n.dat:307
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Flurries"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Flurries"
-msgstr "могуће снежење"
+msgstr "мали изгледи за снежење"
 
 #: noaa_i18n.dat:308
 #, kde-format
@@ -4730,12 +4664,10 @@ msgid "Flurries Likely"
 msgstr "вероватно снежење"
 
 #: noaa_i18n.dat:311
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Snow Showers"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Snow Showers"
-msgstr "могући снежни пљускови"
+msgstr "мали изгледи за снежне пљускове"
 
 #: noaa_i18n.dat:312
 #, kde-format
@@ -4756,12 +4688,10 @@ msgid "Snow Showers"
 msgstr "снежни пљускови"
 
 #: noaa_i18n.dat:315
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Drizzle"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Drizzle"
-msgstr "могуће ромињање"
+msgstr "мали изгледи за ромињање"
 
 #: noaa_i18n.dat:316
 #, kde-format
@@ -4776,12 +4706,10 @@ msgid "Drizzle Likely"
 msgstr "вероватно ромињање"
 
 #: noaa_i18n.dat:319
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Rain"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain"
-msgstr "могућа киша"
+msgstr "мали изгледи за кишу"
 
 #: noaa_i18n.dat:320
 #, kde-format
@@ -4802,30 +4730,28 @@ msgid "Heavy Rain"
 msgstr "јака киша"
 
 #: noaa_i18n.dat:324
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance Rain Showers"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Rain Showers"
-msgstr "могући снежни пљускови"
+msgstr "мали изгледи за кишне пљускове"
 
 #: noaa_i18n.dat:325
 #, kde-format
 msgctxt "weather forecast"
 msgid "Chance Rain Showers"
-msgstr "могући снежни пљускови"
+msgstr "могући кишни пљускови"
 
 #: noaa_i18n.dat:326
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain Showers Likely"
-msgstr "вероватни снежни пљускови"
+msgstr "вероватни кишни пљускови"
 
 #: noaa_i18n.dat:327
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain Showers"
-msgstr "снежни пљускови"
+msgstr "кишни пљускови"
 
 #: noaa_i18n.dat:328
 #, kde-format
@@ -4918,12 +4844,10 @@ msgid "Mostly Sunny"
 msgstr "углавном сунчано"
 
 #: noaa_i18n.dat:347
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Mostly Sunny"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Partly Sunny"
-msgstr "углавном сунчано"
+msgstr "делимично сунчано"
 
 #: noaa_i18n.dat:349
 #, kde-format
@@ -4968,39 +4892,25 @@ msgid "Mostly Clear"
 msgstr "углавном ведро"
 
 #: noaa_i18n.dat:358
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Showers or thunderstorms"
+#, kde-format
 msgctxt "weahter forecast"
 msgid "Showers And Thunderstorms"
-msgstr "пљускови или грмљавина"
+msgstr "пљускови и грмљавина"
 
 #: noaa_i18n.dat:359
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Slight Chance Thunderstorms"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Slight Chance Showers And Thunderstorms"
-msgstr "мали изгледи за грмљавину"
+msgstr "мали изгледи за пљускове и грмљавину"
 
 #: noaa_i18n.dat:360
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Chance of showers or thunderstorms"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Chance Showers And Thunderstorms"
-msgstr "могући пљускови или грмљавина"
+msgstr "могући пљускови и грмљавина"
 
 #: noaa_i18n.dat:361
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Thunderstorms Likely"
+#, kde-format
 msgctxt "weather forecast"
 msgid "Showers And Thunderstorms Likely"
-msgstr "вероватна грмљавина"
-
-#~ msgid "UK"
-#~ msgstr "УК"
-
-#~ msgid "USA"
-#~ msgstr "САД"
+msgstr "вероватни пљускови и грмљавина"
