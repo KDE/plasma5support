@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma_engine_weather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2026-10-04 12:24+0200\n"
+"PO-Revision-Date: 2026-10-07 11:45+0200\n"
 "Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavianlatin\n"
@@ -129,7 +129,7 @@ msgstr "jaka kiša"
 #, kde-format
 msgctxt "weather condition"
 msgid "heavy rain shower"
-msgstr "jaki kišni pljuskovi"
+msgstr "jak kišni pljusak"
 
 #: bbcukmet_i18n.dat:19
 #, kde-format
@@ -184,7 +184,7 @@ msgstr "slaba kiša"
 #, kde-format
 msgctxt "weather condition"
 msgid "light rain shower"
-msgstr "slabi kišni pljuskovi"
+msgstr "slab kišni pljusak"
 
 #: bbcukmet_i18n.dat:28
 #, kde-format
@@ -202,7 +202,7 @@ msgstr "slab pljusak"
 #, kde-format
 msgctxt "weather condition"
 msgid "light showers"
-msgstr "laki pljuskovi"
+msgstr "slabi pljuskovi"
 
 #: bbcukmet_i18n.dat:31 ions/wetter.com/ion_wettercom.cpp:184
 #: ions/wetter.com/ion_wettercom.cpp:185
@@ -4613,7 +4613,7 @@ msgstr "moguć snijeg/kiša"
 #, kde-format
 msgctxt "weather forecast"
 msgid "Rain/Snow Likely"
-msgstr "vjerovatan snijeg/kiša"
+msgstr "vjerovatna kiša/snijeg"
 
 #: noaa_i18n.dat:301
 #, kde-format
