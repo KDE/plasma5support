@@ -1,7 +1,7 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Petros Vidalis <p_vidalis@hotmail.com>, 2010.
+# SPDX-FileCopyrightText: 2010, 2026 Petros Vidalis <p_vidalis@hotmail.com>
 # Stelios <sstavra@gmail.com>, 2012.
 # Dimitrios Glentadakis <dglent@gmail.com>, 2013.
 # Dimitris Kardarakos <dimkard@gmail.com>, 2014, 2016.
@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2016-01-13 23:57+0200\n"
-"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
+"PO-Revision-Date: 2026-10-10 17:46+0300\n"
+"Last-Translator: Petros Vidalis <pvidalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: soliddeviceengine.cpp:112
 msgid "Parent UDI"
@@ -519,37 +519,27 @@ msgstr "Μπαταρία οθόνης"
 
 #: soliddeviceengine.cpp:390
 msgid "Gaming Input Battery"
-msgstr ""
+msgstr "Μπαταρία χειριστηρίου παιχνιδιών"
 
 #: soliddeviceengine.cpp:390
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Bluetooth Battery"
-msgstr "Μπαταρία ποντικιού"
+msgstr "Μπαταρία Bluetooth"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Camera Battery"
 msgid "Tablet Battery"
-msgstr "Μπαταρία κάμερας"
+msgstr "Μπαταρία ταμπλέτας"
 
 #: soliddeviceengine.cpp:391
-#, fuzzy
-#| msgid "Phone Battery"
 msgid "Headphone Battery"
-msgstr "Μπαταρία τηλεφώνου"
+msgstr "Μπαταρία ακουστικών"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Headset Battery"
-msgstr "Μπαταρία ποντικιού"
+msgstr "Μπαταρία ακουστικών με μικρόφωνο"
 
 #: soliddeviceengine.cpp:392
-#, fuzzy
-#| msgid "Mouse Battery"
 msgid "Touchpad Battery"
-msgstr "Μπαταρία ποντικιού"
+msgstr "Μπαταρία επιφάνειας αφής"
 
 #: soliddeviceengine.cpp:395
 msgid "Not Charging"
@@ -602,12 +592,12 @@ msgstr "Μέγεθος"
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem is not responding"
-msgstr ""
+msgstr "Το σύστημα αρχείων δεν αποκρίνεται"
 
 #: soliddeviceengine.cpp:535
 #, kde-format
 msgid "Filesystem mounted at '%1' is not responding"
-msgstr ""
+msgstr "Το σύστημα αρχείων που είναι προσαρτημένο στο «%1» δεν αποκρίνεται"
 
 #: soliddeviceengine.cpp:553
 msgid "Free Space"
@@ -618,10 +608,8 @@ msgid "Free Space Text"
 msgstr "Κείμενο σε ελεύθερο χώρο"
 
 #: soliddeviceengine.cpp:556
-#, fuzzy
-#| msgid "Size"
 msgid "Size Text"
-msgstr "Μέγεθος"
+msgstr "Μέγεθος κείμενου"
 
 #: soliddeviceengine.cpp:582
 msgid "Temperature"
