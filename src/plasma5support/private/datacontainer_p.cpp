@@ -40,6 +40,16 @@ bool DataContainerPrivate::hasUpdates()
     return dirty;
 }
 
+QList<QPointer<SignalRelay>> DataContainerPrivate::guardedRelays() const
+{
+    QList<QPointer<SignalRelay>> result;
+    result.reserve(relays.size());
+    for (SignalRelay *relay : relays) {
+        result.append(relay);
+    }
+    return result;
+}
+
 SignalRelay::SignalRelay(DataContainer *parent, DataContainerPrivate *data, uint ival, Plasma5Support::Types::IntervalAlignment align, bool immediateUpdate)
     : QObject(parent)
     , dc(parent)
@@ -93,8 +103,9 @@ void SignalRelay::checkQueueing()
 {
     // qCDebug(LOG_PLASMA) << m_queued;
     if (m_queued) {
-        Q_EMIT dataUpdated(dc->objectName(), d->data);
+        // A receiver can delete this relay during the emit
         m_queued = false;
+        Q_EMIT dataUpdated(dc->objectName(), d->data);
         // TODO: should we re-align our timer at this point, to avoid
         //      constant queueing due to more-or-less constant time
         //      async update time? this might make sense for
@@ -132,11 +143,18 @@ void SignalRelay::timerEvent(QTimerEvent *event)
         checkAlignment();
     }
 
+    // Receivers reached from updateRequested() or dataUpdated() can delete this relay.
+    // The time engine delivers to them from updateSourceEvent().
+    const QPointer<SignalRelay> guard(this);
     Q_EMIT dc->updateRequested(dc);
+    if (!guard) {
+        return;
+    }
+
     if (d->hasUpdates()) {
         // qCDebug(LOG_PLASMA) << "emitting data updated directly" << d->data;
-        Q_EMIT dataUpdated(dc->objectName(), d->data);
         m_queued = false;
+        Q_EMIT dataUpdated(dc->objectName(), d->data);
     } else {
         // the source wasn't actually updated; so let's put ourselves in the queue
         // so we get a dataUpdated() call when the data does arrive

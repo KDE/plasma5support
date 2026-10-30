@@ -342,10 +342,11 @@ void DataContainer::checkForUpdate()
     if (d->dirty) {
         Q_EMIT dataUpdated(objectName(), d->data);
 
-        // copy as checkQueueing can result in deletion of the relay
-        const auto relays = d->relays;
-        for (SignalRelay *relay : relays) {
-            relay->checkQueueing();
+        const auto relays = d->guardedRelays();
+        for (const auto &relay : relays) {
+            if (relay) {
+                relay->checkQueueing();
+            }
         }
 
         d->dirty = false;
@@ -359,8 +360,11 @@ void DataContainer::forceImmediateUpdate()
         Q_EMIT dataUpdated(objectName(), d->data);
     }
 
-    for (SignalRelay *relay : std::as_const(d->relays)) {
-        relay->forceImmediateUpdate();
+    const auto relays = d->guardedRelays();
+    for (const auto &relay : relays) {
+        if (relay) {
+            relay->forceImmediateUpdate();
+        }
     }
 }
 

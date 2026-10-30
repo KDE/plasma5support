@@ -55,6 +55,12 @@ public:
     bool hasUpdates();
 
     /**
+     * Guarded pointers to the relays, for loops that emit. A receiver
+     * can delete any relay of this container during the loop.
+     */
+    QList<QPointer<SignalRelay>> guardedRelays() const;
+
+    /**
      * Deletes the store member of DataContainerPrivate if
      * there are no more references to it.
      */
